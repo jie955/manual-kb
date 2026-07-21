@@ -1,0 +1,14 @@
+# Index bindings — relative to repo root
+indices:
+  - product_id: a3s
+    chroma_zh: "_scratch/run-007/chroma_captioned"
+    chroma_en: "_scratch/run-007/chroma_captioned_en"
+    chroma_merged: "_scratch/unified/a3s/chroma_merged"
+  - product_id: ad5s
+    chroma_zh: "_scratch/run-ad5s/chroma_captioned"
+    chroma_en: "_scratch/run-ad5s/chroma_captioned_en"
+    chroma_merged: "_scratch/unified/ad5s/chroma_merged"
+  - product_id: tc148
+    chroma_zh: "_scratch/run-tc148/chroma_captioned"
+    chroma_en: "_scratch/run-tc148/chroma_captioned_en"
+    chroma_merged: "_scratch/unified/tc148/chroma_merged"

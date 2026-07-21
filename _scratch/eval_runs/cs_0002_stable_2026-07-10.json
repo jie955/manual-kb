@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "scenario_id": "cs_0002",
+    "generated_at": "2026-07-10T16:17:38",
+    "fix": "Reference 0 order + mandatory 6-step brief"
+  },
+  "row": {
+    "scenario_id": "cs_0002",
+    "mail_num": 2,
+    "raw_email": "I tested for power at the control board going to the motor and I get zero power. Fuse is good. Both AC and control board have power. Lock for gate unlocks when commanded but no power to motor it would seem.",
+    "expected_library": "a3s",
+    "matched_library": "a3s",
+    "routing_method": "keyword",
+    "is_tc148": false,
+    "top1_group": "qa_001",
+    "top1_hit": true,
+    "top3_groups": [
+      "qa_001",
+      "qa_033",
+      "qa_001"
+    ],
+    "images_used": [
+      {
+        "file": "image_001.png",
+        "caption": "图片展示了控制板上保险丝（Fuse）的准确位置和外观，以便用户进行检查或更换。",
+        "caption_zh": "图片展示了控制板上保险丝（Fuse）的准确位置和外观，以便用户进行检查或更换。",
+        "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+        "caption_status": "generated"
+      },
+      {
+        "file": "image_019.png",
+        "caption": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+        "caption_zh": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+        "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+        "caption_status": "generated"
+      },
+      {
+        "file": "image_001.png",
+        "caption": null,
+        "caption_zh": null,
+        "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+        "caption_status": "crosswalk"
+      }
+    ],
+    "links_used": [],
+    "style": {
+      "family_id": "F3_power_motor",
+      "match_reason": "scenario_override:cs_0002"
+    },
+    "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect all accessories from the control board first (just leave the arm and the power source), then press the remote to see whether the gate opener can work now.\n\n2. Measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22V. If the voltage is below 22V, please check whether the output voltage of the adapter is 36VDC and also check the batteries.\n\n3. Erase all remote codes and reprogram them, then test again. If no luck, instantaneously short the push button terminals 4# and 5# (O/S/C COM) and see if the motor runs.\n\n4. Please check the motor. Connect the red and black wires of the arm to a DC 24V power source directly, the motor should run. Then exchange the polarity of the wires, the motor should run in the opposite direction. If the motor runs in both directions, the motor itself is good.\n\n5. Disconnect the BLUE, GREEN, and YELLOW wires of the arm from the control board. Use two jumper wires to short the ULT, COM, and DLT terminals, then press the remote to see if the arm can extend and retract (this tests the limit switch).\n\n6. If the gate opener can work normally after step 1, please reconnect the accessories back one by one to see which accessory is related to the problem. For the ET24 lock, you can test its working current and the UPS01 LOAD voltage drop as well.\n\nPlease let me know the result one by one. And also, please share us some videos showing the statuses on the power supply as well as the control board for further judgement. If a replacement part is needed, please provide your shipping address with zip code and phone number so we can assist you further.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+    "reply_truncated": false,
+    "reply_incomplete_reason": "",
+    "reply_audit": {
+      "step_count": 6,
+      "proceed_ref": false,
+      "check_step_ref": false,
+      "glued_steps": false,
+      "mail_type": "fault",
+      "truncated": false
+    },
+    "reply_len": 2281,
+    "context_zh_leak": false,
+    "trace": {
+      "trace_id": "f49d7ebd85ae436f",
+      "domain_id": "topens",
+      "product_id": "a3s",
+      "route_reason": "a3s",
+      "routing_method": "keyword",
+      "index_paths": {
+        "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+      },
+      "retrieved_group_ids": [
+        "qa_001",
+        "qa_033",
+        "qa_001"
+      ],
+      "prompt_pack_version": "1",
+      "style_pack_version": "1",
+      "style_family": "F3_power_motor",
+      "policy_version": "topens",
+      "model_name": "deepseek-v4-pro",
+      "validation_result": {
+        "step_count": 6,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "context_language_leak": false,
+      "latency_ms": 44867.5
+    },
+    "mail_id": "MAIL-02",
+    "mvp19": "是"
+  },
+  "draft": {
+    "scenario_id": "cs_0002",
+    "mail_id": "MAIL-02",
+    "mvp19": "是",
+    "dim1": "对",
+    "dim1_note": "top1_hit=true",
+    "dim2": "直接可发",
+    "dim2_note": "ref_keys=100%",
+    "dim3": "配对相关",
+    "dim3_note": "有图 · Reference 未强制",
+    "dim4": "通过",
+    "fail_tag": "—",
+    "top1": "qa_001",
+    "style": "F3_power_motor"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "version": 2.1,
+  "source_run": "run-007",
+  "note": "BL-V1-02 · 43/43 组 · BL-A3S-EXT-01 全批完成 · 2026-07-05",
+  "queries": [
+    {
+      "id": "q01",
+      "query": "控制板灯不亮",
+      "expected_group_id": "qa_001",
+      "acceptable_group_ids": ["qa_001", "qa_002"],
+      "category": "ambiguous_title",
+      "note": "未说明适配器/太阳能，Top1 任一可接受"
+    },
+    {
+      "id": "q02",
+      "query": "适配器供电控制板 power 灯不亮",
+      "expected_group_id": "qa_001",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q03",
+      "query": "纯太阳能控制板指示灯不亮",
+      "expected_group_id": "qa_002",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q04",
+      "query": "太阳能充不进电池",
+      "expected_group_id": "qa_003",
+      "category": "colloquial"
+    },
+    {
+      "id": "q05",
+      "query": "接上太阳能板门机就不转了",
+      "expected_group_id": "qa_004",
+      "category": "long_group_child"
+    },
+    {
+      "id": "q06",
+      "query": "电池耗电特别快",
+      "expected_group_id": "qa_005",
+      "category": "colloquial"
+    },
+    {
+      "id": "q07",
+      "query": "遥控器学不上 学习灯不亮",
+      "expected_group_id": "qa_006",
+      "category": "confusable_pair"
+    },
+    {
+      "id": "q07b",
+      "query": "学习灯不亮",
+      "expected_group_id": "qa_006",
+      "acceptable_group_ids": ["qa_006"],
+      "category": "confusable_pair",
+      "note": "A3S handtest · bare symptom vs qa_007 学习灯亮"
+    },
+    {
+      "id": "q08",
+      "query": "学遥控器时学习灯一直亮",
+      "expected_group_id": "qa_007",
+      "category": "confusable_pair"
+    },
+    {
+      "id": "q09",
+      "query": "其中一个遥控器坏了",
+      "expected_group_id": "qa_008",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q10",
+      "query": "遥控距离太短",
+      "expected_group_id": "qa_009",
+      "category": "colloquial"
+    },
+    {
+      "id": "q11",
+      "query": "按好几次遥控器才有反应",
+      "expected_group_id": "qa_010",
+      "category": "colloquial"
+    },
+    {
+      "id": "q12",
+      "query": "遥控器按了没反应",
+      "expected_group_id": "qa_011",
+      "category": "long_group_child"
+    },
+    {
+      "id": "q13",
+      "query": "控制板一直咔哒响",
+      "expected_group_id": "qa_012",
+      "category": "colloquial"
+    },
+    {
+      "id": "q14",
+      "query": "一按遥控器保险丝就烧",
+      "expected_group_id": "qa_013",
+      "category": "long_group_child"
+    },
+    {
+      "id": "q15",
+      "query": "CODE LED 微微亮不工作",
+      "expected_group_id": "qa_014",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q16",
+      "query": "手动反推门机排查",
+      "expected_group_id": "qa_022",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q17",
+      "query": "电机电流偏小是什么原因",
+      "expected_group_id": "qa_025",
+      "category": "translated_group"
+    },
+    {
+      "id": "q18",
+      "query": "no response when pressing remote",
+      "expected_group_id": "qa_011",
+      "category": "english_query"
+    },
+    {
+      "id": "q19",
+      "query": "门关到位又弹回来 拉开门",
+      "expected_group_id": "qa_015",
+      "category": "colloquial"
+    },
+    {
+      "id": "q20",
+      "query": "推开门安装 关门反弹怎么调",
+      "expected_group_id": "qa_016",
+      "category": "colloquial"
+    },
+    {
+      "id": "q21",
+      "query": "开门一直走 不限位",
+      "expected_group_id": "qa_017",
+      "category": "colloquial",
+      "note": "qa_017 answer 空 · translated_group 压测"
+    },
+    {
+      "id": "q22",
+      "query": "拉开门 开门位置不对 不限位",
+      "expected_group_id": "qa_018",
+      "category": "long_group_child"
+    },
+    {
+      "id": "q23",
+      "query": "推开门 开门停不下来",
+      "expected_group_id": "qa_019",
+      "category": "colloquial"
+    },
+    {
+      "id": "q23b",
+      "query": "推开门开位不限位",
+      "expected_group_id": "qa_019",
+      "category": "colloquial",
+      "note": "§十 · 不得被 qa_017 路由短语抢 Top1"
+    },
+    {
+      "id": "q24",
+      "query": "拉开门 关门不限位 限位B怎么调",
+      "expected_group_id": "qa_020",
+      "category": "long_group_child"
+    },
+    {
+      "id": "q25",
+      "query": "推开门 关不到位 不限位",
+      "expected_group_id": "qa_021",
+      "category": "colloquial"
+    },
+    {
+      "id": "q26",
+      "query": "拉开门开门走停 加二极管电阻",
+      "expected_group_id": "qa_023",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q27",
+      "query": "推开门开门不正常 二极管怎么接",
+      "expected_group_id": "qa_024",
+      "acceptable_group_ids": ["qa_024", "qa_023"],
+      "category": "confusable_pair",
+      "note": "BL-V1-03 · qa_023/024 同节 confusable · Top3 gate"
+    },
+    {
+      "id": "q28",
+      "query": "万用表测机臂电流多少正常",
+      "expected_group_id": "qa_026",
+      "category": "colloquial"
+    },
+    {
+      "id": "q29",
+      "query": "测工作电流详细步骤 11号12号",
+      "expected_group_id": "qa_027",
+      "category": "translated_group"
+    },
+    {
+      "id": "q30",
+      "query": "空载电流测多少算正常",
+      "expected_group_id": "qa_028",
+      "category": "colloquial"
+    },
+    {
+      "id": "q31",
+      "query": "随意开关门乱开",
+      "expected_group_id": "qa_029",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B1"
+    },
+    {
+      "id": "q32",
+      "query": "缓停不正常没有缓停止",
+      "expected_group_id": "qa_030",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B1"
+    },
+    {
+      "id": "q33",
+      "query": "自动关门功能没用",
+      "expected_group_id": "qa_031",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B1"
+    },
+    {
+      "id": "q34",
+      "query": "风会把门吹开",
+      "expected_group_id": "qa_032",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B1 回归"
+    },
+    {
+      "id": "q35",
+      "query": "机臂只朝一个方向转",
+      "expected_group_id": "qa_033",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B2"
+    },
+    {
+      "id": "q36",
+      "query": "门开关特别慢",
+      "expected_group_id": "qa_034",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B2"
+    },
+    {
+      "id": "q37",
+      "query": "开关门过程中走停反弹",
+      "expected_group_id": "qa_035",
+      "acceptable_group_ids": ["qa_035", "qa_015", "qa_016"],
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B3 · 口语「到一半就停」易撞限位域"
+    },
+    {
+      "id": "q38",
+      "query": "机臂伸太多缩不回去",
+      "expected_group_id": "qa_037",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B4"
+    },
+    {
+      "id": "q39",
+      "query": "电机转但机臂不动",
+      "expected_group_id": "qa_037",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B4"
+    },
+    {
+      "id": "q40",
+      "query": "离合钥匙拧不开",
+      "expected_group_id": "qa_038",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B4"
+    },
+    {
+      "id": "q41",
+      "query": "机臂开关门有异响",
+      "expected_group_id": "qa_039",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B5"
+    },
+    {
+      "id": "q42",
+      "query": "日常保养喷WD40润滑",
+      "expected_group_id": "qa_040",
+      "acceptable_group_ids": ["qa_040", "qa_041"],
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B6"
+    },
+    {
+      "id": "q43",
+      "query": "深度润滑拆机臂",
+      "expected_group_id": "qa_041",
+      "acceptable_group_ids": ["qa_041", "qa_040"],
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B6"
+    },
+    {
+      "id": "q44",
+      "query": "AB值是什么意思",
+      "expected_group_id": "qa_042",
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B6"
+    },
+    {
+      "id": "q45",
+      "query": "并电阻解决电流小走停",
+      "expected_group_id": "qa_043",
+      "acceptable_group_ids": ["qa_043", "qa_025"],
+      "category": "colloquial",
+      "note": "BL-A3S-EXT-01 B7 · 勿回归 qa_022–028"
+    }
+  ]
+}

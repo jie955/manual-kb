@@ -1,0 +1,58 @@
+```json
+[
+  {
+    "chunk_id": "at6132s-manual-p3-0",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [3, 3],
+    "section": {
+      "chapter_title": "Important Safety Information and Note For Warranty",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "models": ["AT6132S", "AT12132S"],
+    "parent_id": null,
+    "is_retrievable": false,
+    "embedding_text": null
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-1",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [3, 3],
+    "section": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": "其整个摆动路径。定期检查您的立柱，根据需要调整支架或拧紧硬件。在进行任何维护之前，请关闭开门机的电源。\n- 障碍物保护测试：每月测试开门机。开门机必须在接触到刚性物体时反向或停止，或者在物体激活非接触式传感器时反向或停止。调整力和行程限制后，重新测试开门机。未能正确调整和重新测试开门机可能会增加受伤或死亡的风险。\n- 断电和手动操作\n- 打开：了解如何断开电源并手动打开大门。仅当大门未在运动中且开门机系统已关闭时，才断开开门机与大门的连接。\n- 识别自动化开门系统中的潜在风险：保存安装手册。确保所有使用或将使用开门机的人都了解自动化开门系统的危险。如果需要更换手册，您可以从TOPENS网站（www.topens.com）下载副本。",
+    "content_en": "its entire swing path. Periodically check your posts, adjusting brackets or tightening hardware as needed. Turn off the power to the gate opener before performing any maintenance.\n- OBSTRUCTION PROTECTION TESTING: Test the gate opener monthly. The gate must reverse or stop on contact with a rigid object or when an object activates the non-contact sensors. After adjusting the force or limit travel, retest the gate opener. Failure to adjust and retest the gate opener properly can increase the risk of injury or death.\n- POWER DISCONNECTION AND MANUAL\n- OPENING: Understand how to disconnect the power and manually open the gate. Disconnect the gate opener from the gate only when the gate is not in motion and the gate opener system is turned off.\n- RECOGNIZE POTENTIAL RISKS IN AUTOMATED GATE SYSTEMS: Save the installation manual. Make sure everyone who is using or will be around the gate and gate opener are aware of the dangers of automated gate systems. If a replacement manual is needed, you can download a copy from the TOPENS website (www.topens.com)",
+    "images": [],
+    "models": ["AT6132S", "AT12132S"],
+    "parent_id": "at6132s-manual-p3-0",
+    "is_retrievable": true,
+    "embedding_text": "Important Safety Information, Obstruction Protection Testing, Power Disconnection, Manual Opening, Potential Risks, Automated Gate Systems."
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-2",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [3, 3],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": "- 保修范围限于目标市场：保修范围限于目标市场（美国本土、加拿大、英国和德国）。在此区域之外使用产品的客户，在保修更换过程中将承担额外费用。\n- 开门机滥用：TOPENS不承担因滥用造成的损坏，例如试图使开门机超出其规定容量运行或用于非预期目的。\n- 开门机误用：TOPENS不承担因误用造成的损坏，包括但不限于使用不兼容电源或在TOPENS不推荐的环境中操作开门机。\n- 改动或修改：未经TOPENS事先咨询对开门机进行的改动或修改也将导致保修失效。\n- 不遵守说明：未能遵循安装说明，包括但不限于不当安装、维护将导致保修失效。\n- 第三方配件：TOPENS不承担因第三方配件造成的损坏，除非是TOPENS客户支持明确推荐的配件。务必仅使用兼容配件以确保兼容性并防止对开门机造成损坏。\n- 联系TOPENS支持：请确保开门机的安装、操作和维护均符合安装手册中列出的指南，以避免保修失效。如果您对正确使用或兼容配件有任何疑问，请联系TOPENS客户支持获取指导。\n- 详细保修政策：如果您对TOPENS保修范围有任何疑问，请参阅网址 www.topens.com/pages/topens-limited-warranty 的政策。",
+    "content_en": "- WARRANTY LIMITED TO TARGET MARKET: The warranty is limited to the target market (Contiguous United States, Canada, UK, and Germany). Customers using the product outside these regions will be responsible for any additional expenses during the warranty replacement process.\n- GATE OPENER ABUSE: TOPENS does not cover damage resulting from abuse, such as attempting to operate the gate opener beyond its specified capacity or using it for unintended purposes.\n- GATE OPENER MISUSE: TOPENS does not cover damage resulting from misuse, including but not limited to operating the gate opener with incompatible power sources or using it in environments not recommended by TOPENS.\n- ALTERATIONS OR MODIFICATIONS: Alterations or modifications made to the gate opener without prior consultation with TOPENS will also invalidate warranty coverage.\n- NON-COMPLIANCE WITH INSTRUCTIONS: Failure to follow the installation instructions, including but not limited to improper installation, maintenance will void the warranty.\n- THIRD PARTY ACCESSORIES: TOPENS does not cover damage caused by third party accessories, except those specifically recommended by TOPENS Customer Support. It is important to use only compatible accessories to ensure compatibility and prevent damage to the gate opener.\n- CONTACT TOPENS SUPPORT: Please ensure that the gate opener is installed, operated, and maintained in accordance with the guidelines outlined in the installation manual to avoid voiding the warranty. If you have any questions regarding proper usage or need assistance with compatible accessories, please contact TOPENS Customer Support for guidance.\n- DETAILED WARRANTY POLICY: If you have any questions regarding what is covered by the TOPENS warranty, refer to the policy at www.topens.com/pages/topens-limited-warranty.",
+    "images": [],
+    "models": ["AT6132S", "AT12132S"],
+    "parent_id": "at6132s-manual-p3-0",
+    "is_retrievable": true,
+    "embedding_text": "Warranty Information, Limited Warranty, Gate Opener Abuse, Gate Opener Misuse, Alterations, Modifications, Non-Compliance, Third Party Accessories, Contact Support, Detailed Warranty Policy."
+  }
+]
+```

@@ -1,0 +1,177 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+run_full.py — A3S 52 页全量 VLM 流水线。
+
+步骤：build_manifest → batch_render → pdf_vlm_parser → renormalize → adapter → enrich → embed
+
+用法:
+  python _scratch/vlm_a3s_full/run_full.py
+  python _scratch/vlm_a3s_full/run_full.py --skip-render --skip-parse  # 仅 adapter 后
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+FULL_DIR = Path(__file__).resolve().parent
+BATCH_PAGES = REPO_ROOT / "_scratch" / "vlm_batch" / "pages"
+sys.path.insert(0, str(REPO_ROOT))
+from env_utils import load_dotenv
+
+DEFAULT_MODEL = (
+    r"D:\CodeBuddy\Self os\SelfOS\11_Workbench-Content\scripts"
+    r"\qa-doc-extractor\_scratch\modelscope\BAAI\bge-m3"
+)
+
+
+def run(cmd: list[str]) -> None:
+    print(f"$ {' '.join(cmd)}", file=sys.stderr)
+    subprocess.run(cmd, cwd=REPO_ROOT, check=True)
+
+
+def seed_pages_from_batch(pages_dir: Path) -> int:
+    """复用小批量已渲 PNG，避免重复渲图。"""
+    pages_dir.mkdir(parents=True, exist_ok=True)
+    n = 0
+    if not BATCH_PAGES.is_dir():
+        return n
+    for src in BATCH_PAGES.glob("p*.png"):
+        dst = pages_dir / src.name
+        if not dst.is_file():
+            shutil.copy2(src, dst)
+            n += 1
+    return n
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="A3S 52-page full VLM pipeline")
+    parser.add_argument("--skip-manifest", action="store_true")
+    parser.add_argument("--skip-render", action="store_true")
+    parser.add_argument("--skip-parse", action="store_true")
+    parser.add_argument("--skip-adapter", action="store_true")
+    parser.add_argument("--skip-enrich", action="store_true")
+    parser.add_argument("--skip-renormalize", action="store_true")
+    parser.add_argument("--skip-embed", action="store_true")
+    parser.add_argument("--model", default=DEFAULT_MODEL)
+    args = parser.parse_args()
+
+    load_dotenv()
+
+    manifest = FULL_DIR / "page_manifest.json"
+    pages_dir = FULL_DIR / "pages"
+    manual_chunks = FULL_DIR / "manual_chunks.json"
+    chunks_out = FULL_DIR / "chunks.json"
+    chunks_enriched = FULL_DIR / "chunks_enriched.json"
+    chroma_dir = FULL_DIR / "chroma_enriched"
+
+    if not args.skip_manifest:
+        run([sys.executable, str(FULL_DIR / "build_full_manifest.py")])
+
+    seeded = seed_pages_from_batch(pages_dir)
+    if seeded:
+        print(f"[full] seeded {seeded} PNG(s) from vlm_batch/pages", file=sys.stderr)
+
+    if not args.skip_render:
+        run(
+            [
+                sys.executable,
+                str(REPO_ROOT / "_scratch/vlm_batch/batch_render.py"),
+                "--manifest",
+                str(manifest),
+                "--out-dir",
+                str(pages_dir),
+            ]
+        )
+
+    if not args.skip_parse:
+        run(
+            [
+                sys.executable,
+                str(REPO_ROOT / "pdf_vlm_parser.py"),
+                "--manifest",
+                str(manifest),
+                "--pages-dir",
+                str(pages_dir),
+                "--out",
+                str(manual_chunks),
+                "--stats-out",
+                str(FULL_DIR / "parse_stats.json"),
+            ]
+        )
+
+    if not args.skip_renormalize:
+        run(
+            [
+                sys.executable,
+                str(REPO_ROOT / "scripts/renormalize_manual_chunks.py"),
+                "--manifest",
+                str(manifest),
+                "--pages-dir",
+                str(pages_dir),
+                "--out",
+                str(manual_chunks),
+            ]
+        )
+
+    if not args.skip_adapter and manual_chunks.is_file():
+        run(
+            [
+                sys.executable,
+                str(REPO_ROOT / "manual_chunk_adapter.py"),
+                str(manual_chunks),
+                str(chunks_out),
+                "--manifest",
+                str(manifest),
+                "--images-base",
+                str(FULL_DIR),
+            ]
+        )
+
+    embed_input = chunks_out
+    if not args.skip_enrich and chunks_out.is_file():
+        run(
+            [
+                sys.executable,
+                str(REPO_ROOT / "manual_embed_enrich.py"),
+                str(chunks_out),
+                str(chunks_enriched),
+                "--manifest",
+                str(manifest),
+            ]
+        )
+        embed_input = chunks_enriched
+
+    if not args.skip_embed and embed_input.is_file():
+        model_path = Path(args.model)
+        if not model_path.exists():
+            print(f"[full] skip embed: model not found at {model_path}", file=sys.stderr)
+        else:
+            data = json.loads(embed_input.read_text(encoding="utf-8"))
+            retrievable = sum(1 for c in data if c.get("is_retrievable", True))
+            if retrievable == 0:
+                print("[full] skip embed: no retrievable chunks", file=sys.stderr)
+            else:
+                run(
+                    [
+                        sys.executable,
+                        str(REPO_ROOT / "embed_ingest_local.py"),
+                        str(embed_input),
+                        str(chroma_dir),
+                        "--model",
+                        str(model_path),
+                    ]
+                )
+                print(f"[full] ingested {retrievable} chunks -> {chroma_dir}", file=sys.stderr)
+
+    print("[full] done", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

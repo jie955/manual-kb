@@ -1,0 +1,29 @@
+{
+  "stamp": "20260708-merge",
+  "families": [
+    {
+      "family": "a3s",
+      "out": "_scratch\\unified\\a3s\\chroma_merged",
+      "total_chunks": 381,
+      "retrievable": 316,
+      "troubleshooting": 121,
+      "installation_manual": 195
+    },
+    {
+      "family": "ad5s",
+      "out": "_scratch\\unified\\ad5s\\chroma_merged",
+      "total_chunks": 378,
+      "retrievable": 313,
+      "troubleshooting": 100,
+      "installation_manual": 213
+    },
+    {
+      "family": "tc148",
+      "out": "_scratch\\unified\\tc148\\chroma_merged",
+      "total_chunks": 23,
+      "retrievable": 21,
+      "troubleshooting": 2,
+      "installation_manual": 19
+    }
+  ]
+}

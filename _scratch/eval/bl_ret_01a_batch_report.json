@@ -1,0 +1,75 @@
+{
+  "stamp": "20260708-bl-ret-01a",
+  "targets": [
+    {
+      "id": "a3s-ts",
+      "embedded": 121,
+      "retrievable": 121,
+      "doc_types": [
+        "troubleshooting"
+      ],
+      "with_models": 121,
+      "chroma": "_scratch\\run-007\\chroma_captioned"
+    },
+    {
+      "id": "ad5s-ts",
+      "embedded": 100,
+      "retrievable": 100,
+      "doc_types": [
+        "troubleshooting"
+      ],
+      "with_models": 100,
+      "chroma": "_scratch\\run-ad5s\\chroma_captioned"
+    },
+    {
+      "id": "tc148-ts",
+      "embedded": 2,
+      "retrievable": 2,
+      "doc_types": [
+        "troubleshooting"
+      ],
+      "with_models": 2,
+      "chroma": "_scratch\\run-tc148\\chroma_captioned"
+    },
+    {
+      "id": "a3s-manual",
+      "embedded": 195,
+      "retrievable": 195,
+      "doc_types": [
+        "installation_manual"
+      ],
+      "with_models": 195,
+      "chroma": "_scratch\\vlm_a3s_full\\chroma_enriched"
+    },
+    {
+      "id": "ad5s-manual",
+      "embedded": 213,
+      "retrievable": 213,
+      "doc_types": [
+        "installation_manual"
+      ],
+      "with_models": 213,
+      "chroma": "_scratch\\vlm_ad5s_full\\chroma_enriched"
+    },
+    {
+      "id": "at6132s-manual",
+      "embedded": 195,
+      "retrievable": 195,
+      "doc_types": [
+        "installation_manual"
+      ],
+      "with_models": 195,
+      "chroma": "_scratch\\vlm_at6132s_full\\chroma_enriched"
+    },
+    {
+      "id": "tc148-manual",
+      "embedded": 19,
+      "retrievable": 19,
+      "doc_types": [
+        "installation_manual"
+      ],
+      "with_models": 19,
+      "chroma": "_scratch\\vlm_tc148_full\\chroma_enriched"
+    }
+  ]
+}

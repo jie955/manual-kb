@@ -1,0 +1,5887 @@
+{
+  "generated": "2026-07-08T06:35:46Z",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "index": "zh",
+  "query_count": 176,
+  "map_path": "_scratch/eval/cs_email_query_map.json",
+  "summary": {
+    "all": {
+      "label": "all",
+      "total": 176,
+      "scorable": 109,
+      "top1_hits": 75,
+      "top3_hits": 91,
+      "top1_acc": 0.6881,
+      "top3_acc": 0.8349,
+      "mrr": 0.7586,
+      "routing_labeled": 109,
+      "routing_hits": 97,
+      "routing_acc": 0.8899
+    },
+    "tier_a_verbatim": {
+      "label": "tier_a_verbatim",
+      "total": 24,
+      "scorable": 14,
+      "top1_hits": 14,
+      "top3_hits": 14,
+      "top1_acc": 1.0,
+      "top3_acc": 1.0,
+      "mrr": 1.0,
+      "routing_labeled": 14,
+      "routing_hits": 14,
+      "routing_acc": 1.0
+    },
+    "corpus_direct": {
+      "label": "corpus_direct",
+      "total": 64,
+      "scorable": 64,
+      "top1_hits": 45,
+      "top3_hits": 56,
+      "top1_acc": 0.7031,
+      "top3_acc": 0.875,
+      "mrr": 0.7792,
+      "routing_labeled": 64,
+      "routing_hits": 55,
+      "routing_acc": 0.8594
+    },
+    "corpus_logic": {
+      "label": "corpus_logic",
+      "total": 45,
+      "scorable": 45,
+      "top1_hits": 30,
+      "top3_hits": 35,
+      "top1_acc": 0.6667,
+      "top3_acc": 0.7778,
+      "mrr": 0.7293,
+      "routing_labeled": 45,
+      "routing_hits": 42,
+      "routing_acc": 0.9333
+    },
+    "corpus_out": {
+      "label": "corpus_out",
+      "total": 67,
+      "scorable": 0
+    },
+    "gate_direct_logic_tier_a": {
+      "label": "gate_direct_logic_tier_a",
+      "total": 14,
+      "scorable": 14,
+      "top1_hits": 14,
+      "top3_hits": 14,
+      "top1_acc": 1.0,
+      "top3_acc": 1.0,
+      "mrr": 1.0,
+      "routing_labeled": 14,
+      "routing_hits": 14,
+      "routing_acc": 1.0
+    }
+  },
+  "routing_methods": {
+    "fan_out": 61,
+    "keyword": 115
+  },
+  "details": [
+    {
+      "id": "csq_001",
+      "scenario_id": "cs_0001",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "the gate does nothing when i push the button or use the key pad remote.",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6732,
+        "ad5s": 0.618,
+        "tc148": 0.5891
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.6732,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_002",
+      "scenario_id": "cs_0001",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AT12131S gate does nothing when I push the button",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.7226,
+        "ad5s": 0.5691,
+        "tc148": 0.5694
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.7226,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_003",
+      "scenario_id": "cs_0001",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "keypad remote no response gate opener",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6199,
+        "ad5s": 0.5967,
+        "tc148": 0.5593
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.6199,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_004",
+      "scenario_id": "cs_0001",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "gate does nothing when i push the button or use the key pad remote",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6533,
+        "ad5s": 0.5994,
+        "tc148": 0.5718
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.6533,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_005",
+      "scenario_id": "cs_0001",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "control board power led off fuse backup manual pack",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5536,
+        "ad5s": 0.5002,
+        "tc148": 0.4213
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.5536,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_006",
+      "scenario_id": "cs_0001",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "short push button terminals 4 and 5 opener not working",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5396,
+        "ad5s": 0.5538,
+        "tc148": 0.5886
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.5396,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_010",
+        "qa_011"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_007",
+      "scenario_id": "cs_0002",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "gate opener worked four days now motor won't function lock still unlocks",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6444,
+        "ad5s": 0.6774,
+        "tc148": 0.5429
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6444,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_033",
+        "qa_035"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_008",
+      "scenario_id": "cs_0002",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "zero power to motor at control board fuse is good",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.605,
+        "ad5s": 0.4987,
+        "tc148": 0.463
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.605,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_011"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_009",
+      "scenario_id": "cs_0002",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "ET24 lock unlocks but gate opener won't move",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5712,
+        "ad5s": 0.5772,
+        "tc148": 0.5207
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_035",
+      "top1_question": "开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+      "top1_score": 0.5712,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_035",
+        "qa_035",
+        "qa_001"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_010",
+      "scenario_id": "cs_0002",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "bypassed motor limit switch jumping wires still nothing",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5683,
+        "ad5s": 0.5408,
+        "tc148": 0.4742
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.5683,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_011",
+      "scenario_id": "cs_0002",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "UPS01 LOAD voltage drop ET24 electric lock",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5551,
+        "ad5s": 0.5127,
+        "tc148": 0.4343
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_043",
+      "top1_question": "电机电流小走停·并电阻负载 Motor stalls · low current · parallel load resistor",
+      "top1_score": 0.5551,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_043",
+        "qa_034",
+        "qa_034"
+      ],
+      "mrr": 0.2,
+      "scorable": true
+    },
+    {
+      "id": "csq_012",
+      "scenario_id": "cs_0002",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "tested power at control board going to the motor zero power",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6553,
+        "ad5s": 0.5576,
+        "tc148": 0.4802
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6553,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_013",
+      "scenario_id": "cs_0003",
+      "tier": "A_verbatim",
+      "corpus_mapping": "logic",
+      "query": "Installed openers as per instructions. Programmed supplied remotes. 3 LEDs on control board responds when remote is pressed, however gates do not open. Please advise. Thank you, Rick Der",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_010"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.688,
+        "ad5s": 0.7069,
+        "tc148": 0.6271
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_question": "按遥控器没有反应 · LEDs Respond Remote Pressed Gate Won't Move · 3 LEDs Control Board Responds Gates Do Not Open · No Response When The Remote Is Pressed",
+      "top1_score": 0.7069,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_016",
+        "qa_009"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_014",
+      "scenario_id": "cs_0003",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "AD8 remotes programmed 3 LEDs respond gates do not open",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_010"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5739,
+        "ad5s": 0.6344,
+        "tc148": 0.4854
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_question": "按遥控器没有反应 · LEDs Respond Remote Pressed Gate Won't Move · 3 LEDs Control Board Responds Gates Do Not Open · No Response When The Remote Is Pressed",
+      "top1_score": 0.6344,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_040",
+        "qa_016"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_015",
+      "scenario_id": "cs_0003",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "control board LEDs respond when remote pressed but gate won't move",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_010"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6473,
+        "ad5s": 0.6806,
+        "tc148": 0.5912
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_question": "按遥控器没有反应 · LEDs Respond Remote Pressed Gate Won't Move · 3 LEDs Control Board Responds Gates Do Not Open · No Response When The Remote Is Pressed",
+      "top1_score": 0.6806,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_009"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_016",
+      "scenario_id": "cs_0003",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "programmed remotes gate opener no movement LED blinks",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_010"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5824,
+        "ad5s": 0.5803,
+        "tc148": 0.512
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.5824,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_029"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_017",
+      "scenario_id": "cs_0003",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "AD8 DIP switch 5 photocell disconnect accessories",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_010"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4886,
+        "ad5s": 0.514,
+        "tc148": 0.3905
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_025",
+      "top1_question": "遇阻情况",
+      "top1_score": 0.514,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_025",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_018",
+      "scenario_id": "cs_0003",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "dual arm clutch release gate middle position won't open",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_010"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5915,
+        "ad5s": 0.6142,
+        "tc148": 0.4758
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.6142,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_015",
+        "qa_015",
+        "qa_016"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_019",
+      "scenario_id": "cs_0004",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Hello I'm Matt,  I have two seperate gates.  Was going to buy a double gate and need another PS and controller.   Gates is 100 lbs or so and about 16 ft.   What do you recommend? I was looking at TOPENS PW302 Dual Swing Gate Opener. I need two remotes that are are able to open either gate. What do you recommend? Thanks,  Matt",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5448,
+        "ad5s": 0.5853,
+        "tc148": 0.4865
+      },
+      "keyword_hits": [
+        "tc148",
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.5853,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_001",
+        "qa_019"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_020",
+      "scenario_id": "cs_0004",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "two separate gates control each gate individually with remote",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5453,
+        "ad5s": 0.5484,
+        "tc148": 0.474
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_007",
+      "top1_question": "其中一个遥控器无法工作 One (or Some) of Remotes Doesn't Work",
+      "top1_score": 0.5484,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_007",
+        "qa_015",
+        "qa_009"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_021",
+      "scenario_id": "cs_0004",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "PW302 dual swing open one gate only recommendation",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5838,
+        "ad5s": 0.558,
+        "tc148": 0.4004
+      },
+      "keyword_hits": [
+        "tc148",
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.558,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_015",
+        "qa_001",
+        "qa_014"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_022",
+      "scenario_id": "cs_0004",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "need another power supply and controller for double gate opener",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5921,
+        "ad5s": 0.5989,
+        "tc148": 0.4965
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_024",
+      "top1_question": "手动反推来排查+电阻",
+      "top1_score": 0.5989,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_024",
+        "qa_016",
+        "qa_019"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_023",
+      "scenario_id": "cs_0004",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "100 lb 16 ft gate what gate opener do you recommend",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5072,
+        "ad5s": 0.5262,
+        "tc148": 0.4343
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.5262,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_016",
+        "qa_030"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_024",
+      "scenario_id": "cs_0004",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "dual swing gate opener does not support controlling one gate individually",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6331,
+        "ad5s": 0.6284,
+        "tc148": 0.5211
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.6284,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_015",
+        "qa_019"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_025",
+      "scenario_id": "cs_0005",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Hello there I have yet to buy a gate from you guys. I was actually wondering why I should buy a gate opener from you versus ghost controls pros and cons and warranty most people I know by the ghost so I’m trying to weigh the odds thank you. Looking at dual swing solar I have a 34 foot opening twin gates thank you",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5505,
+        "ad5s": 0.5583,
+        "tc148": 0.4498
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_037",
+      "top1_question": "开门不限位/过位 · Opens Too Far · Pull-to-Open · Limit A Open · Gate Bracket Moving Rod Retracted",
+      "top1_score": 0.5583,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_037",
+        "qa_015",
+        "qa_034"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_026",
+      "scenario_id": "cs_0005",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "why buy TOPENS gate opener versus Ghost Controls warranty pros cons",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4855,
+        "ad5s": 0.4671,
+        "tc148": 0.4271
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.4855,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_027",
+      "scenario_id": "cs_0005",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "dual swing solar gate opener 34 foot opening twin gates",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5443,
+        "ad5s": 0.5517,
+        "tc148": 0.3638
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.5517,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_028",
+      "scenario_id": "cs_0005",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "JY9132 heavy duty solar setup battery capacity sunlight",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.48,
+        "ad5s": 0.4839,
+        "tc148": 0.274
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.4839,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_027",
+        "qa_027"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_029",
+      "scenario_id": "cs_0005",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AT12132S dual swing ranch farm solar recommendation",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.436,
+        "ad5s": 0.4593,
+        "tc148": 0.321
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.4593,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_027",
+        "qa_027"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_030",
+      "scenario_id": "cs_0005",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "pure solar power gate opener batteries solar panels separately",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5901,
+        "ad5s": 0.6267,
+        "tc148": 0.4219
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.6267,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_031",
+      "scenario_id": "cs_0006",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "What is the difference between models A8131 and AT12131?  Thank You",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4913,
+        "ad5s": 0.4597,
+        "tc148": 0.3036
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.4913,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_011",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_032",
+      "scenario_id": "cs_0006",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "what is the difference between A8131 and AT12131",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4468,
+        "ad5s": 0.4051,
+        "tc148": 0.2637
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.4468,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_011",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_033",
+      "scenario_id": "cs_0006",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "A8131 vs AT12131 A8 arm AT12 arm",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5416,
+        "ad5s": 0.5132,
+        "tc148": 0.3282
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5416,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_034",
+      "scenario_id": "cs_0006",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "pull to open AB values A8131 AT12131 installation",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5808,
+        "ad5s": 0.5637,
+        "tc148": 0.4559
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.5808,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_019",
+        "qa_019"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_035",
+      "scenario_id": "cs_0006",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "single swing gate opener 500 lbs 14 ft which model compatible",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4679,
+        "ad5s": 0.4971,
+        "tc148": 0.3856
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.4971,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_004",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_036",
+      "scenario_id": "cs_0006",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "A series arm vs AT type arm gate opener",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5374,
+        "ad5s": 0.535,
+        "tc148": 0.3761
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5374,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_037",
+      "scenario_id": "cs_0007",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Good Afternoon, I am looking to purchase 2 sets of dual swing opener kits from Amazon as I am In the UK. Could you please help advise me on what the difference is between these models? Is there any benefit to one over the others? AT1202 AT602 A8132 KD702 The set up I have at the moment is 2x 3m aluminium swing gates (in and out driveway for a set of semi detached houses) 1 gate would be primarily opened by us for our house and the other gate would be primarily opened by the new owners of the attached house we are selling. Would the m12 remotes open both gates at the same time or are they progr",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5509,
+        "ad5s": 0.6164,
+        "tc148": 0.4519
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5509,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_020",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_038",
+      "scenario_id": "cs_0007",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "difference between AT1202 AT602 A8132 KD702 dual swing gate opener",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5179,
+        "ad5s": 0.537,
+        "tc148": 0.3913
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.5179,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_039",
+      "scenario_id": "cs_0007",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "M12 remote open both gates at the same time or programmed for one",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5617,
+        "ad5s": 0.5592,
+        "tc148": 0.4395
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5617,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_040",
+      "scenario_id": "cs_0007",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "TC196 wifi controller one gate or both gate openers",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5329,
+        "ad5s": 0.5043,
+        "tc148": 0.4644
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5329,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_041",
+      "scenario_id": "cs_0007",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "how many remotes can pair to TOPENS control board maximum 8 ERM12 250",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4603,
+        "ad5s": 0.494,
+        "tc148": 0.447
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_008",
+      "top1_question": "遥控距离不够 Short Remote Range",
+      "top1_score": 0.494,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_008",
+        "qa_007",
+        "qa_010"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_042",
+      "scenario_id": "cs_0007",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "TC175 TC148 wired accessories shielded wires combining cab interference",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4907,
+        "ad5s": 0.472,
+        "tc148": 0.4753
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.4753,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_043",
+      "scenario_id": "cs_0007",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "two dual swing opener kits UK semi detached driveway 3m aluminium gates",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4995,
+        "ad5s": 0.54,
+        "tc148": 0.3837
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.54,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_015",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_044",
+      "scenario_id": "cs_0008",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Push button not working, therefore we jumpered out #4&5 at the main control panel and still nothing happened. Other than that everything works",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6728,
+        "ad5s": 0.6229,
+        "tc148": 0.6319
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.6319,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_045",
+      "scenario_id": "cs_0008",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "PW502 push button not working jumpered 4 and 5 still nothing",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5534,
+        "ad5s": 0.6087,
+        "tc148": 0.543
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.543,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_046",
+      "scenario_id": "cs_0008",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 extension cable gate opener not working replace short cable",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5583,
+        "ad5s": 0.5568,
+        "tc148": 0.5795
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.5795,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_047",
+      "scenario_id": "cs_0008",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "everything works except push button TC148 PW502",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5673,
+        "ad5s": 0.5829,
+        "tc148": 0.6088
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.6088,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_048",
+      "scenario_id": "cs_0008",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "immediately short push button terminals 4 5 control board video",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.559,
+        "ad5s": 0.5037,
+        "tc148": 0.5365
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": false,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.559,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_011"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_049",
+      "scenario_id": "cs_0008",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 waterproof push button not working remote works fine",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6003,
+        "ad5s": 0.5825,
+        "tc148": 0.6682
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.6682,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_050",
+      "scenario_id": "cs_0009",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Hi Joyce, I have set up a retractive switch (same as TC148 with COM and L1 connections) and it is connected as per the manual instructions into #4 and #5 at the control box. The cable length is 8M (24ft) and is is shielded armoured cable with 1.5mm cores. However, as soon as it is wired, without touching the switch, the gate starts to open and then goes through cycles of start/stop to all the way open and then closes ( I have auto close dip switch set to yes) with start/stop.  when it has finished closing it starts to re-open again. Once I disconnect the switch it all works as it should do usi",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6126,
+        "ad5s": 0.6389,
+        "tc148": 0.6217
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.6217,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_051",
+      "scenario_id": "cs_0009",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Hi Joyce, I have attached the pdf of the user manual for the switch. I have done the test check that you asked for with the jumper wire between #4 and #5.  The gate works as it should open/stop/closes Please see the wiring pictures that I have for the switch.  All the LED wiring had been removed I have a video of what happens when the switch is attached and I turn the power on to the control box, but it's too big to send.  Basically the gate works erratically  constantly opening a closing, half opening and the closing and continues until I turn the power off.  It does this without doing anythi",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6397,
+        "ad5s": 0.6561,
+        "tc148": 0.6295
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.6295,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_052",
+      "scenario_id": "cs_0009",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Hi Joyce, My push button is the same as the Topens one i.e. they are both retractive switches.  Anyway I bought a Topens one just in case and the same thing is happening.  I have also changed the cable and the same thing happens. If I disconnect the switch cable at the control box at #4 and #5 the gate works fine with the remote.  But as soon as #4 and #5 cables are re-connected even without the switch attached on the end the gate just does what it wants to constantly closing, opening, half opening, half closing etc. never stopping. Thanks David",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6184,
+        "ad5s": 0.6503,
+        "tc148": 0.64
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.64,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_053",
+      "scenario_id": "cs_0009",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "gate erratically opening closing when push button wired to 4 and 5 without pressing",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6115,
+        "ad5s": 0.6227,
+        "tc148": 0.6182
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.6227,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_016",
+        "qa_019",
+        "qa_031"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_054",
+      "scenario_id": "cs_0009",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "disconnect 4 5 works remote reconnect cables without switch gate keeps cycling",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5302,
+        "ad5s": 0.5441,
+        "tc148": 0.5258
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.5441,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_016",
+        "qa_018",
+        "qa_019"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_055",
+      "scenario_id": "cs_0009",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 shielded cable GND terminal 3 metal shield 15 meters",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4242,
+        "ad5s": 0.4467,
+        "tc148": 0.3958
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.3958,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_056",
+      "scenario_id": "cs_0009",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "retractive switch AT6131 auto close dip erratic cycle",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5583,
+        "ad5s": 0.6084,
+        "tc148": 0.4485
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.4485,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_057",
+      "scenario_id": "cs_0009",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "third party push button dry contact must not have indicator circuits",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5384,
+        "ad5s": 0.5052,
+        "tc148": 0.4921
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.5384,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_011",
+        "qa_001",
+        "qa_011"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_058",
+      "scenario_id": "cs_0009",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "jumper 4 5 open stop close works but wired button causes interference",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5708,
+        "ad5s": 0.5991,
+        "tc148": 0.5577
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.5577,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_059",
+      "scenario_id": "cs_0010",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Hi Lori, I have now purchased the Topens wired push button TC148. I have connected it to O.S.B(4) & COM(5). I am getting no response, can you help. Or is this a broken button. Regards Ian",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6251,
+        "ad5s": 0.6139,
+        "tc148": 0.7509
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.7509,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_060",
+      "scenario_id": "cs_0010",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 connected to 4 and 5 no response A8131",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5436,
+        "ad5s": 0.5043,
+        "tc148": 0.6002
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.6002,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_061",
+      "scenario_id": "cs_0010",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "Topens wired push button not working is it broken",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5449,
+        "ad5s": 0.5403,
+        "tc148": 0.6216
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.6216,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_062",
+      "scenario_id": "cs_0010",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 O.S.C COM terminals no response gate opener",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5824,
+        "ad5s": 0.5955,
+        "tc148": 0.628
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.628,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_063",
+      "scenario_id": "cs_0010",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "disconnect TC148 extension cable replace short cable",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4866,
+        "ad5s": 0.4742,
+        "tc148": 0.5477
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.5477,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_064",
+      "scenario_id": "cs_0010",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "immediately short push button terminals 4 5 TC148 not working",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5787,
+        "ad5s": 0.5577,
+        "tc148": 0.687
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.687,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_065",
+      "scenario_id": "cs_0011",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "what is the difference between A8132 PW802 AD8 AT1202",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4116,
+        "ad5s": 0.4681,
+        "tc148": 0.2899
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.4116,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_042"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_066",
+      "scenario_id": "cs_0011",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "A8132 vs AT1202 A8 arm AT12 arm control board energy saving",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4778,
+        "ad5s": 0.5336,
+        "tc148": 0.3395
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_043",
+      "top1_question": "电机电流小走停·并电阻负载 Motor stalls · low current · parallel load resistor",
+      "top1_score": 0.4778,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_043",
+        "qa_033",
+        "qa_001"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_067",
+      "scenario_id": "cs_0011",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "PW802 DPS180-U AC power only vs AT1202 built in transformer",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4669,
+        "ad5s": 0.4814,
+        "tc148": 0.3713
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.4814,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_040",
+        "qa_001",
+        "qa_027"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_068",
+      "scenario_id": "cs_0011",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AD8 battery main power source AC need DPS180 or UPS01",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4859,
+        "ad5s": 0.5262,
+        "tc148": 0.362
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.5262,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_040",
+        "qa_027",
+        "qa_027"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_069",
+      "scenario_id": "cs_0011",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AUTO CLOSE feature gate closes automatically after set time",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6294,
+        "ad5s": 0.633,
+        "tc148": 0.5185
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "自动关门不生效 Auto Close Function Doesn't Work",
+      "top1_score": 0.633,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_070",
+      "scenario_id": "cs_0011",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "TC188 vs TC173 range ERM12 extend remote range",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4466,
+        "ad5s": 0.5472,
+        "tc148": 0.4065
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_008",
+      "top1_question": "遥控距离不够 Short Remote Range",
+      "top1_score": 0.5472,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_008",
+        "qa_010",
+        "qa_014"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_071",
+      "scenario_id": "cs_0012",
+      "tier": "A_verbatim",
+      "corpus_mapping": "logic",
+      "query": "Hi My contractor installed the opener and although the gate opens, it does not stop at the desired location, it moves too far and into the grass. Adjusting the screw (B) and sliding it to adjust does nothing - the gate still swings to the same spot too far over. It also does not close all the way, we notice it is VERY slow and then comes to a stop halfway. What is the solution? The contractor thinks that perhaps the screw (B) is faulty? Please advise. Thanks!",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7054,
+        "ad5s": 0.6952,
+        "tc148": 0.5518
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.7054,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_019",
+        "qa_019"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_072",
+      "scenario_id": "cs_0012",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "AT12131 gate opens too far into grass limit switch B does nothing",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6786,
+        "ad5s": 0.6069,
+        "tc148": 0.4727
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_019",
+      "top1_question": "开门不限位/停不下来·限位B（推开门·开位） Gate Open Limit · Push-to-Open · Limit B Open · Opens Too Far Into Grass · AT12131 · Screw B",
+      "top1_score": 0.6786,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_019",
+        "qa_019",
+        "qa_019"
+      ],
+      "mrr": 0.25,
+      "scorable": true
+    },
+    {
+      "id": "csq_073",
+      "scenario_id": "cs_0012",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "adjusting screw B sliding limit switch gate still overswings",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6744,
+        "ad5s": 0.6112,
+        "tc148": 0.4823
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_019",
+      "top1_question": "开门不限位/停不下来·限位B（推开门·开位） Gate Open Limit · Push-to-Open · Limit B Open · Opens Too Far Into Grass · AT12131 · Screw B",
+      "top1_score": 0.6744,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_019",
+        "qa_020",
+        "qa_019"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_074",
+      "scenario_id": "cs_0012",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "gate closes very slow stops halfway AT12131",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7114,
+        "ad5s": 0.6785,
+        "tc148": 0.47
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.7114,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_034",
+        "qa_020"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_075",
+      "scenario_id": "cs_0012",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "limit switch B faulty gate does not close all the way",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7437,
+        "ad5s": 0.6603,
+        "tc148": 0.5362
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.7437,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_020",
+        "qa_020"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_076",
+      "scenario_id": "cs_0012",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "reconfirm open closed position pull to open limit switch B",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6458,
+        "ad5s": 0.6175,
+        "tc148": 0.448
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.6458,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_015",
+        "qa_020"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_077",
+      "scenario_id": "cs_0012",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "FORCE potentiometer SOFT STOP gate not closing fully",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7678,
+        "ad5s": 0.6032,
+        "tc148": 0.5014
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.7678,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_034"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_078",
+      "scenario_id": "cs_0013",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Need help this gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6923,
+        "ad5s": 0.6832,
+        "tc148": 0.5596
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.6923,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_020"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_079",
+      "scenario_id": "cs_0013",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "A3S gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7092,
+        "ad5s": 0.634,
+        "tc148": 0.4893
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.7092,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_020"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_080",
+      "scenario_id": "cs_0013",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "gate stops halfway while opening Texas ranch farm",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6176,
+        "ad5s": 0.5281,
+        "tc148": 0.4176
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.6176,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_022",
+        "qa_022"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_081",
+      "scenario_id": "cs_0013",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "detect voltage 11 12 terminals above 22V gate stops opening",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6371,
+        "ad5s": 0.6477,
+        "tc148": 0.487
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_034",
+      "top1_question": "门机运行慢 · 11#12# Voltage · FORCE · SOFT STOP · Gate Operates Slowly",
+      "top1_score": 0.6371,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_034",
+        "qa_034",
+        "qa_022"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_082",
+      "scenario_id": "cs_0013",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "FORCE potentiometer SOFT STOP gate not opening all the way",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7779,
+        "ad5s": 0.6283,
+        "tc148": 0.5221
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.7779,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_034"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_083",
+      "scenario_id": "cs_0013",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "push against gate during opening add load test gate opener",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6073,
+        "ad5s": 0.5876,
+        "tc148": 0.5029
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.6073,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_022",
+        "qa_022"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_084",
+      "scenario_id": "cs_0014",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Hi, I bought this gate and since I've bought it I've had issues with constantly having to reset the limits for the gate, from the start it would over close and everytime I fix it with the limit wires a few weeks later I'd have to adjust again. Now when I adjust the limit wire nothing is happening and the gate keeps over closing then opening. I've tried all the trouble shooting and I even replaced the limit wire as I believed perhaps it was faulty but the issue still prevails. Can you help me with this issue. Thank you",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6854,
+        "ad5s": 0.6872,
+        "tc148": 0.6196
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_037",
+      "top1_question": "开门不限位/过位 · Opens Too Far · Pull-to-Open · Limit A Open · Gate Bracket Moving Rod Retracted",
+      "top1_score": 0.6872,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_037",
+        "qa_016",
+        "qa_021"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_085",
+      "scenario_id": "cs_0014",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AT602 gate over closing then opening limit wire adjustment does nothing",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.597,
+        "ad5s": 0.5784,
+        "tc148": 0.5062
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.597,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_011",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_086",
+      "scenario_id": "cs_0014",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "constantly reset limits gate opener limit switch B",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6552,
+        "ad5s": 0.6372,
+        "tc148": 0.5299
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "门关到位又弹回来·拉开门 Gate Bounce Back · Pull-to-Open · Limit B",
+      "top1_score": 0.6552,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_015",
+        "qa_020",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_087",
+      "scenario_id": "cs_0014",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "replaced limit wire still over closes dual swing AT602",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5692,
+        "ad5s": 0.5998,
+        "tc148": 0.4902
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.5998,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_040",
+        "qa_020",
+        "qa_018"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_088",
+      "scenario_id": "cs_0014",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "internal magnetic ring cracked arm limit switch induction failure",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5767,
+        "ad5s": 0.5691,
+        "tc148": 0.4564
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5767,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_089",
+      "scenario_id": "cs_0014",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "hold front mount rotate arm 180 degrees check closed position",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5881,
+        "ad5s": 0.5581,
+        "tc148": 0.4391
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5881,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_033",
+        "qa_022",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_090",
+      "scenario_id": "cs_0015",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "CC:Dan Hi Zack— First of all, hugely helpful. Once we powered down first before moving the pot, we were able to get a great delay dialed in. We have one (hopefully) last issue. The gate opens and closes at the right spots and there is no sign of binding. That said, about half the time when the gate starts to close after the delay, it reverses. It waits through an entire additional delay cycle and tries again to close. With rare exception, it closes on the second try.  But about half the time it closes normally. We are wondering if this may be an interaction between our soft stop and open/close",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_040"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6786,
+        "ad5s": 0.8206,
+        "tc148": 0.5606
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.8206,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_036",
+        "qa_040"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_091",
+      "scenario_id": "cs_0015",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "AD8S gate reverses when starting to close after auto close delay",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_040"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5537,
+        "ad5s": 0.7674,
+        "tc148": 0.4551
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.7674,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_092",
+      "scenario_id": "cs_0015",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "gate waits entire additional delay cycle tries again to close second try",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_040"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5776,
+        "ad5s": 0.6729,
+        "tc148": 0.4902
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.6729,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_036",
+        "qa_040"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_093",
+      "scenario_id": "cs_0015",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "soft stop and open close delay interaction gate reverses half the time",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_040"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5948,
+        "ad5s": 0.7373,
+        "tc148": 0.4876
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.7373,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_036",
+        "qa_040"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_094",
+      "scenario_id": "cs_0015",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "dual swing AD8S auto close reverses then closes on second attempt",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_040"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5973,
+        "ad5s": 0.7541,
+        "tc148": 0.4822
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.7541,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_095",
+      "scenario_id": "cs_0015",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "power off before moving FORCE potentiometer auto close delay",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_040"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6305,
+        "ad5s": 0.6105,
+        "tc148": 0.4767
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.6305,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_022",
+        "qa_034",
+        "qa_034"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_096",
+      "scenario_id": "cs_0016",
+      "tier": "A_verbatim",
+      "corpus_mapping": "logic",
+      "query": "I installed, everything worked, now a red lightis flashlight and it won't work. Please call me ASAP. Allen ***-***-**** Thank you! Allen",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.61,
+        "ad5s": 0.7309,
+        "tc148": 0.5598
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Power LED Flashes Red · Won't Work After Installation",
+      "top1_score": 0.7309,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_097",
+      "scenario_id": "cs_0016",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "PW802 red light flashing gate won't work after installation",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5021,
+        "ad5s": 0.8002,
+        "tc148": 0.4829
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Power LED Flashes Red · Won't Work After Installation",
+      "top1_score": 0.8002,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_098",
+      "scenario_id": "cs_0016",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "Power LED flashes red dual swing gate opener not working",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5805,
+        "ad5s": 0.731,
+        "tc148": 0.5174
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Power LED Flashes Red · Won't Work After Installation",
+      "top1_score": 0.731,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_099",
+      "scenario_id": "cs_0016",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "measure 11 12 terminals above 22V PW802 fuse control board",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4713,
+        "ad5s": 0.543,
+        "tc148": 0.3677
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Power LED Flashes Red · Won't Work After Installation",
+      "top1_score": 0.543,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_010"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_100",
+      "scenario_id": "cs_0016",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "PW802 DIP switch 5 photocell disconnect accessories one by one",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.455,
+        "ad5s": 0.5011,
+        "tc148": 0.3988
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Power LED Flashes Red · Won't Work After Installation",
+      "top1_score": 0.5011,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_101",
+      "scenario_id": "cs_0016",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "dual swing disconnect one arm test which arm defective",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5392,
+        "ad5s": 0.5471,
+        "tc148": 0.339
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.5471,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_015",
+        "qa_014",
+        "qa_015"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_102",
+      "scenario_id": "cs_0017",
+      "tier": "A_verbatim",
+      "corpus_mapping": "logic",
+      "query": "Good evening: Our gate arm has messed up again. We have done all the previous troubleshooting and it does the exact thing as the last one sent. The gate opener doesn't work at all. Can you let me know if we still have warranty. We purchased it in June of 2025. My husband is sure we need an arm replacement.",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6984,
+        "ad5s": 0.6743,
+        "tc148": 0.5644
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6984,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_103",
+      "scenario_id": "cs_0017",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "A5131 gate arm messed up again same as last replacement won't work",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6885,
+        "ad5s": 0.6374,
+        "tc148": 0.5141
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6885,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_104",
+      "scenario_id": "cs_0017",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "gate opener doesn't work at all warranty purchased June 2025 replacement arm July",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6379,
+        "ad5s": 0.6024,
+        "tc148": 0.497
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6379,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_105",
+      "scenario_id": "cs_0017",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "replacement parts warranty does not extend original receipt date",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4954,
+        "ad5s": 0.4663,
+        "tc148": 0.3907
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.4954,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_106",
+      "scenario_id": "cs_0017",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "UPS01 LOAD terminal test motor red black wires reverse polarity",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5431,
+        "ad5s": 0.5378,
+        "tc148": 0.3905
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5431,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_022",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_107",
+      "scenario_id": "cs_0017",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "short DLMT COM ULMT limit switch faulty arm runs both directions",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.689,
+        "ad5s": 0.6247,
+        "tc148": 0.4623
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.689,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_108",
+      "scenario_id": "cs_0017",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "DIP switch 3 OFF disconnect accessories A5131 troubleshooting",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6026,
+        "ad5s": 0.5795,
+        "tc148": 0.5062
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6026,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_005"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_109",
+      "scenario_id": "cs_0018",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "I have batteries and AC adapter installed. I'm not getting anything to work. Please call me",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6982,
+        "ad5s": 0.6423,
+        "tc148": 0.5687
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6982,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_110",
+      "scenario_id": "cs_0018",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "A5 A8 gate opener batteries and AC adapter nothing works",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6012,
+        "ad5s": 0.6029,
+        "tc148": 0.4897
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_014",
+      "top1_question": "不工作（只CODE LED微微亮）",
+      "top1_score": 0.6012,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_014",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_111",
+      "scenario_id": "cs_0018",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "not getting anything to work gate opener battery AC adapter installed",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6678,
+        "ad5s": 0.6865,
+        "tc148": 0.5771
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.6678,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "mrr": 0.2,
+      "scorable": true
+    },
+    {
+      "id": "csq_112",
+      "scenario_id": "cs_0018",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "battery voltage more than 22VDC 11 12 terminals control board",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5702,
+        "ad5s": 0.5857,
+        "tc148": 0.4176
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_027",
+      "top1_question": "电池和太阳能板规格",
+      "top1_score": 0.5857,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_027",
+        "qa_010",
+        "qa_027"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_113",
+      "scenario_id": "cs_0018",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "fuse 5x20mm 250VAC 5A fast blow power light flashing every second",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4996,
+        "ad5s": 0.5353,
+        "tc148": 0.4372
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Power LED Flashes Red · Won't Work After Installation",
+      "top1_score": 0.5353,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_012",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_114",
+      "scenario_id": "cs_0018",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "DIP switch 3 OFF erase reprogram instant short 4 5 A5 gate opener",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5628,
+        "ad5s": 0.5754,
+        "tc148": 0.4557
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.5754,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_040",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_115",
+      "scenario_id": "cs_0018",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "ULT COM DLT limit switch faulty motor DC 24V test",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6139,
+        "ad5s": 0.5182,
+        "tc148": 0.4676
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6139,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_116",
+      "scenario_id": "cs_0019",
+      "tier": "A_verbatim",
+      "corpus_mapping": "direct",
+      "query": "Gate is opening at first open hard turned down force to almost nothing . Open to far gets binded. Sometimes doesn't close seems to have a mind of its own . Tryed programing through control box and remote not picking up remote many time as well. 12 ft cattle gate. One hydroelectric has bent the gate from pressure and force at bracket",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6619,
+        "ad5s": 0.7195,
+        "tc148": 0.5487
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.7195,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_016",
+        "qa_016",
+        "qa_016"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_117",
+      "scenario_id": "cs_0019",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "AD5S dual solar gate opens too far gets binded sometimes doesn't close",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5829,
+        "ad5s": 0.8127,
+        "tc148": 0.4638
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.8127,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_016",
+        "qa_037",
+        "qa_015"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_118",
+      "scenario_id": "cs_0019",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "first open hard turned down stall force almost nothing AD5S",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5844,
+        "ad5s": 0.6839,
+        "tc148": 0.4619
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_025",
+      "top1_question": "遇阻情况",
+      "top1_score": 0.6839,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_025",
+        "qa_016",
+        "qa_040"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_119",
+      "scenario_id": "cs_0019",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "remote not picking up cannot program learn control board AD5S",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6386,
+        "ad5s": 0.6745,
+        "tc148": 0.4951
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_005",
+      "top1_question": "学不上遥控器 （学习灯不亮）Cannot Program Remote",
+      "top1_score": 0.6745,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_005",
+        "qa_006",
+        "qa_016"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_120",
+      "scenario_id": "cs_0019",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "pull to open gate bracket moving rod retracted open position too far",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6091,
+        "ad5s": 0.6561,
+        "tc148": 0.464
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_037",
+      "top1_question": "开门不限位/过位 · Opens Too Far · Pull-to-Open · Limit A Open · Gate Bracket Moving Rod Retracted",
+      "top1_score": 0.6561,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_037",
+        "qa_037",
+        "qa_016"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_121",
+      "scenario_id": "cs_0019",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "gate bent from pressure force at bracket hydroelectric arm AD5S",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.525,
+        "ad5s": 0.54,
+        "tc148": 0.3758
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.54,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_015",
+        "qa_016",
+        "qa_037"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_122",
+      "scenario_id": "cs_0019",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "clear remote codes reprogram M12 AD5S dual swing",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4952,
+        "ad5s": 0.5652,
+        "tc148": 0.4062
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.5652,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_015",
+        "qa_040",
+        "qa_016"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_123",
+      "scenario_id": "cs_0020",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Hi! I installed my two AT 1202 gate-opener successfully but the gate does not stay closed. Right after closing it opens again and the slave arm does not open completely. There is no photo cell installed and The P9 setting is DEFENITELY on „00“. I can just keep the gate closed when I press the remote again in the moment when shutting is completed. But that´s not really what I want… Can you help?  Thank you in advance and greetings from Berlin, Germany Rainer Hinck",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6764,
+        "ad5s": 0.652,
+        "tc148": 0.575
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.6764,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_020",
+        "qa_022"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_124",
+      "scenario_id": "cs_0020",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AT1202 gate does not stay closed opens again right after closing",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6371,
+        "ad5s": 0.6301,
+        "tc148": 0.5092
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.6371,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_015",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_125",
+      "scenario_id": "cs_0020",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "slave arm does not open completely dual swing AT1202",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5696,
+        "ad5s": 0.6004,
+        "tc148": 0.4364
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.6004,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_015",
+        "qa_015",
+        "qa_016"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_126",
+      "scenario_id": "cs_0020",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "P9 setting 00 no photocell gate reopens after close",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5371,
+        "ad5s": 0.5541,
+        "tc148": 0.4624
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.5541,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_127",
+      "scenario_id": "cs_0020",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "press remote again when shutting completed keep gate closed",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6014,
+        "ad5s": 0.6344,
+        "tc148": 0.5299
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_019",
+      "top1_question": "推开门·关到位后又弹回来 Gate Close Bounce Back · Push-to-Open",
+      "top1_score": 0.6344,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_019",
+        "qa_020",
+        "qa_016"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_128",
+      "scenario_id": "cs_0020",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "pull to open limit switch B close position AT1202",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6817,
+        "ad5s": 0.6294,
+        "tc148": 0.4735
+      },
+      "keyword_hits": [
+        "ad5s",
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.6817,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_020",
+        "qa_020"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_129",
+      "scenario_id": "cs_0020",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "reconfirm open close positions dual AT1202 Berlin",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5106,
+        "ad5s": 0.5008,
+        "tc148": 0.3781
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close · Closes Very Slow Stops Halfway",
+      "top1_score": 0.5106,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_020",
+        "qa_033"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_130",
+      "scenario_id": "cs_0021",
+      "tier": "A_verbatim",
+      "corpus_mapping": "logic",
+      "query": "The motherboard has power receives signal from fob , lights blink , a click noise , but the arms won't open or close. Checked with voltage meter board has power but will not send power to the arm terminals.",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6962,
+        "ad5s": 0.6449,
+        "tc148": 0.5792
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6962,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_131",
+      "scenario_id": "cs_0021",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "A8132 dual swing lights blink click noise arms won't open or close",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5701,
+        "ad5s": 0.5759,
+        "tc148": 0.4557
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.5701,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_132",
+      "scenario_id": "cs_0021",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "control board has power will not send power to arm terminals",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6875,
+        "ad5s": 0.642,
+        "tc148": 0.5516
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6875,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_133",
+      "scenario_id": "cs_0021",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "motherboard receives signal from fob but arms won't move A8132",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5607,
+        "ad5s": 0.5741,
+        "tc148": 0.48
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_014",
+      "top1_question": "不工作（只CODE LED微微亮）",
+      "top1_score": 0.5607,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_014",
+        "qa_001",
+        "qa_039"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_134",
+      "scenario_id": "cs_0021",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "measure 11 12 terminals above 22VDC arms no output",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5666,
+        "ad5s": 0.5521,
+        "tc148": 0.4454
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.5666,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_135",
+      "scenario_id": "cs_0021",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "disconnect accessories disable photocell erase reprogram A8132",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4849,
+        "ad5s": 0.4866,
+        "tc148": 0.3916
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.4849,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_005",
+        "qa_001"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_136",
+      "scenario_id": "cs_0021",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "release clutch push gate halfway dual swing won't move",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5593,
+        "ad5s": 0.5755,
+        "tc148": 0.4845
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": false,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.5755,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_015",
+        "qa_015",
+        "qa_020"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_137",
+      "scenario_id": "cs_0022",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Just recently my gate started acting differently. The left panel - furthest from the controller - seems to open and reaches full open then immediately starts closing about 4 feet. (there use to be a pause which it is not doing any more. This stops the right panel from closing as well. When I press the remote button it tries to open again and then after a pause (the correct pause) only closes 4 feet. When is stops it causes the right panel to stop again. I am wondering if I need to move the magnets on the left panel. Please advise",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6374,
+        "ad5s": 0.6475,
+        "tc148": 0.546
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.6475,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_016",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_138",
+      "scenario_id": "cs_0022",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Hi Heidi My gate is a pull to open. Does that make a difference?",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5743,
+        "ad5s": 0.5842,
+        "tc148": 0.4676
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.5842,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_034",
+        "qa_037"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_139",
+      "scenario_id": "cs_0022",
+      "tier": "A_verbatim",
+      "corpus_mapping": "out",
+      "query": "Hi  Heidi, It is working now. Thank you!",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.4722,
+        "ad5s": 0.4927,
+        "tc148": 0.4289
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_013",
+      "top1_question": "不工作（只CODE LED微微亮）",
+      "top1_score": 0.4927,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_013",
+        "qa_010",
+        "qa_017"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_140",
+      "scenario_id": "cs_0022",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "A5132 gate opens fully then immediately starts closing 4 feet left panel",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6356,
+        "ad5s": 0.619,
+        "tc148": 0.4693
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.619,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_015",
+        "qa_016"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_141",
+      "scenario_id": "cs_0022",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "dual swing safety reverse no photocell reverse 3 seconds second stop",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5261,
+        "ad5s": 0.5763,
+        "tc148": 0.41
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_025",
+      "top1_question": "遇阻情况",
+      "top1_score": 0.5763,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_025",
+        "qa_040",
+        "qa_040"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_142",
+      "scenario_id": "cs_0022",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "pull to open limit switch A outward gate bracket inward retraction",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6442,
+        "ad5s": 0.6367,
+        "tc148": 0.5127
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.6367,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_018",
+        "qa_016"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_143",
+      "scenario_id": "cs_0022",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "left arm furthest from controller stops right panel from closing",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5755,
+        "ad5s": 0.5645,
+        "tc148": 0.4355
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_014",
+      "top1_question": "一个机臂只朝一个方向 One Arm Only Work One Direction",
+      "top1_score": 0.5645,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_014",
+        "qa_014",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_144",
+      "scenario_id": "cs_0022",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "move magnets on left panel gate opener limit switch A5132",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5881,
+        "ad5s": 0.5626,
+        "tc148": 0.4514
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_question": "关门限位不到位·限位B（推/拉开门）Gate Close Limit · Limit Switch B · Push/Pull",
+      "top1_score": 0.5626,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_020",
+        "qa_037",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_145",
+      "scenario_id": "cs_0022",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "stall force potentiometer E power off first complete cycle",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5718,
+        "ad5s": 0.5209,
+        "tc148": 0.4141
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查 · Stops Before Opening Fully · Gate Stops Halfway While Opening · Push Against Gate Load Test · Texas Ranch Farm",
+      "top1_score": 0.5718,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_022",
+        "qa_022",
+        "qa_022"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_146",
+      "scenario_id": "cs_0023",
+      "tier": "C_test_prompt",
+      "corpus_mapping": "direct",
+      "query": "I installed the AD5S gate opener on Saturday. Everything was working great. Today when I went to leave the gate opened fine. The right gate went all the way to the position I set it at. The left side stopped just before where I had it set. Then it closed itself right away. When the gate closed and locked it reopened by itself a quarter of the way and tried again to close. No remote used. Then it opened and closed multiple time. I diconnected the battery for awhile. Then the gate would finally close. The left gate is still not opening up all the way. Also I have the auto close set to max but it",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6277,
+        "ad5s": 0.7437,
+        "tc148": 0.526
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.7437,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_016",
+        "qa_040",
+        "qa_015"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_147",
+      "scenario_id": "cs_0023",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "AD5S left gate stopped before open position then closed itself no remote",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6077,
+        "ad5s": 0.702,
+        "tc148": 0.5368
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_040",
+      "top1_question": "开关门中途走停或反弹 · Auto Close Reverses When Starting to Close · Additional Delay Cycle Closes on Second Try · Soft Stop Open Close Delay Interaction · AD8S Dual Swing Powered Down Moving Pot Delay Dialed In",
+      "top1_score": 0.702,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_016",
+        "qa_015"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_148",
+      "scenario_id": "cs_0023",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "dual swing gate reopened quarter way tried to close again multiple times",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.603,
+        "ad5s": 0.6351,
+        "tc148": 0.5078
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_019",
+      "top1_question": "推开门·关到位后又弹回来 Gate Close Bounce Back · Push-to-Open",
+      "top1_score": 0.6351,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_019",
+        "qa_016",
+        "qa_018"
+      ],
+      "mrr": 0.5,
+      "scorable": true
+    },
+    {
+      "id": "csq_149",
+      "scenario_id": "cs_0023",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "auto close set to max only stays open 2 seconds AD5S",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5486,
+        "ad5s": 0.6598,
+        "tc148": 0.4338
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_025",
+      "top1_question": "遇阻情况",
+      "top1_score": 0.6598,
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_025",
+        "qa_040",
+        "qa_016"
+      ],
+      "mrr": 0.3333333333333333,
+      "scorable": true
+    },
+    {
+      "id": "csq_150",
+      "scenario_id": "cs_0023",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "right gate opens all the way left gate not opening fully",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6378,
+        "ad5s": 0.7147,
+        "tc148": 0.4926
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.7147,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_015",
+        "qa_015",
+        "qa_016"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_151",
+      "scenario_id": "cs_0023",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "disconnected battery gate finally closed AD5S",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_015",
+        "qa_016",
+        "qa_020"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5435,
+        "ad5s": 0.6146,
+        "tc148": 0.4727
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.6146,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_016",
+        "qa_025",
+        "qa_040"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_152",
+      "scenario_id": "cs_0024",
+      "tier": "C_test_prompt",
+      "corpus_mapping": "out",
+      "query": "Hi- Please help me understand which is the best gate opener to purchase...our dog got out on the road and we don't want that. We want to use solar, have gates close after someone drives thought, have a key pad (weather safe) to open gates. Gates are under 100lb each (and have wheels on to help with weight distribution and opening them). Climate: Minnesota The quiz suggested: TOPENS AT6132S Solar Dual Swing Gate Opener or TOPENS AD5S Solar Dual Swing Gate Opener questions: 1. which would work best for our gates and our set up? 2. will these gates close after someone drives thought? 3. which key",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5959,
+        "ad5s": 0.6491,
+        "tc148": 0.4795
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_037",
+      "top1_question": "开门不限位/过位 · Opens Too Far · Pull-to-Open · Limit A Open · Gate Bracket Moving Rod Retracted",
+      "top1_score": 0.6491,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_037",
+        "qa_016",
+        "qa_004"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_153",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "AT6132S vs AD5S solar dual swing Minnesota which is best under 100lb gates",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4572,
+        "ad5s": 0.533,
+        "tc148": 0.299
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_037",
+      "top1_question": "开门不限位/过位 · Opens Too Far · Pull-to-Open · Limit A Open · Gate Bracket Moving Rod Retracted",
+      "top1_score": 0.533,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_037",
+        "qa_016",
+        "qa_015"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_154",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "gates close automatically after someone drives through solar opener",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6283,
+        "ad5s": 0.6479,
+        "tc148": 0.4744
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_score": 0.6479,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_155",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "weather safe keypad TC175 TC188 dual swing recommendation",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4914,
+        "ad5s": 0.4914,
+        "tc148": 0.4423
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_034",
+      "top1_question": "风会把门吹开 There is Little Play When the Gate is Closed",
+      "top1_score": 0.4914,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_034",
+        "qa_040",
+        "qa_001"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_156",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "how does power get to both arms dual swing gate opener wiring",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5557,
+        "ad5s": 0.5933,
+        "tc148": 0.4464
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.5933,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_015",
+        "qa_015",
+        "qa_016"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_157",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "can I leave wheels on the gate with automatic opener",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5896,
+        "ad5s": 0.5896,
+        "tc148": 0.4647
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_032",
+      "top1_question": "风会把门吹开 There is Little Play When the Gate is Closed",
+      "top1_score": 0.5896,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_032",
+        "qa_019",
+        "qa_019"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_158",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "manually turn off power open gate emergency dual swing",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5816,
+        "ad5s": 0.6014,
+        "tc148": 0.5103
+      },
+      "keyword_hits": [
+        "ad5s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_019",
+      "top1_question": "推开门·关到位后又弹回来 Gate Close Bounce Back · Push-to-Open",
+      "top1_score": 0.6014,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_019",
+        "qa_018",
+        "qa_016"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_159",
+      "scenario_id": "cs_0024",
+      "tier": "B_derived",
+      "corpus_mapping": "out",
+      "query": "buy TOPENS direct or Amazon",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "matched_library": "tc148",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.3846,
+        "ad5s": 0.3674,
+        "tc148": 0.4091
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.4091,
+      "top1_hit": null,
+      "top3_hit": null,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": null,
+      "scorable": false
+    },
+    {
+      "id": "csq_160",
+      "scenario_id": "cs_0025",
+      "tier": "C_test_prompt",
+      "corpus_mapping": "direct",
+      "query": "Toppers TC148 Automatic Gate Opener has just stopped working…. Power and wiring connections are all good.. Push Button opener has just stopped working…. What is the Warranty Time Period…? Can it be replaced under Warranty…?",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6064,
+        "ad5s": 0.6014,
+        "tc148": 0.6335
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.6335,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_161",
+      "scenario_id": "cs_0025",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 push button stopped working power and wiring all good",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6157,
+        "ad5s": 0.5777,
+        "tc148": 0.6827
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.6827,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_162",
+      "scenario_id": "cs_0025",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TOPENS TC148 warranty time period can it be replaced under warranty",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4449,
+        "ad5s": 0.4289,
+        "tc148": 0.5413
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.5413,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_163",
+      "scenario_id": "cs_0025",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "Toppers TC148 automatic gate opener not working push button",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.5904,
+        "ad5s": 0.5999,
+        "tc148": 0.6615
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_score": 0.6615,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_164",
+      "scenario_id": "cs_0025",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "TC148 waterproof push button replacement warranty Amazon",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.4852,
+        "ad5s": 0.4516,
+        "tc148": 0.5385
+      },
+      "keyword_hits": [
+        "tc148"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "top1_score": 0.5385,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_165",
+      "scenario_id": "cs_0026",
+      "tier": "C_test_prompt",
+      "corpus_mapping": "direct",
+      "query": "My Neighbor has a Topens swing gate model  A3/A5/A8. We have troubleshoot the system, have replace the board with a new board. We have directly put + & - to the actuator and it does open and close but doesn't work when put back into to proper terminals. The fuse is good, there is a clicking sound when the remote is pressed but the actuator doesn't response, We have tripped the DLMT, com ,Ulmt as directed in the Manuel and still no response. Can you help us find the solution. The product is 2 years old .",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.7361,
+        "ad5s": 0.6643,
+        "tc148": 0.6391
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.7361,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_033",
+        "qa_010"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_166",
+      "scenario_id": "cs_0026",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "replaced control board clicking sound remote actuator no response A3 A5 A8",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.788,
+        "ad5s": 0.5863,
+        "tc148": 0.556
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.788,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_011"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_167",
+      "scenario_id": "cs_0026",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "direct power to actuator works proper terminals does not Topens",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6219,
+        "ad5s": 0.5739,
+        "tc148": 0.5421
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6219,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_033",
+        "qa_001"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_168",
+      "scenario_id": "cs_0026",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "tripped DLMT COM ULMT still no response swing gate",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6111,
+        "ad5s": 0.5842,
+        "tc148": 0.5222
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6111,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_011",
+        "qa_033"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_169",
+      "scenario_id": "cs_0026",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "fuse good click sound actuator doesn't respond 2 years old",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6432,
+        "ad5s": 0.5159,
+        "tc148": 0.5032
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board · Batteries and AC Adapter Nothing Works · Board Has Power Arms Won't Move",
+      "top1_score": 0.6432,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_033",
+        "qa_011"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_170",
+      "scenario_id": "cs_0026",
+      "tier": "B_derived",
+      "corpus_mapping": "direct",
+      "query": "neighbor Topens swing gate model A3 A5 A8 troubleshooting",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.5868,
+        "ad5s": 0.6079,
+        "tc148": 0.5389
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_015",
+      "top1_question": "两个机臂只朝一个方向 · Dual Swing Left Right Gate Asymmetric · One Arm Not Opening Fully Other Opens All The Way AD5S",
+      "top1_score": 0.6079,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_015",
+        "qa_016",
+        "qa_017"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_171",
+      "scenario_id": "cs_0027",
+      "tier": "C_test_prompt",
+      "corpus_mapping": "logic",
+      "query": "Sometimes you must push the remote button 3 times before the gate opens. The light on the board comes on and you can hear it click. Nothing happens. The it will open on 2nd or third try.  Sometimes it will open on first try. I can't find any help that list this as a problem",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7831,
+        "ad5s": 0.7007,
+        "tc148": 0.6778
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_question": "多次按遥控器门机才反应 Remote Needs Multiple Presses · Push Remote 3 Times · Second or Third Try · Board Click Nothing Happens",
+      "top1_score": 0.7831,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_010"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_172",
+      "scenario_id": "cs_0027",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "must push remote button 3 times before gate opens light on board click nothing happens",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.7065,
+        "ad5s": 0.6739,
+        "tc148": 0.6125
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_question": "多次按遥控器门机才反应 Remote Needs Multiple Presses · Push Remote 3 Times · Second or Third Try · Board Click Nothing Happens",
+      "top1_score": 0.7065,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_010"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_173",
+      "scenario_id": "cs_0027",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "gate opens on second or third try sometimes first try remote",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6587,
+        "ad5s": 0.6659,
+        "tc148": 0.5708
+      },
+      "keyword_hits": [],
+      "library_hit": false,
+      "top1_group": "qa_016",
+      "top1_question": "开到位后又弹回来·拉开门 · Opens Too Far Gets Binded · Pull-to-Open Gate Bracket · Gate Open Bounce Back · Open Position",
+      "top1_score": 0.6659,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_016",
+        "qa_016",
+        "qa_009"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_174",
+      "scenario_id": "cs_0027",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "control board clicks but gate doesn't move intermittent",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.6163,
+        "ad5s": 0.593,
+        "tc148": 0.5718
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_033",
+      "top1_question": "只朝一个方向 Only Opens/Closes One Direction · Gate Arm Messed Up Again · Won't Work At All · Arm Replacement Warranty",
+      "top1_score": 0.6163,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_033",
+        "qa_001",
+        "qa_033"
+      ],
+      "mrr": 0.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_175",
+      "scenario_id": "cs_0027",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "can't find help for remote needs multiple presses gate opener",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_scores": {
+        "a3s": 0.6494,
+        "ad5s": 0.6379,
+        "tc148": 0.5657
+      },
+      "keyword_hits": [],
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_question": "多次按遥控器门机才反应 Remote Needs Multiple Presses · Push Remote 3 Times · Second or Third Try · Board Click Nothing Happens",
+      "top1_score": 0.6494,
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_010"
+      ],
+      "mrr": 1.0,
+      "scorable": true
+    },
+    {
+      "id": "csq_176",
+      "scenario_id": "cs_0027",
+      "tier": "B_derived",
+      "corpus_mapping": "logic",
+      "query": "Topens gate opener remote intermittent click no movement no model",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_scores": {
+        "a3s": 0.557,
+        "ad5s": 0.5393,
+        "tc148": 0.5722
+      },
+      "keyword_hits": [
+        "a3s"
+      ],
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器/按键完全无反应 No Response At All · AT12131 Push Button Does Nothing · Gate Does Nothing When I Push the Button · Control Board Power LED Off Fuse Backup",
+      "top1_score": 0.557,
+      "top1_hit": false,
+      "top3_hit": false,
+      "top3_groups": [
+        "qa_011",
+        "qa_033",
+        "qa_011"
+      ],
+      "mrr": 0.2,
+      "scorable": true
+    }
+  ]
+}

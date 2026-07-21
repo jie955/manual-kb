@@ -1,0 +1,19 @@
+{
+  "api_key_present": true,
+  "parsed_via_api": 1,
+  "parsed_via_pilot": 2,
+  "skipped_no_api": 0,
+  "cached": 10,
+  "failed": 0,
+  "pages_total": 13,
+  "correction_flags": [
+    {
+      "printed_page": 13,
+      "chunk_id": "a3s-manual-p13-step2",
+      "issues": [
+        "missing_structured_rows",
+        "spec_table_without_data"
+      ]
+    }
+  ]
+}

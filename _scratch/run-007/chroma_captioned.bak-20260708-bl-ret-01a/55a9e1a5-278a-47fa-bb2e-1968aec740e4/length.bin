@@ -1,0 +1,1 @@
+invalid type: string "[问题] 其他产品知识讲解 Product Knowledge\n太阳能板充电的问题\n要看是多大功率太阳能板充多少AH电池，如果是20W太阳能板+7.2AH电池，那么平均日照6H的话差不多需要4天充满。如果是30W太阳能板+12AH电池，那么平均日照6H的话差不多需要5天充满。", expected f64 f64往两个方向运行", expected f64��

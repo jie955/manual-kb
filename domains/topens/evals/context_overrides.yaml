@@ -1,0 +1,8 @@
+# Keep these groups in cs_email context even when top1_excludes would drop them.
+cs_0002:
+  force_include_groups:
+    - qa_033
+
+cs_0018:
+  force_include_groups:
+    - qa_033

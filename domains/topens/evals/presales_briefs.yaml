@@ -1,0 +1,52 @@
+# Authoritative presales facts + links for scenarios where KB retrieval is weak.
+# Injected into cs_email generation context (not shown to customer verbatim).
+cs_0011: |
+  Product facts (gate openers — NOT remotes):
+  - A8132, AD8, PW802 share A8 arm + energy-saving control board; AT1202 uses AT12 arm + standard board with digital display.
+  - All motors are 80W. Customer uses AC only → recommend PW802 or AT1202 (similar price; PW802 more energy-saving).
+  - A8132: UPS01 (AC/battery/20W solar). AD8: battery main; AC needs DPS180-U or UPS01. PW802: DPS180-U AC direct (no battery/solar on DPS180-U). AT1202: built-in transformer; battery backup only.
+  - AUTO CLOSE: gate closes after set delay when enabled on board.
+  - TC188 range 35 ft; TC173 65 ft; ERM12 up to 98 ft.
+  Purchasing links (include in reply):
+  PW802: https://www.amazon.com/dp/B07DFFHFVP
+  AT1202: https://www.amazon.com/dp/B07XQ69685
+  TC188: https://www.amazon.com/dp/B09VGTCCJQ
+  TC173: https://www.amazon.com/dp/B07ZTC75CX
+  ERM12: https://www.amazon.com/dp/B075KHPLHD
+
+cs_0005: |
+  Presales facts (TOPENS vs Ghost Controls · 34 ft dual swing solar):
+  - Recommend TOPENS JY9132 Heavy-Duty for 34 ft opening (17 ft per leaf) due to wind resistance.
+  - Pure solar: purchase solar panels and batteries separately; size battery Ah for local sunlight.
+  - Warranty: 12-month warranty; lifetime email technical support.
+  Links to include in reply:
+  Warranty: https://topens.com/pages/topens-limited-warranty
+  JY9132 manual: https://topens.com/cdn/shop/files/JY9132-EN-250108.pdf
+  Mention attached manual screenshot for solar wiring and battery selection.
+  Request photos of gate fully open and fully closed.
+
+cs_0007: |
+  Product comparison (UK dual swing · AT1202 / AT602 / A8132 / KD702):
+  - Ask customer power source first (AC / battery / solar) before final model recommendation.
+  - Each kit includes 2× M12 remotes; max 8 remotes per board (M12, TC196, TC188 each use one slot); up to 250 with ERM12.
+  - M12 and TC196 can operate two gate openers when programmed accordingly.
+  - TC175 touch keypad and TC148 exit button are wired accessories; use shielded wire.
+  Purchasing links (include in reply):
+  M12: https://www.amazon.co.uk/dp/B07B47DW3B
+  ERM12: https://www.amazon.co.uk/dp/B07B414H88
+  TC175: https://www.amazon.co.uk/dp/B09VXWK452
+  TC148: https://www.amazon.co.uk/dp/B09WH9CK9K
+
+# Business rule: domains/topens/presales_playbooks.yaml → two_independent_gates
+cs_0004:
+  playbook_ref: two_independent_gates
+
+cs_0006: |
+  Product facts:
+  - A8131 vs AT12131: main difference is arm type (A8131 = A8 arm, AT12131 = AT12 arm).
+  - AB installation values differ for pull-to-open; verify gate weight/length compatibility.
+  Links to include:
+  A8131 purchase: https://topens.com/products/topens-a8131-single-swing-gate-opener-heavy-duty-automatic-gate-motor-for-single-swing-gates-up-to-18ft
+  A8131 manual: https://topens.com/cdn/shop/files/A5131-A8131-EN-250108.pdf
+  AT12131 purchase: https://topens.com/products/topens-at12131-single-swing-gate-opener-heavy-duty-automatic-gate-motor-for-single-swing-gates-up-to-18ft
+  AT12131 manual: https://topens.com/cdn/shop/files/AT6131_S-AT12131_S-EN-250108.pdf

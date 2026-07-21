@@ -1,0 +1,12 @@
+products:
+  - id: alpha
+    label: "Alpha Series"
+    doc_title: "Alpha Troubleshooting"
+    aliases: ["alp100"]
+    display_order: 0
+
+catalog_links:
+  - family: alpha
+    label: "Alpha Product Catalog"
+    url: "https://example.com/catalog/alpha"
+    kind: catalog

@@ -1,0 +1,79 @@
+[
+  {
+    "lib": "AD5S",
+    "id": "L-P23",
+    "query": "电机电流小 并接机臂排查",
+    "expect_gid": "qa_023",
+    "ok": true,
+    "llm_len": 829,
+    "links": 1,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-P23.png",
+    "reasons": []
+  },
+  {
+    "lib": "AD5S",
+    "id": "L-P24",
+    "query": "走停加电阻 二极管怎么接",
+    "expect_gid": "qa_024",
+    "ok": true,
+    "llm_len": 867,
+    "links": 4,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-P24.png",
+    "reasons": []
+  },
+  {
+    "lib": "AD5S",
+    "id": "L-TA10",
+    "query": "按遥控器完全没有反应",
+    "expect_gid": "qa_010",
+    "ok": true,
+    "llm_len": 1297,
+    "links": 1,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-TA10.png",
+    "reasons": []
+  },
+  {
+    "lib": "AD5S",
+    "id": "L-YT29",
+    "query": "拆机臂内部怎么润滑",
+    "expect_gid": "qa_029",
+    "ok": true,
+    "llm_len": 454,
+    "links": 3,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-YT29.png",
+    "reasons": []
+  },
+  {
+    "lib": "AD5S",
+    "id": "L-TA01",
+    "query": "控制板灯不亮",
+    "expect_gid": "qa_001",
+    "ok": true,
+    "llm_len": 932,
+    "links": 0,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-TA01.png",
+    "reasons": []
+  },
+  {
+    "lib": "TC148",
+    "id": "L-T2",
+    "query": "TC148 没反应 遥控器正常",
+    "expect_gid": "qa_002",
+    "ok": true,
+    "llm_len": 1151,
+    "links": 2,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-T2.png",
+    "reasons": []
+  },
+  {
+    "lib": "TC148",
+    "id": "L-T3",
+    "query": "push button 端口短接 O/S/C COM",
+    "expect_gid": "qa_002",
+    "ok": true,
+    "llm_len": 1218,
+    "links": 2,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\L-T3.png",
+    "reasons": []
+  }
+]

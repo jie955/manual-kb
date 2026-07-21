@@ -1,0 +1,246 @@
+{
+  "entries": [
+    {
+      "file": "0001-at12131s-gate-no-response.md",
+      "cs_id": "cs_0001",
+      "chars": 2583,
+      "agent": "Joyce",
+      "has_engineer": true,
+      "has_warranty": false,
+      "has_one_by_one": true,
+      "num_steps": 4,
+      "has_dear": true
+    },
+    {
+      "file": "0002-a8132-et24-motor-no-power.md",
+      "cs_id": "cs_0002",
+      "chars": 3237,
+      "agent": "Joyce",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": true,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0003-ad8-leds-respond-gate-wont-open.md",
+      "cs_id": "cs_0003",
+      "chars": 2661,
+      "agent": "Joyce",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": true,
+      "num_steps": 4,
+      "has_dear": true
+    },
+    {
+      "file": "0004-pw302-two-separate-gates-recommendation.md",
+      "cs_id": "cs_0004",
+      "chars": 2020,
+      "agent": "Zack",
+      "has_engineer": false,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0005-at12132s-dual-swing-solar-jy9132-recommendation.md",
+      "cs_id": "cs_0005",
+      "chars": 1852,
+      "agent": "Heidi",
+      "has_engineer": false,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0006-a8131-vs-at12131-comparison.md",
+      "cs_id": "cs_0006",
+      "chars": 2195,
+      "agent": "Zack",
+      "has_engineer": false,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0007-dual-swing-model-comparison-uk-remotes.md",
+      "cs_id": "cs_0007",
+      "chars": 2235,
+      "agent": "Bella",
+      "has_engineer": false,
+      "has_warranty": false,
+      "has_one_by_one": false,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0008-pw502-tc148-push-button-not-working.md",
+      "cs_id": "cs_0008",
+      "chars": 1904,
+      "agent": "Lori",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 2,
+      "has_dear": true
+    },
+    {
+      "file": "0009-at6131-tc148-erratic-wired-button.md",
+      "cs_id": "cs_0009",
+      "chars": 1559,
+      "agent": "?",
+      "has_engineer": true,
+      "has_warranty": false,
+      "has_one_by_one": false,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0010-a8131-tc148-no-response.md",
+      "cs_id": "cs_0010",
+      "chars": 1148,
+      "agent": "?",
+      "has_engineer": false,
+      "has_warranty": false,
+      "has_one_by_one": false,
+      "num_steps": 3,
+      "has_dear": true
+    },
+    {
+      "file": "0011-a8132-ad8-at1202-pw802-comparison.md",
+      "cs_id": "cs_0011",
+      "chars": 4110,
+      "agent": "Joyce",
+      "has_engineer": false,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 3,
+      "has_dear": true
+    },
+    {
+      "file": "0012-at12131-limit-overswing-stops-halfway.md",
+      "cs_id": "cs_0012",
+      "chars": 3528,
+      "agent": "Joyce",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 4,
+      "has_dear": true
+    },
+    {
+      "file": "0013-a3s-stops-before-fully-open.md",
+      "cs_id": "cs_0013",
+      "chars": 2711,
+      "agent": "Joyce",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": true,
+      "num_steps": 4,
+      "has_dear": true
+    },
+    {
+      "file": "0014-at602-limit-overclose-magnetic-ring.md",
+      "cs_id": "cs_0014",
+      "chars": 1725,
+      "agent": "Evelyn",
+      "has_engineer": false,
+      "has_warranty": false,
+      "has_one_by_one": false,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0015-ad8s-auto-close-reverses-second-try.md",
+      "cs_id": "cs_0015",
+      "chars": 2028,
+      "agent": "?",
+      "has_engineer": false,
+      "has_warranty": false,
+      "has_one_by_one": true,
+      "num_steps": 4,
+      "has_dear": true
+    },
+    {
+      "file": "0016-pw802-red-light-flashing-wont-work.md",
+      "cs_id": "cs_0016",
+      "chars": 4052,
+      "agent": "Evelyn",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": true,
+      "num_steps": 5,
+      "has_dear": true
+    },
+    {
+      "file": "0017-a5131-arm-failed-again-warranty.md",
+      "cs_id": "cs_0017",
+      "chars": 3527,
+      "agent": "Heidi",
+      "has_engineer": false,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 5,
+      "has_dear": true
+    },
+    {
+      "file": "0018-a5-a8-nothing-works-battery-ac.md",
+      "cs_id": "cs_0018",
+      "chars": 3658,
+      "agent": "Zoey",
+      "has_engineer": false,
+      "has_warranty": false,
+      "has_one_by_one": true,
+      "num_steps": 6,
+      "has_dear": true
+    },
+    {
+      "file": "0019-ad5s-opens-too-far-remote-not-recognized.md",
+      "cs_id": "cs_0019",
+      "chars": 3003,
+      "agent": "Bella",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": true,
+      "num_steps": 0,
+      "has_dear": true
+    },
+    {
+      "file": "0020-at1202-wont-stay-closed-slave-arm.md",
+      "cs_id": "cs_0020",
+      "chars": 3577,
+      "agent": "Zoey",
+      "has_engineer": false,
+      "has_warranty": false,
+      "has_one_by_one": true,
+      "num_steps": 4,
+      "has_dear": true
+    },
+    {
+      "file": "0021-a8132-board-power-arms-wont-move.md",
+      "cs_id": "cs_0021",
+      "chars": 1642,
+      "agent": "Lori",
+      "has_engineer": true,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 3,
+      "has_dear": true
+    },
+    {
+      "file": "0022-a5132-opens-then-recloses-resolved.md",
+      "cs_id": "cs_0022",
+      "chars": 3162,
+      "agent": "Heidi",
+      "has_engineer": false,
+      "has_warranty": true,
+      "has_one_by_one": false,
+      "num_steps": 4,
+      "has_dear": true
+    }
+  ]
+}

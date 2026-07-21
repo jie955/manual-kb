@@ -1,0 +1,451 @@
+{
+  "summary": {
+    "name": "run",
+    "model": "_scratch/modelscope/BAAI/bge-m3",
+    "prefix": false,
+    "hybrid_alpha": null,
+    "rerank": false,
+    "top1_acc": 0.9583,
+    "top3_acc": 1.0,
+    "top1_hits": 23,
+    "top3_hits": 24,
+    "total": 24
+  },
+  "details": [
+    {
+      "id": "a01",
+      "query": "控制板灯不亮",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001",
+        "qa_002"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002",
+        "qa_005"
+      ],
+      "category": "ambiguous_title"
+    },
+    {
+      "id": "a02",
+      "query": "适配器供电 power 灯不闪",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_027",
+        "qa_013"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "a03",
+      "query": "纯太阳能板供电 指示灯不亮",
+      "expected": "qa_002",
+      "acceptable": [
+        "qa_002"
+      ],
+      "top1_group": "qa_002",
+      "top1_question": "控制板灯不亮（纯太阳能）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_027",
+        "qa_004"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a04",
+      "query": "太阳能充不进电池怎么办",
+      "expected": "qa_003",
+      "acceptable": [
+        "qa_003"
+      ],
+      "top1_group": "qa_003",
+      "top1_question": "太阳能不能给电池充电 The Batteries Cannot Be Charged by Solar",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_003",
+        "qa_027",
+        "qa_004"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a05",
+      "query": "一接太阳能板门机就不转了",
+      "expected": "qa_004",
+      "acceptable": [
+        "qa_004"
+      ],
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a06",
+      "query": "学遥控器 学习灯不亮",
+      "expected": "qa_005",
+      "acceptable": [
+        "qa_005"
+      ],
+      "top1_group": "qa_005",
+      "top1_question": "学不上遥控器 （学习灯不亮）Cannot Program Remote",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_005",
+        "qa_006",
+        "qa_013"
+      ],
+      "category": "confusable_pair"
+    },
+    {
+      "id": "a07",
+      "query": "学遥控器 学习灯一直亮 学不上",
+      "expected": "qa_006",
+      "acceptable": [
+        "qa_006"
+      ],
+      "top1_group": "qa_006",
+      "top1_question": "学不上遥控器 （学习灯亮）Cannot Program Remote",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_006",
+        "qa_005",
+        "qa_013"
+      ],
+      "category": "confusable_pair"
+    },
+    {
+      "id": "a08",
+      "query": "遥控距离太短 站远点就不行",
+      "expected": "qa_008",
+      "acceptable": [
+        "qa_008"
+      ],
+      "top1_group": "qa_008",
+      "top1_question": "遥控距离不够 Short Remote Range",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_008",
+        "qa_010",
+        "qa_005"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a09",
+      "query": "按遥控器完全没反应",
+      "expected": "qa_010",
+      "acceptable": [
+        "qa_010"
+      ],
+      "top1_group": "qa_010",
+      "top1_question": "按遥控器没有反应 No Response When The Remote Is Pressed",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_010"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a10",
+      "query": "控制板一直咔哒响",
+      "expected": "qa_011",
+      "acceptable": [
+        "qa_011"
+      ],
+      "top1_group": "qa_011",
+      "top1_question": "控制板有持续咔哒声 Control Board Clicking Continuously",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_011",
+        "qa_012",
+        "qa_012"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a11",
+      "query": "一按遥控保险丝就烧",
+      "expected": "qa_012",
+      "acceptable": [
+        "qa_012"
+      ],
+      "top1_group": "qa_012",
+      "top1_question": "按遥控器保险丝烧 Fuse Blows When Pressing Remote",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_012",
+        "qa_012",
+        "qa_012"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a12",
+      "query": "CODE LED 微微亮 门机不工作",
+      "expected": "qa_013",
+      "acceptable": [
+        "qa_013"
+      ],
+      "top1_group": "qa_013",
+      "top1_question": "不工作（只CODE LED微微亮）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_013",
+        "qa_007",
+        "qa_015"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "a13",
+      "query": "一边机臂只能往一个方向动",
+      "expected": "qa_014",
+      "acceptable": [
+        "qa_014"
+      ],
+      "top1_group": "qa_014",
+      "top1_question": "一个机臂只朝一个方向 One Arm Only Work One Direction",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_014",
+        "qa_014",
+        "qa_015"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "a14",
+      "query": "门刚动一下就停 电机电流太小",
+      "expected": "qa_022",
+      "acceptable": [
+        "qa_022"
+      ],
+      "top1_group": "qa_022",
+      "top1_question": "电机电流小的原因",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_036",
+        "qa_024"
+      ],
+      "category": "zh_en_mixed"
+    },
+    {
+      "id": "a14b",
+      "query": "负载电阻功率要大于1152除以电阻值",
+      "expected": "qa_022",
+      "acceptable": [
+        "qa_022",
+        "qa_024"
+      ],
+      "top1_group": "qa_024",
+      "top1_question": "手动反推来排查+电阻",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_024",
+        "qa_022",
+        "qa_024"
+      ],
+      "category": "formula_zh"
+    },
+    {
+      "id": "a15",
+      "query": "no response when pressing remote AD5S",
+      "expected": "qa_010",
+      "acceptable": [
+        "qa_010"
+      ],
+      "top1_group": "qa_010",
+      "top1_question": "按遥控器没有反应 No Response When The Remote Is Pressed",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_010"
+      ],
+      "category": "english_query"
+    },
+    {
+      "id": "b01",
+      "query": "门自己乱开乱关怎么回事",
+      "expected": "qa_031",
+      "acceptable": [
+        "qa_031"
+      ],
+      "top1_group": "qa_031",
+      "top1_question": "随意开关门 Random Opening/Closing",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_031",
+        "qa_033",
+        "qa_034"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "b02",
+      "query": "缓停止不对 没有缓停效果",
+      "expected": "qa_032",
+      "acceptable": [
+        "qa_032"
+      ],
+      "top1_group": "qa_032",
+      "top1_question": "缓停止有问题 Soft Stop Issues",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_032",
+        "qa_033",
+        "qa_010"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "b03",
+      "query": "自动关门功能没用 不会自己关",
+      "expected": "qa_033",
+      "acceptable": [
+        "qa_033"
+      ],
+      "top1_group": "qa_033",
+      "top1_question": "自动关门不生效 Auto Close Function Doesn't Work",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_031",
+        "qa_024"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "b04",
+      "query": "风大能把门吹开一点怎么办",
+      "expected": "qa_034",
+      "acceptable": [
+        "qa_034"
+      ],
+      "top1_group": "qa_034",
+      "top1_question": "风会把门吹开 There is Little Play When the Gate is Closed",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_034",
+        "qa_016",
+        "qa_018"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "b05",
+      "query": "双机臂其中一个臂完全不工作",
+      "expected": "qa_035",
+      "acceptable": [
+        "qa_014",
+        "qa_035"
+      ],
+      "top1_group": "qa_035",
+      "top1_question": "一个机臂完全不工作 One Arm Doesn't Work",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_035",
+        "qa_014",
+        "qa_015"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "b06",
+      "query": "门开关特别慢 运行速度很慢",
+      "expected": "qa_036",
+      "acceptable": [
+        "qa_036"
+      ],
+      "top1_group": "qa_036",
+      "top1_question": "门机运行慢 Gate Operates Slowly",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_036",
+        "qa_031",
+        "qa_009"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "r12a",
+      "query": "拉开门 关门不限位 限位B怎么调",
+      "expected": "qa_020",
+      "acceptable": [
+        "qa_020"
+      ],
+      "top1_group": "qa_020",
+      "top1_question": "推开门安装 For push-to-open installation",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_018",
+        "qa_017"
+      ],
+      "category": "long_group_child"
+    },
+    {
+      "id": "r12b",
+      "query": "推开门 关不到位 不限位",
+      "expected": "qa_021",
+      "acceptable": [
+        "qa_021"
+      ],
+      "top1_group": "qa_020",
+      "top1_question": "推开门安装 For push-to-open installation",
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_021",
+        "qa_017"
+      ],
+      "category": "colloquial"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "summary": {
+    "name": "D2_hybrid_rerank_bge-m3",
+    "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+    "prefix": false,
+    "hybrid_alpha": 0.6,
+    "rerank": true,
+    "top1_acc": 1.0,
+    "top3_acc": 1.0,
+    "top1_hits": 18,
+    "top3_hits": 18,
+    "total": 18
+  },
+  "details": [
+    {
+      "id": "q01",
+      "query": "控制板灯不亮",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001",
+        "qa_002"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002",
+        "qa_006"
+      ],
+      "category": "ambiguous_title"
+    },
+    {
+      "id": "q02",
+      "query": "适配器供电控制板 power 灯不亮",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "控制板灯不亮（适配器）No Led On the Control Board",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002",
+        "qa_014"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q03",
+      "query": "纯太阳能控制板指示灯不亮",
+      "expected": "qa_002",
+      "acceptable": [
+        "qa_002"
+      ],
+      "top1_group": "qa_002",
+      "top1_question": "控制板灯不亮（纯太阳能）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001",
+        "qa_006"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q04",
+      "query": "太阳能充不进电池",
+      "expected": "qa_003",
+      "acceptable": [
+        "qa_003"
+      ],
+      "top1_group": "qa_003",
+      "top1_question": "太阳能不能给电池充电 The Batteries Cannot Be Charged by Solar",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_003",
+        "qa_004",
+        "qa_004"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "q05",
+      "query": "接上太阳能板门机就不转了",
+      "expected": "qa_004",
+      "acceptable": [
+        "qa_004"
+      ],
+      "top1_group": "qa_004",
+      "top1_question": "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_004",
+        "qa_004",
+        "qa_004"
+      ],
+      "category": "long_group_child"
+    },
+    {
+      "id": "q06",
+      "query": "电池耗电特别快",
+      "expected": "qa_005",
+      "acceptable": [
+        "qa_005"
+      ],
+      "top1_group": "qa_005",
+      "top1_question": "电池耗电异常 Abnormal Battery Drain",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_005",
+        "qa_007",
+        "qa_014"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "q07",
+      "query": "遥控器学不上 学习灯不亮",
+      "expected": "qa_006",
+      "acceptable": [
+        "qa_006"
+      ],
+      "top1_group": "qa_006",
+      "top1_question": "学不上遥控器 （学习灯不亮）Cannot Program Remote",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_006",
+        "qa_007",
+        "qa_014"
+      ],
+      "category": "confusable_pair"
+    },
+    {
+      "id": "q08",
+      "query": "学遥控器时学习灯一直亮",
+      "expected": "qa_007",
+      "acceptable": [
+        "qa_007"
+      ],
+      "top1_group": "qa_007",
+      "top1_question": "学不上遥控器 （学习灯亮）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_007",
+        "qa_006",
+        "qa_014"
+      ],
+      "category": "confusable_pair"
+    },
+    {
+      "id": "q09",
+      "query": "其中一个遥控器坏了",
+      "expected": "qa_008",
+      "acceptable": [
+        "qa_008"
+      ],
+      "top1_group": "qa_008",
+      "top1_question": "其中一个遥控器无法工作 One (or Some) of Remotes Doesn't Work",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_008",
+        "qa_006",
+        "qa_011"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q10",
+      "query": "遥控距离太短",
+      "expected": "qa_009",
+      "acceptable": [
+        "qa_009"
+      ],
+      "top1_group": "qa_009",
+      "top1_question": "遥控距离不够 Short Remote Range",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_009",
+        "qa_010",
+        "qa_007"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "q11",
+      "query": "按好几次遥控器才有反应",
+      "expected": "qa_010",
+      "acceptable": [
+        "qa_010"
+      ],
+      "top1_group": "qa_010",
+      "top1_question": "多次按遥控器门机才反应 Remote Needs Multiple Presses",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_011",
+        "qa_011"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "q12",
+      "query": "遥控器按了没反应",
+      "expected": "qa_011",
+      "acceptable": [
+        "qa_011"
+      ],
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器没有反应 No Response When The Remote Is Pressed",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "category": "long_group_child"
+    },
+    {
+      "id": "q13",
+      "query": "控制板一直咔哒响",
+      "expected": "qa_012",
+      "acceptable": [
+        "qa_012"
+      ],
+      "top1_group": "qa_012",
+      "top1_question": "控制板有持续咔哒声 Control Board Clicking Continuously",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_012",
+        "qa_006",
+        "qa_021"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "q14",
+      "query": "一按遥控器保险丝就烧",
+      "expected": "qa_013",
+      "acceptable": [
+        "qa_013"
+      ],
+      "top1_group": "qa_013",
+      "top1_question": "按遥控器保险丝烧 Fuse Blows When Pressing Remote",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_013",
+        "qa_013",
+        "qa_013"
+      ],
+      "category": "long_group_child"
+    },
+    {
+      "id": "q15",
+      "query": "CODE LED 微微亮不工作",
+      "expected": "qa_014",
+      "acceptable": [
+        "qa_014"
+      ],
+      "top1_group": "qa_014",
+      "top1_question": "不工作（只CODE LED微微亮）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_014",
+        "qa_005",
+        "qa_007"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q16",
+      "query": "手动反推门机排查",
+      "expected": "qa_022",
+      "acceptable": [
+        "qa_022"
+      ],
+      "top1_group": "qa_022",
+      "top1_question": "手动反推排查",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_021",
+        "qa_020"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "q17",
+      "query": "电机电流偏小是什么原因",
+      "expected": "qa_025",
+      "acceptable": [
+        "qa_025"
+      ],
+      "top1_group": "qa_025",
+      "top1_question": "电机电流小的原因",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_025",
+        "qa_026",
+        "qa_005"
+      ],
+      "category": "translated_group"
+    },
+    {
+      "id": "q18",
+      "query": "no response when pressing remote",
+      "expected": "qa_011",
+      "acceptable": [
+        "qa_011"
+      ],
+      "top1_group": "qa_011",
+      "top1_question": "按遥控器没有反应 No Response When The Remote Is Pressed",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "category": "english_query"
+    }
+  ]
+}

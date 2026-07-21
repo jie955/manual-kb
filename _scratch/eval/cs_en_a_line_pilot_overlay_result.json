@@ -1,0 +1,41 @@
+{
+  "stamp": "20260708-cs-en-a-line-v2",
+  "checks": [
+    {
+      "label": "cs_0001",
+      "library_ok": true,
+      "top1_group": "qa_011",
+      "top1_ok": true,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "top1_score": 0.6732
+    },
+    {
+      "label": "cs_0013",
+      "library_ok": true,
+      "top1_group": "qa_022",
+      "top1_ok": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_020"
+      ],
+      "top1_score": 0.6923
+    },
+    {
+      "label": "cs_0026",
+      "library_ok": true,
+      "top1_group": "qa_033",
+      "top1_ok": false,
+      "top3_groups": [
+        "qa_033",
+        "qa_001",
+        "qa_033"
+      ],
+      "top1_score": 0.6901
+    }
+  ]
+}

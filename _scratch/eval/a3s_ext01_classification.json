@@ -1,0 +1,106 @@
+[
+  {
+    "section_key": "四、只朝一个方向",
+    "partial": false,
+    "orphan_count": 17,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "17 段 · 顺序步骤"
+  },
+  {
+    "section_key": "五、随意开关门",
+    "partial": false,
+    "orphan_count": 10,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "10 段 · 顺序步骤"
+  },
+  {
+    "section_key": "六、缓停止有问题",
+    "partial": false,
+    "orphan_count": 9,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "9 段 · 顺序步骤"
+  },
+  {
+    "section_key": "七、自动关门不生效",
+    "partial": false,
+    "orphan_count": 9,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "9 段 · 顺序步骤"
+  },
+  {
+    "section_key": "八、开关门过程中走停或反弹",
+    "partial": false,
+    "orphan_count": 19,
+    "process_tag": "DT",
+    "z_column": "B",
+    "evidence": "19 段 · if/异响决策 · 优先 F prose"
+  },
+  {
+    "section_key": "门机运行慢",
+    "partial": false,
+    "orphan_count": 12,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "12 段 · 顺序步骤"
+  },
+  {
+    "section_key": "十三、电机转机臂不伸缩",
+    "partial": false,
+    "orphan_count": 16,
+    "process_tag": "DT",
+    "z_column": "B",
+    "evidence": "16 段 · if/异响决策 · 优先 F prose"
+  },
+  {
+    "section_key": "十四、机臂声音异常",
+    "partial": false,
+    "orphan_count": 35,
+    "process_tag": "DT",
+    "z_column": "B",
+    "evidence": "35 段 · if/异响决策 · 优先 F prose"
+  },
+  {
+    "section_key": "十五、离合打不开",
+    "partial": false,
+    "orphan_count": 22,
+    "process_tag": "DT",
+    "z_column": "B",
+    "evidence": "22 段 · if/异响决策 · 优先 F prose"
+  },
+  {
+    "section_key": "风会把门吹开",
+    "partial": false,
+    "orphan_count": 6,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "6 段 · 顺序步骤"
+  },
+  {
+    "section_key": "十七、保养与润滑",
+    "partial": false,
+    "orphan_count": 29,
+    "process_tag": "F",
+    "z_column": "B",
+    "evidence": "29 段 · 含 URL · links[]"
+  },
+  {
+    "section_key": "十八、其他产品知识",
+    "partial": false,
+    "orphan_count": 38,
+    "process_tag": "DT",
+    "z_column": "B",
+    "evidence": "38 段 · if/异响决策 · 优先 F prose"
+  },
+  {
+    "section_key": "十二、电机电流小",
+    "partial": true,
+    "orphan_count": 4,
+    "process_tag": "P",
+    "z_column": "—",
+    "evidence": "prod 已有 qa_022–028；orphan 4 段勿错组"
+  }
+]

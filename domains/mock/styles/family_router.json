@@ -1,0 +1,11 @@
+{
+  "hold_out_gate": [],
+  "default_family": "M1_default",
+  "group_hints": {},
+  "families": {
+    "M1_default": {
+      "exemplar": "exemplars/M1_default.md",
+      "keywords": ["alpha", "mock", "troubleshoot"]
+    }
+  }
+}

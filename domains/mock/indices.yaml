@@ -1,0 +1,6 @@
+# Reuse existing chroma paths so integration tests can optionally hit real indexes.
+indices:
+  - product_id: alpha
+    chroma_zh: "_scratch/run-007/chroma_captioned"
+    chroma_en: "_scratch/run-007/chroma_captioned_en"
+    chroma_merged: "_scratch/unified/a3s/chroma_merged"

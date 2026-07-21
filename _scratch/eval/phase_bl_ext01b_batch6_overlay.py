@@ -1,0 +1,233 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""BL-EXT-01b batch 6 overlay: L×1 (§十七) → qa_041–042 · 2 H2."""
+
+from __future__ import annotations
+
+import json
+import re
+import shutil
+import subprocess
+import sys
+from copy import deepcopy
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT))
+
+from docx import Document
+from link_utils import infer_link_type, normalize_link
+from qa_doc_extractor import classify_language, get_heading_level, iter_block_items
+
+PROD = ROOT / "_scratch/run-ad5s"
+STAMP = "20260705-bl-ext01b-b6"
+DOCX = ROOT / "samples/troubleshooting/AD5S-AD8S常见问题排查.docx"
+MODEL = ROOT / "_scratch/modelscope/BAAI/bge-m3"
+SECTION_KEY = "十七、离合打不开"
+
+# L-scenario: 2 H2 · ZH 编号 1 vs 2–3（脱门仍打不开 → 伸太过/内部卡死）
+BATCH6 = [
+    (
+        "qa_041",
+        "离合打不开·关门太紧 Clutch Won't Release · Gate Closed Too Tight",
+        (0, 3),
+    ),
+    (
+        "qa_042",
+        "离合打不开·伸太过或内部卡住 Clutch Won't Release · Over-Extended or Internal Jam",
+        (1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21),
+    ),
+]
+
+NEW_GROUP_IDS = frozenset(gid for gid, _, _ in BATCH6)
+
+
+def load_groups(path: Path) -> list[dict]:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def save_groups(path: Path, groups: list[dict]) -> None:
+    path.write_text(json.dumps(groups, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def collect_orphan_section(doc: Document, section_key: str) -> tuple[str, list[dict]]:
+    full_title: str | None = None
+    in_section = False
+    current_group: str | None = None
+    paras: list[dict] = []
+
+    for block in iter_block_items(doc):
+        if not hasattr(block, "text"):
+            continue
+        text = block.text.strip()
+        if not text:
+            continue
+        level = get_heading_level(block)
+        if level == 1:
+            if in_section and full_title:
+                break
+            in_section = section_key in text
+            if in_section:
+                full_title = text
+            current_group = None
+            continue
+        if not in_section:
+            continue
+        if level in (2, 3):
+            current_group = text
+            continue
+        if current_group is None:
+            paras.append({"text": text, "lang": classify_language(text)})
+
+    if not full_title or not paras:
+        raise SystemExit(f"orphan section not found or empty: {section_key} ({len(paras)} paras)")
+    return full_title, paras
+
+
+def _new_group(group_id: str, section: str, question: str) -> dict:
+    return {
+        "group_id": group_id,
+        "section": section,
+        "question": question,
+        "heading_level": 2,
+        "answer_zh": "",
+        "answer_en": "",
+        "images": [],
+        "links": [],
+        "negotiation_offers": [],
+        "structure_warnings": [],
+    }
+
+
+def _append_para(g: dict, text: str, lang: str, zh_lines: list[str], en_lines: list[str]) -> None:
+    if lang == "zh":
+        zh_lines.append(text)
+    elif lang == "en":
+        en_lines.append(text)
+    for url in re.findall(r"https?://[^\s<>\"']+", text):
+        url = url.rstrip(".,);]")
+        g["links"].append(
+            normalize_link(
+                {
+                    "url": url,
+                    "label": "观看演示视频" if infer_link_type(url) == "video" else "参考支持页",
+                    "lang": lang,
+                    "link_type": infer_link_type(url),
+                }
+            )
+        )
+
+
+def build_group(full_title: str, group_id: str, question: str, paras: list[dict]) -> dict:
+    g = _new_group(group_id, full_title, question)
+    zh_lines: list[str] = []
+    en_lines: list[str] = []
+    for p in paras:
+        _append_para(g, p["text"], p["lang"], zh_lines, en_lines)
+    g["answer_zh"] = "\n".join(zh_lines)
+    g["answer_en"] = "\n".join(en_lines)
+    return g
+
+
+def build_batch6_groups(doc: Document) -> list[dict]:
+    full_title, all_paras = collect_orphan_section(doc, SECTION_KEY)
+    if len(all_paras) != 22:
+        raise SystemExit(f"expected 22 orphan paras, got {len(all_paras)}")
+    groups = []
+    for gid, question, indices in BATCH6:
+        subset = [all_paras[i] for i in indices]
+        g = build_group(full_title, gid, question, subset)
+        groups.append(g)
+        print(
+            f"  {gid}: {len(indices)} paras · zh={len(g['answer_zh'])} en={len(g['answer_en'])} · links={len(g['links'])}"
+        )
+    return groups
+
+
+def merge_groups(prod: list[dict], new_groups: list[dict]) -> list[dict]:
+    out = [g for g in deepcopy(prod) if g["group_id"] not in NEW_GROUP_IDS]
+    insert_at = next(
+        (i for i, g in enumerate(out) if str(g.get("section", "")).startswith("二十")),
+        len(out),
+    )
+    for j, g in enumerate(new_groups):
+        out.insert(insert_at + j, g)
+    return out
+
+
+def backup() -> None:
+    chroma_src = PROD / "chroma_captioned"
+    chroma_dst = PROD / f"chroma_captioned.bak-{STAMP}"
+    if chroma_dst.exists():
+        shutil.rmtree(chroma_dst)
+    shutil.copytree(chroma_src, chroma_dst)
+    print(f"backup {chroma_src} -> {chroma_dst}")
+    for name in ("qa_groups.json", "chunks_captioned.json"):
+        shutil.copy2(PROD / name, PROD / f"{name}.bak-{STAMP}")
+        print(f"backup {PROD / name}")
+
+
+def run(cmd: list[str]) -> None:
+    print("+", " ".join(str(x) for x in cmd), flush=True)
+    subprocess.run(cmd, cwd=ROOT, check=True)
+
+
+def merge_qa_groups() -> list[dict]:
+    doc = Document(str(DOCX))
+    new_groups = build_batch6_groups(doc)
+    merged = merge_groups(load_groups(PROD / "qa_groups.json"), new_groups)
+    save_groups(PROD / "qa_groups.json", merged)
+    print(f"merged +{len(new_groups)} groups -> {len(merged)} total")
+    return new_groups
+
+
+def merge_chunks_captioned() -> None:
+    old_cap = json.loads((PROD / "chunks_captioned.json").read_text(encoding="utf-8"))
+    new_chunks = json.loads((PROD / "chunks_out/chunks.json").read_text(encoding="utf-8"))
+    old_by_id = {c["chunk_id"]: c for c in old_cap}
+    out = [
+        old_by_id[c["chunk_id"]] if c["chunk_id"] in old_by_id and c["group_id"] not in NEW_GROUP_IDS else c
+        for c in new_chunks
+    ]
+    (PROD / "chunks_captioned.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"chunks_captioned: {len(out)} chunks")
+
+
+def pipeline() -> None:
+    backup()
+    merge_qa_groups()
+    run([sys.executable, "chunk_builder.py", str(PROD / "qa_groups.json"), str(PROD / "chunks_out")])
+    merge_chunks_captioned()
+    run(
+        [
+            sys.executable,
+            "embed_ingest_local.py",
+            str(PROD / "chunks_captioned.json"),
+            str(PROD / "chroma_captioned"),
+            "--model",
+            str(MODEL),
+        ]
+    )
+    run(
+        [
+            sys.executable,
+            "eval_run.py",
+            str(PROD / "chroma_captioned"),
+            "--eval",
+            "eval_queries_ad5s.json",
+            "--model",
+            str(MODEL),
+        ]
+    )
+
+
+if __name__ == "__main__":
+    action = sys.argv[1] if len(sys.argv) > 1 else "all"
+    if action == "backup":
+        backup()
+    elif action == "merge-groups":
+        merge_qa_groups()
+    elif action == "all":
+        pipeline()
+    else:
+        raise SystemExit(f"unknown: {action}")

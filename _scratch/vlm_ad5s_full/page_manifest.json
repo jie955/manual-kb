@@ -1,0 +1,304 @@
+{
+  "source_pdf": "AD5S,AD8S说明书.pdf",
+  "source_path": "samples/manuals/AD5S,AD8S说明书.pdf",
+  "doc_prefix": "ad5s-manual",
+  "document_title": "Document:AD5S AD8S Installation Manual",
+  "models": [
+    "AD5S",
+    "AD8S"
+  ],
+  "selection_notes": "PDF 56 pages total: 48 VLM targets (printed 1–46 + front idx [1, 2]; skip empty idx 0 and blank idx 49–55).",
+  "pilot_reuse": [],
+  "pages": [
+    {
+      "printed_page": null,
+      "pdf_index": 1,
+      "page_type": "other",
+      "chapter_hint": "Front matter (cover / TOC)",
+      "image_name": "idx01.png"
+    },
+    {
+      "printed_page": null,
+      "pdf_index": 2,
+      "page_type": "other",
+      "chapter_hint": "Front matter (cover / TOC)",
+      "image_name": "idx02.png"
+    },
+    {
+      "printed_page": 1,
+      "pdf_index": 3,
+      "page_type": "other",
+      "chapter_hint": "AD5S manual printed page 1"
+    },
+    {
+      "printed_page": 2,
+      "pdf_index": 4,
+      "page_type": "warning",
+      "chapter_hint": "AD5S manual printed page 2"
+    },
+    {
+      "printed_page": 3,
+      "pdf_index": 5,
+      "page_type": "other",
+      "chapter_hint": "AD5S manual printed page 3"
+    },
+    {
+      "printed_page": 4,
+      "pdf_index": 6,
+      "page_type": "packing",
+      "chapter_hint": "AD5S manual printed page 4"
+    },
+    {
+      "printed_page": 5,
+      "pdf_index": 7,
+      "page_type": "other",
+      "chapter_hint": "AD5S manual printed page 5"
+    },
+    {
+      "printed_page": 6,
+      "pdf_index": 8,
+      "page_type": "spec_table",
+      "chapter_hint": "AD5S manual printed page 6"
+    },
+    {
+      "printed_page": 7,
+      "pdf_index": 9,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 7"
+    },
+    {
+      "printed_page": 8,
+      "pdf_index": 10,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 8"
+    },
+    {
+      "printed_page": 9,
+      "pdf_index": 11,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 9"
+    },
+    {
+      "printed_page": 10,
+      "pdf_index": 12,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 10"
+    },
+    {
+      "printed_page": 11,
+      "pdf_index": 13,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 11"
+    },
+    {
+      "printed_page": 12,
+      "pdf_index": 14,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 12"
+    },
+    {
+      "printed_page": 13,
+      "pdf_index": 15,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 13"
+    },
+    {
+      "printed_page": 14,
+      "pdf_index": 16,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 14"
+    },
+    {
+      "printed_page": 15,
+      "pdf_index": 17,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 15"
+    },
+    {
+      "printed_page": 16,
+      "pdf_index": 18,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 16"
+    },
+    {
+      "printed_page": 17,
+      "pdf_index": 19,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 17"
+    },
+    {
+      "printed_page": 18,
+      "pdf_index": 20,
+      "page_type": "spec_table",
+      "chapter_hint": "AD5S manual printed page 18"
+    },
+    {
+      "printed_page": 19,
+      "pdf_index": 21,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 19"
+    },
+    {
+      "printed_page": 20,
+      "pdf_index": 22,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 20"
+    },
+    {
+      "printed_page": 21,
+      "pdf_index": 23,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 21"
+    },
+    {
+      "printed_page": 22,
+      "pdf_index": 24,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 22"
+    },
+    {
+      "printed_page": 23,
+      "pdf_index": 25,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 23"
+    },
+    {
+      "printed_page": 24,
+      "pdf_index": 26,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 24"
+    },
+    {
+      "printed_page": 25,
+      "pdf_index": 27,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 25"
+    },
+    {
+      "printed_page": 26,
+      "pdf_index": 28,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 26"
+    },
+    {
+      "printed_page": 27,
+      "pdf_index": 29,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 27"
+    },
+    {
+      "printed_page": 28,
+      "pdf_index": 30,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 28"
+    },
+    {
+      "printed_page": 29,
+      "pdf_index": 31,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 29"
+    },
+    {
+      "printed_page": 30,
+      "pdf_index": 32,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 30"
+    },
+    {
+      "printed_page": 31,
+      "pdf_index": 33,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 31"
+    },
+    {
+      "printed_page": 32,
+      "pdf_index": 34,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 32"
+    },
+    {
+      "printed_page": 33,
+      "pdf_index": 35,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 33"
+    },
+    {
+      "printed_page": 34,
+      "pdf_index": 36,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 34"
+    },
+    {
+      "printed_page": 35,
+      "pdf_index": 37,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 35"
+    },
+    {
+      "printed_page": 36,
+      "pdf_index": 38,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 36"
+    },
+    {
+      "printed_page": 37,
+      "pdf_index": 39,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 37"
+    },
+    {
+      "printed_page": 38,
+      "pdf_index": 40,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 38"
+    },
+    {
+      "printed_page": 39,
+      "pdf_index": 41,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 39"
+    },
+    {
+      "printed_page": 40,
+      "pdf_index": 42,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 40"
+    },
+    {
+      "printed_page": 41,
+      "pdf_index": 43,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 41"
+    },
+    {
+      "printed_page": 42,
+      "pdf_index": 44,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 42"
+    },
+    {
+      "printed_page": 43,
+      "pdf_index": 45,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 43"
+    },
+    {
+      "printed_page": 44,
+      "pdf_index": 46,
+      "page_type": "step_mixed",
+      "chapter_hint": "AD5S manual printed page 44"
+    },
+    {
+      "printed_page": 45,
+      "pdf_index": 47,
+      "page_type": "other",
+      "chapter_hint": "AD5S manual printed page 45"
+    },
+    {
+      "printed_page": 46,
+      "pdf_index": 48,
+      "page_type": "other",
+      "chapter_hint": "AD5S manual printed page 46"
+    }
+  ]
+}

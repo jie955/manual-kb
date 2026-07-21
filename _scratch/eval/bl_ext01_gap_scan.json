@@ -1,0 +1,631 @@
+{
+  "h1_sections_docx": [
+    "一、电源问题 Power Issues",
+    "二、遥控器问题 Remote Control & Signal Problems",
+    "完全不工作 Complete Failure",
+    "一个机臂完全不工作 One Arm Doesn’t Work",
+    "五、只朝一个方向 Only Opens/Closes One Direction",
+    "六、随意开关门 Random Opening/Closing",
+    "七、缓停止有问题（缓停止错乱或者没有缓停止）Soft Stop Issues",
+    "八、自动关门不生效 Auto Close Function Doesn't Work",
+    "九、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+    "十、开到位后反弹  Gate Bounces Back After Opening Completely",
+    "十一、关到位后反弹 Gate Bounces Back After Closing Completely",
+    "十二、不限位 Gate Does Not Stop at Limit Switch",
+    "十三、门机运行慢 Gate Operates Slowly",
+    "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+    "十五、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+    "十六、机臂声音异常 Abnormal Noise From Arm",
+    "十七、离合打不开 Clutch Won't Release",
+    "十八、风会把门吹开（或者外力能把门推开一点） There is Little Play When the Gate is Closed",
+    "十九、保养与润滑 Maintenance and Lubrication",
+    "二十、常见产品知识点"
+  ],
+  "h1_sections_in_qa_groups": [
+    "一、电源问题 Power Issues",
+    "二、遥控器问题 Remote Control & Signal Problems",
+    "二十、常见产品知识点",
+    "五、只朝一个方向 Only Opens/Closes One Direction",
+    "十、开到位后反弹  Gate Bounces Back After Opening Completely",
+    "十一、关到位后反弹 Gate Bounces Back After Closing Completely",
+    "十二、不限位 Gate Does Not Stop at Limit Switch",
+    "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+    "完全不工作 Complete Failure"
+  ],
+  "section19": {
+    "lang_counts": {
+      "zh": 2,
+      "en": 27,
+      "empty": 0
+    },
+    "alternation_flips": 3,
+    "sample_flips": [
+      {
+        "from": "zh",
+        "to": "en",
+        "text": "In cold climates where temperatures reach 1°C (30°F) or less"
+      },
+      {
+        "from": "en",
+        "to": "zh",
+        "text": "如果运行不顺畅等，可更进一步拆机臂润滑不锈钢管内壁，丝母内外侧，甚至丝杆"
+      },
+      {
+        "from": "zh",
+        "to": "en",
+        "text": "Besides, grease is needed to lubricate the inside of the sta"
+      }
+    ],
+    "rows_preview": [
+      {
+        "type": "section_start",
+        "kind": "h1",
+        "text": "十九、保养与润滑 Maintenance and Lubrication",
+        "level": 1
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "日常保养润滑：",
+        "lang": "zh"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "In cold climates where temperatures reach 1°C (30°F) or less, spray WD40 on the stainless steel moving-rod every 4~6 weeks to prevent freeze up.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "For maintenance, please spray WD40 or the ordinary engine oil on the stainless steel moving-rod.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "如果运行不顺畅等，可更进一步拆机臂润滑不锈钢管内壁，丝母内外侧，甚至丝杆",
+        "lang": "zh"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "Besides, grease is needed to lubricate the inside of the stainless steel tube and lead screw as well as the nut (as shown below). When doing this, please take apart the actuator with reference to the steps as follows.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "How to lubricate inside of the arm",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "https://www.youtube.com/watch?v=IRIA5iaWHqE",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "Below are the links of how to disassemble and reassemble the arm for your reference.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "How to dismantle the moving-rod?",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "https://youtu.be/0dkm1sKYjzA",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "How to Install the moving rod for TOPENS swing gate opener?",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "https://youtu.be/5s1EQh2M_mo",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "1. Routine Maintenance",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "Spray WD40 or ordinary engine oil on the stainless steel moving rod.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "In cold climates (1°C / 30°F or below):",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "Spray every 4–6 weeks to prevent freeze‑up.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "2. Deep Lubrication (if movement is not smooth)",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "If the arm still does not run smoothly after routine maintenance, further lubricate:",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "·Inside of the stainless steel tube",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "·Nut (inside and outside)",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "·Lead screw",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "How to lubricate inside the arm:",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "https://www.youtube.com/watch?v=IRIA5iaWHqE",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "✅ Use grease that can withstand the lowest local temperature in your area.",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "3. Guide of maintainance for your reference:",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "·Essential Guide to Regular Maintenance and Care for Your Gate Opener",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "https://topens.com/blogs/blog-posts/essential-guide-to-regular-maintenance-and-care-for-your-gate-opener",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "·How Do You Keep the Gate Opener Arm from Freezing in Winter",
+        "lang": "en"
+      },
+      {
+        "type": "para",
+        "kind": "para",
+        "question": null,
+        "text": "https://topens.com/blogs/blog-posts/preventing-winter-freezing-of-automatic-gate-opener-arms",
+        "lang": "en"
+      }
+    ]
+  },
+  "formula_hits": [
+    {
+      "pattern": "50ohm",
+      "section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+      "question": null,
+      "lang": "zh",
+      "text": "门突然启动时扯着机臂动导致电流小造成的，这种情况换控制板还不好用，只能并电阻，门的状态包括机臂电流是可能会波动的，如果只是偶尔这样，说明电流不是特别小，这个时候阻值大一点没关系，可以先试试50欧的电阻，电阻发热没那么严重，相对来说会更好一些。不行再25欧。"
+    },
+    {
+      "pattern": "25ohm",
+      "section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+      "question": null,
+      "lang": "zh",
+      "text": "门突然启动时扯着机臂动导致电流小造成的，这种情况换控制板还不好用，只能并电阻，门的状态包括机臂电流是可能会波动的，如果只是偶尔这样，说明电流不是特别小，这个时候阻值大一点没关系，可以先试试50欧的电阻，电阻发热没那么严重，相对来说会更好一些。不行再25欧。"
+    },
+    {
+      "pattern": "1152",
+      "section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+      "question": null,
+      "lang": "zh",
+      "text": "负载电阻没有规定电压，只有功率要求，20欧-100欧都可以，功率要大于1152除以电阻值。"
+    },
+    {
+      "pattern": "power_formula",
+      "section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+      "question": null,
+      "lang": "zh",
+      "text": "负载电阻没有规定电压，只有功率要求，20欧-100欧都可以，功率要大于1152除以电阻值。"
+    }
+  ],
+  "urls": {
+    "docx_count": 14,
+    "qg_count": 5,
+    "covered": [
+      {
+        "url": "https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing",
+        "docx_section": "完全不工作 Complete Failure",
+        "docx_question": "按遥控器没有反应 No Response When The Remote Is Pressed",
+        "qg_refs": [
+          "qa_010:prose"
+        ]
+      },
+      {
+        "url": "https://topens.com/blogs/blog-posts/troubleshooting-your-solar-kit-for-solar-powered-automatic-gate-opener",
+        "docx_section": "一、电源问题 Power Issues",
+        "docx_question": "太阳能不能给电池充电 The Batteries Cannot Be Charged by Solar",
+        "qg_refs": [
+          "qa_003:prose"
+        ]
+      },
+      {
+        "url": "https://www.amazon.co.uk/dp/B07H33917Z",
+        "docx_section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+        "docx_question": "手动反推来排查+电阻",
+        "qg_refs": [
+          "qa_024:branch"
+        ]
+      },
+      {
+        "url": "https://www.amazon.com/dp/B01HMSR2T4",
+        "docx_section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+        "docx_question": "手动反推来排查+电阻",
+        "qg_refs": [
+          "qa_024:branch"
+        ]
+      },
+      {
+        "url": "https://www.amazon.com/dp/B08HYZV3DW",
+        "docx_section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+        "docx_question": "并接机臂红黑线排查",
+        "qg_refs": [
+          "qa_023:prose",
+          "qa_024:ladder"
+        ]
+      }
+    ],
+    "missing": [
+      {
+        "url": "https://topens.com/blogs/blog-posts/essential-guide-to-regular-maintenance-and-care-for-your-gate-opener",
+        "section": "十九、保养与润滑 Maintenance and Lubrication",
+        "question": null,
+        "lang": "en",
+        "context": "https://topens.com/blogs/blog-posts/essential-guide-to-regular-maintenance-and-care-for-your-gate-opener"
+      },
+      {
+        "url": "https://topens.com/blogs/blog-posts/how-to-retract-the-moving-rod-when-the-opener-arm-extends-too-much",
+        "section": "十五、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+        "question": null,
+        "lang": "en",
+        "context": "https://topens.com/blogs/blog-posts/how-to-retract-the-moving-rod-when-the-opener-arm-extends-too-much"
+      },
+      {
+        "url": "https://topens.com/blogs/blog-posts/preventing-winter-freezing-of-automatic-gate-opener-arms",
+        "section": "十九、保养与润滑 Maintenance and Lubrication",
+        "question": null,
+        "lang": "en",
+        "context": "https://topens.com/blogs/blog-posts/preventing-winter-freezing-of-automatic-gate-opener-arms"
+      },
+      {
+        "url": "https://topens.com/blogs/blog-posts/troubleshooting-guide-motor-operates-but-gate-opener-arm-fails-to-move",
+        "section": "十五、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+        "question": null,
+        "lang": "en",
+        "context": "https://topens.com/blogs/blog-posts/troubleshooting-guide-motor-operates-but-gate-opener-arm-fails-to-move"
+      },
+      {
+        "url": "https://www.amazon.co.uk/dp/B079KCC8P9",
+        "section": "十四、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+        "question": "手动反推来排查+电阻",
+        "lang": "en",
+        "context": "Diode: https://www.amazon.co.uk/dp/B079KCC8P9"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=IRIA5iaWHqE",
+        "section": "十六、机臂声音异常 Abnormal Noise From Arm",
+        "question": null,
+        "lang": "en",
+        "context": "https://www.youtube.com/watch?v=IRIA5iaWHqE"
+      },
+      {
+        "url": "https://youtu.be/0dkm1sKYjzA",
+        "section": "十七、离合打不开 Clutch Won't Release",
+        "question": null,
+        "lang": "en",
+        "context": "How to dismantle the moving-rod?: https://youtu.be/0dkm1sKYjzA"
+      },
+      {
+        "url": "https://youtu.be/5s1EQh2M_mo",
+        "section": "十七、离合打不开 Clutch Won't Release",
+        "question": null,
+        "lang": "en",
+        "context": "https://youtu.be/5s1EQh2M_mo"
+      },
+      {
+        "url": "https://youtube.com/shorts/EeHaJdHqE-U?feature=share",
+        "section": "十七、离合打不开 Clutch Won't Release",
+        "question": null,
+        "lang": "en",
+        "context": "https://youtube.com/shorts/EeHaJdHqE-U?feature=share"
+      }
+    ]
+  },
+  "orphan_sections_bl_ext01b": [
+    {
+      "section": "十六、机臂声音异常 Abnormal Noise From Arm",
+      "orphan_count": 35,
+      "lang_zh": 15,
+      "lang_en": 20,
+      "url_paragraphs": 1,
+      "tech_keyword_hits": 22,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1. 打开离合，按遥控器，看是否还有异响？",
+        "[zh] 无异响→做步骤2；",
+        "[zh] 有异响→异响来自电机或离合，做步骤5；",
+        "[zh] 保持离合打开，手动开关门，看是否还有异响？",
+        "[zh] 无异响→异响很可能是由于电机负载过大产生；",
+        "[zh] 有异响→做步骤3；",
+        "[zh] 将机臂从门上取下，手动开关门，看是否还有异响？",
+        "[zh] 无异响→异响来自机臂前端，继续步骤4；",
+        "... +27 more paragraphs"
+      ]
+    },
+    {
+      "section": "十七、离合打不开 Clutch Won't Release",
+      "orphan_count": 22,
+      "lang_zh": 3,
+      "lang_en": 19,
+      "url_paragraphs": 6,
+      "tech_keyword_hits": 10,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1把机臂拿下来不带门的时候试试：先确定下离合拧不开的时候机臂是在什么状态下，看机臂是不是关门到位很紧的状态，这个时候拧离合钥匙是很难拧开的；如果不带门可以正常打开 需要重新调整开关门位置；",
+        "[zh] 2 如果不带门也打不开，检查一下是不是伸太过，先手旋转拉杆往里推试试，看能不能拧进去，可以的话限位B往里调一点；如果不能旋进去，拆开看看，是不是里面卡住了。",
+        "[zh] 3 如果不是伸太过的情况，用拆开机壳，离合钥匙插在离合小轴上，转动离合钥匙，看看离合件2和离合件3会不会分离，如果可以分离，但是机臂不能手动伸缩，要拆开检查丝母与铝管或不锈钢管内壁是不是卡住了，螺母有没有磨损；如果一切正常，可润滑看看。",
+        "[en] 1 Remove the arm from the gate first and try to disengage the clutch with the release key to see whether it can work. If",
+        "[en] 2 If the clutch still cannot be released, please check if the arm is fully extended and can’t be retracted, if so, pleas",
+        "[en] Use the release key to engage the clutch and manually rotate clockwise and push the Front Mount inward, see screenshot b",
+        "[en] https://youtube.com/shorts/EeHaJdHqE-U?feature=share",
+        "[en] If you fail in the attempt above, please refer to the video link below (the arm in the video is not the same) to check w",
+        "... +14 more paragraphs"
+      ]
+    },
+    {
+      "section": "九、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+      "orphan_count": 21,
+      "lang_zh": 9,
+      "lang_en": 12,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 13,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 排除红外遇阻影响",
+        "[zh] 2 断电调遇阻缓停止",
+        "[zh] 3 还有问题的话，可以控制板上一次只接一个机臂，找出问题问题机臂 然后做下面的测试",
+        "[zh] 4 打开离合，手放拉耳处，去推拉门看看是否顺畅",
+        "[zh] 5 机臂从门上拿下来试试按遥控器的时候机臂能否正常伸缩",
+        "[zh] 6 还不行发视频",
+        "[en] 1 If the photocell is used, please ensure the photocell sensor beam is not blocked. Clear any objects blocking the photo",
+        "[en] 2 Turn off the power to the gate opener (disconnect the power source from the +BAT- terminals), then locate FORCE Potent",
+        "... +13 more paragraphs"
+      ]
+    },
+    {
+      "section": "十五、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+      "orphan_count": 16,
+      "lang_zh": 5,
+      "lang_en": 11,
+      "url_paragraphs": 2,
+      "tech_keyword_hits": 11,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 博客文章链接：",
+        "[en] https://topens.com/blogs/blog-posts/troubleshooting-guide-motor-operates-but-gate-opener-arm-fails-to-move",
+        "[zh] 1 伸太过缩不回去的情况：",
+        "[zh] 离合打开，将机臂推到中间位置再合上离合再试，如果已经伸太过离合打开缩不回了，可尝试离合合上，顺时针往里边推边旋转拉杆，如果OK则说明之前丝母与丝杆之间脱开了（最远端），可以让客户将远端限位开关再往回调一点点，限位螺丝拧紧；如果还不行，需要拆",
+        "[zh] 2 拉杆在缩到底或部分伸出去的状态，电机转，机臂不伸缩：",
+        "[zh] 如果机臂拉杆推到中间位置，合上离合，电机依然只转，机臂不伸缩，说明问题可能在于机臂内部，离合或电机. 可以先检查离合是正确合上（拧到位），离合正常合上还不行，打开机臂再用离合钥匙开关离合，观察离合部位是否能正常啮合，如果不能，手动转下拉耳使",
+        "[en] 1 If the arm is stuck in the fully extended position and the moving-rod does not retract:",
+        "[en] (1) Disengage the clutch and manually push the moving-rod to the middle position. Then, press the remote control to test",
+        "... +8 more paragraphs"
+      ]
+    },
+    {
+      "section": "十三、门机运行慢 Gate Operates Slowly",
+      "orphan_count": 12,
+      "lang_zh": 7,
+      "lang_en": 5,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 6,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 监测电压，看是不是有压降",
+        "[zh] 2 增大遇阻力，缩小缓停止",
+        "[zh] 3 打开离合手动推拉顺畅不。顺畅的话，机臂拿下来，合上离合，握住拉耳，看看运行速度怎么样。",
+        "[zh] 4 测电机，是否可以正常速度往两个方向运行",
+        "[zh] 5 视频展示",
+        "[en] 1 Detect the voltage of the +BAT- terminals (11#, 12#) on the control board to see whether it can always stay above 22V ",
+        "[en] 2 Please power off the system first (disconnect the power source from the +BAT- terminals). And turn the FORCE potentiom",
+        "[en] 3 If the problem still persists, please release the clutch on the arm and move the gate manually to see whether the gate",
+        "... +4 more paragraphs"
+      ]
+    },
+    {
+      "section": "十二、不限位 Gate Does Not Stop at Limit Switch",
+      "orphan_count": 11,
+      "lang_zh": 7,
+      "lang_en": 4,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 8,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 开门不限位",
+        "[zh] 拉开门安装 For pull-to-open installation",
+        "[zh] 检查接线是否接好",
+        "[zh] 检查开门位置是否安装正确",
+        "[zh] 可以将限位A 往外移一点，看门机是不是可以提前停下来",
+        "[zh] 还不行的话，拉耳转180度",
+        "[zh] 可以换限位试试",
+        "[en] Ensure that the wires of the limit switch (BLUE, GREEN, and YELLOW wires of the arm) are not shorted. Confirm that each ",
+        "... +3 more paragraphs"
+      ]
+    },
+    {
+      "section": "一个机臂完全不工作 One Arm Doesn’t Work",
+      "orphan_count": 10,
+      "lang_zh": 3,
+      "lang_en": 7,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 8,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 交换控制板上的机臂接线端口，如果不工作的机臂可以了 之前正常的机臂不工作了，控制板坏",
+        "[zh] 2 测电机，如果交换机臂接线后 不工作的机臂还是不工作，机臂红黑线接开关电源的输出测电机",
+        "[zh] 3 短接限位端口排查限位",
+        "[en] May I ask if the arm cannot make any sound when the remote is pressed? If so, please do the following tests.",
+        "[en] 1 Check the control board",
+        "[en] Swap the wire connections of the two gate opener arms on the control board. If the same arm remains faulty, the issue is",
+        "[en] 2 Check the faulty arm motor",
+        "[en] Connect the RED and BLACK wires of the faulty arm directly to the 24VDC batteries to check if the arm operates normally.",
+        "... +2 more paragraphs"
+      ]
+    },
+    {
+      "section": "六、随意开关门 Random Opening/Closing",
+      "orphan_count": 10,
+      "lang_zh": 4,
+      "lang_en": 6,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 4,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 检查推拉开门逻辑是不是正确",
+        "[zh] 2 断开所有有线配件，关闭红外功能看看",
+        "[zh] 3 清除所有遥控密码，重学",
+        "[zh] 4 还不行换控制板",
+        "[en] 1 Check DIP Switch Setting: DIP Switch #1 on the control board is used to select the gate's operation mode (push/pull to",
+        "[en] 2 Isolate the Issue with Wired Accessories: Disconnect all wired accessories from the control board first (just leave th",
+        "[en] If the problem disappears, the issue might be with one of the accessories. Connect each accessory one by one to identify",
+        "[en] If the issue is still present after disconnecting all accessories, proceed to Step 3.",
+        "... +2 more paragraphs"
+      ]
+    },
+    {
+      "section": "七、缓停止有问题（缓停止错乱或者没有缓停止）Soft Stop Issues",
+      "orphan_count": 9,
+      "lang_zh": 5,
+      "lang_en": 4,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 4,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 断电重置，走个完整的开关门循环",
+        "[zh] 2 检查限位功能，观察是否限位停",
+        "[zh] 3 检查缓停止功能在机臂不带门的时候是否正常",
+        "[zh] 4 还不行换控制板",
+        "[en] 1 If you have reset the soft stop time or used the release key to manually open the gate, turn off the power to the gate",
+        "[en] 2 Check if the limit switch is functioning and can stop the gate. Please shoot some videos showing the performance of th",
+        "[en] 3 Test the soft stop function when it is not mounted on the gate. If it functions properly, ensure the gate is level, sw",
+        "[en] 4 If none of the above steps resolves the issue, the control board may be faulty. Replace the control board with a new o",
+        "... +1 more paragraphs"
+      ]
+    },
+    {
+      "section": "八、自动关门不生效 Auto Close Function Doesn't Work",
+      "orphan_count": 8,
+      "lang_zh": 3,
+      "lang_en": 5,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 3,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 断开有线配件，按遥控器让门停半路，等一会看看门会不会自动关，如果可以，应该是配件影响导致门无法自动关门，可以一个一个接配件，测试看看是哪个导致",
+        "[zh] 2 如果断开配件后，自动关门还是没起作用，保持配件断开，然后把门机的电断开，把自动关门功能开启，按遥控器走一个完整的开关门循环，然后再按遥控器让门运行到半开位置停下，等一会",
+        "[en] 1 Please disconnect all wired accessories from the control board. Then open the gate by the remote and wait for a while ",
+        "[en] If so, please reconnect the accessories one by one, testing after each, to identify the faulty one.",
+        "[en] If this step cannot help, please do the following test.",
+        "[en] 2 Please disconnect all accessories and power off the system first (disconnect the power source from the +BAT- terminals",
+        "[zh] 特殊案例：能自动开，不能自动关（每一次都是设定的时间，大概率是推拉开门逻辑反了）",
+        "[en] The setting of DIP switch #1 might be incorrect. Ensure that the DIP switch is configured properly according to the inst"
+      ]
+    },
+    {
+      "section": "十八、风会把门吹开（或者外力能把门推开一点） There is Little Play When the Gate is Closed",
+      "orphan_count": 6,
+      "lang_zh": 3,
+      "lang_en": 3,
+      "url_paragraphs": 0,
+      "tech_keyword_hits": 3,
+      "value_tier": "high_troubleshooting",
+      "previews": [
+        "[zh] 1 检查托架是否紧固，门机运行时候是否会晃动，大门铰链最好不要太松",
+        "[zh] 2观察门被风吹动的时候拉杆会不会伸缩。如果不会，解释大风吹的时候门体晃动是正常的，建议装电子锁",
+        "[zh] 3 如果会动的话，取下来离合合上，手推拉，是不是可以伸缩，如果会发视频看看",
+        "[en] 1 Please verify that all post brackets and pivot brackets are securely fastened and remain completely rigid during opera",
+        "[en] 2 If the brackets are fine, please observe whether the moving-rod will be extended/retracted by the wind. If not, it is ",
+        "[en] 3 If the moving-rod can be moved when the clutch is engaged, please remove the arm from the gate. Then pull/push the mov"
+      ]
+    }
+  ]
+}

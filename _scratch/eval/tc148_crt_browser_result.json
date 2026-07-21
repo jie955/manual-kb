@@ -1,0 +1,16 @@
+[
+  {
+    "id": "CRT-T2",
+    "gid": "qa_002",
+    "ok": true,
+    "tpl_len": 1922,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\CRT-T2_crt_fold.png"
+  },
+  {
+    "id": "CRT-T1",
+    "gid": "qa_001",
+    "ok": true,
+    "tpl_len": 1999,
+    "screenshot": "_scratch\\eval\\screenshots\\v1_handtest_llm_on\\CRT-T1_crt_fold.png"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "style_card": "../../samples/customer-service-emails/style/style_card.v0.yaml",
+  "principles_en": "../../samples/customer-service-emails/style/principles_en.md",
+  "family_router": "../../samples/customer-service-emails/style/family_router.json",
+  "exemplars_dir": "../../samples/customer-service-emails/style/exemplars",
+  "hold_out_gate": ["cs_0001", "cs_0008", "cs_0013", "cs_0022"],
+  "default_family": "F1_no_response",
+  "families": {
+    "F1_no_response": "exemplars/F1_no_response.md",
+    "F2_tc148_wired": "exemplars/F2_tc148_wired.md",
+    "F3_power_motor": "exemplars/F3_power_motor.md",
+    "F4_limit_travel": "exemplars/F4_limit_travel.md",
+    "F5_dual_swing": "exemplars/F5_dual_swing.md",
+    "F6_auto_close_rebound": "exemplars/F6_auto_close_rebound.md",
+    "F7_presales": "exemplars/F7_presales.md",
+    "F8_warranty_rma": "exemplars/F8_warranty_rma.md",
+    "F9_remote_learn": "exemplars/F9_remote_learn.md",
+    "F10_multi_turn": "exemplars/F10_multi_turn.md"
+  }
+}

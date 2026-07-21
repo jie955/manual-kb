@@ -1,0 +1,8 @@
+default_locale: en
+default_response_mode: cs_email
+
+context:
+  cs_email_en_max_chars: 2000
+  score_margin_top1_only: 0.02
+  forbid_content_zh_in_en: true
+  cs_email_top1_excludes: {}

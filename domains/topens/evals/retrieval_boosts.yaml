@@ -1,0 +1,9 @@
+# Scenario-specific EN retrieval query overrides (eval / Joyce 22-mail targeted fixes)
+# Used when batch runner passes scenario_id into cs_email_workflow.
+cs_0002: >-
+  zero power to motor at control board fuse is good ET24 electric lock unlocks
+  bypassed limit switch 11# 12# terminals motor won't function
+
+cs_0016: >-
+  PW802 red Power LED flashing dual swing gate won't work DIP switch 5
+  photocell disconnect accessories 11# 12# terminals 4# 5# short

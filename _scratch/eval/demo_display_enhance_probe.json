@@ -1,0 +1,174 @@
+[
+  {
+    "lib": "a3s",
+    "query": "日常保养喷WD40润滑",
+    "expect": "qa_040",
+    "top1": "qa_040",
+    "source_line": "A3S / A5S / A8S · A3S-A5S-A8S 常见问题排查 · 十七、保养与润滑",
+    "related": [
+      {
+        "group_id": "qa_041",
+        "question": "深度润滑（拆机臂·grease内腔）Deep Lubrication",
+        "section": "十七、保养与润滑",
+        "score": 0.707
+      },
+      {
+        "group_id": "qa_013",
+        "question": "按遥控器保险丝烧 Fuse Blows When Pressing Remote",
+        "section": "完全不工作",
+        "score": 0.478
+      }
+    ],
+    "note": "保养域 · 相关推荐语义",
+    "pass": true
+  },
+  {
+    "lib": "a3s",
+    "query": "离合钥匙拧不开",
+    "expect": "qa_038",
+    "top1": "qa_038",
+    "source_line": "A3S / A5S / A8S · A3S-A5S-A8S 常见问题排查 · 十五、离合打不开",
+    "related": [
+      {
+        "group_id": "qa_035",
+        "question": "开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+        "section": "八、开关门过程中走停或反弹",
+        "score": 0.662
+      },
+      {
+        "group_id": "qa_036",
+        "question": "伸太过缩不回去 Arm Extended Too Far Won't Retract",
+        "section": "十三、电机转机臂不伸缩",
+        "score": 0.64
+      }
+    ],
+    "note": "配图组 · 来源章节",
+    "pass": true
+  },
+  {
+    "lib": "a3s",
+    "query": "随意开关门乱开",
+    "expect": "qa_029",
+    "top1": "qa_029",
+    "source_line": "A3S / A5S / A8S · A3S-A5S-A8S 常见问题排查 · 五、随意开关门",
+    "related": [
+      {
+        "group_id": "qa_023",
+        "question": "拉开门开门不正常加二极管电阻 （推开门关门不正常）",
+        "section": "十二、电机电流小导致走停",
+        "score": 0.671
+      },
+      {
+        "group_id": "qa_018",
+        "question": "开门不限位/位置不对·限位A（拉开门·开位）Gate Open Limit · Pull-to-Op",
+        "section": "不限位",
+        "score": 0.667
+      }
+    ],
+    "note": "Top2 邻域相近（预期可接受）",
+    "pass": true
+  },
+  {
+    "lib": "ad5s",
+    "query": "门自己乱开乱关怎么回事",
+    "expect": "qa_031",
+    "top1": "qa_031",
+    "source_line": "AD5S / AD8S · AD5S-AD8S 常见问题排查 · 六、随意开关门",
+    "related": [
+      {
+        "group_id": "qa_037",
+        "question": "开门不限位/过位（拉开门·限位A·开位）Gate Open Limit · Pull-to-Open",
+        "section": "十二、不限位",
+        "score": 0.668
+      },
+      {
+        "group_id": "qa_033",
+        "question": "自动关门不生效 Auto Close Function Doesn't Work",
+        "section": "八、自动关门不生效",
+        "score": 0.664
+      }
+    ],
+    "note": "EXT 组来源",
+    "pass": true
+  },
+  {
+    "lib": "ad5s",
+    "query": "电机电流小 并接机臂排查",
+    "expect": "qa_023",
+    "top1": "qa_023",
+    "source_line": "AD5S / AD8S · AD5S-AD8S 常见问题排查 · 十四、电机电流小导致走停",
+    "related": [
+      {
+        "group_id": "qa_024",
+        "question": "手动反推来排查+电阻",
+        "section": "十四、电机电流小导致走停",
+        "score": 0.73
+      },
+      {
+        "group_id": "qa_022",
+        "question": "电机电流小的原因",
+        "section": "十四、电机电流小导致走停",
+        "score": 0.702
+      }
+    ],
+    "note": "ladder 组",
+    "pass": true
+  },
+  {
+    "lib": "ad5s",
+    "query": "日常保养润滑 WD40",
+    "expect": "qa_028",
+    "top1": "qa_028",
+    "source_line": "AD5S / AD8S · AD5S-AD8S 常见问题排查 · 十九、保养与润滑",
+    "related": [
+      {
+        "group_id": "qa_029",
+        "question": "深度润滑（拆机臂）Deep Lubrication",
+        "section": "十九、保养与润滑",
+        "score": 0.584
+      },
+      {
+        "group_id": "qa_010",
+        "question": "按遥控器没有反应 No Response When The Remote Is Pressed",
+        "section": "完全不工作",
+        "score": 0.483
+      }
+    ],
+    "note": "保养 · Top2 邻域",
+    "pass": true
+  },
+  {
+    "lib": "tc148",
+    "query": "TC148 没反应 遥控器正常",
+    "expect": "qa_002",
+    "top1": "qa_002",
+    "source_line": "TC148 · TC148 常见问题排查 · —",
+    "related": [
+      {
+        "group_id": "qa_001",
+        "question": "接上TC148墙壁开关，自己开关门",
+        "section": "—",
+        "score": 0.699
+      }
+    ],
+    "note": "2 组库来源",
+    "pass": true
+  },
+  {
+    "lib": "tc148",
+    "query": "接上TC148墙壁开关 自己开关门",
+    "expect": "qa_001",
+    "top1": "qa_001",
+    "source_line": "TC148 · TC148 常见问题排查 · —",
+    "related": [
+      {
+        "group_id": "qa_002",
+        "question": "按TC148无反应·push button短接排查 No Response · O/S/C COM ",
+        "section": "—",
+        "score": 0.674
+      }
+    ],
+    "note": "confusable 邻域",
+    "pass": true
+  }
+]

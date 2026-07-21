@@ -1,0 +1,39 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0026",
+      "test_id": "T4",
+      "mail_num": null,
+      "label": "0026-a3a5a8-board-replaced-actuator-no-response",
+      "query": "replaced control board clicking sound remote actuator no response A3 A5 A8",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_hit": true,
+      "top1_group": "qa_001",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_010",
+        "qa_033"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_001",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F2_tc148_wired.md"
+      },
+      "reply_preview": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty. Since the product is 2 years old, the warranty has unfortunately expired, but we are still here to help you troubleshoot.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22V. I know you mentioned the fuse is good and there is a clicking sound, but confirming the voltage first will help us narrow things down",
+      "reply_full": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty. Since the product is 2 years old, the warranty has unfortunately expired, but we are still here to help you troubleshoot.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22V. I know you mentioned the fuse is good and there is a clicking sound, but confirming the voltage first will help us narrow things down.\n\n2. Disconnect all wired accessories from the control board except the power source and the actuator arms, and disable the photocell function by turning off DIP Switch #3. Then use a jumper wire to momentarily short the push button terminals on the control board (briefly touch 4# and 5# and remove instantly — do not keep the wire connected). Observe whether the gate opener responds. Repeat the test several times to check if it triggers reliably each time. If it responds to the jumper but not the remote, the remote signal may need reprogramming per the user manual.\n\n3. Since you mentioned the actuator works when connected directly to a power source, please disconnect the BLUE, GREEN, and YELLOW wires of the arm from the control board. Use two jumper wires to short the ULT, COM, and DLT terminals (where those wires were connected), and then press the remote or short the push button terminals to see if the arm can extend and retract in both directions. If it can move both ways, the limit switch is likely defective. Please be ready to stop the arm by releasing the remote or removing the jumper in case it extends too much.\n\nPlease let me know the result one by one. It would also be very helpful if you could send a short video or clear photos of the control board connections so we can review the wiring.\n\nLooking forward to your reply.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_len": 2353
+    }
+  ]
+}

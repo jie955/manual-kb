@@ -1,0 +1,88 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "qa_001_c001",
+      "group_id": "qa_001",
+      "parent_id": null,
+      "is_child": false,
+      "is_retrievable": true,
+      "section": null,
+      "question": "接上TC148墙壁开关，自己开关门",
+      "embedding_text": "接上TC148墙壁开关，自己开关门\n注：TC147排查方法相同\n症状：接上TC148后随机开关门/乱动（非遥控正常按TC148无反应·非push button端口瞬时短接O/S/C COM）\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开延长线，只接按钮自带的线试试\n如果问题还在，可能接了TC148有干扰，可以接地试试。\n均不解决的话，按钮可能坏了。（能力强的人，可以测一下按钮开关的是否导通）",
+      "content_zh": "注：TC147排查方法相同\n症状：接上TC148后随机开关门/乱动（非遥控正常按TC148无反应·非push button端口瞬时短接O/S/C COM）\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开延长线，只接按钮自带的线试试\n如果问题还在，可能接了TC148有干扰，可以接地试试。\n均不解决的话，按钮可能坏了。（能力强的人，可以测一下按钮开关的是否导通）",
+      "content_en": "",
+      "answer_zh_translated": null,
+      "translation_status": "not_needed",
+      "images": [
+        {
+          "file": "image_001.png",
+          "caption": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_status": "cached"
+        }
+      ],
+      "has_image": true,
+      "links": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        }
+      ],
+      "has_links": true,
+      "negotiation_offers": [],
+      "customer_reply_templates": [
+        {
+          "text": "Please help us confirm if the gate opener runs randomly only when the TC148 push button is connected. If so, please do the following tests for further diagnosis.\nIsolate the TC148 Wall Switch\nDisconnect all wired accessories from the control board except the TC148 wall switch to see how it goes.\nIf problem disappears, may I ask if you also connected other wired accessories to the “push button” terminals. If yes, please use shield wires and combining cap to connect them. Below is the link of How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board for your reference.\nIf the problem remains, please go on the following steps.\n2. Check the Wiring Distance and Cable Type\nGenerally, long wire length or poor cable quality may cause signal interference. May I ask what distance between the control board and the TC148 push button and what gauge the wire is. In a normal case, please use the well-shielded 2C*22 AWG (2 x 0.3 mm2) (at least) cable to connect TC148 to the circuit board. Besides, the cable is not recommended to exceed 15 meters. If you use extension cables, please disconnect the extension cable and connect only the original short cables coming with the TC148 switch to see how it works.\n3. Check for Electrical Interference\nIf the problem persists, there might be interference. You can try to connect the “COM” terminal of the control board to the ground. Please do it referring to the following steps.\nDrive an iron nail (or other metal part) in the ground.\nConnect the “COM” terminal on the control board and the nail with an electric wire.\nIf all the tests cannot help, you can replace a TC148 to have a try.\nNote:\nFor advanced users only: Use a multimeter to test the switch for continuity.\nWith the switch not pressed → Should be open circuit (no continuity)\nWith the switch pressed → Should be closed circuit (continuity)\nIf the switch tests as always closed or erratic, it is defective.\nFinal resolution: Replace the TC148 wall switch.",
+          "lang": "en",
+          "content_role": "customer_reply_template"
+        }
+      ],
+      "structure_warnings": [],
+      "troubleshooting_ladder": [],
+      "lang": "zh"
+    },
+    {
+      "chunk_id": "qa_002_c001",
+      "group_id": "qa_002",
+      "parent_id": null,
+      "is_child": false,
+      "is_retrievable": true,
+      "section": null,
+      "question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "embedding_text": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test\n症状：遥控可用但按TC148无反应（push button端口瞬时短接 O/S/C COM 排查·非随机开关门/乱动）\n确保是我们的TC148 (sold by TOPENS)\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开\n还有问题，瞬时短接一下push button 端口，门机是不是有反应，排除控制板的影响。",
+      "content_zh": "症状：遥控可用但按TC148无反应（push button端口瞬时短接 O/S/C COM 排查·非随机开关门/乱动）\n确保是我们的TC148 (sold by TOPENS)\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开\n还有问题，瞬时短接一下push button 端口，门机是不是有反应，排除控制板的影响。",
+      "content_en": "",
+      "answer_zh_translated": null,
+      "translation_status": "not_needed",
+      "images": [],
+      "has_image": false,
+      "links": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing",
+          "label": "How to instantaneously short the “O/S/C COM” terminals",
+          "lang": "en",
+          "link_type": "video"
+        }
+      ],
+      "has_links": true,
+      "negotiation_offers": [],
+      "customer_reply_templates": [
+        {
+          "text": "Please help us confirm if the gate opener can work via remote. If so, please do the following tests for further diagnosis.\nPlease check to make sure that the TC148 switch is sold by TOPENS, since the third-party switch may be incompatible.\nCheck the TC148 is wired correctly and securely.\nIf all above are verified, please disconnect all wired accessories from the control board except the TC148 wall switch to see how it goes.\nIf problem disappears, may I ask if you also connected other wired accessories to the “push button” terminals. If yes, please use shield wires and combining cap to connect them. Below is the link of How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board for your reference.\nIf the problem remains, please go on the following steps.\nCheck the Wiring Distance and Cable Type\nGenerally, long wire length or poor cable quality may cause signal interference. May I ask what distance between the control board and the TC148 push button and what the gauge the wire is. In a normal case, please use the well-shielded 2C*22 AWG (2 x 0.3 mm2) (at least) cable to connect TC148 to the circuit board. Besides, the cable is not recommended to exceed 15 meters. If you use extension cables, please disconnect the extension cable and connect only the original short cables coming with the TC148 switch to see how it works.\nIf the problem remains, please further check the push button terminals on the control board as follows.\nPlease immediately short (plug the wire in, then pull it out immediately) the push button terminals (e.g. O/S/C and COM terminals) on the control board with referring to the video in the link below to see whether the opener can be activated as open-stop-close-stop-open by every action of immediately shorting. If so, the control board is fine and you can replace a TC148 to have a try.\nHow to instantaneously short the “O/S/C COM” terminals:",
+          "lang": "en",
+          "content_role": "customer_reply_template"
+        }
+      ],
+      "structure_warnings": [],
+      "troubleshooting_ladder": [],
+      "lang": "zh"
+    }
+  ]
+}

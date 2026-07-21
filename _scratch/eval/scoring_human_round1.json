@@ -1,0 +1,189 @@
+{
+  "sheet": "复测评分(Wave1后)",
+  "source_json": "cs_22mail_eval_round1.json",
+  "scorer": "agent-p0p1p2-2026-07-12",
+  "date": "2026-07-12",
+  "basis": "P0/P1/P2 semantic review 2026-07-10..12",
+  "applied_rows": 22,
+  "mvp19_pass": 7,
+  "mvp19_total": 19,
+  "full22_pass": 9,
+  "scores": {
+    "MAIL-01": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "配对相关",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "P1①对·qa_011；DIP#3/4#5# instant short/限位短接；image_007配排查步"
+    },
+    "MAIL-02": {
+      "dim1": "错",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "复合",
+      "note": "top1=qa_037∉acceptable；缺11#/12#与限位短接"
+    },
+    "MAIL-03": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "配对相关",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "P2·qa_010；DIP#5+4#5# short；image_007 batch重复·配板图可接受"
+    },
+    "MAIL-04": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "无需图",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "presales"
+    },
+    "MAIL-05": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "配对相关",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "presales·image_007 caption空"
+    },
+    "MAIL-06": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "presales weak links"
+    },
+    "MAIL-07": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "配对相关",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "presales"
+    },
+    "MAIL-08": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "配对相关",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "TC148·不计MVP19"
+    },
+    "MAIL-09": {
+      "dim1": "错",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "复合",
+      "note": "top1=qa_031∉acceptable"
+    },
+    "MAIL-10": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "配对相关",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "TC148·不计MVP19"
+    },
+    "MAIL-11": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "无需图",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "presales weak links"
+    },
+    "MAIL-12": {
+      "dim1": "错",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "复合",
+      "note": "P0·qa_019∉{qa_020,qa_021}；真缺FORCE/SOFT_STOP/11#12#"
+    },
+    "MAIL-13": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "无需图",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "P2·qa_022；断电FORCE/SOFT STOP齐"
+    },
+    "MAIL-14": {
+      "dim1": "错",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "复合",
+      "note": "P0/P1·应qa_018磁环路径；qa_019限位 playbook偏"
+    },
+    "MAIL-15": {
+      "dim1": "对",
+      "dim2": "直接可发",
+      "dim3": "无需图",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "note": "P2·Power off→FORCE max 四步对齐"
+    },
+    "MAIL-16": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "P0·ref_keys假阳性；真缺DIP#5/4#5#/单臂测；image_001 fuse OK"
+    },
+    "MAIL-17": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "P2·100%窄词表假阳性；缺fuse/4#5#/11#12#；image_019限位短接OK"
+    },
+    "MAIL-18": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "缺DIP#3/限位短接等"
+    },
+    "MAIL-19": {
+      "dim1": "错",
+      "dim2": "小改可发",
+      "dim3": "无需图",
+      "dim4": "不通过",
+      "fail_tag": "复合",
+      "note": "P0·qa_015∉acceptable；真缺limit B/遥控学码"
+    },
+    "MAIL-20": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "无需图",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "P1①对·ad5s；top1=qa_040同窗≠qa_016；真缺limit B重确认"
+    },
+    "MAIL-21": {
+      "dim1": "错",
+      "dim2": "小改可发",
+      "dim3": "配对相关",
+      "dim4": "不通过",
+      "fail_tag": "复合",
+      "note": "P0·qa_033≠qa_001；真缺11#/12#+4#5# instant short"
+    },
+    "MAIL-22": {
+      "dim1": "对",
+      "dim2": "小改可发",
+      "dim3": "无需图",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "note": "P0/P1·qa_040∈expected；真缺limit A/单臂隔离"
+    }
+  }
+}

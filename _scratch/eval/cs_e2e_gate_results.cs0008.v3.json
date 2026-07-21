@@ -1,0 +1,38 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0008",
+      "test_id": null,
+      "mail_num": 8,
+      "label": "0008-pw502-tc148-push-button-not-working",
+      "query": "PW502 push button not working jumpered 4 and 5 still nothing",
+      "expected_library": "tc148",
+      "expected_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_002",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F2_tc148_wired.md"
+      },
+      "reply_preview": "Dear Cindy,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect the extension cable connecting TC148 to the control board and replace it with a short cable to test whether the gate opener works. If yes, please confirm the distance between TC148 and the control board.\n\n2. Disconnect all wired accessories from the control board except the power supply and arm. Momentarily short (instant touch only — plug in then pull out)",
+      "reply_full": "Dear Cindy,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect the extension cable connecting TC148 to the control board and replace it with a short cable to test whether the gate opener works. If yes, please confirm the distance between TC148 and the control board.\n\n2. Disconnect all wired accessories from the control board except the power supply and arm. Momentarily short (instant touch only — plug in then pull out) the push button terminals (4# and 5#) to see if the opener responds. Please refer to this video: https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing\n\nI know you've already tried jumpering terminals 4# and 5#. Could you please try this procedure again, making sure it is just an instant short — plug in and pull out immediately, not a continuous connection.\n\n3. Confirm whether the wall switch is a genuine TOPENS TC148. Third-party switches may be incompatible.\n\n4. Check the wire distance and gauge: use well-shielded 2C×22 AWG (2×0.3 mm²) minimum, and keep the cable length under 15 m when possible.\n\nFor additional reference, you may find this article helpful: https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board\n\nPlease let me know the result one by one after you finish the tests. And also please reply with your specific SHIPPING ADDRESS with zip code and confirm your PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_len": 2028
+    }
+  ]
+}

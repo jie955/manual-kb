@@ -1,0 +1,1 @@
+invalid type: string "[问题] 电池和太阳能板规格\n其他知识\n解释AB值\n解释XY值\n如果客人问为什么表格中没列出\u{a0}“A”\u{a0}小于13cm的值，以及“B”大于27cm的值，可以这么回答。\n机臂进水：\n电流小于10mA，然后确保是太阳能板和控制器额定电压都是24VDC", expected f64断裂的情况；", expected i64oolean��情况\n���

@@ -1,0 +1,19 @@
+# CS email response / context policies
+default_locale: en
+default_response_mode: cs_email
+
+context:
+  cs_email_en_max_chars: 3200
+  score_margin_top1_only: 0.012
+  forbid_content_zh_in_en: true
+  # When Top1 is confident, drop near-miss groups that pollute LLM context.
+  cs_email_top1_excludes:
+    qa_022:
+      - qa_020
+      - qa_033
+      - qa_034
+    qa_001:
+      - qa_010
+      - qa_033
+    qa_002:
+      - qa_001

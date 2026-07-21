@@ -1,0 +1,178 @@
+{
+  "docx_h1_orphan_image": [
+    {
+      "h1": "四、只朝一个方向 Only Opens/Closes One Direction",
+      "in_h2": false,
+      "orphan_imgs": 1,
+      "h2_imgs": 0,
+      "orphan_image_refs": []
+    },
+    {
+      "h1": "八、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+      "in_h2": false,
+      "orphan_imgs": 1,
+      "h2_imgs": 0,
+      "orphan_image_refs": []
+    },
+    {
+      "h1": "十三、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+      "in_h2": false,
+      "orphan_imgs": 3,
+      "h2_imgs": 0,
+      "orphan_image_refs": []
+    },
+    {
+      "h1": "十四、机臂声音异常 Abnormal Noise From Arm",
+      "in_h2": false,
+      "orphan_imgs": 2,
+      "h2_imgs": 0,
+      "orphan_image_refs": []
+    },
+    {
+      "h1": "十五、离合打不开 Clutch Won't Release",
+      "in_h2": false,
+      "orphan_imgs": 5,
+      "h2_imgs": 0,
+      "orphan_image_refs": [
+        "Use the release key to engage the clutch and manually rotate clockwise and push the Front Mount inward, see screenshot b",
+        "3 If it is note the case in the step 2, please kindly dismantle the arm with reference to the following instruction. The",
+        "4 If there is nothing abnormal in the tests above, please lubricate the inside of the aluminum tube and lead screw as we"
+      ]
+    },
+    {
+      "h1": "十七、保养与润滑 Maintenance and Lubrication",
+      "in_h2": false,
+      "orphan_imgs": 0,
+      "h2_imgs": 0,
+      "orphan_image_refs": [
+        "Besides, grease is needed to lubricate the inside of the stainless steel tube and lead screw as well as the nut (as show"
+      ]
+    }
+  ],
+  "ext_groups": [
+    {
+      "group_id": "qa_029",
+      "section": "五、随意开关门 Random Opening/Closing",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_030",
+      "section": "六、缓停止有问题（缓停止错乱或者没有缓停止）Soft Stop Issues",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_031",
+      "section": "七、自动关门不生效 Auto Close Function Doesn't Work",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_032",
+      "section": "风会把门吹开（或者外力能把门推开一点） There is Little Play When the Gate is Cl",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_033",
+      "section": "四、只朝一个方向 Only Opens/Closes One Direction",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_034",
+      "section": "门机运行慢 Gate Operates Slowly",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_035",
+      "section": "八、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_036",
+      "section": "十三、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_037",
+      "section": "十三、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_038",
+      "section": "十五、离合打不开 Clutch Won't Release",
+      "images_count": 0,
+      "en_image_ref": true,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_039",
+      "section": "十四、机臂声音异常 Abnormal Noise From Arm",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_040",
+      "section": "十七、保养与润滑 Maintenance and Lubrication",
+      "images_count": 0,
+      "en_image_ref": true,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_041",
+      "section": "十七、保养与润滑 Maintenance and Lubrication",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_042",
+      "section": "十八、其他产品知识讲解",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_043",
+      "section": "十二、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate",
+      "images_count": 0,
+      "en_image_ref": false,
+      "zh_image_ref": false
+    }
+  ],
+  "baseline_groups_with_images": 14,
+  "baseline_image_total": 23,
+  "ext_groups_images_total": 0,
+  "ext_en_ref_no_images": [
+    {
+      "group_id": "qa_038",
+      "section": "十五、离合打不开 Clutch Won't Release",
+      "images_count": 0,
+      "en_image_ref": true,
+      "zh_image_ref": false
+    },
+    {
+      "group_id": "qa_040",
+      "section": "十七、保养与润滑 Maintenance and Lubrication",
+      "images_count": 0,
+      "en_image_ref": true,
+      "zh_image_ref": false
+    }
+  ]
+}

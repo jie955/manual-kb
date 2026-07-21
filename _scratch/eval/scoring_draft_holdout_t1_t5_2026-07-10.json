@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "source_json": "holdout_t1_t5_2026-07-10.json",
+    "generated_at": "2026-07-10T17:21:39",
+    "round": null,
+    "disclaimer": "NOT official scores"
+  },
+  "cases": [
+    {
+      "scenario_id": "cs_0023",
+      "mail_id": "T1",
+      "mvp19": "是",
+      "dim1": "错",
+      "dim1_note": "top1=qa_040 not in acceptable",
+      "dim2": "待人工",
+      "dim2_note": "steps=4 · 无金标准回信",
+      "dim3": "无需图",
+      "dim3_note": "Reference 未要求配图",
+      "dim4": "待人工",
+      "fail_tag": "复合",
+      "top1": "qa_040",
+      "style": "F6_auto_close_rebound"
+    },
+    {
+      "scenario_id": "cs_0024",
+      "mail_id": "T2",
+      "mvp19": "是",
+      "dim1": "对",
+      "dim1_note": "presales · style/route OK",
+      "dim2": "直接可发",
+      "dim2_note": "presales + links",
+      "dim3": "配对相关",
+      "dim3_note": "有图 · Reference 未强制",
+      "dim4": "通过",
+      "fail_tag": "—",
+      "top1": "qa_027",
+      "style": "F7_presales"
+    },
+    {
+      "scenario_id": "cs_0025",
+      "mail_id": "T3",
+      "mvp19": "否",
+      "dim1": "对",
+      "dim1_note": "top1_hit=true",
+      "dim2": "待人工",
+      "dim2_note": "top1_hit · steps=4 · 无金标准回信",
+      "dim3": "配对相关",
+      "dim3_note": "有图 · Reference 未强制",
+      "dim4": "待人工",
+      "fail_tag": "生成",
+      "top1": "qa_002",
+      "style": "F8_warranty_rma"
+    },
+    {
+      "scenario_id": "cs_0026",
+      "mail_id": "T4",
+      "mvp19": "是",
+      "dim1": "对",
+      "dim1_note": "top1_hit=true",
+      "dim2": "需重写",
+      "dim2_note": "truncated",
+      "dim3": "配对相关",
+      "dim3_note": "有图 · Reference 未强制",
+      "dim4": "不通过",
+      "fail_tag": "生成",
+      "top1": "qa_001",
+      "style": "F2_tc148_wired"
+    },
+    {
+      "scenario_id": "cs_0027",
+      "mail_id": "T5",
+      "mvp19": "是",
+      "dim1": "对",
+      "dim1_note": "top1_hit=true",
+      "dim2": "待人工",
+      "dim2_note": "top1_hit · steps=4 · 无金标准回信",
+      "dim3": "无需图",
+      "dim3_note": "Reference 未要求配图",
+      "dim4": "待人工",
+      "fail_tag": "生成",
+      "top1": "qa_010",
+      "style": "F1_no_response"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Prompt pack manifest
+version: "1"
+cs_email_system_en: cs_email_system_en.md
+qa_system_en: qa_system_en.md
+qa_system_zh: qa_system_zh.md

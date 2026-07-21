@@ -1,0 +1,24 @@
+# TOPENS presales playbooks — domain business rules (not per-eval-case patches)
+#
+# Structured product-recommendation logic for presales emails.
+# EvalPack presales_briefs may reference via playbook_ref instead of duplicating prose.
+
+playbooks:
+  two_independent_gates:
+    summary: Two physically separate gates — recommend independent single-swing kits, not dual kit.
+    topology:
+      gate_count: 2
+      relationship: independent
+      typical_weight_lb: 100
+      typical_length_ft: 16
+    anti_patterns:
+      - product: PW302
+        reason: Dual swing kit wires both arms to one control box; cannot open only one gate via remote.
+    recommendation:
+      kits: 2
+      model: A8131
+      rationale: Each gate needs its own control box and remote programming.
+      power: UPS01 — AC direct, battery backup, 20W solar supported.
+    links:
+      purchase: https://topens.com/products/topens-a8131-single-swing-gate-opener-heavy-duty-automatic-gate-motor-for-single-swing-gates-up-to-18ft
+      manual: https://topens.com/cdn/shop/files/A5131-A8131-EN-250108.pdf

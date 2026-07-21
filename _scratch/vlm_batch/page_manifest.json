@@ -1,0 +1,89 @@
+{
+  "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+  "source_path": "samples/manuals/A3S,A5(S),A8(S)说明书.pdf",
+  "models": ["A3S", "A5S", "A8S"],
+  "selection_notes": "13 printed pages via footer lookup + thumbnail review. Covers packing, safety/warning, specs table, pull/push install STEP, control box mount, terminal table, wiring, power warning.",
+  "pilot_reuse": [9, 18],
+  "pages": [
+    {
+      "printed_page": 2,
+      "pdf_index": 4,
+      "page_type": "warning",
+      "chapter_hint": "Important Safety Information"
+    },
+    {
+      "printed_page": 4,
+      "pdf_index": 6,
+      "page_type": "packing",
+      "chapter_hint": "Packing List"
+    },
+    {
+      "printed_page": 6,
+      "pdf_index": 8,
+      "page_type": "spec_table",
+      "chapter_hint": "Specifications"
+    },
+    {
+      "printed_page": 7,
+      "pdf_index": 9,
+      "page_type": "other",
+      "chapter_hint": "Before You Begin — tools and prerequisites"
+    },
+    {
+      "printed_page": 8,
+      "pdf_index": 10,
+      "page_type": "step_mixed",
+      "chapter_hint": "Before You Begin — post stability and gate swing direction"
+    },
+    {
+      "printed_page": 9,
+      "pdf_index": 11,
+      "page_type": "step_mixed",
+      "chapter_hint": "Pull-to-Open Gate Opener Mounting — STEP 1-2",
+      "pilot": true
+    },
+    {
+      "printed_page": 10,
+      "pdf_index": 12,
+      "page_type": "step_mixed",
+      "chapter_hint": "Pull-to-Open Gate Opener Mounting — STEP 3-5"
+    },
+    {
+      "printed_page": 11,
+      "pdf_index": 13,
+      "page_type": "step_mixed",
+      "chapter_hint": "Pull-to-Open Gate Opener Mounting — STEP 6-7"
+    },
+    {
+      "printed_page": 13,
+      "pdf_index": 15,
+      "page_type": "step_mixed",
+      "chapter_hint": "Push-to-Open Gate Opener Mounting — STEP 1-2"
+    },
+    {
+      "printed_page": 17,
+      "pdf_index": 19,
+      "page_type": "step_mixed",
+      "chapter_hint": "Mount Control Box — STEP 1-2"
+    },
+    {
+      "printed_page": 18,
+      "pdf_index": 20,
+      "page_type": "spec_table",
+      "chapter_hint": "Terminal Function of the Control Board",
+      "pilot": true
+    },
+    {
+      "printed_page": 19,
+      "pdf_index": 21,
+      "page_type": "step_mixed",
+      "chapter_hint": "Connect the Arm to the Control Board"
+    },
+    {
+      "printed_page": 20,
+      "pdf_index": 22,
+      "page_type": "warning",
+      "chapter_hint": "Connection of Power Supply — WARNING and power modes"
+    }
+  ]
+}

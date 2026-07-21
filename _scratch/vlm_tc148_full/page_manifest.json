@@ -1,0 +1,25 @@
+{
+  "source_pdf": "TC148说明书.pdf",
+  "source_path": "samples/manuals/TC148说明书.pdf",
+  "doc_prefix": "tc148-manual",
+  "document_title": "Document:TC148 Waterproof Wall Push Button Installation Manual",
+  "models": [
+    "TC148"
+  ],
+  "selection_notes": "PDF 2 pages total: both are graphic wiring diagrams; no extractable printed page numbers in text layer.",
+  "pilot_reuse": [],
+  "pages": [
+    {
+      "printed_page": 1,
+      "pdf_index": 0,
+      "page_type": "other",
+      "chapter_hint": "TC148 waterproof wall push button wiring diagram page 1"
+    },
+    {
+      "printed_page": 2,
+      "pdf_index": 1,
+      "page_type": "other",
+      "chapter_hint": "TC148 waterproof wall push button wiring diagram page 2"
+    }
+  ]
+}

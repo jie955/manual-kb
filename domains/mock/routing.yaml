@@ -1,0 +1,7 @@
+fallback: fan_out
+
+keyword_patterns:
+  - product_id: alpha
+    pattern: '\balpha\b|\balp100\b|mock\s+gate'
+
+special_rules: []

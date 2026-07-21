@@ -1,0 +1,39 @@
+[
+  {
+    "library": "a3s",
+    "pilot_groups": [
+      "qa_001",
+      "qa_002",
+      "qa_011",
+      "qa_013",
+      "qa_022",
+      "qa_025",
+      "qa_033",
+      "qa_034"
+    ],
+    "retrievable_pilot_chunks": 40,
+    "chroma_dir": "_scratch/run-007/chroma_captioned_en"
+  },
+  {
+    "library": "ad5s",
+    "pilot_groups": [
+      "qa_001",
+      "qa_010",
+      "qa_015",
+      "qa_016",
+      "qa_020",
+      "qa_040"
+    ],
+    "retrievable_pilot_chunks": 24,
+    "chroma_dir": "_scratch/run-ad5s/chroma_captioned_en"
+  },
+  {
+    "library": "tc148",
+    "pilot_groups": [
+      "qa_001",
+      "qa_002"
+    ],
+    "retrievable_pilot_chunks": 2,
+    "chroma_dir": "_scratch/run-tc148/chroma_captioned_en"
+  }
+]

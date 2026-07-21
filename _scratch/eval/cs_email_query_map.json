@@ -1,0 +1,3130 @@
+{
+  "version": "1.0",
+  "generated": "2026-07-07",
+  "source_dir": "samples/customer-service-emails/",
+  "note": "English eval candidates from 22 real + 5 test CS scenarios. corpus_mapping: direct|logic|out",
+  "stats": {
+    "scenarios": 27,
+    "queries": 176,
+    "limit_fork_probes": 5,
+    "direct_hit": 10,
+    "logic_hit": 7,
+    "out_of_corpus": 10
+  },
+  "scenarios": [
+    {
+      "id": "cs_0001",
+      "file": "samples/customer-service-emails/0001-at12131s-gate-no-response.md",
+      "mail_num": 1,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AT12131S（AT 系列 · 独立用户手册 · 无 v1 排查 docx）",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_011"
+      ],
+      "alternate_group_ids": [
+        "qa_010"
+      ],
+      "domains": [
+        "power",
+        "4#5#",
+        "remote"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "the gate does nothing when i push the button or use the key pad remote."
+      ],
+      "primary_query": "AT12131S gate does nothing when I push the button"
+    },
+    {
+      "id": "cs_0002",
+      "file": "samples/customer-service-emails/0002-a8132-et24-motor-no-power.md",
+      "mail_num": 2,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A8132 · ET24 electric lock · UPS01",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "domains": [
+        "motor",
+        "11#12#",
+        "ET24",
+        "limit"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "I tested for power at the control board going to the motor and I get zero power. Fuse is good. Both AC and control board have power. Lock for gate unlocks when commanded but no power to motor it would seem."
+      ],
+      "primary_query": "gate opener worked four days now motor won't function lock still unlocks"
+    },
+    {
+      "id": "cs_0003",
+      "file": "samples/customer-service-emails/0003-ad8-leds-respond-gate-wont-open.md",
+      "mail_num": 3,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AD8 · DPS180-U-AC-DC Power Supply",
+      "corpus_mapping": "logic",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "domains": [
+        "remote",
+        "dual_arm",
+        "DIP"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Installed openers as per instructions. Programmed supplied remotes. 3 LEDs on control board responds when remote is pressed, however gates do not open. Please advise. Thank you, Rick Der"
+      ],
+      "primary_query": "AD8 remotes programmed 3 LEDs respond gates do not open"
+    },
+    {
+      "id": "cs_0004",
+      "file": "samples/customer-service-emails/0004-pw302-two-separate-gates-recommendation.md",
+      "mail_num": 4,
+      "test_id": null,
+      "tier": "real",
+      "type": "presales",
+      "product_line": "PW302 Dual Swing · A8131（客服推荐）· UPS01",
+      "corpus_mapping": "out",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "domains": [
+        "presales"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hello I'm Matt,  I have two seperate gates.  Was going to buy a double gate and need another PS and controller.   Gates is 100 lbs or so and about 16 ft.   What do you recommend?\nI was looking at TOPENS PW302 Dual Swing Gate Opener.\nI need two remotes that are are able to open either gate.\nWhat do you recommend?\nThanks,  Matt"
+      ],
+      "primary_query": "two separate gates control each gate individually with remote"
+    },
+    {
+      "id": "cs_0005",
+      "file": "samples/customer-service-emails/0005-at12132s-dual-swing-solar-jy9132-recommendation.md",
+      "mail_num": 5,
+      "test_id": null,
+      "tier": "real",
+      "type": "presales",
+      "product_line": "AT12132S（表单选型）· JY9132（客服推荐）· 纯太阳能",
+      "corpus_mapping": "out",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "domains": [
+        "presales",
+        "solar"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hello there I have yet to buy a gate from you guys. I was actually wondering why I should buy a gate opener from you versus ghost controls pros and cons and warranty most people I know by the ghost so I’m trying to weigh the odds thank you.\nLooking at dual swing solar I have a 34 foot opening twin gates thank you"
+      ],
+      "primary_query": "why buy TOPENS gate opener versus Ghost Controls warranty pros cons"
+    },
+    {
+      "id": "cs_0006",
+      "file": "samples/customer-service-emails/0006-a8131-vs-at12131-comparison.md",
+      "mail_num": 6,
+      "test_id": null,
+      "tier": "real",
+      "type": "presales",
+      "product_line": "A8131 · AT12131",
+      "corpus_mapping": "out",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "domains": [
+        "presales"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "What is the difference between models A8131 and AT12131?\n\nThank You"
+      ],
+      "primary_query": "what is the difference between A8131 and AT12131"
+    },
+    {
+      "id": "cs_0007",
+      "file": "samples/customer-service-emails/0007-dual-swing-model-comparison-uk-remotes.md",
+      "mail_num": 7,
+      "test_id": null,
+      "tier": "real",
+      "type": "presales",
+      "product_line": "AT1202 · AT602 · A8132 · KD702 · M12 · TC196 · TC175 · TC148 · ERM12",
+      "corpus_mapping": "out",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "domains": [
+        "presales",
+        "remote"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Good Afternoon,\nI am looking to purchase 2 sets of dual swing opener kits from Amazon as I am\nIn the UK.\nCould you please help advise me on what the difference is between these models?\nIs there any benefit to one over the others?\nAT1202\nAT602\nA8132\nKD702\nThe set up I have at the moment is 2x 3m aluminium swing gates (in and out driveway for a set of semi detached houses) 1 gate would be primarily opened by us for our house and the other gate would be primarily opened by the new owners of the attached house we are selling.\nWould the m12 remotes open both gates at the same time or are they programmed for 1?\nWe would need 2 remotes for the house we are selling and 6 for us.\nWe would also like the TC196 wifi remote. Would this open just one gate or both?\nWe would plan to wire in tc175p touch panels on the outside of the gates and tc148 switches on the inside.\nI have attached a picture showing one of the gates. The other is just out of the picture to the right hand side. The weight of each gate it only about 20-30kg.\nIf there is any other advice/guidance you can think of that would help or make them work even better please let me know.\nThanks in advance.\nNick\nSent from my iPhone"
+      ],
+      "primary_query": "difference between AT1202 AT602 A8132 KD702 dual swing gate opener"
+    },
+    {
+      "id": "cs_0008",
+      "file": "samples/customer-service-emails/0008-pw502-tc148-push-button-not-working.md",
+      "mail_num": 8,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "PW502 · TC148 · M12",
+      "corpus_mapping": "direct",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "domains": [
+        "TC148",
+        "4#5#",
+        "instant_short"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Push button not working, therefore we jumpered out #4&5 at the main control panel and still nothing happened. Other than that everything works"
+      ],
+      "primary_query": "PW502 push button not working jumpered 4 and 5 still nothing"
+    },
+    {
+      "id": "cs_0009",
+      "file": "samples/customer-service-emails/0009-at6131-tc148-erratic-wired-button.md",
+      "mail_num": 9,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AT6131 · ET24 · TC148 · UPS01",
+      "corpus_mapping": "direct",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "domains": [
+        "TC148",
+        "4#5#",
+        "shield",
+        "erratic"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hi Joyce,\nI have set up a retractive switch (same as TC148 with COM and L1 connections) and it is connected as per the manual instructions into #4 and #5 at the control box.\nThe cable length is 8M (24ft) and is is shielded armoured cable with 1.5mm cores.\nHowever, as soon as it is wired, without touching the switch, the gate starts to open and then goes through cycles of start/stop to all the way open and then closes ( I have auto close dip switch set to yes) with start/stop.  when it has finished closing it starts to re-open again.\nOnce I disconnect the switch it all works as it should do using the remote control.\nAny ideas ?\nDavid",
+        "Hi Joyce,\nI have attached the pdf of the user manual for the switch.\nI have done the test check that you asked for with the jumper wire between #4 and #5.  The gate works as it should open/stop/closes\nPlease see the wiring pictures that I have for the switch.  All the LED wiring had been removed\nI have a video of what happens when the switch is attached and I turn the power on to the control box, but it's too big to send.  Basically the gate works erratically  constantly opening a closing, half opening and the closing and continues until I turn the power off.  It does this without doing anything other than switching the power on.\nThanks\nDavid",
+        "Hi Joyce,\nMy push button is the same as the Topens one i.e. they are both retractive switches.  Anyway I bought a Topens one just in case and the same thing is happening.  I have also changed the cable and the same thing happens.\nIf I disconnect the switch cable at the control box at #4 and #5 the gate works fine with the remote.  But as soon as #4 and #5 cables are re-connected even without the switch attached on the end the gate just does what it wants to constantly closing, opening, half opening, half closing etc. never stopping.\nThanks\nDavid"
+      ],
+      "primary_query": "gate erratically opening closing when push button wired to 4 and 5 without pressing"
+    },
+    {
+      "id": "cs_0010",
+      "file": "samples/customer-service-emails/0010-a8131-tc148-no-response.md",
+      "mail_num": 10,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A8131 · TC148",
+      "corpus_mapping": "direct",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "domains": [
+        "TC148",
+        "4#5#"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hi Lori,\nI have now purchased the Topens wired push button TC148. I have connected it to O.S.B(4) & COM(5). I am getting no response, can you help. Or is this a broken button.\nRegards\nIan"
+      ],
+      "primary_query": "TC148 connected to 4 and 5 no response A8131"
+    },
+    {
+      "id": "cs_0011",
+      "file": "samples/customer-service-emails/0011-a8132-ad8-at1202-pw802-comparison.md",
+      "mail_num": 11,
+      "test_id": null,
+      "tier": "real",
+      "type": "presales",
+      "product_line": "A8132 · PW802 · AD8 · AT1202 · TC188 · TC173 · ERM12",
+      "corpus_mapping": "out",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "domains": [
+        "presales"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [],
+      "primary_query": "what is the difference between A8132 PW802 AD8 AT1202"
+    },
+    {
+      "id": "cs_0012",
+      "file": "samples/customer-service-emails/0012-at12131-limit-overswing-stops-halfway.md",
+      "mail_num": 12,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AT12131 · TC102（客服提及已发货）",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "domains": [
+        "limit",
+        "pull_push",
+        "FORCE"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hi\nMy contractor installed the opener and although the gate opens, it does not stop at the desired location, it moves too far and into the grass. Adjusting the screw (B) and sliding it to adjust does nothing - the gate still swings to the same spot too far over. It also does not close all the way, we notice it is VERY slow and then comes to a stop halfway. What is the solution? The contractor thinks that perhaps the screw (B) is faulty? Please advise. Thanks!"
+      ],
+      "primary_query": "AT12131 gate opens too far into grass limit switch B does nothing"
+    },
+    {
+      "id": "cs_0013",
+      "file": "samples/customer-service-emails/0013-a3s-stops-before-fully-open.md",
+      "mail_num": 13,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A3S · M12",
+      "corpus_mapping": "direct",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "domains": [
+        "stall",
+        "11#12#",
+        "FORCE"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Need help this gate opener keeps stopping before opening fully"
+      ],
+      "primary_query": "A3S gate opener keeps stopping before opening fully"
+    },
+    {
+      "id": "cs_0014",
+      "file": "samples/customer-service-emails/0014-at602-limit-overclose-magnetic-ring.md",
+      "mail_num": 14,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AT602（dual swing）",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_018"
+      ],
+      "domains": [
+        "limit",
+        "magnetic_ring"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hi, I bought this gate and since I've bought it I've had issues with constantly having to reset the limits for the gate, from the start it would over close and everytime I fix it with the limit wires a few weeks later I'd have to adjust again. Now when I adjust the limit wire nothing is happening and the gate keeps over closing then opening. I've tried all the trouble shooting and I even replaced the limit wire as I believed perhaps it was faulty but the issue still prevails. Can you help me with this issue. Thank you"
+      ],
+      "primary_query": "AT602 gate over closing then opening limit wire adjustment does nothing"
+    },
+    {
+      "id": "cs_0015",
+      "file": "samples/customer-service-emails/0015-ad8s-auto-close-reverses-second-try.md",
+      "mail_num": 15,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AD8S（dual swing）",
+      "corpus_mapping": "direct",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "domains": [
+        "auto_close",
+        "delay",
+        "dual_arm"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "CC:Dan\nHi Zack—\nFirst of all, hugely helpful. Once we powered down first before moving the pot, we were able to get a great delay dialed in.\nWe have one (hopefully) last issue. The gate opens and closes at the right spots and there is no sign of binding. That said, about half the time when the gate starts to close after the delay, it reverses. It waits through an entire additional delay cycle and tries again to close. With rare exception, it closes on the second try.  But about half the time it closes normally.\nWe are wondering if this may be an interaction between our soft stop and open/close delay settings. Whatever it is, it must sometimes not be enough to trigger an issue.\nWe don't believe it is a stall force issue but would not rule that out. Currently our force pot is set at 12:00 position and hand resistance applied at the end of a 10 foot gate does not easily cause a stall force result.\nAppreciate any ideas and thanks!\nTim"
+      ],
+      "primary_query": "AD8S gate reverses when starting to close after auto close delay"
+    },
+    {
+      "id": "cs_0016",
+      "file": "samples/customer-service-emails/0016-pw802-red-light-flashing-wont-work.md",
+      "mail_num": 16,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "PW802（dual swing · DPS180-U）",
+      "corpus_mapping": "logic",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "domains": [
+        "power",
+        "dual_arm",
+        "11#12#"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "I installed, everything worked, now a red lightis flashlight and it won't work. Please call me ASAP. Allen ***-***-****\nThank you!\nAllen"
+      ],
+      "primary_query": "PW802 red light flashing gate won't work after installation"
+    },
+    {
+      "id": "cs_0017",
+      "file": "samples/customer-service-emails/0017-a5131-arm-failed-again-warranty.md",
+      "mail_num": 17,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A5131 · UPS01 · M12",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "domains": [
+        "motor",
+        "limit",
+        "warranty"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Good evening:\nOur gate arm has messed up again. We have done all the previous troubleshooting and it does the exact thing as the last one sent. The gate opener doesn't work at all.\nCan you let me know if we still have warranty. We purchased it in June of 2025.\nMy husband is sure we need an arm replacement."
+      ],
+      "primary_query": "A5131 gate arm messed up again same as last replacement won't work"
+    },
+    {
+      "id": "cs_0018",
+      "file": "samples/customer-service-emails/0018-a5-a8-nothing-works-battery-ac.md",
+      "mail_num": 18,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A5 / A8（表单写作 A5/A8）",
+      "corpus_mapping": "direct",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "domains": [
+        "power",
+        "11#12#",
+        "fuse"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "I have batteries and AC adapter installed. I'm not getting anything to work. Please call me"
+      ],
+      "primary_query": "A5 A8 gate opener batteries and AC adapter nothing works"
+    },
+    {
+      "id": "cs_0019",
+      "file": "samples/customer-service-emails/0019-ad5s-opens-too-far-remote-not-recognized.md",
+      "mail_num": 19,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AD5S dual solar · ground sensor · M12 remote",
+      "corpus_mapping": "direct",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "domains": [
+        "limit",
+        "pull_open",
+        "remote",
+        "stall"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Gate is opening at first open hard turned down force to almost nothing . Open to far gets binded. Sometimes doesn't close seems to have a mind of its own . Tryed programing through control box and remote not picking up remote many time as well. 12 ft cattle gate. One hydroelectric has bent the gate from pressure and force at bracket"
+      ],
+      "primary_query": "AD5S dual solar gate opens too far gets binded sometimes doesn't close"
+    },
+    {
+      "id": "cs_0020",
+      "file": "samples/customer-service-emails/0020-at1202-wont-stay-closed-slave-arm.md",
+      "mail_num": 20,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "AT1202（表单写作 A1202）· dual swing",
+      "corpus_mapping": "logic",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016"
+      ],
+      "domains": [
+        "limit",
+        "dual_arm",
+        "auto_close"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hi!\nI installed my two AT 1202 gate-opener successfully but the gate does not stay closed. Right after closing it opens again and the slave arm does not open completely. There is no photo cell installed and The P9 setting is DEFENITELY on „00“. I can just keep the gate closed when I press the remote again in the moment when shutting is completed. But that´s not really what I want… Can you help?\n\nThank you in advance and greetings from Berlin, Germany\nRainer Hinck"
+      ],
+      "primary_query": "AT1202 gate does not stay closed opens again right after closing"
+    },
+    {
+      "id": "cs_0021",
+      "file": "samples/customer-service-emails/0021-a8132-board-power-arms-wont-move.md",
+      "mail_num": 21,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A8132 dual swing · TC188 keypad",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "domains": [
+        "click",
+        "dual_arm",
+        "11#12#"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "The motherboard has power receives signal from fob , lights blink , a click noise , but the arms won't open or close. Checked with voltage meter board has power but will not send power to the arm terminals."
+      ],
+      "primary_query": "A8132 dual swing lights blink click noise arms won't open or close"
+    },
+    {
+      "id": "cs_0022",
+      "file": "samples/customer-service-emails/0022-a5132-opens-then-recloses-resolved.md",
+      "mail_num": 22,
+      "test_id": null,
+      "tier": "real",
+      "type": "fault",
+      "product_line": "A5132（dual swing）",
+      "corpus_mapping": "logic",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_016"
+      ],
+      "domains": [
+        "limit",
+        "safety_reverse",
+        "pull_push_fork",
+        "dual_arm"
+      ],
+      "limit_fork_case": true,
+      "verbatim_customer": [
+        "Just recently my gate started acting differently. The left panel - furthest from the controller - seems to open and reaches full open then immediately starts closing about 4 feet. (there use to be a pause which it is not doing any more. This stops the right panel from closing as well. When I press the remote button it tries to open again and then after a pause (the correct pause) only closes 4 feet. When is stops it causes the right panel to stop again. I am wondering if I need to move the magnets on the left panel. Please advise",
+        "Hi Heidi\nMy gate is a pull to open. Does that make a difference?",
+        "Hi  Heidi,\nIt is working now.\nThank you!"
+      ],
+      "primary_query": "A5132 gate opens fully then immediately starts closing 4 feet left panel"
+    },
+    {
+      "id": "cs_0023",
+      "file": "samples/customer-service-emails/0023-ad5s-left-gate-auto-close-cycle-erratic.md",
+      "mail_num": null,
+      "test_id": "T1",
+      "tier": "test",
+      "type": "fault",
+      "product_line": "AD5S dual swing",
+      "corpus_mapping": "direct",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "domains": [
+        "auto_close",
+        "dual_arm",
+        "limit"
+      ],
+      "limit_fork_case": true,
+      "verbatim_customer": [
+        "I installed the AD5S gate opener on Saturday. Everything was working great. Today when I went to leave the gate opened fine. The right gate went all the way to the position I set it at. The left side stopped just before where I had it set. Then it closed itself right away. When the gate closed and locked it reopened by itself a quarter of the way and tried again to close. No remote used. Then it opened and closed multiple time. I diconnected the battery for awhile. Then the gate would finally close. The left gate is still not opening up all the way. Also I have the auto close set to max but it only stays open for like 2 secs now. So I am not sure what is going on."
+      ],
+      "primary_query": "AD5S left gate stopped before open position then closed itself no remote"
+    },
+    {
+      "id": "cs_0024",
+      "file": "samples/customer-service-emails/0024-minnesota-solar-at6132s-vs-ad5s-presales.md",
+      "mail_num": null,
+      "test_id": "T2",
+      "tier": "test",
+      "type": "presales",
+      "product_line": "AT6132S · AD5S · solar · keypad",
+      "corpus_mapping": "out",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "domains": [
+        "presales",
+        "solar"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Hi-\nPlease help me understand which is the best gate opener to purchase...our dog got out on the road and we don't want that.\nWe want to use solar, have gates close after someone drives thought, have a key pad (weather safe) to open gates.\nGates are under 100lb each (and have wheels on to help with weight distribution and opening them).\nClimate: Minnesota\nThe quiz suggested:\nTOPENS AT6132S Solar Dual Swing Gate Opener\nor\nTOPENS AD5S Solar Dual Swing Gate Opener\nquestions:\n1. which would work best for our gates and our set up?\n2. will these gates close after someone drives thought?\n3. which key pad to order?\n4. do you see any issues with them working for our set up? if not what would we need to change?\n5. How does the power get to both arms? It looks like the power is set on one side or the other not both?\n6. Can we leave the wheels on the gates?\n7. How easy is it to manually turn off the power and open gates in emergency?\n8. should we buy direct or on Amazon?\nThank you"
+      ],
+      "primary_query": "AT6132S vs AD5S solar dual swing Minnesota which is best under 100lb gates"
+    },
+    {
+      "id": "cs_0025",
+      "file": "samples/customer-service-emails/0025-tc148-stopped-warranty-replacement-composite.md",
+      "mail_num": null,
+      "test_id": "T3",
+      "tier": "test",
+      "type": "composite",
+      "product_line": "TC148 push button",
+      "corpus_mapping": "direct",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "domains": [
+        "TC148",
+        "warranty",
+        "composite"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Toppers TC148 Automatic Gate Opener has just stopped working…. Power and wiring connections are all good.. Push Button opener has just stopped working….\nWhat is the Warranty Time Period…?\nCan it be replaced under Warranty…?"
+      ],
+      "primary_query": "TC148 push button stopped working power and wiring all good"
+    },
+    {
+      "id": "cs_0026",
+      "file": "samples/customer-service-emails/0026-a3a5a8-board-replaced-actuator-no-response.md",
+      "mail_num": null,
+      "test_id": "T4",
+      "tier": "test",
+      "type": "fault",
+      "product_line": "A3 / A5 / A8（邻居设备 · 型号未精确到 SKU）",
+      "corpus_mapping": "direct",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "domains": [
+        "board",
+        "motor",
+        "limit",
+        "partial_diag"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "My Neighbor has a Topens swing gate model  A3/A5/A8.\nWe have troubleshoot the system, have replace the board with a new board.\nWe have directly put + & - to the actuator and it does open and close but doesn't work when put back into to proper terminals.\nThe fuse is good, there is a clicking sound when the remote is pressed but the actuator doesn't response,\nWe have tripped the DLMT, com ,Ulmt as directed in the Manuel and still no response.\nCan you help us find the solution.\nThe product is 2 years old ."
+      ],
+      "primary_query": "replaced control board clicking sound remote actuator no response A3 A5 A8"
+    },
+    {
+      "id": "cs_0027",
+      "file": "samples/customer-service-emails/0027-remote-multiple-press-no-model-generic.md",
+      "mail_num": null,
+      "test_id": "T5",
+      "tier": "test",
+      "type": "fault",
+      "product_line": "（未声明）",
+      "corpus_mapping": "logic",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "domains": [
+        "remote",
+        "click",
+        "no_model"
+      ],
+      "limit_fork_case": false,
+      "verbatim_customer": [
+        "Sometimes you must push the remote button 3 times before the gate opens. The light on the board comes on and you can hear it click. Nothing happens. The it will open on 2nd or third try. \nSometimes it will open on first try.\nI can't find any help that list this as a problem"
+      ],
+      "primary_query": "must push remote button 3 times before gate opens light on board click nothing happens"
+    }
+  ],
+  "queries": [
+    {
+      "id": "csq_001",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "the gate does nothing when i push the button or use the key pad remote.",
+      "scenario_id": "cs_0001",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_002",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AT12131S gate does nothing when I push the button",
+      "scenario_id": "cs_0001",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_003",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "keypad remote no response gate opener",
+      "scenario_id": "cs_0001",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_004",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate does nothing when i push the button or use the key pad remote",
+      "scenario_id": "cs_0001",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_005",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "control board power led off fuse backup manual pack",
+      "scenario_id": "cs_0001",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_006",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "short push button terminals 4 and 5 opener not working",
+      "scenario_id": "cs_0001",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_007",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate opener worked four days now motor won't function lock still unlocks",
+      "scenario_id": "cs_0002",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_008",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "zero power to motor at control board fuse is good",
+      "scenario_id": "cs_0002",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_009",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "ET24 lock unlocks but gate opener won't move",
+      "scenario_id": "cs_0002",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_010",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "bypassed motor limit switch jumping wires still nothing",
+      "scenario_id": "cs_0002",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_011",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "UPS01 LOAD voltage drop ET24 electric lock",
+      "scenario_id": "cs_0002",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_012",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "tested power at control board going to the motor zero power",
+      "scenario_id": "cs_0002",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_013",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Installed openers as per instructions. Programmed supplied remotes. 3 LEDs on control board responds when remote is pressed, however gates do not open. Please advise. Thank you, Rick Der",
+      "scenario_id": "cs_0003",
+      "source": "customer_body",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_014",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AD8 remotes programmed 3 LEDs respond gates do not open",
+      "scenario_id": "cs_0003",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_015",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "control board LEDs respond when remote pressed but gate won't move",
+      "scenario_id": "cs_0003",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_016",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "programmed remotes gate opener no movement LED blinks",
+      "scenario_id": "cs_0003",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_017",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AD8 DIP switch 5 photocell disconnect accessories",
+      "scenario_id": "cs_0003",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_018",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual arm clutch release gate middle position won't open",
+      "scenario_id": "cs_0003",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_010",
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_019",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hello I'm Matt,  I have two seperate gates.  Was going to buy a double gate and need another PS and controller.   Gates is 100 lbs or so and about 16 ft.   What do you recommend? I was looking at TOPENS PW302 Dual Swing Gate Opener. I need two remotes that are are able to open either gate. What do you recommend? Thanks,  Matt",
+      "scenario_id": "cs_0004",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_020",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "two separate gates control each gate individually with remote",
+      "scenario_id": "cs_0004",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_021",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "PW302 dual swing open one gate only recommendation",
+      "scenario_id": "cs_0004",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_022",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "need another power supply and controller for double gate opener",
+      "scenario_id": "cs_0004",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_023",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "100 lb 16 ft gate what gate opener do you recommend",
+      "scenario_id": "cs_0004",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_024",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual swing gate opener does not support controlling one gate individually",
+      "scenario_id": "cs_0004",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_025",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hello there I have yet to buy a gate from you guys. I was actually wondering why I should buy a gate opener from you versus ghost controls pros and cons and warranty most people I know by the ghost so I’m trying to weigh the odds thank you. Looking at dual swing solar I have a 34 foot opening twin gates thank you",
+      "scenario_id": "cs_0005",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_026",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "why buy TOPENS gate opener versus Ghost Controls warranty pros cons",
+      "scenario_id": "cs_0005",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_027",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual swing solar gate opener 34 foot opening twin gates",
+      "scenario_id": "cs_0005",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_028",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "JY9132 heavy duty solar setup battery capacity sunlight",
+      "scenario_id": "cs_0005",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_029",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AT12132S dual swing ranch farm solar recommendation",
+      "scenario_id": "cs_0005",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_030",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "pure solar power gate opener batteries solar panels separately",
+      "scenario_id": "cs_0005",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_031",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "What is the difference between models A8131 and AT12131?  Thank You",
+      "scenario_id": "cs_0006",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_032",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "what is the difference between A8131 and AT12131",
+      "scenario_id": "cs_0006",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_033",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A8131 vs AT12131 A8 arm AT12 arm",
+      "scenario_id": "cs_0006",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_034",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "pull to open AB values A8131 AT12131 installation",
+      "scenario_id": "cs_0006",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_035",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "single swing gate opener 500 lbs 14 ft which model compatible",
+      "scenario_id": "cs_0006",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_036",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A series arm vs AT type arm gate opener",
+      "scenario_id": "cs_0006",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_037",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Good Afternoon, I am looking to purchase 2 sets of dual swing opener kits from Amazon as I am In the UK. Could you please help advise me on what the difference is between these models? Is there any benefit to one over the others? AT1202 AT602 A8132 KD702 The set up I have at the moment is 2x 3m aluminium swing gates (in and out driveway for a set of semi detached houses) 1 gate would be primarily opened by us for our house and the other gate would be primarily opened by the new owners of the attached house we are selling. Would the m12 remotes open both gates at the same time or are they progr",
+      "scenario_id": "cs_0007",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_038",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "difference between AT1202 AT602 A8132 KD702 dual swing gate opener",
+      "scenario_id": "cs_0007",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_039",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "M12 remote open both gates at the same time or programmed for one",
+      "scenario_id": "cs_0007",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_040",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC196 wifi controller one gate or both gate openers",
+      "scenario_id": "cs_0007",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_041",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "how many remotes can pair to TOPENS control board maximum 8 ERM12 250",
+      "scenario_id": "cs_0007",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_042",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC175 TC148 wired accessories shielded wires combining cab interference",
+      "scenario_id": "cs_0007",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_043",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "two dual swing opener kits UK semi detached driveway 3m aluminium gates",
+      "scenario_id": "cs_0007",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_044",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Push button not working, therefore we jumpered out #4&5 at the main control panel and still nothing happened. Other than that everything works",
+      "scenario_id": "cs_0008",
+      "source": "customer_body",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_045",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "PW502 push button not working jumpered 4 and 5 still nothing",
+      "scenario_id": "cs_0008",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_046",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 extension cable gate opener not working replace short cable",
+      "scenario_id": "cs_0008",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_047",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "everything works except push button TC148 PW502",
+      "scenario_id": "cs_0008",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_048",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "immediately short push button terminals 4 5 control board video",
+      "scenario_id": "cs_0008",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_049",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 waterproof push button not working remote works fine",
+      "scenario_id": "cs_0008",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_050",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi Joyce, I have set up a retractive switch (same as TC148 with COM and L1 connections) and it is connected as per the manual instructions into #4 and #5 at the control box. The cable length is 8M (24ft) and is is shielded armoured cable with 1.5mm cores. However, as soon as it is wired, without touching the switch, the gate starts to open and then goes through cycles of start/stop to all the way open and then closes ( I have auto close dip switch set to yes) with start/stop.  when it has finished closing it starts to re-open again. Once I disconnect the switch it all works as it should do usi",
+      "scenario_id": "cs_0009",
+      "source": "customer_body",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_051",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi Joyce, I have attached the pdf of the user manual for the switch. I have done the test check that you asked for with the jumper wire between #4 and #5.  The gate works as it should open/stop/closes Please see the wiring pictures that I have for the switch.  All the LED wiring had been removed I have a video of what happens when the switch is attached and I turn the power on to the control box, but it's too big to send.  Basically the gate works erratically  constantly opening a closing, half opening and the closing and continues until I turn the power off.  It does this without doing anythi",
+      "scenario_id": "cs_0009",
+      "source": "customer_body",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_052",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi Joyce, My push button is the same as the Topens one i.e. they are both retractive switches.  Anyway I bought a Topens one just in case and the same thing is happening.  I have also changed the cable and the same thing happens. If I disconnect the switch cable at the control box at #4 and #5 the gate works fine with the remote.  But as soon as #4 and #5 cables are re-connected even without the switch attached on the end the gate just does what it wants to constantly closing, opening, half opening, half closing etc. never stopping. Thanks David",
+      "scenario_id": "cs_0009",
+      "source": "customer_body",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_053",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate erratically opening closing when push button wired to 4 and 5 without pressing",
+      "scenario_id": "cs_0009",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_054",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "disconnect 4 5 works remote reconnect cables without switch gate keeps cycling",
+      "scenario_id": "cs_0009",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_055",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 shielded cable GND terminal 3 metal shield 15 meters",
+      "scenario_id": "cs_0009",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_056",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "retractive switch AT6131 auto close dip erratic cycle",
+      "scenario_id": "cs_0009",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_057",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "third party push button dry contact must not have indicator circuits",
+      "scenario_id": "cs_0009",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_058",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "jumper 4 5 open stop close works but wired button causes interference",
+      "scenario_id": "cs_0009",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_059",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi Lori, I have now purchased the Topens wired push button TC148. I have connected it to O.S.B(4) & COM(5). I am getting no response, can you help. Or is this a broken button. Regards Ian",
+      "scenario_id": "cs_0010",
+      "source": "customer_body",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_060",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 connected to 4 and 5 no response A8131",
+      "scenario_id": "cs_0010",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_061",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "Topens wired push button not working is it broken",
+      "scenario_id": "cs_0010",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_062",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 O.S.C COM terminals no response gate opener",
+      "scenario_id": "cs_0010",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_063",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "disconnect TC148 extension cable replace short cable",
+      "scenario_id": "cs_0010",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_064",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "immediately short push button terminals 4 5 TC148 not working",
+      "scenario_id": "cs_0010",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_065",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "what is the difference between A8132 PW802 AD8 AT1202",
+      "scenario_id": "cs_0011",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_066",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A8132 vs AT1202 A8 arm AT12 arm control board energy saving",
+      "scenario_id": "cs_0011",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_067",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "PW802 DPS180-U AC power only vs AT1202 built in transformer",
+      "scenario_id": "cs_0011",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_068",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AD8 battery main power source AC need DPS180 or UPS01",
+      "scenario_id": "cs_0011",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_069",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AUTO CLOSE feature gate closes automatically after set time",
+      "scenario_id": "cs_0011",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_070",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC188 vs TC173 range ERM12 extend remote range",
+      "scenario_id": "cs_0011",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_071",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi My contractor installed the opener and although the gate opens, it does not stop at the desired location, it moves too far and into the grass. Adjusting the screw (B) and sliding it to adjust does nothing - the gate still swings to the same spot too far over. It also does not close all the way, we notice it is VERY slow and then comes to a stop halfway. What is the solution? The contractor thinks that perhaps the screw (B) is faulty? Please advise. Thanks!",
+      "scenario_id": "cs_0012",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_072",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AT12131 gate opens too far into grass limit switch B does nothing",
+      "scenario_id": "cs_0012",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_073",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "adjusting screw B sliding limit switch gate still overswings",
+      "scenario_id": "cs_0012",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_074",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate closes very slow stops halfway AT12131",
+      "scenario_id": "cs_0012",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_075",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "limit switch B faulty gate does not close all the way",
+      "scenario_id": "cs_0012",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_076",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "reconfirm open closed position pull to open limit switch B",
+      "scenario_id": "cs_0012",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_077",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "FORCE potentiometer SOFT STOP gate not closing fully",
+      "scenario_id": "cs_0012",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_020",
+        "qa_021"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_078",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Need help this gate opener keeps stopping before opening fully",
+      "scenario_id": "cs_0013",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_079",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A3S gate opener keeps stopping before opening fully",
+      "scenario_id": "cs_0013",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_080",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate stops halfway while opening Texas ranch farm",
+      "scenario_id": "cs_0013",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_081",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "detect voltage 11 12 terminals above 22V gate stops opening",
+      "scenario_id": "cs_0013",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_082",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "FORCE potentiometer SOFT STOP gate not opening all the way",
+      "scenario_id": "cs_0013",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_083",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "push against gate during opening add load test gate opener",
+      "scenario_id": "cs_0013",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_022"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_084",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi, I bought this gate and since I've bought it I've had issues with constantly having to reset the limits for the gate, from the start it would over close and everytime I fix it with the limit wires a few weeks later I'd have to adjust again. Now when I adjust the limit wire nothing is happening and the gate keeps over closing then opening. I've tried all the trouble shooting and I even replaced the limit wire as I believed perhaps it was faulty but the issue still prevails. Can you help me with this issue. Thank you",
+      "scenario_id": "cs_0014",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_085",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AT602 gate over closing then opening limit wire adjustment does nothing",
+      "scenario_id": "cs_0014",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_086",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "constantly reset limits gate opener limit switch B",
+      "scenario_id": "cs_0014",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_087",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "replaced limit wire still over closes dual swing AT602",
+      "scenario_id": "cs_0014",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_088",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "internal magnetic ring cracked arm limit switch induction failure",
+      "scenario_id": "cs_0014",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_089",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "hold front mount rotate arm 180 degrees check closed position",
+      "scenario_id": "cs_0014",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_090",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "CC:Dan Hi Zack— First of all, hugely helpful. Once we powered down first before moving the pot, we were able to get a great delay dialed in. We have one (hopefully) last issue. The gate opens and closes at the right spots and there is no sign of binding. That said, about half the time when the gate starts to close after the delay, it reverses. It waits through an entire additional delay cycle and tries again to close. With rare exception, it closes on the second try.  But about half the time it closes normally. We are wondering if this may be an interaction between our soft stop and open/close",
+      "scenario_id": "cs_0015",
+      "source": "customer_body",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_091",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AD8S gate reverses when starting to close after auto close delay",
+      "scenario_id": "cs_0015",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_092",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate waits entire additional delay cycle tries again to close second try",
+      "scenario_id": "cs_0015",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_093",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "soft stop and open close delay interaction gate reverses half the time",
+      "scenario_id": "cs_0015",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_094",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual swing AD8S auto close reverses then closes on second attempt",
+      "scenario_id": "cs_0015",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_095",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "power off before moving FORCE potentiometer auto close delay",
+      "scenario_id": "cs_0015",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_040",
+        "qa_015",
+        "qa_016"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_096",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "I installed, everything worked, now a red lightis flashlight and it won't work. Please call me ASAP. Allen ***-***-**** Thank you! Allen",
+      "scenario_id": "cs_0016",
+      "source": "customer_body",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_097",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "PW802 red light flashing gate won't work after installation",
+      "scenario_id": "cs_0016",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_098",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "Power LED flashes red dual swing gate opener not working",
+      "scenario_id": "cs_0016",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_099",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "measure 11 12 terminals above 22V PW802 fuse control board",
+      "scenario_id": "cs_0016",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_100",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "PW802 DIP switch 5 photocell disconnect accessories one by one",
+      "scenario_id": "cs_0016",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_101",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual swing disconnect one arm test which arm defective",
+      "scenario_id": "cs_0016",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_102",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Good evening: Our gate arm has messed up again. We have done all the previous troubleshooting and it does the exact thing as the last one sent. The gate opener doesn't work at all. Can you let me know if we still have warranty. We purchased it in June of 2025. My husband is sure we need an arm replacement.",
+      "scenario_id": "cs_0017",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_103",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A5131 gate arm messed up again same as last replacement won't work",
+      "scenario_id": "cs_0017",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_104",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate opener doesn't work at all warranty purchased June 2025 replacement arm July",
+      "scenario_id": "cs_0017",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_105",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "replacement parts warranty does not extend original receipt date",
+      "scenario_id": "cs_0017",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_106",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "UPS01 LOAD terminal test motor red black wires reverse polarity",
+      "scenario_id": "cs_0017",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_107",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "short DLMT COM ULMT limit switch faulty arm runs both directions",
+      "scenario_id": "cs_0017",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_108",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "DIP switch 3 OFF disconnect accessories A5131 troubleshooting",
+      "scenario_id": "cs_0017",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_033"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_109",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "I have batteries and AC adapter installed. I'm not getting anything to work. Please call me",
+      "scenario_id": "cs_0018",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_110",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A5 A8 gate opener batteries and AC adapter nothing works",
+      "scenario_id": "cs_0018",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_111",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "not getting anything to work gate opener battery AC adapter installed",
+      "scenario_id": "cs_0018",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_112",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "battery voltage more than 22VDC 11 12 terminals control board",
+      "scenario_id": "cs_0018",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_113",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "fuse 5x20mm 250VAC 5A fast blow power light flashing every second",
+      "scenario_id": "cs_0018",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_114",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "DIP switch 3 OFF erase reprogram instant short 4 5 A5 gate opener",
+      "scenario_id": "cs_0018",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_115",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "ULT COM DLT limit switch faulty motor DC 24V test",
+      "scenario_id": "cs_0018",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_116",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Gate is opening at first open hard turned down force to almost nothing . Open to far gets binded. Sometimes doesn't close seems to have a mind of its own . Tryed programing through control box and remote not picking up remote many time as well. 12 ft cattle gate. One hydroelectric has bent the gate from pressure and force at bracket",
+      "scenario_id": "cs_0019",
+      "source": "customer_body",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_117",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AD5S dual solar gate opens too far gets binded sometimes doesn't close",
+      "scenario_id": "cs_0019",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_118",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "first open hard turned down stall force almost nothing AD5S",
+      "scenario_id": "cs_0019",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_119",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "remote not picking up cannot program learn control board AD5S",
+      "scenario_id": "cs_0019",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_120",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "pull to open gate bracket moving rod retracted open position too far",
+      "scenario_id": "cs_0019",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_121",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate bent from pressure force at bracket hydroelectric arm AD5S",
+      "scenario_id": "cs_0019",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_122",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "clear remote codes reprogram M12 AD5S dual swing",
+      "scenario_id": "cs_0019",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_123",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi! I installed my two AT 1202 gate-opener successfully but the gate does not stay closed. Right after closing it opens again and the slave arm does not open completely. There is no photo cell installed and The P9 setting is DEFENITELY on „00“. I can just keep the gate closed when I press the remote again in the moment when shutting is completed. But that´s not really what I want… Can you help?  Thank you in advance and greetings from Berlin, Germany Rainer Hinck",
+      "scenario_id": "cs_0020",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_124",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AT1202 gate does not stay closed opens again right after closing",
+      "scenario_id": "cs_0020",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_125",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "slave arm does not open completely dual swing AT1202",
+      "scenario_id": "cs_0020",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_126",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "P9 setting 00 no photocell gate reopens after close",
+      "scenario_id": "cs_0020",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_127",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "press remote again when shutting completed keep gate closed",
+      "scenario_id": "cs_0020",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_128",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "pull to open limit switch B close position AT1202",
+      "scenario_id": "cs_0020",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_129",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "reconfirm open close positions dual AT1202 Berlin",
+      "scenario_id": "cs_0020",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_130",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "The motherboard has power receives signal from fob , lights blink , a click noise , but the arms won't open or close. Checked with voltage meter board has power but will not send power to the arm terminals.",
+      "scenario_id": "cs_0021",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_131",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A8132 dual swing lights blink click noise arms won't open or close",
+      "scenario_id": "cs_0021",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_132",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "control board has power will not send power to arm terminals",
+      "scenario_id": "cs_0021",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_133",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "motherboard receives signal from fob but arms won't move A8132",
+      "scenario_id": "cs_0021",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_134",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "measure 11 12 terminals above 22VDC arms no output",
+      "scenario_id": "cs_0021",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_135",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "disconnect accessories disable photocell erase reprogram A8132",
+      "scenario_id": "cs_0021",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_136",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "release clutch push gate halfway dual swing won't move",
+      "scenario_id": "cs_0021",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_137",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Just recently my gate started acting differently. The left panel - furthest from the controller - seems to open and reaches full open then immediately starts closing about 4 feet. (there use to be a pause which it is not doing any more. This stops the right panel from closing as well. When I press the remote button it tries to open again and then after a pause (the correct pause) only closes 4 feet. When is stops it causes the right panel to stop again. I am wondering if I need to move the magnets on the left panel. Please advise",
+      "scenario_id": "cs_0022",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_138",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi Heidi My gate is a pull to open. Does that make a difference?",
+      "scenario_id": "cs_0022",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_139",
+      "lang": "en",
+      "tier": "A_verbatim",
+      "query": "Hi  Heidi, It is working now. Thank you!",
+      "scenario_id": "cs_0022",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_140",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "A5132 gate opens fully then immediately starts closing 4 feet left panel",
+      "scenario_id": "cs_0022",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_141",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual swing safety reverse no photocell reverse 3 seconds second stop",
+      "scenario_id": "cs_0022",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_142",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "pull to open limit switch A outward gate bracket inward retraction",
+      "scenario_id": "cs_0022",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_143",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "left arm furthest from controller stops right panel from closing",
+      "scenario_id": "cs_0022",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_144",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "move magnets on left panel gate opener limit switch A5132",
+      "scenario_id": "cs_0022",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_145",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "stall force potentiometer E power off first complete cycle",
+      "scenario_id": "cs_0022",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_146",
+      "lang": "en",
+      "tier": "C_test_prompt",
+      "query": "I installed the AD5S gate opener on Saturday. Everything was working great. Today when I went to leave the gate opened fine. The right gate went all the way to the position I set it at. The left side stopped just before where I had it set. Then it closed itself right away. When the gate closed and locked it reopened by itself a quarter of the way and tried again to close. No remote used. Then it opened and closed multiple time. I diconnected the battery for awhile. Then the gate would finally close. The left gate is still not opening up all the way. Also I have the auto close set to max but it",
+      "scenario_id": "cs_0023",
+      "source": "customer_body",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_147",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AD5S left gate stopped before open position then closed itself no remote",
+      "scenario_id": "cs_0023",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_148",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "dual swing gate reopened quarter way tried to close again multiple times",
+      "scenario_id": "cs_0023",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_149",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "auto close set to max only stays open 2 seconds AD5S",
+      "scenario_id": "cs_0023",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_150",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "right gate opens all the way left gate not opening fully",
+      "scenario_id": "cs_0023",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_151",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "disconnected battery gate finally closed AD5S",
+      "scenario_id": "cs_0023",
+      "source": "derived_retrieval_query",
+      "expected_library": "ad5s",
+      "expected_group_ids": [
+        "qa_016",
+        "qa_015",
+        "qa_020"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_152",
+      "lang": "en",
+      "tier": "C_test_prompt",
+      "query": "Hi- Please help me understand which is the best gate opener to purchase...our dog got out on the road and we don't want that. We want to use solar, have gates close after someone drives thought, have a key pad (weather safe) to open gates. Gates are under 100lb each (and have wheels on to help with weight distribution and opening them). Climate: Minnesota The quiz suggested: TOPENS AT6132S Solar Dual Swing Gate Opener or TOPENS AD5S Solar Dual Swing Gate Opener questions: 1. which would work best for our gates and our set up? 2. will these gates close after someone drives thought? 3. which key",
+      "scenario_id": "cs_0024",
+      "source": "customer_body",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_153",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "AT6132S vs AD5S solar dual swing Minnesota which is best under 100lb gates",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_154",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gates close automatically after someone drives through solar opener",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_155",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "weather safe keypad TC175 TC188 dual swing recommendation",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_156",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "how does power get to both arms dual swing gate opener wiring",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_157",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "can I leave wheels on the gate with automatic opener",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_158",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "manually turn off power open gate emergency dual swing",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_159",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "buy TOPENS direct or Amazon",
+      "scenario_id": "cs_0024",
+      "source": "derived_retrieval_query",
+      "expected_library": null,
+      "expected_group_ids": [],
+      "corpus_mapping": "out",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_160",
+      "lang": "en",
+      "tier": "C_test_prompt",
+      "query": "Toppers TC148 Automatic Gate Opener has just stopped working…. Power and wiring connections are all good.. Push Button opener has just stopped working…. What is the Warranty Time Period…? Can it be replaced under Warranty…?",
+      "scenario_id": "cs_0025",
+      "source": "customer_body",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_161",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 push button stopped working power and wiring all good",
+      "scenario_id": "cs_0025",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_162",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TOPENS TC148 warranty time period can it be replaced under warranty",
+      "scenario_id": "cs_0025",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_163",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "Toppers TC148 automatic gate opener not working push button",
+      "scenario_id": "cs_0025",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_164",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "TC148 waterproof push button replacement warranty Amazon",
+      "scenario_id": "cs_0025",
+      "source": "derived_retrieval_query",
+      "expected_library": "tc148",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_002"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_165",
+      "lang": "en",
+      "tier": "C_test_prompt",
+      "query": "My Neighbor has a Topens swing gate model  A3/A5/A8. We have troubleshoot the system, have replace the board with a new board. We have directly put + & - to the actuator and it does open and close but doesn't work when put back into to proper terminals. The fuse is good, there is a clicking sound when the remote is pressed but the actuator doesn't response, We have tripped the DLMT, com ,Ulmt as directed in the Manuel and still no response. Can you help us find the solution. The product is 2 years old .",
+      "scenario_id": "cs_0026",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "direct",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_166",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "replaced control board clicking sound remote actuator no response A3 A5 A8",
+      "scenario_id": "cs_0026",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_167",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "direct power to actuator works proper terminals does not Topens",
+      "scenario_id": "cs_0026",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_168",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "tripped DLMT COM ULMT still no response swing gate",
+      "scenario_id": "cs_0026",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_169",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "fuse good click sound actuator doesn't respond 2 years old",
+      "scenario_id": "cs_0026",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_170",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "neighbor Topens swing gate model A3 A5 A8 troubleshooting",
+      "scenario_id": "cs_0026",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_001",
+        "qa_033"
+      ],
+      "corpus_mapping": "direct",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_171",
+      "lang": "en",
+      "tier": "C_test_prompt",
+      "query": "Sometimes you must push the remote button 3 times before the gate opens. The light on the board comes on and you can hear it click. Nothing happens. The it will open on 2nd or third try.  Sometimes it will open on first try. I can't find any help that list this as a problem",
+      "scenario_id": "cs_0027",
+      "source": "customer_body",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "corpus_mapping": "logic",
+      "category": "verbatim"
+    },
+    {
+      "id": "csq_172",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "must push remote button 3 times before gate opens light on board click nothing happens",
+      "scenario_id": "cs_0027",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_173",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "gate opens on second or third try sometimes first try remote",
+      "scenario_id": "cs_0027",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_174",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "control board clicks but gate doesn't move intermittent",
+      "scenario_id": "cs_0027",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_175",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "can't find help for remote needs multiple presses gate opener",
+      "scenario_id": "cs_0027",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    },
+    {
+      "id": "csq_176",
+      "lang": "en",
+      "tier": "B_derived",
+      "query": "Topens gate opener remote intermittent click no movement no model",
+      "scenario_id": "cs_0027",
+      "source": "derived_retrieval_query",
+      "expected_library": "a3s",
+      "expected_group_ids": [
+        "qa_010"
+      ],
+      "corpus_mapping": "logic",
+      "category": "colloquial_en"
+    }
+  ],
+  "limit_fork_probes": [
+    {
+      "id": "csq_fork_001",
+      "query": "My gate is a pull to open. Does that make a difference?",
+      "scenario_id": "cs_0022",
+      "note": "install_mode correction · form said Push",
+      "needs_install_mode": true,
+      "confusable_groups": [
+        "qa_016",
+        "qa_017",
+        "qa_018",
+        "qa_019"
+      ]
+    },
+    {
+      "id": "csq_fork_002",
+      "query": "left panel reaches full open then immediately starts closing about 4 feet no remote",
+      "scenario_id": "cs_0022",
+      "note": "safety reverse + limit composite",
+      "needs_install_mode": true
+    },
+    {
+      "id": "csq_fork_003",
+      "query": "gate opens too far limit switch B does nothing pull to open",
+      "scenario_id": "cs_0012",
+      "note": "trunk+fork in one CS email · AT12131",
+      "needs_install_mode": true
+    },
+    {
+      "id": "csq_fork_004",
+      "query": "AD5S left gate not opening fully auto close only 2 seconds",
+      "scenario_id": "cs_0023",
+      "note": "甲方T1 · dual arm + auto close",
+      "needs_install_mode": "unknown"
+    },
+    {
+      "id": "csq_fork_005",
+      "query": "gate does not stay closed opens again slave arm AT1202 P9 00",
+      "scenario_id": "cs_0020",
+      "note": "limit + dual slave · no v1 docx",
+      "needs_install_mode": true
+    }
+  ]
+}

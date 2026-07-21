@@ -1,0 +1,23 @@
+# Joyce 22-mail eval · cs_email_query_map.json scenario ids (mail_num 1–22)
+cs_0001
+cs_0002
+cs_0003
+cs_0004
+cs_0005
+cs_0006
+cs_0007
+cs_0008
+cs_0009
+cs_0010
+cs_0011
+cs_0012
+cs_0013
+cs_0014
+cs_0015
+cs_0016
+cs_0017
+cs_0018
+cs_0019
+cs_0020
+cs_0021
+cs_0022

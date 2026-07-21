@@ -1,0 +1,508 @@
+[
+  {
+    "chunk_id": "a3s-manual-p18",
+    "group_id": "a3s-manual-p18",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Terminal Function of the Control Board",
+    "question": "Terminal Function of the Control Board",
+    "embedding_text": null,
+    "content_zh": "控制板端子功能整页（第18页）：21 个编号端子（①-㉑）按功能组说明接线用途。",
+    "content_en": "Terminal Function of the Control Board (page 18): 21 numbered terminals grouped by function.",
+    "images": [
+      {
+        "file": "images/p18-page.png",
+        "caption": "控制板端子功能表整页",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p18-page"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      18,
+      18
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Terminal Function of the Control Board",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p18-terminal-table",
+    "group_id": "a3s-manual-p18",
+    "parent_id": "a3s-manual-p18",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Terminal Function of the Control Board",
+    "question": "Terminal Function of the Control Board",
+    "embedding_text": "Terminal Function of the Control Board 控制板接线端子功能 +24 PHOTO GND O/S/C COM OPSW EDGE LOCK BAT ADAPTER LAMP MOTOR DLMT ULMT",
+    "content_zh": "控制板端子功能对照表：①+24、③GND 端子输出24VDC电压为光电传感器供电；②PHOTO、③GND 接收光电传感器信号，常闭(NC)输入；④O/S/C、⑤COM 通过常开干接点信号控制大门循环开/停/关/停，常接推杆开关、有线密码器、外接收器；⑥OPSW、⑤COM 接收车辆检测器常开输出的开门信号；⑦EDGE、⑧GND 接收防夹边缘传感器常开信号；⑨⑩+LOCK- 输出接大门电锁正负极，要求失电闭锁型、额定24VDC、额定电流<3A；⑪⑫+BAT- 输入接24VDC电池或电源正负极，为整个系统供电；⑬⑭ADAPTER 输入接适配器为电池充电，也可接36VDC或24VAC电源；⑮⑯+LAMP- 输出接警示灯正负极，要求额定24VDC、额定电流<1A；⑰⑱+MOTOR- 接机械臂电机红黑线；⑲DLMT、⑳COM、㉑ULMT 接限位开关，近端限位接DLMT和COM，远端限位接ULMT和COM。",
+    "content_en": "Terminal Function table: (1)+24 (3)GND - Provide 24VDC to power photocell sensors. (2)PHOTO (3)GND - Receive photocell NC signal. (4)O/S/C (5)COM - Open/stop/close/stop cycling via NO dry contact. (6)OPSW (5)COM - Vehicle sensor NO opening signal. (7)EDGE (8)GND - Edge sensor NO. (9)(10)+LOCK- - Electric lock fail-secure 24VDC <3A. (11)(12)+BAT- - 24VDC battery/power input. (13)(14)ADAPTER - Adapter charging; 36VDC or 24VAC. (15)(16)+LAMP- - Warning light 24VDC <1A. (17)(18)+MOTOR- - Motor red/black wires. (19)DLMT (20)COM (21)ULMT - Limit switches; near-end DLMT/COM, far-end ULMT/COM.",
+    "images": [
+      {
+        "file": "images/p18-terminal-board.png",
+        "caption": "控制板正视图，标注21个编号端子位置（①-㉑），分为电源输出、传感器输入、锁控制、电池/适配器输入、警示灯输出、电机与限位开关六组端子区",
+        "caption_status": "captioned",
+        "role": "spec_table",
+        "image_id": "p18-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      18,
+      18
+    ],
+    "structured": {
+      "table_id": "terminal_function",
+      "role": "spec_table",
+      "rows": [
+        {
+          "terminals": [
+            "①",
+            "③"
+          ],
+          "labels": [
+            "+24",
+            "GND"
+          ],
+          "function_zh": "输出24VDC电压为光电传感器供电",
+          "function_en": "Provide 24VDC voltage output to power photocell sensors"
+        },
+        {
+          "terminals": [
+            "②",
+            "③"
+          ],
+          "labels": [
+            "PHOTO",
+            "GND"
+          ],
+          "function_zh": "接收光电传感器信号，常闭(NC)输入",
+          "function_en": "Receive signal input from photocell sensor, NC basis"
+        },
+        {
+          "terminals": [
+            "④",
+            "⑤"
+          ],
+          "labels": [
+            "O/S/C",
+            "COM"
+          ],
+          "function_zh": "常开干接点控制大门循环开/停/关/停，接推杆开关、有线密码器、外接收器",
+          "function_en": "Control gate open/stop/close/stop via NO dry contact"
+        },
+        {
+          "terminals": [
+            "⑥",
+            "⑤"
+          ],
+          "labels": [
+            "OPSW",
+            "COM"
+          ],
+          "function_zh": "接收车辆检测器常开输出的开门信号",
+          "function_en": "Accept gate opening signal from vehicle sensor NO output"
+        },
+        {
+          "terminals": [
+            "⑦",
+            "⑧"
+          ],
+          "labels": [
+            "EDGE",
+            "GND"
+          ],
+          "function_zh": "接收防夹边缘传感器常开信号",
+          "function_en": "Receive edge sensor NO signal"
+        },
+        {
+          "terminals": [
+            "⑨",
+            "⑩"
+          ],
+          "labels": [
+            "+LOCK",
+            "-"
+          ],
+          "function_zh": "输出接大门电锁，失电闭锁型，额定24VDC，<3A",
+          "function_en": "Output for swing gate electric lock, fail-secure, 24VDC, <3A"
+        },
+        {
+          "terminals": [
+            "⑪",
+            "⑫"
+          ],
+          "labels": [
+            "+BAT",
+            "-"
+          ],
+          "function_zh": "输入接24VDC电池或电源，为整个系统供电",
+          "function_en": "Input for 24VDC battery or power supply, powers entire system"
+        },
+        {
+          "terminals": [
+            "⑬",
+            "⑭"
+          ],
+          "labels": [
+            "ADAPTER",
+            ""
+          ],
+          "function_zh": "输入接适配器为电池充电，也可接36VDC或24VAC",
+          "function_en": "Input for power adapter; 36VDC or 24VAC supply"
+        },
+        {
+          "terminals": [
+            "⑮",
+            "⑯"
+          ],
+          "labels": [
+            "+LAMP",
+            "-"
+          ],
+          "function_zh": "输出接警示灯，额定24VDC，<1A",
+          "function_en": "Output for warning light, 24VDC rated, <1A"
+        },
+        {
+          "terminals": [
+            "⑰",
+            "⑱"
+          ],
+          "labels": [
+            "+MOTOR",
+            "-"
+          ],
+          "function_zh": "接机械臂电机红黑线",
+          "function_en": "Connect to red/black wires of gate opener arm"
+        },
+        {
+          "terminals": [
+            "⑲",
+            "⑳",
+            "㉑"
+          ],
+          "labels": [
+            "DLMT",
+            "COM",
+            "ULMT"
+          ],
+          "function_zh": "接限位开关；近端限位接DLMT和COM，远端限位接ULMT和COM",
+          "function_en": "Limit switches; near-end DLMT/COM, far-end ULMT/COM"
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Terminal Function of the Control Board",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p9",
+    "group_id": "a3s-manual-p9",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Pull-to-Open Gate Opener Mounting",
+    "question": "Pull-to-Open Gate Opener Mounting",
+    "embedding_text": null,
+    "content_zh": "拉式开门门机安装章节（第9页）：STEP 1 装配立柱支架与拉式开门支架；STEP 2 根据尺寸 A、B 确定立柱支架安装位置及最大开门角度。",
+    "content_en": "Pull-to-Open Gate Opener Mounting (page 9): STEP 1 assemble post bracket and pull-to-open bracket; STEP 2 determine post bracket position from dimensions A and B and maximum opening angle.",
+    "images": [
+      {
+        "file": "images/p09-page.png",
+        "caption": "Pull-to-Open Gate Opener Mounting 整页（STEP 1-2）",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p9-page"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      9,
+      9
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p9-step1",
+    "group_id": "a3s-manual-p9",
+    "parent_id": "a3s-manual-p9",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · STEP 1 Assemble the Post Bracket and the Pull-to-Open Bracket",
+    "question": "Assemble the Post Bracket and the Pull-to-Open Bracket",
+    "embedding_text": "Pull-to-Open Gate Opener Mounting STEP 1 Assemble the Post Bracket and Pull-to-Open Bracket 立柱支架 拉式开门支架 装配",
+    "content_zh": "将螺栓穿过立柱支架和拉式开门支架上的孔，用垫片和螺母固定，如图所示。注意不要将螺母拧得过紧，因为立柱支架后续可能还需要调整位置。",
+    "content_en": "Insert the bolts through the holes of post bracket and pull-to-open bracket, and fasten with washer and nut as shown. DO NOT over tighten the nut because the post bracket may need to be adjusted later.",
+    "images": [
+      {
+        "file": "images/p9-step1-explosion.png",
+        "caption": "立柱支架组件爆炸图：展示 M10×35 螺栓、M8×30 螺栓、立柱支架(Post Bracket)、拉式开门支架(Pull-to-Open Bracket)、Φ10垫片、Φ10锁紧垫片、M10螺母、Φ8垫片、M8螺母的装配顺序与相对位置",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "p9-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      9,
+      9
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": "STEP 1",
+      "step_title": "Assemble the Post Bracket and the Pull-to-Open Bracket"
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p9-step2",
+    "group_id": "a3s-manual-p9",
+    "parent_id": "a3s-manual-p9",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · STEP 2 Determine the Position of the Post Bracket Assembly",
+    "question": "Determine the Position of the Post Bracket Assembly",
+    "embedding_text": "Pull-to-Open Gate Opener Mounting STEP 2 Determine Position Post Bracket Assembly opening angle table A B dimensions 开门角度 16cm 14cm 110",
+    "content_zh": "下表列出了根据尺寸A和B确定的大门最大开启角度。例如，若A为16cm(6.3\")、B为14cm(5.5\")，则大门最大开启角度为110°。测量A和B的尺寸以确定所需的开门角度，然后标记立柱支架的安装位置中心。拉式开门(Pull-to-Open)安装时，大门处于开启位置，且机械臂活动杆应完全缩回。",
+    "content_en": "The table shows the maximum opening angle of the gate based on the dimensions of A and B. For example, if A is 16cm (6.3\") and B is 14cm (5.5\"), the maximum opening angle of the gate is 110°. Measure the dimension of A and B to determine the desired gate opening angle, then mark the center of the mounting locations for the post bracket accordingly. Pull-to-Open Installation — Gate in open position with the moving rod fully retracted.",
+    "images": [
+      {
+        "file": "images/p9-step2-diagram.png",
+        "caption": "安装示意图：显示立柱支架、拉式开门支架、机械臂在开门位置的相对角度，标注尺寸A(支架到臂的垂直距离)与B(支架安装点水平偏移)及关闭方向箭头",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "p9-img2"
+      },
+      {
+        "file": "images/p9-step2-angle-table.png",
+        "caption": "A×B开门角度对照表：行为B值(10cm-28cm)，列为A值(10cm-26cm)，交叉单元格为对应最大开门角度(84°-120°不等)",
+        "caption_status": "captioned",
+        "role": "spec_table",
+        "image_id": "p9-img3"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      9,
+      9
+    ],
+    "table_data": {
+      "table_id": "opening_angle_ab",
+      "unit_a": "cm",
+      "unit_b": "cm",
+      "angle_unit": "deg",
+      "columns_a": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26
+      ],
+      "rows": [
+        {
+          "b": 10,
+          "angles": [
+            120,
+            118,
+            116,
+            114,
+            112,
+            110,
+            108,
+            106,
+            104
+          ]
+        },
+        {
+          "b": 12,
+          "angles": [
+            118,
+            116,
+            114,
+            112,
+            110,
+            108,
+            106,
+            104,
+            102
+          ]
+        },
+        {
+          "b": 14,
+          "angles": [
+            116,
+            114,
+            112,
+            110,
+            108,
+            106,
+            104,
+            102,
+            100
+          ]
+        },
+        {
+          "b": 16,
+          "angles": [
+            114,
+            112,
+            110,
+            108,
+            106,
+            104,
+            102,
+            100,
+            98
+          ]
+        },
+        {
+          "b": 18,
+          "angles": [
+            112,
+            110,
+            108,
+            106,
+            104,
+            102,
+            100,
+            98,
+            96
+          ]
+        },
+        {
+          "b": 20,
+          "angles": [
+            110,
+            108,
+            106,
+            104,
+            102,
+            100,
+            98,
+            96,
+            94
+          ]
+        },
+        {
+          "b": 22,
+          "angles": [
+            108,
+            106,
+            104,
+            102,
+            100,
+            98,
+            96,
+            94,
+            92
+          ]
+        },
+        {
+          "b": 24,
+          "angles": [
+            106,
+            104,
+            102,
+            100,
+            98,
+            96,
+            94,
+            92,
+            90
+          ]
+        },
+        {
+          "b": 26,
+          "angles": [
+            104,
+            102,
+            100,
+            98,
+            96,
+            94,
+            92,
+            90,
+            88
+          ]
+        },
+        {
+          "b": 28,
+          "angles": [
+            102,
+            100,
+            98,
+            96,
+            94,
+            92,
+            90,
+            88,
+            86
+          ]
+        }
+      ],
+      "example": {
+        "a": 16,
+        "b": 14,
+        "angle": 110
+      }
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": "STEP 2",
+      "step_title": "Determine the Position of the Post Bracket Assembly"
+    }
+  }
+]

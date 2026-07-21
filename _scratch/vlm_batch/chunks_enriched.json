@@ -1,0 +1,2709 @@
+[
+  {
+    "chunk_id": "a3s-manual-p10",
+    "group_id": "a3s-manual-p10",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Pull-to-Open Gate Opener Mounting",
+    "question": "Pull-to-Open Gate Opener Mounting",
+    "embedding_text": null,
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      10,
+      10
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting"
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p10-step3",
+    "group_id": "a3s-manual-p10",
+    "parent_id": "a3s-manual-p10",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · 3 Attach the Brackets to the Gate Opener Arm",
+    "question": "Attach the Brackets to the Gate Opener Arm",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting 3 Attach the Brackets to the Gate Opener Arm Title:Attach the Brackets to the Gate Opener Arm Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting: STEP 3 Attach the Brackets to the Gate Opener Arm. Attach the post bracket assembly and the gate bracket to the gate opener arm by inserting a clevis pin. Secure the clevis pin using the hairpin clip.",
+    "content_zh": null,
+    "content_en": "Attach the post bracket assembly and the gate bracket to the gate opener arm by inserting a clevis pin.\nSecure the clevis pin using the hairpin clip.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p10-step3-brackets.png",
+        "caption": "Clevis Pin 12×30, Rear Mount, Post Bracket Assembly, Hairpin Clip, Clevis Pin 12×40, Gate Bracket, Front Mount",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p10-img-01"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      10,
+      10
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": 3,
+      "step_title": "Attach the Brackets to the Gate Opener Arm"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p10-step4",
+    "group_id": "a3s-manual-p10",
+    "parent_id": "a3s-manual-p10",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · 4 Release the Clutch",
+    "question": "Release the Clutch",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting 4 Release the Clutch Title:Release the Clutch Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting: STEP 4 Release the Clutch. Open the release hole plug on the top of the gate opener. Insert the manual release key, and turn it 90° clockwise. The gate opener is now in manual mode, allowing for manual extension and retraction of the moving rod.",
+    "content_zh": null,
+    "content_en": "Open the release hole plug on the top of the gate opener.\nInsert the manual release key, and turn it 90° clockwise.\nThe gate opener is now in manual mode, allowing for manual extension and retraction of the moving rod.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p10-step4-clutch.png",
+        "caption": "Manual Release Key, Turn 90° Clockwise",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p10-img-02"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      10,
+      10
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": 4,
+      "step_title": "Release the Clutch"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p10-step5",
+    "group_id": "a3s-manual-p10",
+    "parent_id": "a3s-manual-p10",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · 5 Position the Gate Opener on the Gate",
+    "question": "Position the Gate Opener on the Gate",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting 5 Position the Gate Opener on the Gate Title:Position the Gate Opener on the Gate Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting: STEP 5 Position the Gate Opener on the Gate. Clamp the gate opener arm along with the post bracket assembly to the marked position on the gate post. Make sure that the gate opener arm is fully retracted and the gate is fully opened to the desired position. Put a level on the arm, then use a C-clamp to secure the gate bracket onto the gate when the arm is level.",
+    "content_zh": null,
+    "content_en": "Clamp the gate opener arm along with the post bracket assembly to the marked position on the gate post.\nMake sure that the gate opener arm is fully retracted and the gate is fully opened to the desired position.\nPut a level on the arm, then use a C-clamp to secure the gate bracket onto the gate when the arm is level.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p10-step5-positioning.png",
+        "caption": "Post Bracket Assembly, Gate Post, Level, Pull-to-Open Installation: Gate is open, Gate Bracket",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p10-img-03"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      10,
+      10
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": 5,
+      "step_title": "Position the Gate Opener on the Gate"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p11",
+    "group_id": "a3s-manual-p11",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Pull-to-Open Gate Opener Mounting",
+    "question": "Pull-to-Open Gate Opener Mounting",
+    "embedding_text": null,
+    "content_zh": "",
+    "content_en": "",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      11,
+      11
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting"
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p11-step6",
+    "group_id": "a3s-manual-p11",
+    "parent_id": "a3s-manual-p11",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · 6 Test Gate Travel and Mark the Brackets Mounting Locations",
+    "question": "Test Gate Travel and Mark the Brackets Mounting Locations",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting 6 Test Gate Travel and Mark the Brackets Mounting Locations Title:Test Gate Travel and Mark the Brackets Mounting Locations Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting STEP 6 Test Gate Travel and Mark the Brackets Mounting Locations, gate bracket position, minimum clearance 2.5cm (1\"), gate opener bind, pull-to-open bracket, post bracket assembly, mounting locations, gate opening angle, YouTube video. 手动打开和关闭门，以确保门支架位置正确。 确保门与开门器之间至少有2.5厘米（1英寸）的间隙。 确保开门器不会卡在拉开式支架上。 如果间隙小于2.5厘米（1英寸），或者开门器与拉开式支架卡住，请旋转拉开式支架和/或移动立柱支架组件。 标记支架安装位置的中心。 注意：此步骤对于确定开门器臂的位置和开门角度非常重要。强烈建议观看我们的YouTube分步安装视频以获取指导。",
+    "content_zh": "手动打开和关闭门，以确保门支架位置正确。\n确保门与开门器之间至少有2.5厘米（1英寸）的间隙。\n确保开门器不会卡在拉开式支架上。\n如果间隙小于2.5厘米（1英寸），或者开门器与拉开式支架卡住，请旋转拉开式支架和/或移动立柱支架组件。\n标记支架安装位置的中心。\n注意：此步骤对于确定开门器臂的位置和开门角度非常重要。强烈建议观看我们的YouTube分步安装视频以获取指导。",
+    "content_en": "Manually open and close the gate to ensure that the gate bracket position is correct.\nEnsure that there is a minimum clearance of 2.5cm (1\") between the gate and the opener.\nMake sure that the gate opener does not bind against the pull-to-open bracket.\nIf the clearance is less than 2.5cm (1\"), or if the gate opener and the pull-to-open bracket are binding, rotate the pull-to-open bracket and/or move the post bracket assembly.\nMark the center of the mounting locations for the brackets.\nNOTE: This step is very important for determining the position of the gate opener arm and the gate opening angle. It is highly recommended to watch our step-by-step installation video on YouTube for guidance.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p11-step6-illustration.png",
+        "caption": "Gate opener arm in closed and open positions, showing minimum clearance requirements and pinch area.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p11-img01"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      11,
+      11
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": 6,
+      "step_title": "Test Gate Travel and Mark the Brackets Mounting Locations"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p11-step7",
+    "group_id": "a3s-manual-p11",
+    "parent_id": "a3s-manual-p11",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · 7 Drill Bracket Mounting Holes",
+    "question": "Drill Bracket Mounting Holes",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting 7 Drill Bracket Mounting Holes Title:Drill Bracket Mounting Holes Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting STEP 7 Drill Bracket Mounting Holes, remove C-clamps, gate opener arm, drill 10.5mm (0.4\") holes, post, gate, marked locations. 拆下C型夹和开门器臂。 在标记的位置，通过立柱和门钻10.5毫米（0.4英寸）直径的孔。",
+    "content_zh": "拆下C型夹和开门器臂。\n在标记的位置，通过立柱和门钻10.5毫米（0.4英寸）直径的孔。",
+    "content_en": "Remove the C-clamps and the gate opener arm.\nDrill 10.5mm (0.4\") diameter holes through the post and the gate at the marked locations.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p11-step7-illustration.png",
+        "caption": "Drilling holes for bracket mounting on the post and gate at marked locations.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p11-img02"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      11,
+      11
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": 7,
+      "step_title": "Drill Bracket Mounting Holes"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p13",
+    "group_id": "a3s-manual-p13",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Push-to-Open Gate Opener Mounting",
+    "question": "Push-to-Open Gate Opener Mounting",
+    "embedding_text": null,
+    "content_zh": "",
+    "content_en": "",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      13,
+      13
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Push-to-Open Gate Opener Mounting"
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p13-step1",
+    "group_id": "a3s-manual-p13",
+    "parent_id": "a3s-manual-p13",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Push-to-Open Gate Opener Mounting · 1 Assemble the Post Bracket and the Push-to-Open Bracket",
+    "question": "Assemble the Post Bracket and the Push-to-Open Bracket",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Push-to-Open Gate Opener Mounting 1 Assemble the Post Bracket and the Push-to-Open Bracket Title:Assemble the Post Bracket and the Push-to-Open Bracket Push-to-Open 推式开门 推开门 外开 outward opening 非拉开门 Push-to-Open Gate Opener Mounting STEP 1 Assemble the Post Bracket and the Push-to-Open Bracket. Assembly instructions for post and push-to-open brackets. Fasten with washer and nut. Do not overtighten. Insert the bolts through the holes of post bracket and push-to-open bracket, and fasten with washer and nut as shown. DO NOT over tighten the nut beca 将螺栓穿过门柱支架和推开式支架的孔，并用垫圈和螺母固定，如图所示。 请勿将螺母拧得过紧，因为门柱支架可能需要稍后调整。",
+    "content_zh": "将螺栓穿过门柱支架和推开式支架的孔，并用垫圈和螺母固定，如图所示。\n请勿将螺母拧得过紧，因为门柱支架可能需要稍后调整。",
+    "content_en": "Insert the bolts through the holes of post bracket and push-to-open bracket, and fasten with washer and nut as shown.\nDO NOT over tighten the nut because the post bracket may need to be adjusted later.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p13-step1-assembly.png",
+        "caption": "Post Bracket Assembly",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "img-p13-1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      13,
+      13
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Push-to-Open Gate Opener Mounting",
+      "step_number": 1,
+      "step_title": "Assemble the Post Bracket and the Push-to-Open Bracket"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p13-step2",
+    "group_id": "a3s-manual-p13",
+    "parent_id": "a3s-manual-p13",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Push-to-Open Gate Opener Mounting · 2 Determine the Position of the Post Bracket Assembly",
+    "question": "Determine the Position of the Post Bracket Assembly",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Push-to-Open Gate Opener Mounting 2 Determine the Position of the Post Bracket Assembly Title:Determine the Position of the Post Bracket Assembly Push-to-Open 推式开门 推开门 外开 outward opening 非拉开门 Push-to-Open Gate Opener Mounting STEP 2 Determine the Position of the Post Bracket Assembly. Gate opening angle calculation. Dimensions A and B. Push-to-Open Installation. Gate in closed position, rod retracted. Table for maximum opening angle. The table shows the maximum opening angle of the gate based on the dimensions of A and B. For example, if A is 15cm (5.9\") and B is 12cm (4.7\"), the m 下表显示了基于尺寸A和B的门的最大开启角度。例如，如果A为15cm（5.9英寸）且B为12cm（4.7英寸），则门的最大开启角度为110°。 测量尺寸A和B以确定所需的门开启角度，然后相应地标记门柱支架的安装位置中心。 推开式安装 — 门在关闭位置，活动杆完全缩回。",
+    "content_zh": "下表显示了基于尺寸A和B的门的最大开启角度。例如，如果A为15cm（5.9英寸）且B为12cm（4.7英寸），则门的最大开启角度为110°。\n测量尺寸A和B以确定所需的门开启角度，然后相应地标记门柱支架的安装位置中心。\n推开式安装 — 门在关闭位置，活动杆完全缩回。",
+    "content_en": "The table shows the maximum opening angle of the gate based on the dimensions of A and B. For example, if A is 15cm (5.9\") and B is 12cm (4.7\"), the maximum opening angle of the gate is 110°.\nMeasure the dimension of A and B to determine the desired gate opening angle, and then mark the center of the mounting locations for the post bracket accordingly.\nPush-to-Open Installation — Gate in closed position with the moving rod fully retracted.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p13-step2-dimensions.png",
+        "caption": "Gate Opener Dimensions A and B in Closed Position for Push-to-Open Installation",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "img-p13-2a"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p13-step2-angle-table.png",
+        "caption": "Maximum Opening Angle of Gate based on Dimensions A and B",
+        "caption_status": "captioned",
+        "role": "spec_table",
+        "image_id": "img-p13-2b"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      13,
+      13
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Push-to-Open Gate Opener Mounting",
+      "step_number": 2,
+      "step_title": "Determine the Position of the Post Bracket Assembly"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p13-table1",
+    "group_id": "a3s-manual-p13",
+    "parent_id": "a3s-manual-p13",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Push-to-Open Gate Opener Mounting · 2 Determine the Position of the Post Bracket Assembly",
+    "question": "Determine the Position of the Post Bracket Assembly",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Push-to-Open Gate Opener Mounting 2 Determine the Position of the Post Bracket Assembly Title:Determine the Position of the Post Bracket Assembly Push-to-Open 推式开门 推开门 外开 outward opening 非拉开门 Push-to-Open Gate Opener Mounting STEP 2 Gate opening angle table. Dimensions A and B. The table shows the maximum opening angle of the gate based on the dimensions of A and B. 下表显示了基于尺寸A和B的门的最大开启角度。",
+    "content_zh": "下表显示了基于尺寸A和B的门的最大开启角度。",
+    "content_en": "The table shows the maximum opening angle of the gate based on the dimensions of A and B.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      13,
+      13
+    ],
+    "structured": {
+      "header": [
+        "B",
+        "A=15cm (5.9\")",
+        "A=13cm (5.1\")",
+        "A=11cm (4.3\")",
+        "A=9cm (3.5\")"
+      ],
+      "rows": [
+        [
+          "10cm (3.9\")",
+          "112°",
+          "105°",
+          "95°",
+          "86°"
+        ],
+        [
+          "12cm (4.7\")",
+          "110°",
+          "103°",
+          "95°",
+          "86°"
+        ],
+        [
+          "14cm (5.5\")",
+          "107°",
+          "101°",
+          "95°",
+          "86°"
+        ],
+        [
+          "16cm (6.3\")",
+          "105°",
+          "100°",
+          "94°",
+          "86°"
+        ],
+        [
+          "18cm (7.1\")",
+          "104°",
+          "99°",
+          "93°",
+          "86°"
+        ],
+        [
+          "20cm (7.9\")",
+          "103°",
+          "98°",
+          "93°",
+          "86°"
+        ],
+        [
+          "22cm (8.7\")",
+          "103°",
+          "97°",
+          "92°",
+          "87°"
+        ],
+        [
+          "24cm (9.4\")",
+          "95°",
+          "97°",
+          "92°",
+          "87°"
+        ],
+        [
+          "26cm (10.2\")",
+          "88°",
+          "96°",
+          "91°",
+          "87°"
+        ],
+        [
+          "28cm (11\")",
+          "82°",
+          "91°",
+          "91°",
+          "87°"
+        ]
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Push-to-Open Gate Opener Mounting",
+      "step_number": 2,
+      "step_title": "Determine the Position of the Post Bracket Assembly"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p17",
+    "group_id": "a3s-manual-p17",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Mount Control Box",
+    "question": "Mount Control Box",
+    "embedding_text": null,
+    "content_zh": "",
+    "content_en": "",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      17,
+      17
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Mount Control Box"
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p17-step1",
+    "group_id": "a3s-manual-p17",
+    "parent_id": "a3s-manual-p17",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Mount Control Box · 1 Identify a suitable mounting location for the control box.",
+    "question": "Identify a suitable mounting location for the control box.",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Mount Control Box 1 Identify a suitable mounting location for the control box. Title:Identify a suitable mounting location for the control box. Mount Control Box, STEP 1: Identify suitable mounting location for control box. At least 1m (3.3ft.) above ground, no more than 10m (33ft.) from gate opener arm. Prevent flooding or snow burial. 确定控制箱的合适安装位置，至少离地面1米（3.3英尺），且距离开门机臂不超过10米（33英尺），以防被水淹没或被雪覆盖。 Identify a suitable mounting location for the control box at least 1m (3.3ft.) above the ground and no more than 10m (33ft.) from the gate opener arm",
+    "content_zh": "确定控制箱的合适安装位置，至少离地面1米（3.3英尺），且距离开门机臂不超过10米（33英尺），以防被水淹没或被雪覆盖。",
+    "content_en": "Identify a suitable mounting location for the control box at least 1m (3.3ft.) above the ground and no more than 10m (33ft.) from the gate opener arm to prevent it from being flooded or buried under snow.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p17-step1-illustration.png",
+        "caption": "Control box mounting location requirements, showing minimum height from ground and maximum distance from gate opener arm.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p17-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      17,
+      17
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Mount Control Box",
+      "step_number": "1",
+      "step_title": "Identify a suitable mounting location for the control box."
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p17-step2",
+    "group_id": "a3s-manual-p17",
+    "parent_id": "a3s-manual-p17",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Mount Control Box · 2 Secure the control box.",
+    "question": "Secure the control box.",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Mount Control Box 2 Secure the control box. Title:Secure the control box. Mount Control Box, STEP 2: Secure control box using deck screws (NOT included). Use expansion tubes (NOT included) for wall mounting. CAUTION: Cable outlet hole must face downward for proper drainage. 使用木螺钉（不包含）固定控制箱。如果安装在墙上，请使用膨胀管（不包含）。注意：确保电缆出线孔朝下，以利于适当排水。 Secure the control box using deck screws (NOT included). Use expansion tubes (NOT included) if mounting to a wall. CAUTION: Make sure that the cable o",
+    "content_zh": "使用木螺钉（不包含）固定控制箱。如果安装在墙上，请使用膨胀管（不包含）。注意：确保电缆出线孔朝下，以利于适当排水。",
+    "content_en": "Secure the control box using deck screws (NOT included). Use expansion tubes (NOT included) if mounting to a wall. CAUTION: Make sure that the cable outlet hole is facing downward for proper drainage.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p17-step2-illustration.png",
+        "caption": "Securing the control box with screws and illustrating the downward orientation of the cable outlet hole for drainage.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p17-img2"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      17,
+      17
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Mount Control Box",
+      "step_number": "2",
+      "step_title": "Secure the control box."
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p18",
+    "group_id": "a3s-manual-p18",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Terminal Function of the Control Board",
+    "question": "Terminal Function of the Control Board",
+    "embedding_text": null,
+    "content_zh": "控制板端子功能整页（第18页）：21 个编号端子（①-㉑）按功能组说明接线用途。",
+    "content_en": "Terminal Function of the Control Board (page 18): 21 numbered terminals grouped by function.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p18-page.png",
+        "caption": "控制板端子功能表整页",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p18-page"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      18,
+      18
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Terminal Function of the Control Board",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p18-terminal-table",
+    "group_id": "a3s-manual-p18",
+    "parent_id": "a3s-manual-p18",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Terminal Function of the Control Board",
+    "question": "Terminal Function of the Control Board",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Terminal Function of the Control Board Title:Terminal Function of the Control Board 端子功能表 Terminal Function Control Board 接线端子对照表 PHOTO Photo Eye Photocell Infrared Sensor 光电传感器 常闭 NC BAT +BAT- Battery Backup Battery 电池输入 系统供电 电源输入 GND COM OPSW EDGE O/S/C ADAPTER LAMP MOTOR DLMT ULMT +24 +LOCK- Terminal Function of the Control Board 控制板接线端子功能 +24 PHOTO GND O/S/C COM OPSW EDGE LOCK BAT ADAPTER LAMP MOTOR DLMT ULMT 控制板端子功能对照表：①+24、③GND 端子输出24VDC电压为光电传感器供电；②PHOTO、③GND 接收光电传感器信号，常闭(NC)输入；④O/S/C、⑤COM 通过常开干接点信号控制大门循环开/停/关/停，常接推杆开关、有线密码器、外接收器；⑥OPSW、⑤COM 接收车辆检测器常开输出的开门信号；⑦EDGE、⑧GND 接收防夹边缘传感器常开信号；⑨⑩+LOCK- 输出接大门电锁正负极，要求",
+    "content_zh": "控制板端子功能对照表：①+24、③GND 端子输出24VDC电压为光电传感器供电；②PHOTO、③GND 接收光电传感器信号，常闭(NC)输入；④O/S/C、⑤COM 通过常开干接点信号控制大门循环开/停/关/停，常接推杆开关、有线密码器、外接收器；⑥OPSW、⑤COM 接收车辆检测器常开输出的开门信号；⑦EDGE、⑧GND 接收防夹边缘传感器常开信号；⑨⑩+LOCK- 输出接大门电锁正负极，要求失电闭锁型、额定24VDC、额定电流<3A；⑪⑫+BAT- 输入接24VDC电池或电源正负极，为整个系统供电；⑬⑭ADAPTER 输入接适配器为电池充电，也可接36VDC或24VAC电源；⑮⑯+LAMP- 输出接警示灯正负极，要求额定24VDC、额定电流<1A；⑰⑱+MOTOR- 接机械臂电机红黑线；⑲DLMT、⑳COM、㉑ULMT 接限位开关，近端限位接DLMT和COM，远端限位接ULMT和COM。",
+    "content_en": "Terminal Function table: (1)+24 (3)GND - Provide 24VDC to power photocell sensors. (2)PHOTO (3)GND - Receive photocell NC signal. (4)O/S/C (5)COM - Open/stop/close/stop cycling via NO dry contact. (6)OPSW (5)COM - Vehicle sensor NO opening signal. (7)EDGE (8)GND - Edge sensor NO. (9)(10)+LOCK- - Electric lock fail-secure 24VDC <3A. (11)(12)+BAT- - 24VDC battery/power input. (13)(14)ADAPTER - Adapter charging; 36VDC or 24VAC. (15)(16)+LAMP- - Warning light 24VDC <1A. (17)(18)+MOTOR- - Motor red/black wires. (19)DLMT (20)COM (21)ULMT - Limit switches; near-end DLMT/COM, far-end ULMT/COM.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p18-terminal-board.png",
+        "caption": "控制板正视图，标注21个编号端子位置（①-㉑），分为电源输出、传感器输入、锁控制、电池/适配器输入、警示灯输出、电机与限位开关六组端子区",
+        "caption_status": "captioned",
+        "role": "spec_table",
+        "image_id": "p18-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      18,
+      18
+    ],
+    "structured": {
+      "table_id": "terminal_function",
+      "role": "spec_table",
+      "rows": [
+        {
+          "terminals": [
+            "①",
+            "③"
+          ],
+          "labels": [
+            "+24",
+            "GND"
+          ],
+          "function_zh": "输出24VDC电压为光电传感器供电",
+          "function_en": "Provide 24VDC voltage output to power photocell sensors"
+        },
+        {
+          "terminals": [
+            "②",
+            "③"
+          ],
+          "labels": [
+            "PHOTO",
+            "GND"
+          ],
+          "function_zh": "接收光电传感器信号，常闭(NC)输入",
+          "function_en": "Receive signal input from photocell sensor, NC basis"
+        },
+        {
+          "terminals": [
+            "④",
+            "⑤"
+          ],
+          "labels": [
+            "O/S/C",
+            "COM"
+          ],
+          "function_zh": "常开干接点控制大门循环开/停/关/停，接推杆开关、有线密码器、外接收器",
+          "function_en": "Control gate open/stop/close/stop via NO dry contact"
+        },
+        {
+          "terminals": [
+            "⑥",
+            "⑤"
+          ],
+          "labels": [
+            "OPSW",
+            "COM"
+          ],
+          "function_zh": "接收车辆检测器常开输出的开门信号",
+          "function_en": "Accept gate opening signal from vehicle sensor NO output"
+        },
+        {
+          "terminals": [
+            "⑦",
+            "⑧"
+          ],
+          "labels": [
+            "EDGE",
+            "GND"
+          ],
+          "function_zh": "接收防夹边缘传感器常开信号",
+          "function_en": "Receive edge sensor NO signal"
+        },
+        {
+          "terminals": [
+            "⑨",
+            "⑩"
+          ],
+          "labels": [
+            "+LOCK",
+            "-"
+          ],
+          "function_zh": "输出接大门电锁，失电闭锁型，额定24VDC，<3A",
+          "function_en": "Output for swing gate electric lock, fail-secure, 24VDC, <3A"
+        },
+        {
+          "terminals": [
+            "⑪",
+            "⑫"
+          ],
+          "labels": [
+            "+BAT",
+            "-"
+          ],
+          "function_zh": "输入接24VDC电池或电源，为整个系统供电",
+          "function_en": "Input for 24VDC battery or power supply, powers entire system"
+        },
+        {
+          "terminals": [
+            "⑬",
+            "⑭"
+          ],
+          "labels": [
+            "ADAPTER",
+            ""
+          ],
+          "function_zh": "输入接适配器为电池充电，也可接36VDC或24VAC",
+          "function_en": "Input for power adapter; 36VDC or 24VAC supply"
+        },
+        {
+          "terminals": [
+            "⑮",
+            "⑯"
+          ],
+          "labels": [
+            "+LAMP",
+            "-"
+          ],
+          "function_zh": "输出接警示灯，额定24VDC，<1A",
+          "function_en": "Output for warning light, 24VDC rated, <1A"
+        },
+        {
+          "terminals": [
+            "⑰",
+            "⑱"
+          ],
+          "labels": [
+            "+MOTOR",
+            "-"
+          ],
+          "function_zh": "接机械臂电机红黑线",
+          "function_en": "Connect to red/black wires of gate opener arm"
+        },
+        {
+          "terminals": [
+            "⑲",
+            "⑳",
+            "㉑"
+          ],
+          "labels": [
+            "DLMT",
+            "COM",
+            "ULMT"
+          ],
+          "function_zh": "接限位开关；近端限位接DLMT和COM，远端限位接ULMT和COM",
+          "function_en": "Limit switches; near-end DLMT/COM, far-end ULMT/COM"
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Terminal Function of the Control Board",
+      "step_number": null,
+      "step_title": null
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p19",
+    "group_id": "a3s-manual-p19",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Connect the Arm to the Control Board",
+    "question": "Connect the Arm to the Control Board",
+    "embedding_text": null,
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      19,
+      19
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connect the Arm to the Control Board",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p19-note",
+    "group_id": "a3s-manual-p19",
+    "parent_id": "a3s-manual-p19",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connect the Arm to the Control Board · NOTE",
+    "question": "NOTE",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connect the Arm to the Control Board NOTE Title:NOTE Connect the Arm to the Control Board - NOTE: Watch YouTube video for wire connection. 强烈建议观看我们在YouTube上的分步安装视频以了解接线。 It is highly recommended to watch our step-by-step installation video on YouTube for wire connection.",
+    "content_zh": "强烈建议观看我们在YouTube上的分步安装视频以了解接线。",
+    "content_en": "It is highly recommended to watch our step-by-step installation video on YouTube for wire connection.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      19,
+      19
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connect the Arm to the Control Board",
+      "step_number": null,
+      "step_title": "NOTE"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p19-step1",
+    "group_id": "a3s-manual-p19",
+    "parent_id": "a3s-manual-p19",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connect the Arm to the Control Board · 1 Connect the Arm Wires",
+    "question": "Connect the Arm Wires",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connect the Arm to the Control Board 1 Connect the Arm Wires Title:Connect the Arm Wires Connect the Arm to the Control Board - STEP 1: Wire connection for arm to control board terminals 17 +MOTOR1 (Red), 18 MOTOR1- (Black), 19 DLMT (Blue), 20 COM (Green), 21 ULMT (Yellow). Tighten screws. 1. 将线束穿过电缆接头插入控制箱。 2. 将红色电线连接到端子 ⑰ “+MOTOR1”，将黑色电线连接到端子 ⑱ “MOTOR1-”，将蓝色电线连接到端子 ⑲ “DLMT”，将绿色电线连接到端子 ⑳ “COM”，将黄色电线连接到端子 ㉑ “ULMT”。 3. 拧紧每个螺钉，以防电线松动脱落。 1. Insert the wire harness through the cable gland into the control box. 2. Connect the red wire into terminal ⑰ “+MOTOR1”, the black wire into termin",
+    "content_zh": "1. 将线束穿过电缆接头插入控制箱。\n2. 将红色电线连接到端子 ⑰ “+MOTOR1”，将黑色电线连接到端子 ⑱ “MOTOR1-”，将蓝色电线连接到端子 ⑲ “DLMT”，将绿色电线连接到端子 ⑳ “COM”，将黄色电线连接到端子 ㉑ “ULMT”。\n3. 拧紧每个螺钉，以防电线松动脱落。",
+    "content_en": "1. Insert the wire harness through the cable gland into the control box.\n2. Connect the red wire into terminal ⑰ “+MOTOR1”, the black wire into terminal ⑱ “MOTOR1-”, the blue wire into terminal ⑲ “DLMT”, the green wire into terminal ⑳ “COM”, and the yellow wire into terminal ㉑ “ULMT”.\n3. Tighten each of the screws so that the wires do not come loose and fall out.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p19-wiring-diagram.png",
+        "caption": "Wiring diagram for connecting the arm to the control board.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p19-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      19,
+      19
+    ],
+    "structured": {
+      "type": "table",
+      "headers": [
+        "Terminal",
+        "Wire Color",
+        "Function"
+      ],
+      "rows": [
+        {
+          "Terminal": "17",
+          "Wire Color": "Red",
+          "Function": "+MOTOR1"
+        },
+        {
+          "Terminal": "18",
+          "Wire Color": "Black",
+          "Function": "MOTOR1-"
+        },
+        {
+          "Terminal": "19",
+          "Wire Color": "Blue",
+          "Function": "DLMT"
+        },
+        {
+          "Terminal": "20",
+          "Wire Color": "Green",
+          "Function": "COM"
+        },
+        {
+          "Terminal": "21",
+          "Wire Color": "Yellow",
+          "Function": "ULMT"
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connect the Arm to the Control Board",
+      "step_number": 1,
+      "step_title": "Connect the Arm Wires"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2",
+    "group_id": "a3s-manual-p2",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Important Safety Information",
+    "question": "Important Safety Information",
+    "embedding_text": null,
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-1",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · During Installation - Installer and End User Responsibility",
+    "question": "During Installation - Installer and End User Responsibility",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information During Installation - Installer and End User Responsibility Title:During Installation - Installer and End User Responsibility 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 Installation, Installer, End User Responsibility, Safety, Property Damage, Injury, Death",
+    "content_zh": null,
+    "content_en": "INSTALLER AND END USER RESPONSIBILITY: An experienced installer should perform the installation. Improper installation may result in property damage, severe injury or death. The gate opener is only part of the entire gate operating system, and it is the responsibility of the installer and end user to ensure that the total system is safe for its intended use.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "During Installation - Installer and End User Responsibility"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-10",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · After Installation - Maintenance of Gate Opener System",
+    "question": "After Installation - Maintenance of Gate Opener System",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information After Installation - Maintenance of Gate Opener System Title:After Installation - Maintenance of Gate Opener System 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 After Installation, Maintenance, Gate Opener System, Free Movement, Level",
+    "content_zh": null,
+    "content_en": "MAINTENANCE OF GATE OPENER SYSTEM: Regularly maintain the gate and gate opener system to ensure that the gate swings freely and remains level throughout",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "After Installation - Maintenance of Gate Opener System"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-2",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · During Installation - Disconnect Power Supply",
+    "question": "During Installation - Disconnect Power Supply",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information During Installation - Disconnect Power Supply Title:During Installation - Disconnect Power Supply 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 Installation, Power Supply, Disconnect, Electrical, Safety",
+    "content_zh": null,
+    "content_en": "DISCONNECT THE POWER SUPPLY: Ensure that the gate opener is powered off before electrical wire connections or making any adjustments.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "During Installation - Disconnect Power Supply"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-3",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · During Installation - Avoid Entrapment Zones",
+    "question": "During Installation - Avoid Entrapment Zones",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information During Installation - Avoid Entrapment Zones Title:During Installation - Avoid Entrapment Zones 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 Installation, Entrapment Zones, Children, Pets, Livestock, Injury, Death, Safety",
+    "content_zh": null,
+    "content_en": "AVOID ENTRAPMENT ZONES: Keep children, pets or livestock away from the entrapment zones to avoid the risk of injury or death.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "During Installation - Avoid Entrapment Zones"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-4",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · During Installation - Install Inside Property Boundaries",
+    "question": "During Installation - Install Inside Property Boundaries",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information During Installation - Install Inside Property Boundaries Title:During Installation - Install Inside Property Boundaries 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 Installation, Property Boundaries, Gate Opener Location, Public Access, Safety",
+    "content_zh": null,
+    "content_en": "INSTALL INSIDE PROPERTY BOUNDARIES: Install the gate opener on the inside of the property. Do not install outside of the gate where the public has access to it.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "During Installation - Install Inside Property Boundaries"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-5",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · During Installation - Install Safety Sensor",
+    "question": "During Installation - Install Safety Sensor",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information During Installation - Install Safety Sensor Title:During Installation - Install Safety Sensor 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 Installation, Safety Sensor, Photocell Sensor, Obstruction, Children, Pets, Auto Close, Stall Force, Vehicle Exit Sensor, Safety",
+    "content_zh": null,
+    "content_en": "INSTALL SAFETY SENSOR: The gate opener is designed to stop and reverse the gate when the gate comes in contact with an obstruction. It is highly recommended to install a photocell sensor in the following situations for safety: if you have children or pets at your property, the gate opener auto close function is set to ON, the gate opener stall force is set to the maximum, a vehicle exit sensor is installed, or other gate control devices are used.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "During Installation - Install Safety Sensor"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-6",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · During Installation - Gate Control Accessories Placement",
+    "question": "During Installation - Gate Control Accessories Placement",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information During Installation - Gate Control Accessories Placement Title:During Installation - Gate Control Accessories Placement 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 Installation, Gate Control Accessories, Placement, Safety Distance, 1.5 meters, 5 feet, Moving Parts, Security Feature, Unauthorized Use",
+    "content_zh": null,
+    "content_en": "GATE CONTROL ACCESSORIES PLACEMENT: Gate control accessories intended for user activation must be located at least 1.5 meters (5') away from any moving part of the gate and where the user is prevented from reaching over, under, around or through the gate to operate the controls. Outdoor or easily accessible controls shall have a security feature to prevent unauthorized use.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p2-gate-control-placement.png",
+        "caption": "Recommended placement for gate control accessories, showing a 1.5m (5') safety distance from moving parts and restricted access areas.",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "a3s-manual-p2-img-1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "During Installation - Gate Control Accessories Placement"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-7",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · After Installation - Warning Signs",
+    "question": "After Installation - Warning Signs",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information After Installation - Warning Signs Title:After Installation - Warning Signs 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 After Installation, Warning Signs, Gate Safety, Automatic Gate Opener, Injury, Death, Customer Support",
+    "content_zh": null,
+    "content_en": "WARNING SIGNS: Attach the provided warning signs to both sides of the gate to alert the public about the automatic gate opener system. If your signs are damaged, please reach out to TOPENS Customer Support for replacements.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p2-warning-signs-gate.png",
+        "caption": "Illustration showing a gate with a warning sign installed, indicating 'Outside Property' and 'Inside Property' for proper placement.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p2-img-2"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p2-warning-sign-detail.png",
+        "caption": "Detail of the warning sign text: 'Moving Gate Can Cause Serious Injury Or Death'. Points include 'Persons are to keep clear!', 'The gate is able to cycle at any time.', 'Do not let children operate the gate or play in the gate area.', and 'This entrance is for vehicles only. Pedestrians must use separate entrance.'",
+        "caption_status": "captioned",
+        "role": "warning_icon",
+        "image_id": "a3s-manual-p2-img-3"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "After Installation - Warning Signs"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-8",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · After Installation - Away from Moving Gates",
+    "question": "After Installation - Away from Moving Gates",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information After Installation - Away from Moving Gates Title:After Installation - Away from Moving Gates 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 After Installation, Moving Gates, Children, Pets, Livestock, Danger, Safety",
+    "content_zh": null,
+    "content_en": "AWAY FROM MOVING GATES: Keep children, pets and livestock away from the gate opener system as moving gates can be dangerous.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "After Installation - Away from Moving Gates"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p2-warning-9",
+    "group_id": "a3s-manual-p2",
+    "parent_id": "a3s-manual-p2",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Important Safety Information · After Installation - Secure Gate Control Accessories",
+    "question": "After Installation - Secure Gate Control Accessories",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Important Safety Information After Installation - Secure Gate Control Accessories Title:After Installation - Secure Gate Control Accessories 安全警示 Safety Warning 注意事项 非接线教程 非端子功能表 After Installation, Gate Control Accessories, Secure, Children, Remote Transmitters, Keypads, Push Buttons, Storage, Safety",
+    "content_zh": null,
+    "content_en": "SECURE GATE CONTROL ACCESSORIES: Prevent children from operating gate controls by keeping remote transmitters, keypads, and push buttons out of their reach. Store in a secure area when not in use.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      2,
+      2
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "After Installation - Secure Gate Control Accessories"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p20",
+    "group_id": "a3s-manual-p20",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Connection of Power Supply",
+    "question": "Connection of Power Supply",
+    "embedding_text": null,
+    "content_zh": "电源连接",
+    "content_en": "Connection of Power Supply",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      20,
+      20
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connection of Power Supply",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p20-chunk01",
+    "group_id": "a3s-manual-p20",
+    "parent_id": "a3s-manual-p20",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connection of Power Supply · WARNING",
+    "question": "WARNING",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connection of Power Supply WARNING Title:WARNING Connection of Power Supply 电源接线 接线步骤 供电连接 Power Mode 电源模式 非安全警示页 WARNING 安全 连接 安装 触电 电工 浪涌保护器 TS24-U 接线必须由专业电工完成，以避免受伤、触电或死亡的风险。在所有安装完成之前，切勿将开门器连接到电源插座。建议使用额定电流为 5A 的浪涌保护器与 TS24-U 适配器或电源（单独出售）。如果电源插座位于室外，请使用防风雨盖进行保护。",
+    "content_zh": "接线必须由专业电工完成，以避免受伤、触电或死亡的风险。在所有安装完成之前，切勿将开门器连接到电源插座。建议使用额定电流为 5A 的浪涌保护器与 TS24-U 适配器或电源（单独出售）。如果电源插座位于室外，请使用防风雨盖进行保护。",
+    "content_en": "A professional electrician is required for wire connection to avoid the risk of injury, electric shock, or death. NEVER connect the gate opener to the electrical outlet before all the installations have been done. It is recommended to use a surge protector with a rated current of 5A with the TS24-U adapter or power supply (sold separately). Protect the electrical outlet with a weatherproof cover if it is located outdoors.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      20,
+      20
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connection of Power Supply",
+      "step_number": null,
+      "step_title": "WARNING"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p20-chunk02",
+    "group_id": "a3s-manual-p20",
+    "parent_id": "a3s-manual-p20",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connection of Power Supply · 1 Power Mode 1: By the Adapter and Batteries",
+    "question": "Power Mode 1: By the Adapter and Batteries",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connection of Power Supply 1 Power Mode 1: By the Adapter and Batteries Title:Power Mode 1: By the Adapter and Batteries Connection of Power Supply 电源接线 接线步骤 供电连接 Power Mode 电源模式 非安全警示页 Power Mode 1, 适配器, 电池, TS24-U, ADAPTER, +BAT-, 24VDC 将 TS24-U 适配器连接到控制板的“ADAPTER”端子，不分线的极性。串联连接两节 12VDC 电池以实现 24VDC（不含电池）。将电池连接到控制板的“+BAT-”端子。将 TS24-U 适配器插入电源插座。",
+    "content_zh": "将 TS24-U 适配器连接到控制板的“ADAPTER”端子，不分线的极性。串联连接两节 12VDC 电池以实现 24VDC（不含电池）。将电池连接到控制板的“+BAT-”端子。将 TS24-U 适配器插入电源插座。",
+    "content_en": "Connect the TS24-U adapter to the \"ADAPTER\" terminals of the control board, regardless of the polarity of the wires. Connect two 12VDC batteries in series to achieve 24VDC (batteries not included). Connect the batteries to the \"+BAT-\" terminals of the control board. Plug the TS24-U adapter into an electrical outlet.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p20-power_mode1_diagram.png",
+        "caption": "Connection diagram for Power Mode 1 using adapter and batteries.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "img-p20-power_mode1_diagram"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      20,
+      20
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connection of Power Supply",
+      "step_number": 1,
+      "step_title": "Power Mode 1: By the Adapter and Batteries"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p20-chunk03",
+    "group_id": "a3s-manual-p20",
+    "parent_id": "a3s-manual-p20",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connection of Power Supply · IMPORTANT NOTES (Power Mode 1)",
+    "question": "IMPORTANT NOTES (Power Mode 1)",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connection of Power Supply IMPORTANT NOTES (Power Mode 1) Title:IMPORTANT NOTES (Power Mode 1) Connection of Power Supply 电源接线 接线步骤 供电连接 Power Mode 电源模式 非安全警示页 重要注意事项, 适配器, 电池充电, 电缆延长, 24VDC 7Ah 电池 适配器仅用于给电池充电。适配器输出电缆的长度为 1.2m (4ft.)。为了延长电缆，电缆应至少为 2C x 1.3 mm² (16AWG)。如果控制板与适配器之间的距离超过 100m (330ft.)，电缆应至少为 2C x 2 mm² (14AWG)。最大延长距离为 300m (1000ft.)。如果开门器由电池供电并利用交流电充电，则需要至少一个 24VDC 7Ah 汽车/船用型电池。",
+    "content_zh": "适配器仅用于给电池充电。适配器输出电缆的长度为 1.2m (4ft.)。为了延长电缆，电缆应至少为 2C x 1.3 mm² (16AWG)。如果控制板与适配器之间的距离超过 100m (330ft.)，电缆应至少为 2C x 2 mm² (14AWG)。最大延长距离为 300m (1000ft.)。如果开门器由电池供电并利用交流电充电，则需要至少一个 24VDC 7Ah 汽车/船用型电池。",
+    "content_en": "The adapter is ONLY used to charge the battery. The length of the adapter output cable is 1.2m (4ft.). To extend the cable, the cable should be at least 2C x 1.3 mm² (16AWG). If the distance between the control board and the adapter is more than 100m (330ft.), the cable should be at least 2C x 2 mm² (14AWG). The maximum extension distance is 300m (1000ft.). If the gate opener is powered by batteries and utilizes AC electricity for charging, a minimum of a 24VDC 7Ah automotive / marine type battery is required.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      20,
+      20
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connection of Power Supply",
+      "step_number": null,
+      "step_title": "IMPORTANT NOTES (Power Mode 1)"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p20-chunk04",
+    "group_id": "a3s-manual-p20",
+    "parent_id": "a3s-manual-p20",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connection of Power Supply · 2 Power Mode 2: Use AC Electricity Only",
+    "question": "Power Mode 2: Use AC Electricity Only",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connection of Power Supply 2 Power Mode 2: Use AC Electricity Only Title:Power Mode 2: Use AC Electricity Only Connection of Power Supply 电源接线 接线步骤 供电连接 Power Mode 电源模式 非安全警示页 Power Mode 2, 交流电, DPS180-U, +BAT- 将 DPS180-U AC-DC 电源（单独出售）输出线上的公端子连接到连接到控制板“+BAT-”端子的电源输入线的母端子。将 DPS180-U 电源线插入电源插座。",
+    "content_zh": "将 DPS180-U AC-DC 电源（单独出售）输出线上的公端子连接到连接到控制板“+BAT-”端子的电源输入线的母端子。将 DPS180-U 电源线插入电源插座。",
+    "content_en": "Connect the male terminals from the output wires of the DPS180-U AC-DC power supply (sold separately) to the female terminals of the power input wires connected to the \"+BAT-\" terminals of the control board. Plug the DPS180-U power cord into an electrical outlet.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p20-power_mode2_diagram.png",
+        "caption": "Connection diagram for Power Mode 2 using AC electricity only.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "img-p20-power_mode2_diagram"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      20,
+      20
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connection of Power Supply",
+      "step_number": 2,
+      "step_title": "Power Mode 2: Use AC Electricity Only"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p20-chunk05",
+    "group_id": "a3s-manual-p20",
+    "parent_id": "a3s-manual-p20",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Connection of Power Supply · IMPORTANT NOTE (Power Mode 2)",
+    "question": "IMPORTANT NOTE (Power Mode 2)",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Connection of Power Supply IMPORTANT NOTE (Power Mode 2) Title:IMPORTANT NOTE (Power Mode 2) Connection of Power Supply 电源接线 接线步骤 供电连接 Power Mode 电源模式 非安全警示页 重要注意事项, DPS180-U, 电池, 太阳能电池板, 连接 DPS180-U 电源不能连接电池或太阳能电池板。",
+    "content_zh": "DPS180-U 电源不能连接电池或太阳能电池板。",
+    "content_en": "The DPS180-U power supply can NOT connect with batteries or solar panels.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      20,
+      20
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Connection of Power Supply",
+      "step_number": null,
+      "step_title": "IMPORTANT NOTE (Power Mode 2)"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p4",
+    "group_id": "a3s-manual-p4",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Packing List",
+    "question": "Packing List",
+    "embedding_text": null,
+    "content_zh": "本页展示了A3S、A5S、A8S工业门机的装箱清单，包括主要部件、螺栓和紧固件、额外配件（如太阳能电池板和充电控制器）以及安全配件（如警示灯和红外光电传感器）。请核对实际包装内的物品。",
+    "content_en": "This page displays the packing list for A3S, A5S, A8S industrial gate operators, including main components, bolts and fasteners, extra parts (such as solar panels and charge controller), and safety accessories (such as warning light and infrared photocell sensor). Please check the actual package contents.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p4-packing_list.png",
+        "caption": "A3S, A5S, A8S 门机标准装箱清单",
+        "caption_status": "captioned",
+        "role": "packing_list",
+        "image_id": "img-4-1"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p4-extra_parts_solar.png",
+        "caption": "A3S / A5S / A8S 的额外部件：太阳能电池板与充电控制器",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "img-4-2"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p4-safety_accessories.png",
+        "caption": "安全配件：警示灯和红外光电传感器",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "img-4-3"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      4,
+      4
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Packing List"
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p4-1",
+    "group_id": "a3s-manual-p4",
+    "parent_id": "a3s-manual-p4",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Packing List",
+    "question": "Packing List",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Packing List Title:Packing List Packing List 装箱清单：控制箱, TS24-U适配器, 警示牌, 门架, 柱架, 内外开支架, 开门机臂, 遥控器, 释放钥匙, M10x200螺栓, M10x75螺栓, M10x35螺栓, M8x30螺栓, Φ10垫圈, Φ8垫圈, M10螺母, M8螺母, 12x40开口销, 12x30开口销, 发夹夹, Φ10锁紧垫圈, 10W 24V太阳能电池板, 太阳能充电控制器, JD24VY警示灯, TC102红外光电传感器 本页为A3S、A5S、A8S工业门机的装箱清单。主要部件包括控制箱、TS24-U适配器、警示牌、门架、柱架、内外开支架、开门机臂、遥控器和释放钥匙。硬件部分包含M10x200、M10x75、M10x35、M8x30螺栓，Φ10、Φ8垫圈，M10、M8螺母，12x40、12x30开口销，发夹夹和Φ10 This page lists the packing contents for A3S, A5S, A8S industrial gate operators. Main components include Control Box, TS24-U Adapter, Warning Sign, G",
+    "content_zh": "本页为A3S、A5S、A8S工业门机的装箱清单。主要部件包括控制箱、TS24-U适配器、警示牌、门架、柱架、内外开支架、开门机臂、遥控器和释放钥匙。硬件部分包含M10x200、M10x75、M10x35、M8x30螺栓，Φ10、Φ8垫圈，M10、M8螺母，12x40、12x30开口销，发夹夹和Φ10锁紧垫圈。额外部件（针对A3S/A5S/A8S型号）有10W 24V太阳能电池板和太阳能充电控制器。安全配件包括JD24VY警示灯和TC102红外光电传感器。请根据实际型号核对包装内容。",
+    "content_en": "This page lists the packing contents for A3S, A5S, A8S industrial gate operators. Main components include Control Box, TS24-U Adapter, Warning Sign, Gate Bracket, Post Bracket, Pull-to-Open Bracket, Push-to-Open Bracket, Gate Opener Arm, Remote Control, and Release Key. Hardware includes M10x200, M10x75, M10x35, M8x30 Bolts, Φ10, Φ8 Washers, M10, M8 Nuts, 12x40, 12x30 Clevis Pins, Hairpin Clip, and Φ10 Lock Washer. Extra parts (for A3S/A5S/A8S models) are 10W 24V Solar Panels and a Solar Charge Controller. Safety accessories include JD24VY Warning Light and TC102 Infrared Photocell Sensor. Please check the actual package contents according to your specific model.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p4-packing_list.png",
+        "caption": "A3S, A5S, A8S 门机标准装箱清单",
+        "caption_status": "captioned",
+        "role": "packing_list",
+        "image_id": "img-4-1"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p4-extra_parts_solar.png",
+        "caption": "A3S / A5S / A8S 的额外部件：太阳能电池板与充电控制器",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "img-4-2"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p4-safety_accessories.png",
+        "caption": "安全配件：警示灯和红外光电传感器",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "img-4-3"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      4,
+      4
+    ],
+    "structured": {
+      "format": "table",
+      "rows": [
+        {
+          "item": "Control Box",
+          "quantity": 1
+        },
+        {
+          "item": "TS24-U Adapter",
+          "quantity": 1
+        },
+        {
+          "item": "Warning Sign",
+          "quantity": 1
+        },
+        {
+          "item": "Gate Bracket",
+          "quantity": 1,
+          "note": "set"
+        },
+        {
+          "item": "Post Bracket",
+          "quantity": 1,
+          "note": "set"
+        },
+        {
+          "item": "Pull-to-Open Bracket",
+          "quantity": 1
+        },
+        {
+          "item": "Push-to-Open Bracket",
+          "quantity": 1
+        },
+        {
+          "item": "Gate Opener Arm",
+          "quantity": 1
+        },
+        {
+          "item": "Remote Control",
+          "quantity": 2
+        },
+        {
+          "item": "Release Key",
+          "quantity": 1
+        },
+        {
+          "item": "M10x200 Bolt",
+          "quantity": 4
+        },
+        {
+          "item": "M10x75 Bolt",
+          "quantity": 2
+        },
+        {
+          "item": "M10x35 Bolt",
+          "quantity": 1
+        },
+        {
+          "item": "M8x30 Bolt",
+          "quantity": 1
+        },
+        {
+          "item": "Φ10 Washer",
+          "quantity": 7
+        },
+        {
+          "item": "Φ8 Washer",
+          "quantity": 1
+        },
+        {
+          "item": "M10 Nut",
+          "quantity": 7
+        },
+        {
+          "item": "M8 Nut",
+          "quantity": 1
+        },
+        {
+          "item": "12x40 Clevis Pin",
+          "quantity": 1
+        },
+        {
+          "item": "12x30 Clevis Pin",
+          "quantity": 1
+        },
+        {
+          "item": "Hairpin Clip",
+          "quantity": 2
+        },
+        {
+          "item": "Φ10 Lock Washer",
+          "quantity": 7
+        },
+        {
+          "item": "10W 24V Solar Panel",
+          "quantity": 2,
+          "note": "Extra Part for A3S/A5S/A8S"
+        },
+        {
+          "item": "Solar Charge Controller",
+          "quantity": 1,
+          "note": "Extra Part for A3S/A5S/A8S"
+        },
+        {
+          "item": "JD24VY Warning Light",
+          "quantity": 1,
+          "note": "Safety Accessory (Included in specific models)"
+        },
+        {
+          "item": "TC102 Infrared Photocell Sensor",
+          "quantity": 1,
+          "note": "Safety Accessory (Included in specific models)"
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Packing List"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p6",
+    "group_id": "a3s-manual-p6",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "",
+    "question": "",
+    "embedding_text": null,
+    "content_zh": "本页包含A3S、A5(S)和A8(S)型号的技术规格，最大门重与门长对照表，以及控制盒、开门机臂和各种安装支架的尺寸图。",
+    "content_en": "This page provides technical specifications for A3S, A5(S), and A8(S) models, a table for maximum gate weight and length, and dimensional drawings for the control box, gate opener arm, and various mounting brackets.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      6,
+      6
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ]
+  },
+  {
+    "chunk_id": "a3s-manual-p6-dimensions",
+    "group_id": "a3s-manual-p6",
+    "parent_id": "a3s-manual-p6",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "",
+    "question": "",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Control Box dimensions, Gate Opener Arm dimensions, Post Bracket dimensions, Gate Bracket dimensions, Pull-to-Open Bracket dimensions, Push-to-Open Bracket dimensions 此部分包含控制盒、开门机臂、立柱支架、门支架、拉开式支架和推开式支架的尺寸图，用于安装参考。",
+    "content_zh": "此部分包含控制盒、开门机臂、立柱支架、门支架、拉开式支架和推开式支架的尺寸图，用于安装参考。",
+    "content_en": "This section contains dimensional drawings for the Control Box, Gate Opener Arm, Post Bracket, Gate Bracket, Pull-to-Open Bracket, and Push-to-Open Bracket, provided for installation reference.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p6-control-box-dim.png",
+        "caption": "Control Box Dimensions",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p6-control-box-dim"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p6-gate-opener-arm-dim.png",
+        "caption": "Gate Opener Arm Dimensions",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p6-gate-opener-arm-dim"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p6-post-bracket-dim.png",
+        "caption": "Post Bracket Dimensions",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p6-post-bracket-dim"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p6-gate-bracket-dim.png",
+        "caption": "Gate Bracket Dimensions",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p6-gate-bracket-dim"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p6-pull-to-open-bracket-dim.png",
+        "caption": "Pull-to-Open Bracket Dimensions",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p6-pull-to-open-bracket-dim"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p6-push-to-open-bracket-dim.png",
+        "caption": "Push-to-Open Bracket Dimensions",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p6-push-to-open-bracket-dim"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      6,
+      6
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p6-max-gate-specs",
+    "group_id": "a3s-manual-p6",
+    "parent_id": "a3s-manual-p6",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Max Gate Weight and Gate Length",
+    "question": "Max Gate Weight and Gate Length",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Max Gate Weight and Gate Length Title:Max Gate Weight and Gate Length Max Gate Weight, Gate Length, A8(S), A5(S), A3S, bearing hinges, gate weight chart 最大门重与门长对照表。注意：对于超过140公斤（300磅）的门，应使用滚珠轴承铰链。 本表列出了A8(S), A5(S), A3S型号在不同门长下所支持的最大门重。 Maximum gate weight and gate length chart. NOTE: Ball bearing hinges should be used on all gates weighing over 140kg (300lbs). This table lists the ma",
+    "content_zh": "最大门重与门长对照表。注意：对于超过140公斤（300磅）的门，应使用滚珠轴承铰链。\n本表列出了A8(S), A5(S), A3S型号在不同门长下所支持的最大门重。",
+    "content_en": "Maximum gate weight and gate length chart. NOTE: Ball bearing hinges should be used on all gates weighing over 140kg (300lbs).\nThis table lists the maximum gate weight supported by A8(S), A5(S), A3S models at various gate lengths.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      6,
+      6
+    ],
+    "structured": {
+      "rows": [
+        {
+          "Model": "A8(S)",
+          "Gate Length": "1.2-1.8m (4-6')",
+          "Gate Weight": "400kg (880lbs)"
+        },
+        {
+          "Model": "A8(S)",
+          "Gate Length": "2.4m (8')",
+          "Gate Weight": "350kg (770lbs)"
+        },
+        {
+          "Model": "A8(S)",
+          "Gate Length": "3m (10')",
+          "Gate Weight": "300kg (650lbs)"
+        },
+        {
+          "Model": "A8(S)",
+          "Gate Length": "3.6m (12')",
+          "Gate Weight": "250kg (550lbs)"
+        },
+        {
+          "Model": "A8(S)",
+          "Gate Length": "4.3m (14')",
+          "Gate Weight": "200kg (450lbs)"
+        },
+        {
+          "Model": "A8(S)",
+          "Gate Length": "5m (16')",
+          "Gate Weight": "160kg (350lbs)"
+        },
+        {
+          "Model": "A8(S)",
+          "Gate Length": "5.5m (18')",
+          "Gate Weight": "110kg (250lbs)"
+        },
+        {
+          "Model": "A5(S)",
+          "Gate Length": "1.2-1.8m (4-6')",
+          "Gate Weight": "250kg (550lbs)"
+        },
+        {
+          "Model": "A5(S)",
+          "Gate Length": "2.4m (8')",
+          "Gate Weight": "200kg (450lbs)"
+        },
+        {
+          "Model": "A5(S)",
+          "Gate Length": "3m (10')",
+          "Gate Weight": "160kg (350lbs)"
+        },
+        {
+          "Model": "A5(S)",
+          "Gate Length": "3.6m (12')",
+          "Gate Weight": "110kg (250lbs)"
+        },
+        {
+          "Model": "A5(S)",
+          "Gate Length": "4.3m (14')",
+          "Gate Weight": "70kg (150lbs)"
+        },
+        {
+          "Model": "A5(S)",
+          "Gate Length": "5m (16')",
+          "Gate Weight": "50kg (100lbs)"
+        },
+        {
+          "Model": "A3S",
+          "Gate Length": "1.2m (4')",
+          "Gate Weight": "140kg (300lbs)"
+        },
+        {
+          "Model": "A3S",
+          "Gate Length": "1.8m (6')",
+          "Gate Weight": "110kg (250lbs)"
+        },
+        {
+          "Model": "A3S",
+          "Gate Length": "2.4m (8')",
+          "Gate Weight": "90kg (200lbs)"
+        },
+        {
+          "Model": "A3S",
+          "Gate Length": "3m (10')",
+          "Gate Weight": "70kg (150lbs)"
+        },
+        {
+          "Model": "A3S",
+          "Gate Length": "3.6m (12')",
+          "Gate Weight": "50kg (100lbs)"
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Max Gate Weight and Gate Length"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p6-specs-table",
+    "group_id": "a3s-manual-p6",
+    "parent_id": "a3s-manual-p6",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Specifications",
+    "question": "Specifications",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Specifications Title:Specifications Specifications, A3S, A5(S), A8(S), Power Input, Motor Voltage, Rated Current, Motor Power, Gate Opening/Closing Time, Gate Opening/Closing Speed, Max Travel Range, Working Temperature, Protection Class 以下是A3S, A5(S) 和 A8(S) 型号的详细技术规格。 包括输入电源、电机电压、额定电流、电机功率、开关门时间、开关门速度、最大行程、工作温度和防护等级。 The following are the detailed technical specifications for A3S, A5(S), and A8(S) models. Includes Power Input, Motor Voltage, Rated Current, Motor Po",
+    "content_zh": "以下是A3S, A5(S) 和 A8(S) 型号的详细技术规格。\n包括输入电源、电机电压、额定电流、电机功率、开关门时间、开关门速度、最大行程、工作温度和防护等级。",
+    "content_en": "The following are the detailed technical specifications for A3S, A5(S), and A8(S) models.\nIncludes Power Input, Motor Voltage, Rated Current, Motor Power, Gate Opening/Closing Time, Gate Opening/Closing Speed, Max Travel Range, Working Temperature, and Protection Class.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      6,
+      6
+    ],
+    "structured": {
+      "rows": [
+        {
+          "Feature": "Power Input",
+          "Value": "Adapter Input: 100-240V ~ 50/60Hz"
+        },
+        {
+          "Feature": "Motor Voltage",
+          "Value": "24VDC"
+        },
+        {
+          "Feature": "Rated Current",
+          "A3S": "1.5A",
+          "A5(S)": "2A",
+          "A8(S)": "3A"
+        },
+        {
+          "Feature": "Motor Power",
+          "A3S": "30W",
+          "A5(S)": "50W",
+          "A8(S)": "80W"
+        },
+        {
+          "Feature": "Gate Opening / Closing Time",
+          "Value": "15 seconds (ideal condition)"
+        },
+        {
+          "Feature": "Gate Opening / Closing Speed",
+          "Value": "16mm/s (0.6 in/s)"
+        },
+        {
+          "Feature": "Max Travel Range",
+          "Value": "385mm (15.2 in)"
+        },
+        {
+          "Feature": "Working Temperature",
+          "Value": "-20°C ~ +50°C (0°F to 120°F)"
+        },
+        {
+          "Feature": "Protection Class",
+          "Value": "IP44 Waterproof"
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Specifications"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p7",
+    "group_id": "a3s-manual-p7",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Before You Begin",
+    "question": "Before You Begin",
+    "embedding_text": null,
+    "content_zh": "",
+    "content_en": "Before You Begin",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      7,
+      7
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p7-1",
+    "group_id": "a3s-manual-p7",
+    "parent_id": "a3s-manual-p7",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Check the Gate",
+    "question": "Check the Gate",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Check the Gate Title:Check the Gate Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Check the Gate: Ensure gate is plumb, level, swings freely, mounted to stable post, repair damaged hardware.",
+    "content_zh": "",
+    "content_en": "Ensure that the gate is plumb, level, and swings freely on its hinges without binding or dragging on the ground. The gate should be mounted to a very stable post or column that is secured in the ground with concrete. Repair or replace all worn or damaged gate hardware prior to installation.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      7,
+      7
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_number": null,
+      "step_title": "Check the Gate"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p7-2",
+    "group_id": "a3s-manual-p7",
+    "parent_id": "a3s-manual-p7",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Tools Needed",
+    "question": "Tools Needed",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Tools Needed Title:Tools Needed Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Tools Needed: Power Drill, Wire Strippers, Level, Phillips Screwdriver, Tape Measure, C-Clamps, Hacksaw, Bolt Cutters, Open End Wrenches.",
+    "content_zh": "",
+    "content_en": "Tools Needed: Power Drill, Wire Strippers, Level, Phillips Screwdriver, Tape Measure, C-Clamps - small, medium, and large, Hacksaw or Heavy Duty Bolt Cutters, Open End Wrenches - 14# &17# or Adjustable Wrenches.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      7,
+      7
+    ],
+    "structured": {
+      "format": "list",
+      "rows": [
+        "Power Drill",
+        "Wire Strippers",
+        "Level",
+        "Phillips Screwdriver",
+        "Tape Measure",
+        "C-Clamps - small, medium, and large",
+        "Hacksaw or Heavy Duty Bolt Cutters",
+        "Open End Wrenches - 14# &17# or Adjustable Wrenches"
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_number": null,
+      "step_title": "Tools Needed"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p7-3",
+    "group_id": "a3s-manual-p7",
+    "parent_id": "a3s-manual-p7",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Items Not Included but May Needed",
+    "question": "Items Not Included but May Needed",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Items Not Included but May Needed Title:Items Not Included but May Needed Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Items Not Included but May Needed: Battery, Solar Panel, PVC Conduit, Connection Cable, Weatherproof Cover, Surge Protector.",
+    "content_zh": "",
+    "content_en": "Items Not Included but May Needed: Battery and Solar Panel: If you choose to use batteries and solar panels as main power source, you'll require 24V 12Ah battery (NOT included). Marine / automotive type battery or lead acid / GEL / AGM / flooded (deep cycle battery) batteries are supported, EXCEPT for lithium-ion battery. The batteries should be waterproof, or they should be placed in waterproof housing. Two 10W solar panels and one solar charge controller are included in A3S/A5S/A8S. If additional solar panel is needed, TOPENS solar panel kit is available for separate purchase. PVC Conduit: Required to protect the cable connecting TC102 infrared photocell sensor to the control board. Connection Cable: Connection cable may be required for power supply connection and wired accessories installation. Refer to the Connection of Power Supply and Connection of Accessories sections in this manual to purchase the correct cable. Weatherproof Cover: Use a weatherproof cover to protect the electrical outlet if it is located outdoors. Surge Protector: A surge protector with a rated current of 5A is recommended to use with the TS24-U adapter or power supply (sold separately).",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      7,
+      7
+    ],
+    "structured": {
+      "format": "key-value",
+      "rows": [
+        {
+          "key": "Battery and Solar Panel",
+          "value": "If you choose to use batteries and solar panels as main power source, you'll require 24V 12Ah battery (NOT included). Marine / automotive type battery or lead acid / GEL / AGM / flooded (deep cycle battery) batteries are supported, EXCEPT for lithium-ion battery. The batteries should be waterproof, or they should be placed in waterproof housing. Two 10W solar panels and one solar charge controller are included in A3S/A5S/A8S. If additional solar panel is needed, TOPENS solar panel kit is available for separate purchase."
+        },
+        {
+          "key": "PVC Conduit",
+          "value": "Required to protect the cable connecting TC102 infrared photocell sensor to the control board."
+        },
+        {
+          "key": "Connection Cable",
+          "value": "Connection cable may be required for power supply connection and wired accessories installation. Refer to the Connection of Power Supply and Connection of Accessories sections in this manual to purchase the correct cable."
+        },
+        {
+          "key": "Weatherproof Cover",
+          "value": "Use a weatherproof cover to protect the electrical outlet if it is located outdoors."
+        },
+        {
+          "key": "Surge Protector",
+          "value": "A surge protector with a rated current of 5A is recommended to use with the TS24-U adapter or power supply (sold separately)."
+        }
+      ]
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_number": null,
+      "step_title": "Items Not Included but May Needed"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p7-4",
+    "group_id": "a3s-manual-p7",
+    "parent_id": "a3s-manual-p7",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Install Electric Gate Lock",
+    "question": "Install Electric Gate Lock",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Install Electric Gate Lock Title:Install Electric Gate Lock Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Install Electric Gate Lock: Recommended for windy areas to secure gate and prevent damage.",
+    "content_zh": "",
+    "content_en": "In windy areas, it is crucial to use an electric gate lock to ensure the gate remains securely closed and to prevent damage or malfunction caused by strong winds.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      7,
+      7
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_number": null,
+      "step_title": "Install Electric Gate Lock"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p7-5",
+    "group_id": "a3s-manual-p7",
+    "parent_id": "a3s-manual-p7",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Install Photocell Sensor",
+    "question": "Install Photocell Sensor",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Install Photocell Sensor Title:Install Photocell Sensor Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Install Photocell Sensor: Recommended for safety with children/pets, auto close ON, max stall force, vehicle exit sensor, or other control devices.",
+    "content_zh": "",
+    "content_en": "It is highly recommended to install a photocell sensor in the following situations for safety: if you have children or pets at your property, the gate opener auto close function is set to ON, the gate opener stall force is set to the maximum, a vehicle exit sensor is installed, or other gate control devices are used.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      7,
+      7
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_number": null,
+      "step_title": "Install Photocell Sensor"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p8",
+    "group_id": "a3s-manual-p8",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "",
+    "question": "",
+    "embedding_text": null,
+    "content_zh": "",
+    "content_en": "",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      8,
+      8
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ]
+  },
+  {
+    "chunk_id": "a3s-manual-p8-note1",
+    "group_id": "a3s-manual-p8",
+    "parent_id": "a3s-manual-p8",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Important Note",
+    "question": "Important Note",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Important Note Title:Important Note Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Important Note. Improper installation risks property damage, severe injury, and death. 注意：安装不当可能导致财产损失、严重人身伤害和/或死亡。",
+    "content_zh": "注意：安装不当可能导致财产损失、严重人身伤害和/或死亡。",
+    "content_en": "NOTE: Improper installation may result in property damage, severe injury, and / or death.",
+    "images": [],
+    "has_image": false,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      8,
+      8
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_title": "Important Note"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p8-step1",
+    "group_id": "a3s-manual-p8",
+    "parent_id": "a3s-manual-p8",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Additional Hardware to Enhance Post Bracket Stability",
+    "question": "Additional Hardware to Enhance Post Bracket Stability",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Additional Hardware to Enhance Post Bracket Stability Title:Additional Hardware to Enhance Post Bracket Stability Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Additional Hardware to Enhance Post Bracket Stability. Bolts for wooden post, metal plate/washer for stability, expansion bolts for concrete post. Post width under 15cm (6 inches). 确保用于将柱支架连接到木柱的螺栓足够长，能够穿过整个柱子。 在螺栓和木柱之间添加金属板或更大的垫圈，以提高支架的稳定性。 对于混凝土柱，请使用膨胀螺栓牢固地安装支架。 如果柱子的宽度或直径小于15厘米（6英寸），则应使用金属柱或浇筑在水泥中。",
+    "content_zh": "确保用于将柱支架连接到木柱的螺栓足够长，能够穿过整个柱子。\n在螺栓和木柱之间添加金属板或更大的垫圈，以提高支架的稳定性。\n对于混凝土柱，请使用膨胀螺栓牢固地安装支架。\n如果柱子的宽度或直径小于15厘米（6英寸），则应使用金属柱或浇筑在水泥中。",
+    "content_en": "Ensure that the bolts to attach post bracket to wooden post are long enough to pass through the entire post.\nAdd metal plate or larger washer between the bolt and the wooden post to improve bracket stability.\nFor concrete post, use expansion bolts to securely mount the bracket.\nIf the post’s width or diameter is under 15cm (6\"), it should be either metal or set in cement.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p08-post-bracket-stability.png",
+        "caption": "Diagram showing how to attach the post bracket to a wooden post using metal plates/washers and to a concrete post using expansion bolts. Components include Wooden Post, Metal Plate or Larger Washer (NOT Incl.), Post Bracket, Expansion Bolts (NOT Incl.), and Concrete Post.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p8-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      8,
+      8
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_title": "Additional Hardware to Enhance Post Bracket Stability"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p8-step2",
+    "group_id": "a3s-manual-p8",
+    "parent_id": "a3s-manual-p8",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Before You Begin · Check Gate Swing Direction",
+    "question": "Check Gate Swing Direction",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Before You Begin Check Gate Swing Direction Title:Check Gate Swing Direction Before You Begin 安装前准备 工具清单 非端子接线 非控制板端子表 Before You Begin - Check Gate Swing Direction. Pull-to-Open, Push-to-Open, control board setting. Installation starts page 9, page 13. 每个门都是独一无二的，以下步骤概述了常见的安装过程。 请确保控制板上的开门方向（拉开/推开）设置与安装类型匹配。 拉开式安装从第9页开始 推开式安装从第13页开始",
+    "content_zh": "每个门都是独一无二的，以下步骤概述了常见的安装过程。\n请确保控制板上的开门方向（拉开/推开）设置与安装类型匹配。\n拉开式安装从第9页开始\n推开式安装从第13页开始",
+    "content_en": "Each gate is unique and the following steps outline common installation process.\nPlease ensure that the PULL/PUSH TO OPEN setting on the control board matches the installation type.\nPull-to-Open Installation Starts from Page 9\nPush-to-Open Installation Starts from Page 13",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p08-pull-to-open.png",
+        "caption": "Illustration of a gate configured for Pull-to-Open, showing the gate swinging inwards towards the Inside Property.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p8-img2"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p08-push-to-open.png",
+        "caption": "Illustration of a gate configured for Push-to-Open, showing the gate swinging outwards from the Inside Property.",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "a3s-manual-p8-img3"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      8,
+      8
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Before You Begin",
+      "step_title": "Check Gate Swing Direction"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p9",
+    "group_id": "a3s-manual-p9",
+    "parent_id": null,
+    "is_child": false,
+    "is_retrievable": false,
+    "section": "Pull-to-Open Gate Opener Mounting",
+    "question": "Pull-to-Open Gate Opener Mounting",
+    "embedding_text": null,
+    "content_zh": "拉式开门门机安装章节（第9页）：STEP 1 装配立柱支架与拉式开门支架；STEP 2 根据尺寸 A、B 确定立柱支架安装位置及最大开门角度。",
+    "content_en": "Pull-to-Open Gate Opener Mounting (page 9): STEP 1 assemble post bracket and pull-to-open bracket; STEP 2 determine post bracket position from dimensions A and B and maximum opening angle.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p09-page.png",
+        "caption": "Pull-to-Open Gate Opener Mounting 整页（STEP 1-2）",
+        "caption_status": "captioned",
+        "role": "reference_diagram",
+        "image_id": "p9-page"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      9,
+      9
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": null,
+      "step_title": null
+    }
+  },
+  {
+    "chunk_id": "a3s-manual-p9-step1",
+    "group_id": "a3s-manual-p9",
+    "parent_id": "a3s-manual-p9",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · STEP 1 Assemble the Post Bracket and the Pull-to-Open Bracket",
+    "question": "Assemble the Post Bracket and the Pull-to-Open Bracket",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting STEP 1 Assemble the Post Bracket and the Pull-to-Open Bracket Title:Assemble the Post Bracket and the Pull-to-Open Bracket Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting STEP 1 Assemble the Post Bracket and Pull-to-Open Bracket 立柱支架 拉式开门支架 装配 将螺栓穿过立柱支架和拉式开门支架上的孔，用垫片和螺母固定，如图所示。注意不要将螺母拧得过紧，因为立柱支架后续可能还需要调整位置。",
+    "content_zh": "将螺栓穿过立柱支架和拉式开门支架上的孔，用垫片和螺母固定，如图所示。注意不要将螺母拧得过紧，因为立柱支架后续可能还需要调整位置。",
+    "content_en": "Insert the bolts through the holes of post bracket and pull-to-open bracket, and fasten with washer and nut as shown. DO NOT over tighten the nut because the post bracket may need to be adjusted later.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p9-step1-explosion.png",
+        "caption": "立柱支架组件爆炸图：展示 M10×35 螺栓、M8×30 螺栓、立柱支架(Post Bracket)、拉式开门支架(Pull-to-Open Bracket)、Φ10垫片、Φ10锁紧垫片、M10螺母、Φ8垫片、M8螺母的装配顺序与相对位置",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "p9-img1"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      9,
+      9
+    ],
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": "STEP 1",
+      "step_title": "Assemble the Post Bracket and the Pull-to-Open Bracket"
+    },
+    "embedding_enriched": true
+  },
+  {
+    "chunk_id": "a3s-manual-p9-step2",
+    "group_id": "a3s-manual-p9",
+    "parent_id": "a3s-manual-p9",
+    "is_child": true,
+    "is_retrievable": true,
+    "section": "Pull-to-Open Gate Opener Mounting · STEP 2 Determine the Position of the Post Bracket Assembly",
+    "question": "Determine the Position of the Post Bracket Assembly",
+    "embedding_text": "Document:A3S A5S A8S Installation Manual Chapter:Pull-to-Open Gate Opener Mounting STEP 2 Determine the Position of the Post Bracket Assembly Title:Determine the Position of the Post Bracket Assembly Pull-to-Open 拉式开门 拉开门 内开 inward opening 非推开门 Pull-to-Open Gate Opener Mounting STEP 2 Determine Position Post Bracket Assembly opening angle table A B dimensions 开门角度 16cm 14cm 110 下表列出了根据尺寸A和B确定的大门最大开启角度。例如，若A为16cm(6.3\")、B为14cm(5.5\")，则大门最大开启角度为110°。测量A和B的尺寸以确定所需的开门角度，然后标记立柱支架的安装位置中心。拉式开门(Pull-to-Open)安装时，大门处于开启位置，且机械臂活动杆应完全缩回。",
+    "content_zh": "下表列出了根据尺寸A和B确定的大门最大开启角度。例如，若A为16cm(6.3\")、B为14cm(5.5\")，则大门最大开启角度为110°。测量A和B的尺寸以确定所需的开门角度，然后标记立柱支架的安装位置中心。拉式开门(Pull-to-Open)安装时，大门处于开启位置，且机械臂活动杆应完全缩回。",
+    "content_en": "The table shows the maximum opening angle of the gate based on the dimensions of A and B. For example, if A is 16cm (6.3\") and B is 14cm (5.5\"), the maximum opening angle of the gate is 110°. Measure the dimension of A and B to determine the desired gate opening angle, then mark the center of the mounting locations for the post bracket accordingly. Pull-to-Open Installation — Gate in open position with the moving rod fully retracted.",
+    "images": [
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p9-step2-diagram.png",
+        "caption": "安装示意图：显示立柱支架、拉式开门支架、机械臂在开门位置的相对角度，标注尺寸A(支架到臂的垂直距离)与B(支架安装点水平偏移)及关闭方向箭头",
+        "caption_status": "captioned",
+        "role": "primary_step_illustration",
+        "image_id": "p9-img2"
+      },
+      {
+        "file": "D:/pythonProject/manual-kb/_scratch/vlm_batch/images/p9-step2-angle-table.png",
+        "caption": "A×B开门角度对照表：行为B值(10cm-28cm)，列为A值(10cm-26cm)，交叉单元格为对应最大开门角度(84°-120°不等)",
+        "caption_status": "captioned",
+        "role": "spec_table",
+        "image_id": "p9-img3"
+      }
+    ],
+    "has_image": true,
+    "lang": "zh",
+    "doc_type": "installation_manual",
+    "source_pdf": "A3S,A5(S),A8(S)说明书.pdf",
+    "page_range": [
+      9,
+      9
+    ],
+    "table_data": {
+      "table_id": "opening_angle_ab",
+      "unit_a": "cm",
+      "unit_b": "cm",
+      "angle_unit": "deg",
+      "columns_a": [
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26
+      ],
+      "rows": [
+        {
+          "b": 10,
+          "angles": [
+            120,
+            118,
+            116,
+            114,
+            112,
+            110,
+            108,
+            106,
+            104
+          ]
+        },
+        {
+          "b": 12,
+          "angles": [
+            118,
+            116,
+            114,
+            112,
+            110,
+            108,
+            106,
+            104,
+            102
+          ]
+        },
+        {
+          "b": 14,
+          "angles": [
+            116,
+            114,
+            112,
+            110,
+            108,
+            106,
+            104,
+            102,
+            100
+          ]
+        },
+        {
+          "b": 16,
+          "angles": [
+            114,
+            112,
+            110,
+            108,
+            106,
+            104,
+            102,
+            100,
+            98
+          ]
+        },
+        {
+          "b": 18,
+          "angles": [
+            112,
+            110,
+            108,
+            106,
+            104,
+            102,
+            100,
+            98,
+            96
+          ]
+        },
+        {
+          "b": 20,
+          "angles": [
+            110,
+            108,
+            106,
+            104,
+            102,
+            100,
+            98,
+            96,
+            94
+          ]
+        },
+        {
+          "b": 22,
+          "angles": [
+            108,
+            106,
+            104,
+            102,
+            100,
+            98,
+            96,
+            94,
+            92
+          ]
+        },
+        {
+          "b": 24,
+          "angles": [
+            106,
+            104,
+            102,
+            100,
+            98,
+            96,
+            94,
+            92,
+            90
+          ]
+        },
+        {
+          "b": 26,
+          "angles": [
+            104,
+            102,
+            100,
+            98,
+            96,
+            94,
+            92,
+            90,
+            88
+          ]
+        },
+        {
+          "b": 28,
+          "angles": [
+            102,
+            100,
+            98,
+            96,
+            94,
+            92,
+            90,
+            88,
+            86
+          ]
+        }
+      ],
+      "example": {
+        "a": 16,
+        "b": 14,
+        "angle": 110
+      }
+    },
+    "models": [
+      "A3S",
+      "A5S",
+      "A8S"
+    ],
+    "section_obj": {
+      "chapter_title": "Pull-to-Open Gate Opener Mounting",
+      "step_number": "STEP 2",
+      "step_title": "Determine the Position of the Post Bracket Assembly"
+    },
+    "embedding_enriched": true
+  }
+]

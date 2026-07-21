@@ -1,0 +1,6 @@
+# Mock domain pack — architecture validation only (not for production demo)
+id: mock
+display_name: ACME Mock
+brand: ACME
+default_locale: en
+default_response_mode: cs_email

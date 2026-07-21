@@ -1,0 +1,226 @@
+﻿============================================================
+BL-EXT-01 GAP SCAN
+============================================================
+
+## H1 sections in docx (20)
+   1. [OK] 涓€銆佺數婧愰棶棰?Power Issues
+   2. [OK] 浜屻€侀仴鎺у櫒闂 Remote Control & Signal Problems
+   3. [OK] 瀹屽叏涓嶅伐浣?Complete Failure
+   4. [MISS] 涓€涓満鑷傚畬鍏ㄤ笉宸ヤ綔 One Arm Doesn鈥檛 Work
+   5. [OK] 浜斻€佸彧鏈濅竴涓柟鍚?Only Opens/Closes One Direction
+   6. [MISS] 鍏€侀殢鎰忓紑鍏抽棬 Random Opening/Closing
+   7. [MISS] 涓冦€佺紦鍋滄鏈夐棶棰橈紙缂撳仠姝㈤敊涔辨垨鑰呮病鏈夌紦鍋滄锛塖oft Stop Issues
+   8. [MISS] 鍏€佽嚜鍔ㄥ叧闂ㄤ笉鐢熸晥 Auto Close Function Doesn't Work
+   9. [MISS] 涔濄€佸紑鍏抽棬杩囩▼涓蛋鍋滄垨鍙嶅脊 Gate Stops or Bounces During Operation
+  10. [OK] 鍗併€佸紑鍒颁綅鍚庡弽寮? Gate Bounces Back After Opening Completely
+  11. [OK] 鍗佷竴銆佸叧鍒颁綅鍚庡弽寮?Gate Bounces Back After Closing Completely
+  12. [OK] 鍗佷簩銆佷笉闄愪綅 Gate Does Not Stop at Limit Switch
+  13. [MISS] 鍗佷笁銆侀棬鏈鸿繍琛屾參 Gate Operates Slowly
+  14. [OK] 鍗佸洓銆佺數鏈虹數娴佸皬瀵艰嚧璧板仠 Motor Current Too Low Causes Stalling (The Gate Stops Immediately I
+  15. [MISS] 鍗佷簲銆佺數鏈鸿浆鏈鸿噦涓嶄几缂?Motor Runs But Gate Doesn't Move
+  16. [MISS] 鍗佸叚銆佹満鑷傚０闊冲紓甯?Abnormal Noise From Arm
+  17. [MISS] 鍗佷竷銆佺鍚堟墦涓嶅紑 Clutch Won't Release
+  18. [MISS] 鍗佸叓銆侀浼氭妸闂ㄥ惞寮€锛堟垨鑰呭鍔涜兘鎶婇棬鎺ㄥ紑涓€鐐癸級 There is Little Play When the Gate is Closed
+  19. [MISS] 鍗佷節銆佷繚鍏讳笌娑︽粦 Maintenance and Lubrication
+  20. [OK] 浜屽崄銆佸父瑙佷骇鍝佺煡璇嗙偣
+
+## qa_groups sections (9)
+  - 涓€銆佺數婧愰棶棰?Power Issues
+  - 浜屻€侀仴鎺у櫒闂 Remote Control & Signal Problems
+  - 浜屽崄銆佸父瑙佷骇鍝佺煡璇嗙偣
+  - 浜斻€佸彧鏈濅竴涓柟鍚?Only Opens/Closes One Direction
+  - 鍗併€佸紑鍒颁綅鍚庡弽寮? Gate Bounces Back After Opening Completely
+  - 鍗佷竴銆佸叧鍒颁綅鍚庡弽寮?Gate Bounces Back After Closing Completely
+  - 鍗佷簩銆佷笉闄愪綅 Gate Does Not Stop at Limit Switch
+  - 鍗佸洓銆佺數鏈虹數娴佸皬瀵艰嚧璧板仠 Motor Current Too Low Causes Stalling (The Gate Stops Immediately I
+  - 瀹屽叏涓嶅伐浣?Complete Failure
+
+## 搂鍗佷節 scan (30 items)
+  [section_start] 鍗佷節銆佷繚鍏讳笌娑︽粦 Maintenance and Lubrication
+  Para lang counts: {'zh': 2, 'en': 27, 'empty': 0}
+  Adjacent lang flips: 3
+    flip 1: zh->en | In cold climates where temperatures reach 1掳C (30掳F) or less
+    flip 2: en->zh | 濡傛灉杩愯涓嶉『鐣呯瓑锛屽彲鏇磋繘涓€姝ユ媶鏈鸿噦娑︽粦涓嶉攬閽㈢鍐呭锛屼笣姣嶅唴澶栦晶锛岀敋鑷充笣鏉?
+    flip 3: zh->en | Besides, grease is needed to lubricate the inside of the sta
+
+## 50惟/1152 formula hits in docx (4)
+  [50ohm] lang=zh | Q=None
+    闂ㄧ獊鐒跺惎鍔ㄦ椂鎵潃鏈鸿噦鍔ㄥ鑷寸數娴佸皬閫犳垚鐨勶紝杩欑鎯呭喌鎹㈡帶鍒舵澘杩樹笉濂界敤锛屽彧鑳藉苟鐢甸樆锛岄棬鐨勭姸鎬佸寘鎷満鑷傜數娴佹槸鍙兘浼氭尝鍔ㄧ殑锛屽鏋滃彧鏄伓灏旇繖鏍凤紝璇存槑鐢垫祦涓嶆槸鐗瑰埆灏忥紝杩欎釜鏃跺€欓樆鍊煎ぇ涓€鐐规病鍏崇郴锛屽彲浠ュ厛璇曡瘯50娆х殑鐢甸樆锛岀數闃诲彂鐑病閭ｄ箞涓ラ噸锛岀浉瀵规潵璇翠細鏇村ソ涓€浜涖€備笉琛屽啀25娆с€?
+  [25ohm] lang=zh | Q=None
+    闂ㄧ獊鐒跺惎鍔ㄦ椂鎵潃鏈鸿噦鍔ㄥ鑷寸數娴佸皬閫犳垚鐨勶紝杩欑鎯呭喌鎹㈡帶鍒舵澘杩樹笉濂界敤锛屽彧鑳藉苟鐢甸樆锛岄棬鐨勭姸鎬佸寘鎷満鑷傜數娴佹槸鍙兘浼氭尝鍔ㄧ殑锛屽鏋滃彧鏄伓灏旇繖鏍凤紝璇存槑鐢垫祦涓嶆槸鐗瑰埆灏忥紝杩欎釜鏃跺€欓樆鍊煎ぇ涓€鐐规病鍏崇郴锛屽彲浠ュ厛璇曡瘯50娆х殑鐢甸樆锛岀數闃诲彂鐑病閭ｄ箞涓ラ噸锛岀浉瀵规潵璇翠細鏇村ソ涓€浜涖€備笉琛屽啀25娆с€?
+  [1152] lang=zh | Q=None
+    璐熻浇鐢甸樆娌℃湁瑙勫畾鐢靛帇锛屽彧鏈夊姛鐜囪姹傦紝20娆?100娆ч兘鍙互锛屽姛鐜囪澶т簬1152闄や互鐢甸樆鍊笺€?
+  [power_formula] lang=zh | Q=None
+    璐熻浇鐢甸樆娌℃湁瑙勫畾鐢靛帇锛屽彧鏈夊姛鐜囪姹傦紝20娆?100娆ч兘鍙互锛屽姛鐜囪澶т簬1152闄や互鐢甸樆鍊笺€?
+  qa_groups contains '50': True
+  qa_groups contains '1152': False
+  qa_groups contains '25惟': False
+  qa_groups contains '25娆?: False
+
+## URL inventory
+  docx unique URLs: 14
+  qa_groups unique URLs: 5
+
+  COVERED (5):
+    https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing
+      docx: 搂瀹屽叏涓嶅伐浣?Complete Failure | 鎸夐仴鎺у櫒娌℃湁鍙嶅簲 No Response When The Remote Is Pressed
+      qg:   qa_010:prose
+    https://topens.com/blogs/blog-posts/troubleshooting-your-solar-kit-for-solar-powered-automatic-gate-opener
+      docx: 搂涓€銆佺數婧愰棶棰?Power Issues | 澶槼鑳戒笉鑳界粰鐢垫睜鍏呯數 The Batteries Cannot Be Charged by Solar
+      qg:   qa_003:prose
+    https://www.amazon.co.uk/dp/B07H33917Z
+      docx: 搂鍗佸洓銆佺數鏈虹數娴佸皬瀵艰嚧璧板仠 Motor Current Too Low Cause | 鎵嬪姩鍙嶆帹鏉ユ帓鏌?鐢甸樆
+      qg:   qa_024:branch
+    https://www.amazon.com/dp/B01HMSR2T4
+      docx: 搂鍗佸洓銆佺數鏈虹數娴佸皬瀵艰嚧璧板仠 Motor Current Too Low Cause | 鎵嬪姩鍙嶆帹鏉ユ帓鏌?鐢甸樆
+      qg:   qa_024:branch
+    https://www.amazon.com/dp/B08HYZV3DW
+      docx: 搂鍗佸洓銆佺數鏈虹數娴佸皬瀵艰嚧璧板仠 Motor Current Too Low Cause | 骞舵帴鏈鸿噦绾㈤粦绾挎帓鏌?
+      qg:   qa_023:prose, qa_024:ladder
+
+  MISSING (9):
+    https://topens.com/blogs/blog-posts/essential-guide-to-regular-maintenance-and-care-for-your-gate-opener
+      domain=topens.com lang=en | Q=None
+      ctx: https://topens.com/blogs/blog-posts/essential-guide-to-regular-maintenance-and-care-for-your-gate-op
+    https://topens.com/blogs/blog-posts/how-to-retract-the-moving-rod-when-the-opener-arm-extends-too-much
+      domain=topens.com lang=en | Q=None
+      ctx: https://topens.com/blogs/blog-posts/how-to-retract-the-moving-rod-when-the-opener-arm-extends-too-mu
+    https://topens.com/blogs/blog-posts/preventing-winter-freezing-of-automatic-gate-opener-arms
+      domain=topens.com lang=en | Q=None
+      ctx: https://topens.com/blogs/blog-posts/preventing-winter-freezing-of-automatic-gate-opener-arms
+    https://topens.com/blogs/blog-posts/troubleshooting-guide-motor-operates-but-gate-opener-arm-fails-to-move
+      domain=topens.com lang=en | Q=None
+      ctx: https://topens.com/blogs/blog-posts/troubleshooting-guide-motor-operates-but-gate-opener-arm-fails-t
+    https://www.amazon.co.uk/dp/B079KCC8P9
+      domain=www.amazon.co.uk lang=en | Q=鎵嬪姩鍙嶆帹鏉ユ帓鏌?鐢甸樆
+      ctx: Diode: https://www.amazon.co.uk/dp/B079KCC8P9
+    https://www.youtube.com/watch?v=IRIA5iaWHqE
+      domain=www.youtube.com lang=en | Q=None
+      ctx: https://www.youtube.com/watch?v=IRIA5iaWHqE
+    https://youtu.be/0dkm1sKYjzA
+      domain=youtu.be lang=en | Q=None
+      ctx: How to dismantle the moving-rod?: https://youtu.be/0dkm1sKYjzA
+    https://youtu.be/5s1EQh2M_mo
+      domain=youtu.be lang=en | Q=None
+      ctx: https://youtu.be/5s1EQh2M_mo
+    https://youtube.com/shorts/EeHaJdHqE-U?feature=share
+      domain=youtube.com lang=en | Q=None
+      ctx: https://youtube.com/shorts/EeHaJdHqE-U?feature=share
+
+Wrote D:\pythonProject\manual-kb\_scratch\eval\bl_ext01_gap_scan.json
+
+## Orphan paragraphs (H1 body, no H2/H3): 193
+   35 | 鍗佸叚銆佹満鑷傚０闊冲紓甯?Abnormal Noise From Arm
+   29 | 鍗佷節銆佷繚鍏讳笌娑︽粦 Maintenance and Lubrication
+   22 | 鍗佷竷銆佺鍚堟墦涓嶅紑 Clutch Won't Release
+   21 | 涔濄€佸紑鍏抽棬杩囩▼涓蛋鍋滄垨鍙嶅脊 Gate Stops or Bounces Duri
+   16 | 鍗佷簲銆佺數鏈鸿浆鏈鸿噦涓嶄几缂?Motor Runs But Gate Doesn't 
+   12 | 鍗佷笁銆侀棬鏈鸿繍琛屾參 Gate Operates Slowly
+   11 | 鍗佷簩銆佷笉闄愪綅 Gate Does Not Stop at Limit Switc
+   10 | 涓€涓満鑷傚畬鍏ㄤ笉宸ヤ綔 One Arm Doesn鈥檛 Work
+   10 | 鍏€侀殢鎰忓紑鍏抽棬 Random Opening/Closing
+    9 | 涓冦€佺紦鍋滄鏈夐棶棰橈紙缂撳仠姝㈤敊涔辨垨鑰呮病鏈夌紦鍋滄锛塖oft Stop Issues
+    8 | 鍏€佽嚜鍔ㄥ叧闂ㄤ笉鐢熸晥 Auto Close Function Doesn't Wo
+    6 | 鍗佸叓銆侀浼氭妸闂ㄥ惞寮€锛堟垨鑰呭鍔涜兘鎶婇棬鎺ㄥ紑涓€鐐癸級 There is Little P
+    4 | 鍗佸洓銆佺數鏈虹數娴佸皬瀵艰嚧璧板仠 Motor Current Too Low Cause
+
+  Formula orphans: 2
+    [zh] 闂ㄧ獊鐒跺惎鍔ㄦ椂鎵潃鏈鸿噦鍔ㄥ鑷寸數娴佸皬閫犳垚鐨勶紝杩欑鎯呭喌鎹㈡帶鍒舵澘杩樹笉濂界敤锛屽彧鑳藉苟鐢甸樆锛岄棬鐨勭姸鎬佸寘鎷満鑷傜數娴佹槸鍙兘浼氭尝鍔ㄧ殑锛屽鏋滃彧鏄伓灏旇繖鏍凤紝璇存槑鐢垫祦涓嶆槸鐗瑰埆灏忥紝杩欎釜鏃跺€欓樆鍊煎ぇ涓€鐐规病鍏崇郴锛屽彲浠ュ厛璇曡瘯50娆х殑鐢甸樆锛岀數闃诲彂鐑病閭ｄ箞涓ラ噸锛岀浉瀵规潵璇翠細鏇村ソ涓€浜?
+    [zh] 璐熻浇鐢甸樆娌℃湁瑙勫畾鐢靛帇锛屽彧鏈夊姛鐜囪姹傦紝20娆?100娆ч兘鍙互锛屽姛鐜囪澶т簬1152闄や互鐢甸樆鍊笺€?
+
+## qa_groups URL recount (incl ladder): 5
+  https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing <- qa_010:prose
+  https://topens.com/blogs/blog-posts/troubleshooting-your-solar-kit-for-solar-powered-automatic-gate-opener <- qa_003:prose
+  https://www.amazon.co.uk/dp/B07H33917Z <- qa_024:branch
+  https://www.amazon.com/dp/B01HMSR2T4 <- qa_024:branch
+  https://www.amazon.com/dp/B08HYZV3DW <- qa_023:prose, qa_024:ladder
+
+## BL-EXT-01b orphan section summaries (excl 搂鍗佸洓/搂鍗佷節): 11 sections
+
+### 鍗佸叚銆佹満鑷傚０闊冲紓甯?Abnormal Noise From Arm
+  orphans=35 zh=15 en=20 urls=1 tech_hits=22 tier=high_troubleshooting
+    [zh] 1. 鎵撳紑绂诲悎锛屾寜閬ユ帶鍣紝鐪嬫槸鍚﹁繕鏈夊紓鍝嶏紵
+    [zh] 鏃犲紓鍝嶁啋鍋氭楠?锛?
+    [zh] 鏈夊紓鍝嶁啋寮傚搷鏉ヨ嚜鐢垫満鎴栫鍚堬紝鍋氭楠?锛?
+    [zh] 淇濇寔绂诲悎鎵撳紑锛屾墜鍔ㄥ紑鍏抽棬锛岀湅鏄惁杩樻湁寮傚搷锛?
+    [zh] 鏃犲紓鍝嶁啋寮傚搷寰堝彲鑳芥槸鐢变簬鐢垫満璐熻浇杩囧ぇ浜х敓锛?
+
+### 鍗佷竷銆佺鍚堟墦涓嶅紑 Clutch Won't Release
+  orphans=22 zh=3 en=19 urls=6 tech_hits=10 tier=high_troubleshooting
+    [zh] 1鎶婃満鑷傛嬁涓嬫潵涓嶅甫闂ㄧ殑鏃跺€欒瘯璇曪細鍏堢‘瀹氫笅绂诲悎鎷т笉寮€鐨勬椂鍊欐満鑷傛槸鍦ㄤ粈涔堢姸鎬佷笅锛岀湅鏈鸿噦鏄笉鏄叧闂ㄥ埌浣嶅緢绱х殑鐘舵€侊紝杩欎釜鏃跺€欐嫥绂诲悎閽ュ寵鏄緢闅炬嫥寮€鐨勶紱濡傛灉涓嶅甫闂ㄥ彲浠ユ甯告墦寮€ 闇€瑕侀噸鏂拌皟鏁村紑鍏抽棬浣嶇疆锛?
+    [zh] 2 濡傛灉涓嶅甫闂ㄤ篃鎵撲笉寮€锛屾鏌ヤ竴涓嬫槸涓嶆槸浼稿お杩囷紝鍏堟墜鏃嬭浆鎷夋潌寰€閲屾帹璇曡瘯锛岀湅鑳戒笉鑳芥嫥杩涘幓锛屽彲浠ョ殑璇濋檺浣岯寰€閲岃皟涓€鐐癸紱濡傛灉涓嶈兘鏃嬭繘鍘伙紝鎷嗗紑鐪嬬湅锛屾槸涓嶆槸閲岄潰鍗′綇浜嗐€?
+    [zh] 3 濡傛灉涓嶆槸浼稿お杩囩殑鎯呭喌锛岀敤鎷嗗紑鏈哄３锛岀鍚堥挜鍖欐彃鍦ㄧ鍚堝皬杞翠笂锛岃浆鍔ㄧ鍚堥挜鍖欙紝鐪嬬湅绂诲悎浠?鍜岀鍚堜欢3浼氫笉浼氬垎绂伙紝濡傛灉鍙互鍒嗙锛屼絾鏄満鑷備笉鑳芥墜鍔ㄤ几缂╋紝瑕佹媶寮€妫€鏌ヤ笣姣嶄笌閾濈鎴栦笉閿堥挗绠″唴澹佹槸涓嶆槸鍗′綇浜嗭紝铻烘瘝鏈夋病鏈夌（鎹燂紱濡傛灉涓€鍒囨甯革紝鍙鼎婊戠湅鐪嬨€?
+    [en] 1 Remove the arm from the gate first and try to disengage the clutch with the release key to see whether it can work. If
+    [en] 2 If the clutch still cannot be released, please check if the arm is fully extended and can鈥檛 be retracted, if so, pleas
+
+### 涔濄€佸紑鍏抽棬杩囩▼涓蛋鍋滄垨鍙嶅脊 Gate Stops or Bounces During Operation
+  orphans=21 zh=9 en=12 urls=0 tech_hits=13 tier=high_troubleshooting
+    [zh] 1 鎺掗櫎绾㈠閬囬樆褰卞搷
+    [zh] 2 鏂數璋冮亣闃荤紦鍋滄
+    [zh] 3 杩樻湁闂鐨勮瘽锛屽彲浠ユ帶鍒舵澘涓婁竴娆″彧鎺ヤ竴涓満鑷傦紝鎵惧嚭闂闂鏈鸿噦 鐒跺悗鍋氫笅闈㈢殑娴嬭瘯
+    [zh] 4 鎵撳紑绂诲悎锛屾墜鏀炬媺鑰冲锛屽幓鎺ㄦ媺闂ㄧ湅鐪嬫槸鍚﹂『鐣?
+    [zh] 5 鏈鸿噦浠庨棬涓婃嬁涓嬫潵璇曡瘯鎸夐仴鎺у櫒鐨勬椂鍊欐満鑷傝兘鍚︽甯镐几缂?
+
+### 鍗佷簲銆佺數鏈鸿浆鏈鸿噦涓嶄几缂?Motor Runs But Gate Doesn't Move
+  orphans=16 zh=5 en=11 urls=2 tech_hits=11 tier=high_troubleshooting
+    [zh] 鍗氬鏂囩珷閾炬帴锛?
+    [en] https://topens.com/blogs/blog-posts/troubleshooting-guide-motor-operates-but-gate-opener-arm-fails-to-move
+    [zh] 1 浼稿お杩囩缉涓嶅洖鍘荤殑鎯呭喌锛?
+    [zh] 绂诲悎鎵撳紑锛屽皢鏈鸿噦鎺ㄥ埌涓棿浣嶇疆鍐嶅悎涓婄鍚堝啀璇曪紝濡傛灉宸茬粡浼稿お杩囩鍚堟墦寮€缂╀笉鍥炰簡锛屽彲灏濊瘯绂诲悎鍚堜笂锛岄『鏃堕拡寰€閲岃竟鎺ㄨ竟鏃嬭浆鎷夋潌锛屽鏋淥K鍒欒鏄庝箣鍓嶄笣姣嶄笌涓濇潌涔嬮棿鑴卞紑浜嗭紙鏈€杩滅锛夛紝鍙互璁╁鎴峰皢杩滅闄愪綅寮€鍏冲啀寰€鍥炶皟涓€鐐圭偣锛岄檺浣嶈灪涓濇嫥绱э紱濡傛灉杩樹笉琛岋紝闇€瑕佹媶
+    [zh] 2 鎷夋潌鍦ㄧ缉鍒板簳鎴栭儴鍒嗕几鍑哄幓鐨勭姸鎬侊紝鐢垫満杞紝鏈鸿噦涓嶄几缂╋細
+
+### 鍗佷笁銆侀棬鏈鸿繍琛屾參 Gate Operates Slowly
+  orphans=12 zh=7 en=5 urls=0 tech_hits=6 tier=high_troubleshooting
+    [zh] 1 鐩戞祴鐢靛帇锛岀湅鏄笉鏄湁鍘嬮檷
+    [zh] 2 澧炲ぇ閬囬樆鍔涳紝缂╁皬缂撳仠姝?
+    [zh] 3 鎵撳紑绂诲悎鎵嬪姩鎺ㄦ媺椤虹晠涓嶃€傞『鐣呯殑璇濓紝鏈鸿噦鎷夸笅鏉ワ紝鍚堜笂绂诲悎锛屾彙浣忔媺鑰筹紝鐪嬬湅杩愯閫熷害鎬庝箞鏍枫€?
+    [zh] 4 娴嬬數鏈猴紝鏄惁鍙互姝ｅ父閫熷害寰€涓や釜鏂瑰悜杩愯
+    [zh] 5 瑙嗛灞曠ず
+
+### 鍗佷簩銆佷笉闄愪綅 Gate Does Not Stop at Limit Switch
+  orphans=11 zh=7 en=4 urls=0 tech_hits=8 tier=high_troubleshooting
+    [zh] 寮€闂ㄤ笉闄愪綅
+    [zh] 鎷夊紑闂ㄥ畨瑁?For pull-to-open installation
+    [zh] 妫€鏌ユ帴绾挎槸鍚︽帴濂?
+    [zh] 妫€鏌ュ紑闂ㄤ綅缃槸鍚﹀畨瑁呮纭?
+    [zh] 鍙互灏嗛檺浣岮 寰€澶栫Щ涓€鐐癸紝鐪嬮棬鏈烘槸涓嶆槸鍙互鎻愬墠鍋滀笅鏉?
+
+### 涓€涓満鑷傚畬鍏ㄤ笉宸ヤ綔 One Arm Doesn鈥檛 Work
+  orphans=10 zh=3 en=7 urls=0 tech_hits=8 tier=high_troubleshooting
+    [zh] 1 浜ゆ崲鎺у埗鏉夸笂鐨勬満鑷傛帴绾跨鍙ｏ紝濡傛灉涓嶅伐浣滅殑鏈鸿噦鍙互浜?涔嬪墠姝ｅ父鐨勬満鑷備笉宸ヤ綔浜嗭紝鎺у埗鏉垮潖
+    [zh] 2 娴嬬數鏈猴紝濡傛灉浜ゆ崲鏈鸿噦鎺ョ嚎鍚?涓嶅伐浣滅殑鏈鸿噦杩樻槸涓嶅伐浣滐紝鏈鸿噦绾㈤粦绾挎帴寮€鍏崇數婧愮殑杈撳嚭娴嬬數鏈?
+    [zh] 3 鐭帴闄愪綅绔彛鎺掓煡闄愪綅
+    [en] May I ask if the arm cannot make any sound when the remote is pressed? If so, please do the following tests.
+    [en] 1 Check the control board
+
+### 鍏€侀殢鎰忓紑鍏抽棬 Random Opening/Closing
+  orphans=10 zh=4 en=6 urls=0 tech_hits=4 tier=high_troubleshooting
+    [zh] 1 妫€鏌ユ帹鎷夊紑闂ㄩ€昏緫鏄笉鏄纭?
+    [zh] 2 鏂紑鎵€鏈夋湁绾块厤浠讹紝鍏抽棴绾㈠鍔熻兘鐪嬬湅
+    [zh] 3 娓呴櫎鎵€鏈夐仴鎺у瘑鐮侊紝閲嶅
+    [zh] 4 杩樹笉琛屾崲鎺у埗鏉?
+    [en] 1 Check DIP Switch Setting: DIP Switch #1 on the control board is used to select the gate's operation mode (push/pull to
+
+### 涓冦€佺紦鍋滄鏈夐棶棰橈紙缂撳仠姝㈤敊涔辨垨鑰呮病鏈夌紦鍋滄锛塖oft Stop Issues
+  orphans=9 zh=5 en=4 urls=0 tech_hits=4 tier=high_troubleshooting
+    [zh] 1 鏂數閲嶇疆锛岃蛋涓畬鏁寸殑寮€鍏抽棬寰幆
+    [zh] 2 妫€鏌ラ檺浣嶅姛鑳斤紝瑙傚療鏄惁闄愪綅鍋?
+    [zh] 3 妫€鏌ョ紦鍋滄鍔熻兘鍦ㄦ満鑷備笉甯﹂棬鐨勬椂鍊欐槸鍚︽甯?
+    [zh] 4 杩樹笉琛屾崲鎺у埗鏉?
+    [en] 1 If you have reset the soft stop time or used the release key to manually open the gate, turn off the power to the gate
+
+### 鍏€佽嚜鍔ㄥ叧闂ㄤ笉鐢熸晥 Auto Close Function Doesn't Work
+  orphans=8 zh=3 en=5 urls=0 tech_hits=3 tier=high_troubleshooting
+    [zh] 1 鏂紑鏈夌嚎閰嶄欢锛屾寜閬ユ帶鍣ㄨ闂ㄥ仠鍗婅矾锛岀瓑涓€浼氱湅鐪嬮棬浼氫笉浼氳嚜鍔ㄥ叧锛屽鏋滃彲浠ワ紝搴旇鏄厤浠跺奖鍝嶅鑷撮棬鏃犳硶鑷姩鍏抽棬锛屽彲浠ヤ竴涓竴涓帴閰嶄欢锛屾祴璇曠湅鐪嬫槸鍝釜瀵艰嚧
+    [zh] 2 濡傛灉鏂紑閰嶄欢鍚庯紝鑷姩鍏抽棬杩樻槸娌¤捣浣滅敤锛屼繚鎸侀厤浠舵柇寮€锛岀劧鍚庢妸闂ㄦ満鐨勭數鏂紑锛屾妸鑷姩鍏抽棬鍔熻兘寮€鍚紝鎸夐仴鎺у櫒璧颁竴涓畬鏁寸殑寮€鍏抽棬寰幆锛岀劧鍚庡啀鎸夐仴鎺у櫒璁╅棬杩愯鍒板崐寮€浣嶇疆鍋滀笅锛岀瓑涓€浼?
+    [en] 1 Please disconnect all wired accessories from the control board. Then open the gate by the remote and wait for a while 
+    [en] If so, please reconnect the accessories one by one, testing after each, to identify the faulty one.
+    [en] If this step cannot help, please do the following test.
+
+### 鍗佸叓銆侀浼氭妸闂ㄥ惞寮€锛堟垨鑰呭鍔涜兘鎶婇棬鎺ㄥ紑涓€鐐癸級 There is Little Play When the Gate is Closed
+  orphans=6 zh=3 en=3 urls=0 tech_hits=3 tier=high_troubleshooting
+    [zh] 1 妫€鏌ユ墭鏋舵槸鍚︾揣鍥猴紝闂ㄦ満杩愯鏃跺€欐槸鍚︿細鏅冨姩锛屽ぇ闂ㄩ摪閾炬渶濂戒笉瑕佸お鏉?
+    [zh] 2瑙傚療闂ㄨ椋庡惞鍔ㄧ殑鏃跺€欐媺鏉嗕細涓嶄細浼哥缉銆傚鏋滀笉浼氾紝瑙ｉ噴澶ч鍚圭殑鏃跺€欓棬浣撴檭鍔ㄦ槸姝ｅ父鐨勶紝寤鸿瑁呯數瀛愰攣
+    [zh] 3 濡傛灉浼氬姩鐨勮瘽锛屽彇涓嬫潵绂诲悎鍚堜笂锛屾墜鎺ㄦ媺锛屾槸涓嶆槸鍙互浼哥缉锛屽鏋滀細鍙戣棰戠湅鐪?
+    [en] 1 Please verify that all post brackets and pivot brackets are securely fastened and remain completely rigid during opera
+    [en] 2 If the brackets are fine, please observe whether the moving-rod will be extended/retracted by the wind. If not, it is 

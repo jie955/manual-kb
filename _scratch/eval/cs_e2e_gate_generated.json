@@ -1,0 +1,98 @@
+{
+  "results": [
+    {
+      "scenario_id": "cs_0001",
+      "test_id": null,
+      "mail_num": 1,
+      "label": "0001-at12131s-gate-no-response",
+      "query": "AT12131S gate does nothing when I push the button",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_010",
+        "qa_011"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_hit": true,
+      "top1_group": "qa_011",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "group_hint:qa_011",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F1_no_response.md"
+      },
+      "reply_preview": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22VDC. If so, please proceed to test 2.\n\n2. Disconnect all accessories from the control board first (just leave the power source and the arm). And disable the photocell function by turning the dip switch #3 off. Then erase all remotes codes from the contro",
+      "reply_full": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22VDC. If so, please proceed to test 2.\n\n2. Disconnect all accessories from the control board first (just leave the power source and the arm). And disable the photocell function by turning the dip switch #3 off. Then erase all remotes codes from the control board and reprogram them to have a try. If it fails, please instantaneously short (plug the wire in, then pull it out immediately) the push button terminals (4# and 5#) to check whether the opener can work.\nHow to instantaneously short the “O/S/C COM” terminals:\nhttps://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing\n\n3. If there is still no luck, please release the clutches on the arm and push the gate to the middle position firstly. And engage the clutches and press the remote to see whether the gate can run towards the both directions.\n\n4. Please check the motor. Connect the red & black wires of the arm to the DC 24V power source directly, the motor should run, and then exchange the polarity of the wires, the motor should run in the opposite direction. If the motor runs in both directions, the motor itself is good.\n\n5. Disconnect the BLUE, GREEN & YELLOW wires of the faulty arm from the control board, use two jumper wires to short the ULT, COM & DLT terminals to which the wires were connected, and then press the remote to operate the gate.\n\nPlease let me know the result one by one.\n\nVideos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nAnd also please reply your specific SHIPPING ADDRESS with zip code and confirm PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_len": 2588
+    },
+    {
+      "scenario_id": "cs_0008",
+      "test_id": null,
+      "mail_num": 8,
+      "label": "0008-pw502-tc148-push-button-not-working",
+      "query": "PW502 push button not working jumpered 4 and 5 still nothing",
+      "expected_library": "tc148",
+      "expected_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_002",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_002",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F2_tc148_wired.md"
+      },
+      "reply_preview": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please disconnect all accessories from the control board except for the power supply and the gate arm(s) themselves. This helps to rule out any interference from other connected devices.\n\n2. I understand you have already jumpered out terminals 4# and 5#. Could you please try this procedure again, ensuring it is an *instantaneous* short (momentarily touching the two ",
+      "reply_full": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please disconnect all accessories from the control board except for the power supply and the gate arm(s) themselves. This helps to rule out any interference from other connected devices.\n\n2. I understand you have already jumpered out terminals 4# and 5#. Could you please try this procedure again, ensuring it is an *instantaneous* short (momentarily touching the two terminals with a piece of wire and removing it immediately), rather than a continuous jumper? Please refer to the following video for a demonstration on how to instantaneously short the “O/S/C COM” terminals:\nhttps://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing\n\nLooking forward to the result after you finish the troubleshooting.\nPlease also send us a photo or a short video of the control board and how the connections are made.\nAnd also please reply your specific SHIPPING ADDRESS with zip code and confirm PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_len": 1581
+    },
+    {
+      "scenario_id": "cs_0013",
+      "test_id": null,
+      "mail_num": 13,
+      "label": "0013-a3s-stops-before-fully-open",
+      "query": "A3S gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_022"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F4_limit_travel",
+        "match_reason": "group_hint:qa_022",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F4_limit_travel.md"
+      },
+      "reply_preview": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Push against (in the opposite direction of the gate moving) the gate during the gate is opening/closing, continuously add some load to the gate and see if the gate can open/close all the way properly.\n\n2. Please let us know the result of step 1. If the gate did open/close all the way properly when you added load, then please double check the gate's hinges and bracke",
+      "reply_full": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Push against (in the opposite direction of the gate moving) the gate during the gate is opening/closing, continuously add some load to the gate and see if the gate can open/close all the way properly.\n\n2. Please let us know the result of step 1. If the gate did open/close all the way properly when you added load, then please double check the gate's hinges and brackets for tightness, and inspect all connection points for significant wear or broken bolts.\n\n3. If the problem still persists after performing the above steps, it might be due to the working current through the arm being too small. Adding some load to the gate motor by connecting a resistor to the BLACK & RED wires of the arm in parallel can help solve the problem. Regretfully, we do not have this resistor for sale in our store. Sorry for the inconvenience. Below is the link to a compatible resistor: https://www.amazon.com/dp/B08HYZV3DW\n\nPlease let me know the result of every step. Videos showing the problem and pictures of the whole control board are appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_len": 1916
+    }
+  ]
+}

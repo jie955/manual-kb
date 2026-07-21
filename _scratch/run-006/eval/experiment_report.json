@@ -1,0 +1,150 @@
+{
+  "experiments": [
+    {
+      "name": "A0_baseline_small",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\Xorbits\\bge-small-zh-v1.5",
+      "prefix": false,
+      "hybrid_alpha": null,
+      "rerank": false,
+      "top1_acc": 0.8889,
+      "top3_acc": 0.9444,
+      "top1_hits": 16,
+      "top3_hits": 17,
+      "total": 18
+    },
+    {
+      "name": "A1_bge_prefix",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\Xorbits\\bge-small-zh-v1.5",
+      "prefix": true,
+      "hybrid_alpha": null,
+      "rerank": false,
+      "top1_acc": 0.8889,
+      "top3_acc": 0.9444,
+      "top1_hits": 16,
+      "top3_hits": 17,
+      "total": 18
+    },
+    {
+      "name": "B1_bge-m3",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+      "prefix": false,
+      "hybrid_alpha": null,
+      "rerank": false,
+      "top1_acc": 1.0,
+      "top3_acc": 1.0,
+      "top1_hits": 18,
+      "top3_hits": 18,
+      "total": 18
+    },
+    {
+      "name": "B2_bge-m3_prefix",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+      "prefix": true,
+      "hybrid_alpha": null,
+      "rerank": false,
+      "top1_acc": 0.9444,
+      "top3_acc": 1.0,
+      "top1_hits": 17,
+      "top3_hits": 18,
+      "total": 18
+    },
+    {
+      "name": "C_hybrid_bge-m3_a7",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+      "prefix": false,
+      "hybrid_alpha": 0.7,
+      "rerank": false,
+      "top1_acc": 0.9444,
+      "top3_acc": 1.0,
+      "top1_hits": 17,
+      "top3_hits": 18,
+      "total": 18
+    },
+    {
+      "name": "C_hybrid_bge-m3_a5",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+      "prefix": false,
+      "hybrid_alpha": 0.5,
+      "rerank": false,
+      "top1_acc": 0.8889,
+      "top3_acc": 1.0,
+      "top1_hits": 16,
+      "top3_hits": 18,
+      "total": 18
+    },
+    {
+      "name": "D1_rerank_bge-m3",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+      "prefix": false,
+      "hybrid_alpha": null,
+      "rerank": true,
+      "top1_acc": 1.0,
+      "top3_acc": 1.0,
+      "top1_hits": 18,
+      "top3_hits": 18,
+      "total": 18
+    },
+    {
+      "name": "D2_hybrid_rerank_bge-m3",
+      "model": "D:\\CodeBuddy\\Self os\\SelfOS\\11_Workbench-Content\\scripts\\qa-doc-extractor\\_scratch\\modelscope\\BAAI\\bge-m3",
+      "prefix": false,
+      "hybrid_alpha": 0.6,
+      "rerank": true,
+      "top1_acc": 1.0,
+      "top3_acc": 1.0,
+      "top1_hits": 18,
+      "top3_hits": 18,
+      "total": 18
+    }
+  ],
+  "table": [
+    {
+      "name": "A0_baseline_small",
+      "top1": 0.8889,
+      "top3": 0.9444,
+      "top1_hits": "16/18"
+    },
+    {
+      "name": "A1_bge_prefix",
+      "top1": 0.8889,
+      "top3": 0.9444,
+      "top1_hits": "16/18"
+    },
+    {
+      "name": "B1_bge-m3",
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_hits": "18/18"
+    },
+    {
+      "name": "B2_bge-m3_prefix",
+      "top1": 0.9444,
+      "top3": 1.0,
+      "top1_hits": "17/18"
+    },
+    {
+      "name": "C_hybrid_bge-m3_a7",
+      "top1": 0.9444,
+      "top3": 1.0,
+      "top1_hits": "17/18"
+    },
+    {
+      "name": "C_hybrid_bge-m3_a5",
+      "top1": 0.8889,
+      "top3": 1.0,
+      "top1_hits": "16/18"
+    },
+    {
+      "name": "D1_rerank_bge-m3",
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_hits": "18/18"
+    },
+    {
+      "name": "D2_hybrid_rerank_bge-m3",
+      "top1": 1.0,
+      "top3": 1.0,
+      "top1_hits": "18/18"
+    }
+  ]
+}

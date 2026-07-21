@@ -1,0 +1,38 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0013",
+      "test_id": null,
+      "mail_num": 13,
+      "label": "0013-a3s-stops-before-fully-open",
+      "query": "A3S gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_020",
+      "top1_hit": false,
+      "top3_groups": [
+        "qa_020",
+        "qa_022",
+        "qa_034"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "default",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F1_no_response.md"
+      },
+      "reply_preview": "Dear Edward,  \n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.  \n\nI'm sorry to hear your A3S gate opener is stopping before it opens fully. Please don't worry—we will do our best to help you. All TOPENS products are backed by a 12-month warranty.  \n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.  \n\n1. While the gate is opening, try pushing against it (in the direction opposite to its movement) and continuously add some load. Observe whether the gate can then open all the way.  \n\n2. If step 1 helped (the gate opened fully with extra push), please double-check the gate's hinges, brackets, and all connection points for tightness and any sign",
+      "reply_full": "Dear Edward,  \n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.  \n\nI'm sorry to hear your A3S gate opener is stopping before it opens fully. Please don't worry—we will do our best to help you. All TOPENS products are backed by a 12-month warranty.  \n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.  \n\n1. While the gate is opening, try pushing against it (in the direction opposite to its movement) and continuously add some load. Observe whether the gate can then open all the way.  \n\n2. If step 1 helped (the gate opened fully with extra push), please double-check the gate's hinges, brackets, and all connection points for tightness and any significant wear or broken bolts. If the hardware is in good condition but the issue persists without the added load, the working current through the arm may be too small. In that case, you can connect a resistor in parallel to the BLACK and RED wires of the arm to solve the problem. Regretfully, we do not sell this resistor, but a compatible one can be found here:  \nhttps://www.amazon.com/dp/B08HYZV3DW  \n\n3. If step 1 did not make a difference, please detect the voltage of the +BAT- terminals (11# and 12#) on the control board while the opener is working. The voltage should stay above 22V. If it drops below 22V, disconnect all wired accessories and test again.  \n\n4. Next, power off the system by disconnecting the power source from the +BAT- terminals. Turn the FORCE potentiometer all the way clockwise to increase the stall force, and turn the SOFT STOP potentiometer all the way counter-clockwise to decrease the soft stop period. Reconnect power and operate the gate for a complete opening and closing cycle to see if it now opens fully.  \n\n5. If the issue remains, release the clutch on the arm and move the gate manually to check if it moves smoothly. If it does, engage the clutch, remove the arm from the gate, hold its front mount, and press the remote to see if the arm extends and retracts at normal speed. Then test the motor directly: connect the arm's red and black wires to a DC 24V power source—the motor should run; reverse the polarity, and it should run in the opposite direction at normal speed.  \n\nPlease let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can send the video directly via email attachment. If the sending fails, please share a photo or video link through Dropbox, iCloud, or Google Drive. Thanks for your understanding and cooperation.  \n\nAnd please also reply with your specific shipping address with zip code and confirm your phone number available for further assistance.  \n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.  \n\nBest regards,  \nLori  \nTOPENS Customer Service Team",
+      "reply_len": 3024
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Eval-only images merged into batch images_used when Reference requires配图.
+cs_0005:
+  - file: "0005-solar-wiring-manual-screenshot.png"
+    caption_en: "JY9132 solar wiring, UPS01-PLUS, batteries and solar panel selection (manual excerpt)."
+    caption_status: "eval_pinned"

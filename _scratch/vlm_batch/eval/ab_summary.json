@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "vector_top1": "6/10",
+    "hybrid_0.6_top1": "5/10",
+    "miss_expected_ranks_vector": {
+      "PHOTO": 2,
+      "BAT": 3,
+      "Push-to-Open": 2,
+      "Power Supply": 2
+    },
+    "diagnosis": "四类 miss 期望块均在 Top-3，属排序问题而非召回失败"
+  },
+  "enriched": {
+    "vector_top1": "10/10",
+    "hybrid_0.6_top1": "10/10",
+    "changes": "manual_embed_enrich.py 增强 41 块 embedding_text + 重 embed"
+  },
+  "gate": "PASS — 10/10 ≥ 8/10，可扩 52 页",
+  "recommended_retrieval": "chunks_enriched.json + chroma_enriched + hybrid_alpha=0.6（或纯 vector 亦 10/10）"
+}

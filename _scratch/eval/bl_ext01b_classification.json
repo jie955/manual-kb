@@ -1,0 +1,358 @@
+{
+  "version": 2,
+  "date": "2026-07-05",
+  "status": "classification摸底 + §9/§16 原文核实修订 · 未写 extract",
+  "verification": "_scratch/eval/bl_ext01b_sec09_sec16_verification.md",
+  "tag_legend": {
+    "F": "flat · 顺序步骤，qa_028–030 式",
+    "L-scenario": "多场景各线性步骤，拆 H2；非决策树跳转",
+    "DT": "观察后跳转决策树；禁止默认 attach 线性 ladder",
+    "C": "预先 ctx + applies_when + branches[]（qa_024）；≠ grep amazon",
+    "P": "partial · §十二类，已有组 + orphan 子场景",
+    "Z": "正交验收列：B=V1-05；—=无明显异构"
+  },
+  "summary": {
+    "section_count": 11,
+    "orphan_paragraph_total": 160,
+    "by_process_tag": {
+      "F": 7,
+      "L-scenario": 2,
+      "DT": 1,
+      "P": 1
+    },
+    "complex_count": 0,
+    "note": "无 qa_024 式 C；§十六=DT（观察跳转）；§九核实降为 F"
+  },
+  "sections": [
+    {
+      "section": "一个机臂完全不工作 One Arm Doesn’t Work",
+      "section_key": "一个机臂完全不工作",
+      "category": "A_whole_h1",
+      "orphan_count": 10,
+      "signals": {
+        "orphan_count": 10,
+        "lang_zh": 3,
+        "lang_en": 7,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 10,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "F",
+      "process_evidence": "3 步：交换端口→直连电池测电机→短接限位；线性诊断",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "zh:3 en:7；May I ask 开场与 24VDC 测法在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → links[] 简单档 → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 收整节即可"
+    },
+    {
+      "section": "六、随意开关门 Random Opening/Closing",
+      "section_key": "六、随意开关门",
+      "category": "A_whole_h1",
+      "orphan_count": 10,
+      "signals": {
+        "orphan_count": 10,
+        "lang_zh": 4,
+        "lang_en": 6,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 7,
+        "numbered_step_lines": 0,
+        "dip_hits": 5,
+        "install_mode_hits": 1
+      },
+      "process_tag": "F",
+      "process_evidence": "4 步顺序：DIP→断配件→清遥控→换板；配件 if 非 ladder schema",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "DIP #1 在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → links[] 简单档 → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 收整节即可"
+    },
+    {
+      "section": "七、缓停止有问题（缓停止错乱或者没有缓停止）Soft Stop Issues",
+      "section_key": "七、缓停止有问题",
+      "category": "A_whole_h1",
+      "orphan_count": 9,
+      "signals": {
+        "orphan_count": 9,
+        "lang_zh": 5,
+        "lang_en": 4,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 2,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "F",
+      "process_evidence": "4 步顺序：断电完整循环→查限位→脱门测缓停→换板",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "zh:5 en:4；步骤量接近"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → links[] 简单档 → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 收整节即可"
+    },
+    {
+      "section": "八、自动关门不生效 Auto Close Function Doesn't Work",
+      "section_key": "八、自动关门不生效",
+      "category": "A_whole_h1",
+      "orphan_count": 8,
+      "signals": {
+        "orphan_count": 8,
+        "lang_zh": 3,
+        "lang_en": 5,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 1,
+        "numbered_step_lines": 0,
+        "dip_hits": 3,
+        "install_mode_hits": 1
+      },
+      "process_tag": "F",
+      "process_evidence": "4 步顺序排除 + 1 特殊案例注释；无 → 树、无 amazon",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "DIP #1 说明在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → links[] 简单档 → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 收整节即可"
+    },
+    {
+      "section": "九、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+      "section_key": "九、开关门过程中走停或反弹",
+      "category": "A_whole_h1",
+      "orphan_count": 21,
+      "signals": {
+        "orphan_count": 21,
+        "lang_zh": 9,
+        "lang_en": 12,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 14,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "F",
+      "process_evidence": "核实：1–6 顺序 escalation + 附录 follow-up；无 install_mode/stall_symptom 互斥",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "zh:9 en:12；FORCE 细节在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 起步；过长再拆"
+    },
+    {
+      "section": "十三、门机运行慢 Gate Operates Slowly",
+      "section_key": "十三、门机运行慢",
+      "category": "A_whole_h1",
+      "orphan_count": 12,
+      "signals": {
+        "orphan_count": 12,
+        "lang_zh": 7,
+        "lang_en": 5,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 8,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "F",
+      "process_evidence": "5 步顺序：测压降→调 FORCE→离合手推→脱门测速→视频；无决策箭头",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "22V/11#12# 等规格在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → links[] 简单档 → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 起步；过长再拆"
+    },
+    {
+      "section": "十五、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+      "section_key": "十五、电机转机臂不伸缩",
+      "category": "A_whole_h1",
+      "orphan_count": 16,
+      "signals": {
+        "orphan_count": 16,
+        "lang_zh": 5,
+        "lang_en": 11,
+        "url_count": 2,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 6,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "L-scenario",
+      "process_evidence": "两主场景「伸太过」vs「电机转不伸缩」拆 H2；topens×2；无 applies_when",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "zh:5 en:11；EN 步骤更细"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "2 H2 → 各 F/extract → links 简单档 → embed",
+      "suggested_h2_split": "建议 2 H2：伸太过 vs 电机转不伸缩"
+    },
+    {
+      "section": "十六、机臂声音异常 Abnormal Noise From Arm",
+      "section_key": "十六、机臂声音异常",
+      "category": "A_whole_h1",
+      "orphan_count": 35,
+      "signals": {
+        "orphan_count": 35,
+        "lang_zh": 15,
+        "lang_en": 20,
+        "url_count": 1,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 8,
+        "if_then_hits": 24,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "DT",
+      "process_evidence": "核实：步骤1后 无异响→2 / 有异响→5 非相邻跳转；观察驱动非 ctx；线性 ladder 误导",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "35 段 zh:15 en:20；决策树 ZH 箭头，YouTube 在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "DT pilot（schema 或 F prose）→ 禁止默认 attach 线性 ladder → embed",
+      "suggested_h2_split": "1 H2 prose 优先；DT pilot 后再定是否拆 H2"
+    },
+    {
+      "section": "十七、离合打不开 Clutch Won't Release",
+      "section_key": "十七、离合打不开",
+      "category": "A_whole_h1",
+      "orphan_count": 22,
+      "signals": {
+        "orphan_count": 22,
+        "lang_zh": 3,
+        "lang_en": 19,
+        "url_count": 6,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 8,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "L-scenario",
+      "process_evidence": "编号排查 + 条件 if 链；YouTube×3 简单档；批次6前再快读确认非 DT",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "zh:3 en:19；操作细节与视频链主要在 EN"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2（按场景拆）→ extract → 可选 attach_troubleshooting_ladder → links → pilot overlay",
+      "suggested_h2_split": "1 H2 起步；过长再拆"
+    },
+    {
+      "section": "十八、风会把门吹开（或者外力能把门推开一点） There is Little Play When the Gate is Closed",
+      "section_key": "十八、风会把门吹开",
+      "category": "A_whole_h1",
+      "orphan_count": 6,
+      "signals": {
+        "orphan_count": 6,
+        "lang_zh": 3,
+        "lang_en": 3,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 1,
+        "arrow_hits": 0,
+        "if_then_hits": 5,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 0
+      },
+      "process_tag": "F",
+      "process_evidence": "3 步：托架紧固→观察风吹拉杆→脱门离合手推；无分支链",
+      "z_tags": [
+        "—"
+      ],
+      "z_evidence": [
+        "zh:3 en:3 对称短节"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "补 H2 → extract → links[] 简单档 → embed → 浏览器 1 query",
+      "suggested_h2_split": "1 H2 收整节即可"
+    },
+    {
+      "section": "十二、不限位 Gate Does Not Stop at Limit Switch",
+      "section_key": "十二、不限位",
+      "category": "B_partial",
+      "orphan_count": 11,
+      "signals": {
+        "orphan_count": 11,
+        "lang_zh": 7,
+        "lang_en": 4,
+        "url_count": 0,
+        "amazon_hits": 0,
+        "region_hits": 0,
+        "arrow_hits": 0,
+        "if_then_hits": 4,
+        "numbered_step_lines": 0,
+        "dip_hits": 0,
+        "install_mode_hits": 3
+      },
+      "process_tag": "P",
+      "process_evidence": "orphan「开门不限位/拉开门安装」；prod 2 组；11 段 partial 非整节",
+      "z_tags": [
+        "B"
+      ],
+      "z_evidence": [
+        "拉/推开门子场景与已有组可能错配"
+      ],
+      "value_tier": "high_troubleshooting",
+      "suggested_pipeline": "对照 prod qa_011/012 → 补 H2 或 orphan 收集 → 错组 eval",
+      "suggested_h2_split": "按 orphan 子场景拆 2–3 H2（开门不限位 / 拉开门 / 推开门），勿并入已有 qa 组"
+    }
+  ]
+}

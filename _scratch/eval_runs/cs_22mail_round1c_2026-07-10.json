@@ -1,0 +1,1979 @@
+{
+  "meta": {
+    "round": "round1c",
+    "domain": "topens",
+    "index": "en",
+    "generated_at": "2026-07-10T16:51:28",
+    "total": 22,
+    "mvp19_count": 19,
+    "note": "System output only. Human scoring stays external."
+  },
+  "results": [
+    {
+      "scenario_id": "cs_0001",
+      "mail_num": 1,
+      "raw_email": "the gate does nothing when i push the button or use the key pad remote.",
+      "expected_library": null,
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "is_tc148": false,
+      "top1_group": "qa_011",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_010",
+        "qa_011"
+      ],
+      "images_used": [
+        {
+          "file": "image_007.png",
+          "caption": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_zh": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_007.png",
+          "caption": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_zh": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "group_hint:qa_011"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22VDC. If so, please continue to step 2. If the voltage is below 22VDC, please check whether the output voltage of the adapter is 36VDC. If so, disconnect the batteries from the control board and measure the output voltage of the batteries to see whether it is above 22VDC. If the voltage of the batteries is also below 22VDC, please keep the batteries charged fully to try it again. If it still cannot work, please check the batteries. Kindly note that a 24V 12Ah battery (or 2pcs 12V batteries connected in series may function as 24V) is required to power the gate opener. Marine or Automotive type battery is compatible.\n\n2. Disconnect all accessories from the control board first (just leave the power source and the arm). And disable the photocell function by turning the dip switch #3 off. Then erase all remotes codes from the control board and reprogram them to have a try. If it fails, please instantaneously short (plug the wire in, then pull it out immediately) the push button terminals (4# and 5#) to check whether the opener can work. You can refer to this video on how to instantaneously short the “O/S/C COM” terminals: https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing\n\n3. If there is still no luck, please release the clutches on the arm and push the gate to the middle position firstly. And engage the clutches and press the remote to see whether the gate can run towards the both directions.\n\n4. Please check the motor. Connect the red & black wires of the arm to the DC 24V power source directly, the motor should run, and then exchange the polarity of the wires, the motor should run in the opposite direction. If the motor runs in both directions, the motor itself is good.\n\n5. Disconnect the BLUE, GREEN & YELLOW wires of the arm from the control board, use two jumper wires to short the ULT, COM & DLT terminals to which the wires were connected, and then press the remote to operate the gate opener to see whether the motor can run.\n\nPlease let me know the result one by one.\n\nVideos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nAnd also please reply with your specific SHIPPING ADDRESS with zip code and confirm PHONE # available for further assistance. All TOPENS products are backed by a 12-month warranty.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 5,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 3243,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "5b0fbca120eb4521",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "fan_out",
+        "routing_method": "fan_out",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_011",
+          "qa_010",
+          "qa_011"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F1_no_response",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 5,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 28366.1
+      },
+      "mail_id": "MAIL-01",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0002",
+      "mail_num": 2,
+      "raw_email": "I tested for power at the control board going to the motor and I get zero power. Fuse is good. Both AC and control board have power. Lock for gate unlocks when commanded but no power to motor it would seem.",
+      "expected_library": "a3s",
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_001",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_033",
+        "qa_001"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": "图片展示了控制板上保险丝（Fuse）的准确位置和外观，以便用户进行检查或更换。",
+          "caption_zh": "图片展示了控制板上保险丝（Fuse）的准确位置和外观，以便用户进行检查或更换。",
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_019.png",
+          "caption": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_zh": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F3_power_motor",
+        "match_reason": "scenario_override:cs_0002"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect all accessories from the control board first (just leave the arm and the power source), then press the remote to see whether the gate opener can work now.\n\n2. Measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22V. If the voltage is below 22V, check whether the output voltage of the adapter is 36VDC. If so, disconnect the batteries from the control board and measure the output voltage of the batteries to see whether it is above DC 22V. If the voltage of the batteries is also below 22V, please keep the batteries charged fully to try it again.\n\n3. Erase all remote codes and reprogram the remotes. If the gate still does not move, instantaneously short the push button terminals 4# and 5# (O/S/C COM) with a wire and see if the motor activates.\n\n4. Check the motor by disconnecting the red and black wires of the arm from the control board. Connect them directly to a 24V DC power source (such as two 12V batteries in series). The motor should run. Then exchange the polarity of the wires; the motor should run in the opposite direction.\n\n5. Reconnect the arm wires back to the control board. Next, disconnect the BLUE, GREEN, and YELLOW wires of the arm from the control board. Use two jumper wires to short the ULT, COM, and DLT terminals on the control board together, and then press the remote to test whether the arm can extend and retract (press the remote in time in case the arm extends too much).\n\n6. If the gate opener can work normally after disconnecting all accessories in step 1, please reconnect the accessories back one by one to see which accessory is related to the problem. If the problem is related to an ET24 lock, please test its working current and the voltage drop on the UPS01 LOAD terminals.\n\nPlease let me know the result one by one. And also, please share with us some videos showing the LED statuses on the power supply as well as the control board for further judgment. Please also provide your order number and shipping address with zip code and phone number for our records.\n\nLooking forward to hearing from you soon.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 6,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2752,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "733d6d3edf114ca2",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_001",
+          "qa_033",
+          "qa_001"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F3_power_motor",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 6,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 12062.7
+      },
+      "mail_id": "MAIL-02",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0003",
+      "mail_num": 3,
+      "raw_email": "Installed openers as per instructions. Programmed supplied remotes. 3 LEDs on control board responds when remote is pressed, however gates do not open. Please advise. Thank you, Rick Der",
+      "expected_library": "ad5s",
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "is_tc148": false,
+      "top1_group": "qa_010",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_010"
+      ],
+      "images_used": [],
+      "links_used": [],
+      "style": {
+        "family_id": "F5_dual_swing",
+        "match_reason": "scenario_override:cs_0003"
+      },
+      "generated_reply_en": "Dear Rick,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please check all wire connections to the control board. Using a multimeter, measure the voltage across terminals 11# and 12# (+BAT) and confirm it reads above 22V. While doing this, also observe the power LED on the control board in standby; it should blink twice per second.\n\n2. Disconnect all accessories from the control board, leaving only the power source and the arm motors connected. Turn DIP switch #5 to the OFF position to disable the photocell function. Then press the remote and observe if the gates respond.\n\n3. Erase all remote control codes and reprogram them, making sure to HOLD ON FOR A MOMENT between each press as you follow the pairing procedure.\n\n\n\nIf there is still no response, listen closely for a clicking sound from the control board. Use a small piece of wire to instantaneously short terminals 4# and 5# (the push button terminals)—just briefly touch and remove the wire—to see if the gates move.\n\n4. Release the clutches on both arms. Manually push the gate leaves to a middle position, then re-engage the clutches. Press the remote to test the gates in both directions.\n\nPlease let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2108,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "5dbc185737544d0e",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "fan_out",
+        "routing_method": "fan_out",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_010",
+          "qa_010",
+          "qa_010"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F5_dual_swing",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 9142.7
+      },
+      "mail_id": "MAIL-03",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0004",
+      "mail_num": 4,
+      "raw_email": "Hello I'm Matt,  I have two seperate gates.  Was going to buy a double gate and need another PS and controller.   Gates is 100 lbs or so and about 16 ft.   What do you recommend?\nI was looking at TOPENS PW302 Dual Swing Gate Opener.\nI need two remotes that are are able to open either gate.\nWhat do you recommend?\nThanks,  Matt",
+      "expected_library": null,
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_016",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_015",
+        "qa_015"
+      ],
+      "images_used": [
+        {
+          "file": "image_009.png",
+          "caption": "图片展示了控制板上的力度（FORCE）调节旋钮，它用于调整遇阻力时的力度设置，与排查步骤1中“调大遇阻力”的操作相关联。",
+          "caption_zh": "图片展示了控制板上的力度（FORCE）调节旋钮，它用于调整遇阻力时的力度设置，与排查步骤1中“调大遇阻力”的操作相关联。",
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_010.png",
+          "caption": "图片展示了在拉开门安装场景下，开门时机臂拉杆完全缩回的状态，并标示出拉杆完全缩回处和连接门体的支架位置，可作为检查拉杆状态的参考。",
+          "caption_zh": "图片展示了在拉开门安装场景下，开门时机臂拉杆完全缩回的状态，并标示出拉杆完全缩回处和连接门体的支架位置，可作为检查拉杆状态的参考。",
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": "该图展示了拉杆正常伸出（Picture 1）和完全缩回（Picture 2, 提示'NO Rod Left'）的两种状态，用于对照故障排查步骤3中提到的拉杆完全缩进去的异常情况。",
+          "caption_zh": "该图展示了拉杆正常伸出（Picture 1）和完全缩回（Picture 2, 提示'NO Rod Left'）的两种状态，用于对照故障排查步骤3中提到的拉杆完全缩进去的异常情况。",
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "generated"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F7_presales",
+        "match_reason": "scenario:presales"
+      },
+      "generated_reply_en": "Dear Matt,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI understand you are looking for a solution to operate two separate gates independently with remotes that can control either gate. The PW302 Dual Swing Gate Opener is designed for a single double-gate setup with one control board, so for two completely separate gates, you would typically need two independent systems, or at least a second control box and power supply as you mentioned. To open either gate with one remote, you would program the same remote to both control boards.\n\nRegarding your specific setup, to give you the most accurate recommendation, could you please provide a few more details? Specifically, do your gates swing inward or outward (push-to-open or pull-to-open)? Also, what is your plan for power—will you be using AC power or solar panels?\n\nAll TOPENS products are backed by a 12-month warranty, and we provide lifetime technical support.\n\nFor your reference, here are links to the PW302:\nPurchasing link: https://topens.com/products/pw302\nUser manual: https://www.topens.com/manual/PW302.pdf\nInstallation video: https://youtu.be/9CZhHkHxvMI\n\nPlease share the details when convenient, and I will provide a more tailored recommendation. Feel free to contact us if you have any further questions.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 0,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "presales",
+        "truncated": false
+      },
+      "reply_len": 1565,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "ec28f76ff9a24e17",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "tc148,ad5s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_016",
+          "qa_015",
+          "qa_015"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F7_presales",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 0,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "presales",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 9559.3
+      },
+      "mail_id": "MAIL-04",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0005",
+      "mail_num": 5,
+      "raw_email": "Hello there I have yet to buy a gate from you guys. I was actually wondering why I should buy a gate opener from you versus ghost controls pros and cons and warranty most people I know by the ghost so I’m trying to weigh the odds thank you.\nLooking at dual swing solar I have a 34 foot opening twin gates thank you",
+      "expected_library": null,
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_040",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_040",
+        "qa_015",
+        "qa_015"
+      ],
+      "images_used": [],
+      "links_used": [],
+      "style": {
+        "family_id": "F7_presales",
+        "match_reason": "scenario:presales"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nThank you for considering TOPENS for your dual swing solar gate opener! I understand you are comparing us with Ghost Controls, and I am happy to share some insights so you can make the best choice for your 34-foot twin gate opening.\n\nAt TOPENS, all of our products come with a 12-month warranty, and we are proud to offer lifetime technical support via email—we are always standing by to help you during installation and for years to come.\n\nHere are a few key points to consider when comparing TOPENS to Ghost Controls:\n- Our controllers are designed with robust dedicated power management and often feature stronger, more reliable motors for heavy-duty applications, making them very well suited for a large dual gate like yours.\n- TOPENS solar systems are engineered for higher efficiency, with advanced MPPT charging built into many of our control boards so you get faster solar recharge and better battery life.\n- We offer generous, competitively priced accessory packages (extra remotes, keypads, photocells, solar panels, etc.).\n- Many customers find TOPENS provides an excellent balance of premium features and value without compromising on power or durability.\n\nFor a dual swing solar system on a 34-foot opening, a model like the TOPENS AD8S is an excellent choice for its high power output, robust dual arm performance, and integrated solar controller.\n\nHere is the user manual for the AD8S for your reference: https://www.topens.com/manual/AD8S.pdf\n\nAnd the installation video: https://youtu.be/n0_-VxVxUyU\n\nIf you are in the US, you can find the AD8S here: https://www.amazon.com/dp/B07T1M6H2N\n\nTo give you the most specific advice, could you please share details about your gates, like their weight and height, as well as your average sunlight conditions? This will help me confirm the optimal solar panel and battery combo for your setup.\n\nHope this helps you. Please share the order information when you purchase the TOPENS gate opener, so I can help you register the warranty. Feel free to contact us if you have any questions or concerns during product installation or use in the future.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 0,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "presales",
+        "truncated": false
+      },
+      "reply_len": 2452,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "8bd311f222b64e86",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "ad5s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_040",
+          "qa_015",
+          "qa_015"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F7_presales",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 0,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "presales",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 13577.7
+      },
+      "mail_id": "MAIL-05",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0006",
+      "mail_num": 6,
+      "raw_email": "What is the difference between models A8131 and AT12131?\n\nThank You",
+      "expected_library": null,
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_011",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_011",
+        "qa_011",
+        "qa_011"
+      ],
+      "images_used": [
+        {
+          "file": "image_007.png",
+          "caption": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_zh": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_007.png",
+          "caption": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_zh": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_007.png",
+          "caption": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_zh": "图片展示了如何在控制板上短接限位开关的DLMT、COM、ULMT三个端口，以及电机臂的红黑线接法和限位开关线（蓝、绿、黄）保持开路不短接的示意。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F7_presales",
+        "match_reason": "scenario:presales"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nThe main difference between the A8131 and AT12131 is the type of arm included with the opener. The A8131 uses the A8 arm, while the AT12131 uses the AT12 arm. Aside from the arm, both models share the same control board and are designed for similar heavy-duty single swing gates. The installation measurements for pull-to-open configurations will vary between the two arms, so please be sure to refer to the specific manual for the model you choose to verify compatibility with your gate's weight and length.\n\nAll TOPENS products are backed by a 12-month warranty. More importantly, we provide lifetime technical support via email.\n\nBelow are the links for each model, including the product page and user manual for your reference.\n\nA8131 purchase: https://topens.com/products/topens-a8131-single-swing-gate-opener-heavy-duty-automatic-gate-motor-for-single-swing-gates-up-to-18ft\nA8131 manual: https://topens.com/cdn/shop/files/A5131-A8131-EN-250108.pdf\n\nAT12131 purchase: https://topens.com/products/topens-at12131-single-swing-gate-opener-heavy-duty-automatic-gate-motor-for-single-swing-gates-up-to-18ft\nAT12131 manual: https://topens.com/cdn/shop/files/AT6131_S-AT12131_S-EN-250108.pdf\n\nHope this helps you. Please share me the order information when you purchase the TOPENS gate opener, so that I can help you register the warranty. Feel free to contact us if you have any questions or concerns during the product installation and use in the future.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 0,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "presales",
+        "truncated": false
+      },
+      "reply_len": 1801,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "61d033b298c347e0",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_011",
+          "qa_011",
+          "qa_011"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F7_presales",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 0,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "presales",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 7981.1
+      },
+      "mail_id": "MAIL-06",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0007",
+      "mail_num": 7,
+      "raw_email": "Good Afternoon,\nI am looking to purchase 2 sets of dual swing opener kits from Amazon as I am\nIn the UK.\nCould you please help advise me on what the difference is between these models?\nIs there any benefit to one over the others?\nAT1202\nAT602\nA8132\nKD702\nThe set up I have at the moment is 2x 3m aluminium swing gates (in and out driveway for a set of semi detached houses) 1 gate would be primarily opened by us for our house and the other gate would be primarily opened by the new owners of the attached house we are selling.\nWould the m12 remotes open both gates at the same time or are they programmed for 1?\nWe would need 2 remotes for the house we are selling and 6 for us.\nWe would also like the TC196 wifi remote. Would this open just one gate or both?\nWe would plan to wire in tc175p touch panels on the outside of the gates and tc148 switches on the inside.\nI have attached a picture showing one of the gates. The other is just out of the picture to the right hand side. The weight of each gate it only about 20-30kg.\nIf there is any other advice/guidance you can think of that would help or make them work even better please let me know.\nThanks in advance.\nNick\nSent from my iPhone",
+      "expected_library": null,
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_042",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_042",
+        "qa_042",
+        "qa_042"
+      ],
+      "images_used": [],
+      "links_used": [],
+      "style": {
+        "family_id": "F7_presales",
+        "match_reason": "scenario:presales"
+      },
+      "generated_reply_en": "Dear Nick,\n\nThank you for contacting TOPENS. This is Heidi from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nWe appreciate your detailed description of the setup for your two semi-detached houses. It sounds like a well-organized plan, and I'm happy to help clarify the differences between these models and how the accessories will work for you. At TOPENS, all of our products come with a 12-month warranty, and we provide lifetime technical support via email.\n\nBefore I give a specific model recommendation, could you help me confirm the primary power source you plan to use? The best model choice can depend on whether you will be running them on AC mains power, a battery system, or a solar panel setup. Knowing this will ensure we select the most suitable and reliable opener for you.\n\nIn the meantime, here is an overview of how the key features align with your project:\n\n1. **Gate Operation:** Each dual swing gate opener kit is designed to operate a pair of gates. You will purchase two complete kits to control your two separate driveways independently—one kit for your driveway, and one for the neighboring driveway you are selling.\n\n2. **Remote Control Programming:** The M12 remote controls included in each kit can be programmed to open one, both, or all gates, exactly as you wish. You have full control over this. For your setup, this means you can program the new owners' two remotes to operate their gate only, and your six remotes can be programmed to open your gate only, both gates, or one of each.\n\n3. **TC196 WiFi Remote:** The TC196 smart WiFi remote works the same way. It takes up one remote control slot in the opener's memory and can be programmed to operate a single gate or both gates, based on your preference. You will have this flexibility during the setup process.\n\n4. **Accessory Planning:** Your plan to use TC175 touch panels on the outside and TC148 exit switches on the inside is correct. Please note that these are wired accessories, and for the best signal integrity over distance, we recommend using shielded cable for their installation.\n\nYou mentioned each gate leaf is only about 20–30kg, which is very light. All the models you're looking at (AT1202, AT602, A8132, KD702) will easily handle this weight. The main differences between them generally come down to the arm type (articulated vs. linear ram) and the control board's power management features, which is why confirming your power source is the next important step.\n\nFor your reference, here are the links to the accessories you specified on Amazon UK:\n\nTC175 Touch Keypad: https://www.amazon.co.uk/dp/B09VXWK452\nTC148 Push Button: https://www.amazon.co.uk/dp/B09WH9CK9K\nM12 Remote Control: https://www.amazon.co.uk/dp/B07B47DW3B\nERM12 External Receiver (for expanding to 250 remotes): https://www.amazon.co.uk/dp/B07B414H88\n\nOnce you let me know about your preferred power setup, I can give you a clear recommendation on whether the AT1202, AT602, A8132, or KD702 would be the best fit for your new home and the one you're selling. Please share the order information when you make your purchase so I can help you register the warranty.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nHeidi\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "presales",
+        "truncated": false
+      },
+      "reply_len": 3372,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "5688978c123f4ecd",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_042",
+          "qa_042",
+          "qa_042"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F7_presales",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "presales",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 19186.1
+      },
+      "mail_id": "MAIL-07",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0008",
+      "mail_num": 8,
+      "raw_email": "Push button not working, therefore we jumpered out #4&5 at the main control panel and still nothing happened. Other than that everything works",
+      "expected_library": "tc148",
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "is_tc148": true,
+      "top1_group": "qa_001",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_zh": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_en": "Control board fuse location. Check and replace the fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "cached"
+        }
+      ],
+      "links_used": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        },
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing",
+          "label": "How to instantaneously short the “O/S/C COM” terminals",
+          "lang": "en",
+          "link_type": "video"
+        }
+      ],
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_001"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect all wired accessories except the TC148 wall switch and test. If you are using an extension cable between the TC148 and the control board, please disconnect it and replace it with a short cable (under 15 m / ~50 ft) to test whether the gate opener works. If the opener responds, please confirm the distance between the TC148 and the control board.\n\n2. Disconnect all wired accessories from the control board except the power supply and arm. Momentarily short (instant touch only — plug in then pull out) the push button terminals 4# and 5# to see if the opener responds. I know you've already tried jumpering these terminals, but for this test a continuous jumper will not work — it must be an instant short. You can refer to this video for the correct method: https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing\n\n3. Confirm the wall switch is a genuine TOPENS TC148, as third-party switches may be incompatible. If you are using a third-party button, make sure it is a dry-contact (no voltage output) momentary switch wired to O/S/C and COM.\n\n4. Check the wiring distance and cable gauge. Use well-shielded 2C×22 AWG (2×0.3 mm²) minimum cable, and keep the total cable length under 15 m when possible.\n\nLooking forward to the result after you finish the troubleshooting.\n\nAnd also please reply with your specific SHIPPING ADDRESS with zip code and confirm PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2073,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "a7080fef609c4df3",
+        "domain_id": "topens",
+        "product_id": "tc148",
+        "route_reason": "tc148",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-tc148\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_001",
+          "qa_002"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F2_tc148_wired",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 8768.3
+      },
+      "mail_id": "MAIL-08",
+      "mvp19": "否"
+    },
+    {
+      "scenario_id": "cs_0009",
+      "mail_num": 9,
+      "raw_email": "Hi Joyce,\nI have set up a retractive switch (same as TC148 with COM and L1 connections) and it is connected as per the manual instructions into #4 and #5 at the control box.\nThe cable length is 8M (24ft) and is is shielded armoured cable with 1.5mm cores.\nHowever, as soon as it is wired, without touching the switch, the gate starts to open and then goes through cycles of start/stop to all the way open and then closes ( I have auto close dip switch set to yes) with start/stop.  when it has finished closing it starts to re-open again.\nOnce I disconnect the switch it all works as it should do using the remote control.\nAny ideas ?\nDavid\n\nHi Joyce,\nI have attached the pdf of the user manual for the switch.\nI have done the test check that you asked for with the jumper wire between #4 and #5.  The gate works as it should open/stop/closes\nPlease see the wiring pictures that I have for the switch.  All the LED wiring had been removed\nI have a video of what happens when the switch is attached and I turn the power on to the control box, but it's too big to send.  Basically the gate works erratically  constantly opening a closing, half opening and the closing and continues until I turn the power off.  It does this without doing anything other than switching the power on.\nThanks\nDavid",
+      "expected_library": "tc148",
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "is_tc148": true,
+      "top1_group": "qa_002",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_zh": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_en": "Control board fuse location. Check and replace the fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "cached"
+        }
+      ],
+      "links_used": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing",
+          "label": "How to instantaneously short the “O/S/C COM” terminals",
+          "lang": "en",
+          "link_type": "video"
+        },
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        }
+      ],
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_002"
+      },
+      "generated_reply_en": "Dear David,\n\nThank you for contacting TOPENS. This is Heidi from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect the 8M shielded cable from the TC148 and from the control board. Replace it with a short cable to connect the TC148 directly near the control board and test whether the gate opener works. If it works normally with a short cable, please confirm the exact distance between the TC148 and the control board. (For reference, using well-shielded 2C×22 AWG (2×0.3 mm²) minimum and keeping cable length under 15 m is recommended.)\n\n2. I know you've already done this step. Could you please try this procedure again? Disconnect all wired accessories from the control board except the power supply and arm. Momentarily short (instant touch only—plug in then pull out immediately) the push button terminals (4# and 5#) with a jumper wire as shown in the attached video, and see if the opener responds normally. Please do not hold the jumper wire—just an instant short.\n\n3. Confirm the wall switch is a genuine TOPENS TC148. Third-party switches may be incompatible because they must be strictly dry-contact (no voltage output). If it is a third-party retractive switch, please test it by disconnecting its wires from the control board and measuring between its COM and L1 terminals with a multimeter: it must have no voltage, and must close momentarily (short) only when the button is pressed, then open immediately when released. Any continuous voltage or latched short will cause the erratic cycling you described.\n\nIf the issue persists, kindly send me a video showing the erratic cycling and a clear photo of the control board wiring. If the file is too large, you can share it via Google Drive, Dropbox, or iCloud.\n\nAnd also please reply with your specific SHIPPING ADDRESS including zip code and confirm your PHONE number available, in case a replacement part is needed under warranty.\n\nLooking forward to the result after you finish the troubleshooting.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nHeidi\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 3,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2491,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "91cf1344c3c94fd7",
+        "domain_id": "topens",
+        "product_id": "tc148",
+        "route_reason": "tc148",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-tc148\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_002",
+          "qa_001"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F2_tc148_wired",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 3,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 14632.6
+      },
+      "mail_id": "MAIL-09",
+      "mvp19": "否"
+    },
+    {
+      "scenario_id": "cs_0010",
+      "mail_num": 10,
+      "raw_email": "Hi Lori,\nI have now purchased the Topens wired push button TC148. I have connected it to O.S.B(4) & COM(5). I am getting no response, can you help. Or is this a broken button.\nRegards\nIan",
+      "expected_library": "tc148",
+      "matched_library": "tc148",
+      "routing_method": "keyword",
+      "is_tc148": true,
+      "top1_group": "qa_002",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_zh": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_en": "Control board fuse location. Check and replace the fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "cached"
+        }
+      ],
+      "links_used": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing",
+          "label": "How to instantaneously short the “O/S/C COM” terminals",
+          "lang": "en",
+          "link_type": "video"
+        },
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        }
+      ],
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_002"
+      },
+      "generated_reply_en": "Dear Ian,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Disconnect the extension cable connecting TC148 to the control board and replace it with a short cable to test whether the gate opener works with the button. If the opener works with the short cable, please confirm the distance and wire gauge used for the original cable run between the TC148 and the control board.\n\n2. Disconnect all wired accessories from the control board except the power supply and arm. Momentarily short (instant touch only — plug in then pull out) the push button terminals (4# and 5#, or O/S/C and COM) to see if the opener responds. Please refer to this video on how to instantaneously short the terminals: https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing\n\n3. Confirm that the wall switch connected is a genuine TOPENS TC148 push button, as third-party switches may not be compatible. If using a non-TOPENS switch, the output must be a dry contact closure between O/S/C and COM.\n\n4. Ensure the wiring from the button to the control board uses well-shielded 2C×22 AWG (2×0.3 mm²) cable or thicker, and keep the total cable length under 15 meters when possible. For more information on connecting accessories, you can reference this article: https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board\n\nLooking forward to the result after you finish the troubleshooting.\n\nPlease let me know the result one by one. If possible, please provide a photo of your control board wiring and the push button connections for a quicker diagnosis. And also please reply with your specific SHIPPING ADDRESS with zip code and confirm your PHONE # available for further assistance if needed.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2327,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "7aaeebc6abdf48bb",
+        "domain_id": "topens",
+        "product_id": "tc148",
+        "route_reason": "tc148",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-tc148\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_002",
+          "qa_001"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F2_tc148_wired",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 9955.9
+      },
+      "mail_id": "MAIL-10",
+      "mvp19": "否"
+    },
+    {
+      "scenario_id": "cs_0011",
+      "mail_num": 11,
+      "raw_email": "what is the difference between A8132 PW802 AD8 AT1202",
+      "expected_library": null,
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_042",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_042",
+        "qa_042",
+        "qa_042"
+      ],
+      "images_used": [],
+      "links_used": [],
+      "style": {
+        "family_id": "F7_presales",
+        "match_reason": "scenario:presales"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI understand you'd like to know the differences between the A8132, PW802, AD8, and AT1202 gate opener models. I'm happy to clarify that for you. All TOPENS products are backed by a 12-month warranty, and we provide lifetime technical support.\n\nHere is a breakdown of how these models differ:\n\n1. The A8132, PW802, and AD8 models all share the same A8 swing arm design and energy-saving control board. The AT1202 uses a different AT12 arm and a standard control board with a digital display. All four models feature an 80W motor.\n\n2. The main difference between these models is the power supply method. The A8132 uses the UPS01 module, which supports AC power, battery backup, and 20W solar panel charging. The AD8 is primarily a battery-powered system; if you want to use AC power, you must add a DPS180-U adapter or the UPS01 module.\n\n3. The PW802 comes with the DPS180-U adapter for direct AC power. Please note that when using the DPS180-U, it does not support battery or solar panel connections.\n\n4. The AT1202 features a built-in transformer for AC power. Its battery backup function is designed to work with battery power only.\n\nIf you plan to use AC power, the PW802 and AT1202 are very popular choices as they are similar in price, with the PW802 being a bit more energy-efficient. For battery and solar power setups, the A8132 and AD8 are more suitable.\n\nBelow are the purchase links for these models and a couple of compatible remote controls for your reference:\nPW802: https://www.amazon.com/dp/B07DFFHFVP\nAT1202: https://www.amazon.com/dp/B07XQ69685\nTC188 Remote: https://www.amazon.com/dp/B09VGTCCJQ\nTC173 Remote: https://www.amazon.com/dp/B07ZTC75CX\nERM12 Remote: https://www.amazon.com/dp/B075KHPLHD\n\nIf you can share details about your gate's size and weight, as well as your preferred power source (AC, battery, or solar), I can provide a more specific recommendation for you. Hope this helps. Feel free to contact us if you have any other questions.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "presales",
+        "truncated": false
+      },
+      "reply_len": 2315,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "cc878d5a8d884cd7",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_042",
+          "qa_042",
+          "qa_042"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F7_presales",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "presales",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 10967.6
+      },
+      "mail_id": "MAIL-11",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0012",
+      "mail_num": 12,
+      "raw_email": "Hi\nMy contractor installed the opener and although the gate opens, it does not stop at the desired location, it moves too far and into the grass. Adjusting the screw (B) and sliding it to adjust does nothing - the gate still swings to the same spot too far over. It also does not close all the way, we notice it is VERY slow and then comes to a stop halfway. What is the solution? The contractor thinks that perhaps the screw (B) is faulty? Please advise. Thanks!",
+      "expected_library": "a3s",
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_020",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_020",
+        "qa_019",
+        "qa_019"
+      ],
+      "images_used": [
+        {
+          "file": "image_016.png",
+          "caption": "图片展示了门机机构中限位开关A和限位开关B的位置，以及固定限位开关B的螺丝，用于指示关门位置的调整方向。",
+          "caption_zh": "图片展示了门机机构中限位开关A和限位开关B的位置，以及固定限位开关B的螺丝，用于指示关门位置的调整方向。",
+          "caption_en": "Limit Switch A and Limit Switch B location and adjustment points, along with adjustment screw for Limit Switch B and a warning for Limit Switch A.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_015.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Limit Switch A and Limit Switch B location and adjustment points, along with adjustment screw for Limit Switch B and a warning for Limit Switch A.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_015.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Limit Switch A and Limit Switch B location and adjustment points, along with adjustment screw for Limit Switch B and a warning for Limit Switch A.",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F4_limit_travel",
+        "match_reason": "scenario_override:cs_0012"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience caused by the gate opener not stopping at the correct positions. Please do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. First, please reconfirm your gate's open and closed positions. For a Pull-to-Open installation, Limit Switch B (located far from the motor) controls the closed position of the gate. The open position is usually limited by the gate reaching its physical bracket or stop. Please check the wires of the limit switch (BLUE, GREEN, and YELLOW wires of the arm) to ensure they are not shorted. Confirm that each wire is properly inserted into its corresponding terminal and is not twisted with any other wire.\n\n2. To readjust the close position, locate Limit Switch B on the arm. Loosen its screw slightly and move Limit Switch B inward a noticeable distance along the arm. Press the remote to close the gate and observe if the closing position changes. Repeat this operation several times to see if the arm consistently stops at a new position. If it changes, adjust Limit Switch B step by step until you reach the desired close position, then tighten the screw securely.\n\n3. If adjusting Limit Switch B does not change the stopping position at all, please power off the opener and rotate the Front Mount by 180 degrees. Power it back on and test again to see if the gate responds to limit switch adjustments.\n\n4. Regarding the gate closing very slowly and stopping halfway, please locate the FORCE and SOFT STOP potentiometers on the control board. Turn the FORCE clockwise to increase it towards the maximum, and turn the SOFT STOP counter-clockwise to the minimum. Then run a full open and close cycle with your remote to see if the motor strength improves and the gate reaches the fully closed position.\n\nPlease let me know the result of every step one by one. Videos showing the problem and pictures of the whole control board are appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2669,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "8cca6559fdae4fe7",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_020",
+          "qa_019",
+          "qa_019"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F4_limit_travel",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 11268.6
+      },
+      "mail_id": "MAIL-12",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0013",
+      "mail_num": 13,
+      "raw_email": "Need help this gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_022",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_022",
+        "qa_022"
+      ],
+      "images_used": [],
+      "links_used": [
+        {
+          "url": "https://www.amazon.com/dp/B08HYZV3DW",
+          "label": "Compatible resistor (Amazon US)",
+          "lang": "en",
+          "link_type": "purchase_link"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B08HYZV3DW",
+          "label": "Compatible resistor (Amazon US)",
+          "lang": "en",
+          "link_type": "purchase_link"
+        },
+        {
+          "url": "https://www.amazon.com/dp/B08HYZV3DW",
+          "label": "Compatible resistor (Amazon US)",
+          "lang": "en",
+          "link_type": "purchase_link"
+        }
+      ],
+      "style": {
+        "family_id": "F4_limit_travel",
+        "match_reason": "group_hint:qa_022"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the trouble with your gate opener stopping before it opens fully, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please detect the voltage of the +BAT- terminals (11# and 12#) on the control board while pressing the remote to see whether the voltage stays at almost 24V (above 22V). If the voltage drops too much, the problem may be with the power source. If the voltage is fine, please continue to step 2.\n\n2. Please power off the system first (disconnect the power source from the +BAT- terminals). Turn the FORCE potentiometer all the way clockwise to increase the stall force, and turn the SOFT STOP potentiometer all the way counter-clockwise to decrease the soft stop period. Then turn on the power and operate the gate opener through a complete opening and closing cycle. See whether the gate opens and closes all the way on the next cycle.\n\n3. If the problem still persists, push against the gate (in the opposite direction of its movement) while the gate is opening. Continuously add some load and see whether the gate can open all the way properly.\n\n4. If the tests above do not help, please remove the arm from the gate and hold its front mount firmly, then press the remote to see whether the arm can extend and retract properly each time. If the arm runs normally in this test, the arm itself is fine — please let me know the weight and length of your gate, and whether the gate can be opened and closed freely about 3.3 feet (one meter) from the gate hinge.\n\nPlease let me know the result of every step. Videos showing the problem and pictures of the whole control board are appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2394,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "e615bf50f6204e31",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_022",
+          "qa_022",
+          "qa_022"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F4_limit_travel",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 7751.1
+      },
+      "mail_id": "MAIL-13",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0014",
+      "mail_num": 14,
+      "raw_email": "Hi, I bought this gate and since I've bought it I've had issues with constantly having to reset the limits for the gate, from the start it would over close and everytime I fix it with the limit wires a few weeks later I'd have to adjust again. Now when I adjust the limit wire nothing is happening and the gate keeps over closing then opening. I've tried all the trouble shooting and I even replaced the limit wire as I believed perhaps it was faulty but the issue still prevails. Can you help me with this issue. Thank you",
+      "expected_library": null,
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "is_tc148": false,
+      "top1_group": "qa_018",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_018",
+        "qa_018",
+        "qa_018"
+      ],
+      "images_used": [
+        {
+          "file": "image_013.png",
+          "caption": "此图展示了拉开门安装模式下，门完全打开时门机推杆处于完全缩回状态的示意图，可用于检查开门位置是否安装正确。",
+          "caption_zh": "此图展示了拉开门安装模式下，门完全打开时门机推杆处于完全缩回状态的示意图，可用于检查开门位置是否安装正确。",
+          "caption_en": "Pull-to-open installation: gate fully open with the actuator rod fully retracted, used to verify open limit position.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_014.png",
+          "caption": "图片展示了门机上的限位开关A和限位开关B的安装位置，以及限位开关A的接线示意和限位开关B的固定螺丝，并指示了门机的内外运行方向。",
+          "caption_zh": "图片展示了门机上的限位开关A和限位开关B的安装位置，以及限位开关A的接线示意和限位开关B的固定螺丝，并指示了门机的内外运行方向。",
+          "caption_en": "Limit Switch A and Limit Switch B locations, Limit Switch A wiring, Limit Switch B fixing screw, and inward/outward travel directions.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_013.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: gate fully open with the actuator rod fully retracted, used to verify open limit position.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_014.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Limit Switch A and Limit Switch B locations, Limit Switch A wiring, Limit Switch B fixing screw, and inward/outward travel directions.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_013.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: gate fully open with the actuator rod fully retracted, used to verify open limit position.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_014.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Limit Switch A and Limit Switch B locations, Limit Switch A wiring, Limit Switch B fixing screw, and inward/outward travel directions.",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F4_limit_travel",
+        "match_reason": "keywords:1"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Heidi from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI am sorry to hear about the persistent limit issues you've been experiencing with your gate opener. That must be frustrating, but do not worry, we will do our best to help you get this sorted out. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Ensure that the wires of the limit switch (BLUE, GREEN, and YELLOW wires of the arm) are not shorted. Confirm that each wire is properly inserted into its corresponding terminal and is not twisted with any other wire.\n\n2. Please reconfirm the open position of your gate. For Pull-to-Open Installation Mode, the open position is determined by the gate bracket. Please check if the moving rod is properly retracted when your gate is at the desired open position. Adjust the gate bracket inward a little if necessary.\n\n3. If it does not work, please adjust Limit Switch A outward on the arm, then press the remote to open the gate and see if the open position changes. If not so, rotate the Front Mount 180° and test again.\n\n4. If there is still no luck, the limit switch might be defective.\n\nPlease let me know the result of every step. Videos showing the problem and pictures of the whole control board are appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. If we determine a replacement part is needed, please provide your shipping address with zip code and a contact phone number so we can proceed.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nHeidi\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 1985,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "a2da4a79007744a4",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "fan_out",
+        "routing_method": "fan_out",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_018",
+          "qa_018",
+          "qa_018"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F4_limit_travel",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 8764.8
+      },
+      "mail_id": "MAIL-14",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0015",
+      "mail_num": 15,
+      "raw_email": "CC:Dan\nHi Zack—\nFirst of all, hugely helpful. Once we powered down first before moving the pot, we were able to get a great delay dialed in.\nWe have one (hopefully) last issue. The gate opens and closes at the right spots and there is no sign of binding. That said, about half the time when the gate starts to close after the delay, it reverses. It waits through an entire additional delay cycle and tries again to close. With rare exception, it closes on the second try.  But about half the time it closes normally.\nWe are wondering if this may be an interaction between our soft stop and open/close delay settings. Whatever it is, it must sometimes not be enough to trigger an issue.\nWe don't believe it is a stall force issue but would not rule that out. Currently our force pot is set at 12:00 position and hand resistance applied at the end of a 10 foot gate does not easily cause a stall force result.\nAppreciate any ideas and thanks!\nTim",
+      "expected_library": "ad5s",
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_040",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_040",
+        "qa_032",
+        "qa_040"
+      ],
+      "images_used": [],
+      "links_used": [],
+      "style": {
+        "family_id": "F6_auto_close_rebound",
+        "match_reason": "keywords:1"
+      },
+      "generated_reply_en": "Dear Tim,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI'm sorry to hear about the inconsistent auto-close reversal issue you are experiencing. I understand how frustrating that can be after you've already put in excellent work dialing in the delay. Not to worry, all TOPENS products are backed by a 12-month warranty, and we will do our best to help you pinpoint this.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please double check all the brackets and hardware of the arm (including the screw of the limit switch) are secured since the looseness of the brackets or limit switch may also cause this issue.\n\n2. Power off the system, turn the FORCE potentiometer clockwise to increase the stall force to max. Then turn on the power and operate the gate opener to run for a complete opening & closing cycle. See whether the gate will open and close normally in the next opening and closing cycle.\n\n3. If the issue is still unresolved, please use the release key to disengage the clutches of both arms, and check whether the gate itself can be manually opened & closed freely 3.3 feet (one meter) away from the gate hinge. If not, please let me know the weight and length of your gate and double check the gate to make sure the gate can run freely by hand.\n\n4. If the above step is fine, please take down the arm from the gate and hold its front mount with a hand. Then press the remote to see if the arm can extend and retract properly each time.\n\nPlease kindly let us know the results of each step one by one so that we can better determine the problem. A video showing the gate reversing during the first close attempt would be greatly appreciated, along with clear photos of your control board and wiring. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive.\n\nWaiting for your further feedback.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2228,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "88a4962fb17548fb",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "ad5s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_040",
+          "qa_032",
+          "qa_040"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F6_auto_close_rebound",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 10424.6
+      },
+      "mail_id": "MAIL-15",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0016",
+      "mail_num": 16,
+      "raw_email": "I installed, everything worked, now a red lightis flashlight and it won't work. Please call me ASAP. Allen ***-***-****\nThank you!\nAllen",
+      "expected_library": "ad5s",
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_001",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_013",
+        "qa_001"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": "图片展示了控制板上保险丝（Fuse）的具体位置和外观，以便在需要检查或更换时进行识别。",
+          "caption_zh": "图片展示了控制板上保险丝（Fuse）的具体位置和外观，以便在需要检查或更换时进行识别。",
+          "caption_en": "Control board fuse location and type. Replace with the backup Ø5×20mm 10A 250VAC fast-blow glass fuse if burnt.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location and type. Replace with the backup Ø5×20mm 10A 250VAC fast-blow glass fuse if burnt.",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F2_tc148_wired",
+        "match_reason": "group_hint:qa_001"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please check all the wires to ensure they are connected as they should be, and measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22V.\n\n2. If the voltage is above 22V, please check whether the power LED on the control board is ON (blinks twice per second). If it is off, please check whether the fuse was burnt out and replace the fuse if necessary. There is a backup fuse packed within the user manual pack. The fuse type is Ø5*20mm 10A 250VAC fast blow glass fuse.\n\n3. If the voltage is below 22V, please check whether the output voltage of the adapter is 36VDC. If so, disconnect the batteries from the control board and measure the output voltage of the batteries to see whether it is above DC 22V. If the voltage of the batteries is also below 22V, please keep the batteries charged fully and try again. Please also ensure the batteries are properly connected to the BAT terminal of the control board, and please note that two 12VDC batteries are required to power the gate opener. The included adapter is only intended for charging the batteries, not for directly powering the gate opener.\n\nLooking forward to the result after you finish the troubleshooting.\n\nPlease let me know the result one by one.\n\nAnd also please reply with your specific SHIPPING ADDRESS with zip code and confirm your PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 3,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2020,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "b2b521e5d21c47fc",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "ad5s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_001",
+          "qa_013",
+          "qa_001"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F2_tc148_wired",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 3,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 7212.4
+      },
+      "mail_id": "MAIL-16",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0017",
+      "mail_num": 17,
+      "raw_email": "Good evening:\nOur gate arm has messed up again. We have done all the previous troubleshooting and it does the exact thing as the last one sent. The gate opener doesn't work at all.\nCan you let me know if we still have warranty. We purchased it in June of 2025.\nMy husband is sure we need an arm replacement.",
+      "expected_library": "a3s",
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_033",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_033",
+        "qa_033",
+        "qa_033"
+      ],
+      "images_used": [
+        {
+          "file": "image_019.png",
+          "caption": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_zh": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_019.png",
+          "caption": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_zh": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_019.png",
+          "caption": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_zh": "该图片展示了检查控制板的方法：将控制板上的DLMT、COM、ULMT这三个端子短接，同时确保从电机引出的蓝色、绿色、黄色三根线是断开的。",
+          "caption_en": "Control Board connections for checking limit switch. Short DLMT, COM, ULMT terminals. Leave Blue, Green, Yellow wires open.",
+          "caption_status": "generated"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F8_warranty_rma",
+        "match_reason": "keywords:2"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI'm so sorry to hear that your gate arm is malfunctioning again and isn't working at all. I completely understand your frustration, especially after previous troubleshooting. Please don't worry—we will do our best to help you.\n\nRegarding the warranty, all TOPENS products are backed by a 12-month warranty. Since you purchased it in June 2025, it remains within the warranty period. Before we proceed with a replacement, checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please release the clutch and push the gate to the middle position firstly. And then try it again by pressing the remote to see whether the gate can run towards the both directions.\n\n2. Disconnect all wired accessories from the control board first (just leave the power source and the arm) and disable the photocell function by turning off DIP Switch 3#. Then press the remote again to see whether it can work properly. If the problem disappears, reconnect each accessory one by one to identify which one causes the problem. If a photocell sensor is used, please double check the installation of the photocell, and make sure the photocell sensor beam is aligned and not blocked.\n\n3. Please check the motor. Connect the red & black wires of the arm to the DC 24V power source directly, the motor should run, and then exchange the polarity of the wires, the motor should run in the opposite direction. If the motor runs in both directions, the motor itself is good. Please connect the black & red wires back to the control board.\n\n4. Disconnect the BLUE, GREEN & YELLOW wires of the faulty arm from the control board, use two jumper wires to short the ULT, COM & DLT terminals to which the wires were connected, and then press the remote to see if the arm could extend and retract. If it could move in both directions, then the limit switch is defective. When you do this test, you could press the remote in time in case the arm extends too much.\n\nPlease let me know the result one by one. It would be very helpful if you could also provide a short video or clear photos of the control board connections. If the attachment is too large, you are welcome to share it via Dropbox, iCloud, or Google Drive.\n\nIf a replacement is indeed necessary, kindly share your shipping address with zip code and a contact phone number so we can assist you further.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 4,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2737,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "2fd15e15578b4897",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_033",
+          "qa_033",
+          "qa_033"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F8_warranty_rma",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 4,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 10007.4
+      },
+      "mail_id": "MAIL-17",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0018",
+      "mail_num": 18,
+      "raw_email": "I have batteries and AC adapter installed. I'm not getting anything to work. Please call me",
+      "expected_library": "a3s",
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_001",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "scenario_override:cs_0018"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Verify all wire connections are correct.\n\n\n\nPlease measure the voltage of the +BAT- terminals (11# and 12#) on the control board to see whether it is above 22V. If the voltage is below 22V, please check whether the output voltage of the adapter is 36VDC. If so, disconnect the batteries from the control board and measure the output voltage of the batteries to see whether it is above DC 22V. If the battery voltage is also below 22V, please keep the batteries charged fully to try it again.\n\n2. If the voltage at terminals 11# and 12# is normal, please check whether the power LED on the control board is ON (blinks twice per second). If it is off, check whether the fuse was burnt out and replace the fuse if necessary. There is a backup fuse packed within the user manual pack. The fuse type is Ø5*20mm 5A 250VAC fast blow glass fuse.\n\n3. Disconnect all accessories from the control board. Disable the photocell by setting DIP switch #3 to OFF. Then press the remote to test if the gate opener works.\n\n4. Erase all remote codes and reprogram them one by one.\n\n\n\nIf there is still no response, listen for a clicking sound from the control board. Then instantaneously short the push button terminals 4# and 5# with a wire to test if the arms move.\n\n5. Motor test: disconnect the red and black arm wires from the control board and connect them directly to a 24V DC power source. Swap the polarity to confirm the motor runs in both directions.\n\n6. Reconnect the arm wires.\n\n\n\nDisconnect the BLUE, GREEN, and YELLOW limit switch wires. Use a wire to short the ULT, COM, and DLT terminals together. Press the remote to test if the arms extend and retract.\n\nPlease let me know the result one by one.\n\nVideos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nAnd also please reply your specific SHIPPING ADDRESS with zip code and confirm PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 6,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2787,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "8c6943967cd74fec",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_001",
+          "qa_001",
+          "qa_001"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F1_no_response",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 6,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 9725.5
+      },
+      "mail_id": "MAIL-18",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0019",
+      "mail_num": 19,
+      "raw_email": "Gate is opening at first open hard turned down force to almost nothing . Open to far gets binded. Sometimes doesn't close seems to have a mind of its own . Tryed programing through control box and remote not picking up remote many time as well. 12 ft cattle gate. One hydroelectric has bent the gate from pressure and force at bracket",
+      "expected_library": "ad5s",
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_016",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_016",
+        "qa_016",
+        "qa_016"
+      ],
+      "images_used": [
+        {
+          "file": "image_009.png",
+          "caption": "图片展示了控制板上的力度（FORCE）调节旋钮，它用于调整遇阻力时的力度设置，与排查步骤1中“调大遇阻力”的操作相关联。",
+          "caption_zh": "图片展示了控制板上的力度（FORCE）调节旋钮，它用于调整遇阻力时的力度设置，与排查步骤1中“调大遇阻力”的操作相关联。",
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_010.png",
+          "caption": "图片展示了在拉开门安装场景下，开门时机臂拉杆完全缩回的状态，并标示出拉杆完全缩回处和连接门体的支架位置，可作为检查拉杆状态的参考。",
+          "caption_zh": "图片展示了在拉开门安装场景下，开门时机臂拉杆完全缩回的状态，并标示出拉杆完全缩回处和连接门体的支架位置，可作为检查拉杆状态的参考。",
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": "该图展示了拉杆正常伸出（Picture 1）和完全缩回（Picture 2, 提示'NO Rod Left'）的两种状态，用于对照故障排查步骤3中提到的拉杆完全缩进去的异常情况。",
+          "caption_zh": "该图展示了拉杆正常伸出（Picture 1）和完全缩回（Picture 2, 提示'NO Rod Left'）的两种状态，用于对照故障排查步骤3中提到的拉杆完全缩进去的异常情况。",
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "default"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this has caused, but do not worry, we will do our best to help you.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. You mentioned adjusting the stall force down to almost nothing. For the force setting to work properly, please **power off the system first**, then turn the FORCE potentiometer on the control board up (clockwise) to increase the force. After adjusting it, power the system back on and allow the opener to complete one full operating cycle. This cycle is required for the new force setting to take effect.\n\n2. Since your gate is opening too far and getting binded, the open position likely needs adjustment. If you are using a **Pull-to-Open** installation, the open position is determined by the gate bracket — please check if the moving rod is properly retracted when your gate is at the desired open position, and adjust the gate bracket inward a little if necessary. If you are using a **Push-to-Open** installation, the open position is adjusted by Limit Switch B — adjust Limit Switch B inward on the arm, then press the remote to open the gate and see if the open position changes.\n\n3. For the remote not being picked up, please kindly clear all remote codes stored in the control board first (press and hold the LEARN button for about 8 seconds until the LEARN LED turns off), then try reprogramming the remotes again. May I also ask — are all the remotes the original M12 remotes included with our system?\n\nPlease let me know the result one by one.\n\nVideos showing the gate opening and binding, as well as clear pictures of the whole control board with wiring visible, are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nAnd also please reply with your specific SHIPPING ADDRESS with zip code and confirm your PHONE # available for further assistance if any replacement parts are needed. All TOPENS products are backed by a 12-month warranty.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 3,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2390,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "46a29e545a7f4d00",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "ad5s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_016",
+          "qa_016",
+          "qa_016"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F1_no_response",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 3,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 10153.6
+      },
+      "mail_id": "MAIL-19",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0020",
+      "mail_num": 20,
+      "raw_email": "Hi!\nI installed my two AT 1202 gate-opener successfully but the gate does not stay closed. Right after closing it opens again and the slave arm does not open completely. There is no photo cell installed and The P9 setting is DEFENITELY on „00“. I can just keep the gate closed when I press the remote again in the moment when shutting is completed. But that´s not really what I want… Can you help?\n\nThank you in advance and greetings from Berlin, Germany\nRainer Hinck",
+      "expected_library": null,
+      "matched_library": "ad5s",
+      "routing_method": "fan_out",
+      "is_tc148": false,
+      "top1_group": "qa_016",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_016",
+        "qa_016",
+        "qa_016"
+      ],
+      "images_used": [
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F5_dual_swing",
+        "match_reason": "keywords:1"
+      },
+      "generated_reply_en": "Dear Rainer,\n\nThank you for contacting TOPENS. This is Heidi from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this gate issue has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. First, please confirm your installation mode: are the arms installed in Pull-to-Open or Push-to-Open configuration? For Pull-to-Open, the open position is determined by the gate bracket. Please check if the moving rod is properly retracted when your gate is at the desired open position, and adjust the gate bracket inward a little if necessary. For Push-to-Open, the open position is adjusted by Limit Switch B. Adjust Limit Switch B inward on the arm, then press the remote to open the gate and see if the open position changes.\n\n2. Adjust the stall force: power off the system first, then increase the FORCE potentiometer setting on the control board. After adjusting it, power the system back on and allow the opener to complete one full operating cycle to see if the problem persists.\n\n3. Regarding the remote control: please kindly clear all remote codes first, then try reprogramming the remotes again. Are all the remotes the original M12 remotes included with our system?\n\nPlease let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nHeidi\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 3,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 1996,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "08400b230f1d40d9",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "fan_out",
+        "routing_method": "fan_out",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_016",
+          "qa_016",
+          "qa_016"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F5_dual_swing",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 3,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 8617.2
+      },
+      "mail_id": "MAIL-20",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0021",
+      "mail_num": 21,
+      "raw_email": "The motherboard has power receives signal from fob , lights blink , a click noise , but the arms won't open or close. Checked with voltage meter board has power but will not send power to the arm terminals.",
+      "expected_library": "a3s",
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_001",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_001",
+        "qa_001"
+      ],
+      "images_used": [
+        {
+          "file": "image_001.png",
+          "caption": "图片展示了控制板上保险丝（Fuse）的准确位置和外观，以便用户进行检查或更换。",
+          "caption_zh": "图片展示了控制板上保险丝（Fuse）的准确位置和外观，以便用户进行检查或更换。",
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "generated"
+        },
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_001.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board fuse location. Check and replace the Ø5×20mm 5A 250VAC fast-blow glass fuse if burnt (backup fuse is in the user manual pack).",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F5_dual_swing",
+        "match_reason": "scenario_override:cs_0021"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this issue has caused. Do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please measure the voltage at the +BAT terminals 11# and 12# on the control board and confirm it is above 22VDC. If the voltage is below 22V, please check whether the output voltage of the adapter is 36VDC. If so, disconnect the batteries from the control board and measure the output voltage of the batteries to see whether it is above DC 22V. If the battery voltage is also below 22V, please fully charge the batteries and try again.\n\n2. Disconnect all accessories from the control board except the power supply and the arms. Disable the Photocell function per the manual. Erase all remote codes and reprogram them. If the arms still do not move, use a piece of wire to instantaneously short the push button terminals 4# and 5# (plug the wire in and pull it out instantly—do not leave a continuous jumper) and check if the arms move.\n\n3. Release the clutch on each arm, manually push the gate to the halfway position, then re-engage the clutches. Press the remote to test operation in both directions.\n\nPlease let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Please also provide your shipping address with zip code and a contact phone number. Thanks for your understanding and cooperation.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 3,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 1945,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "7a4c3f6c959b4894",
+        "domain_id": "topens",
+        "product_id": "a3s",
+        "route_reason": "a3s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-007\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_001",
+          "qa_001",
+          "qa_001"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F5_dual_swing",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 3,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 9331.3
+      },
+      "mail_id": "MAIL-21",
+      "mvp19": "是"
+    },
+    {
+      "scenario_id": "cs_0022",
+      "mail_num": 22,
+      "raw_email": "Just recently my gate started acting differently. The left panel - furthest from the controller - seems to open and reaches full open then immediately starts closing about 4 feet. (there use to be a pause which it is not doing any more. This stops the right panel from closing as well. When I press the remote button it tries to open again and then after a pause (the correct pause) only closes 4 feet. When is stops it causes the right panel to stop again. I am wondering if I need to move the magnets on the left panel. Please advise\n\nHi Heidi\nMy gate is a pull to open. Does that make a difference?",
+      "expected_library": null,
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "is_tc148": false,
+      "top1_group": "qa_040",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_040",
+        "qa_016",
+        "qa_016"
+      ],
+      "images_used": [
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_009.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Control board FORCE potentiometer used to increase stall force during troubleshooting step 1.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_010.png",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Pull-to-open installation: moving rod fully retracted when the gate is open, showing retracted rod position and gate bracket reference points.",
+          "caption_status": "crosswalk"
+        },
+        {
+          "file": "image_011.jpg",
+          "caption": null,
+          "caption_zh": null,
+          "caption_en": "Moving rod states: normal partial extension (Picture 1) versus fully retracted with 'NO Rod Left' (Picture 2) for troubleshooting step 3.",
+          "caption_status": "crosswalk"
+        }
+      ],
+      "links_used": [],
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "keywords:1"
+      },
+      "generated_reply_en": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI'm sorry to hear your gate has started acting differently. That must be frustrating, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please double check all the brackets and hardware of the arm (including the screw of the limit switch) are secured, since the looseness of the brackets or limit switch may also cause this issue.\n\n2. Power off the system, turn the FORCE potentiometer clockwise to increase the stall force to max. Then turn on the power and operate the gate opener to run for a complete opening & closing cycle. See whether the gate will open and close normally in the next opening and closing cycle.\n\n3. Confirm for Pull-to-Open Installation Mode: the open position is determined by the gate bracket. Please check if the moving rod is properly retracted when your gate is at the desired open position. Adjust the gate bracket inward a little if necessary.\n\n4. If the issue is still unresolved, please use the release key to disengage the clutches of both arms, and check whether the gate itself can be manually opened and closed freely 3.3 feet (one meter) away from the gate hinge. If not, please let me know the weight and length of your gate and double check the gate to make sure the gate can run freely by hand.\n\n5. If the above step is fine, please take down the arm from the gate and hold its front mount with a hand. Then press the remote to see if the arm can extend and retract properly each time.\n\nPlease let me know the result one by one.\n\nVideos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nAnd also please reply your specific SHIPPING ADDRESS with zip code and confirm PHONE # available for further assistance.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_truncated": false,
+      "reply_incomplete_reason": "",
+      "reply_audit": {
+        "step_count": 5,
+        "proceed_ref": false,
+        "check_step_ref": false,
+        "glued_steps": false,
+        "mail_type": "fault",
+        "truncated": false
+      },
+      "reply_len": 2455,
+      "context_zh_leak": false,
+      "trace": {
+        "trace_id": "ad18fabc52a941a9",
+        "domain_id": "topens",
+        "product_id": "ad5s",
+        "route_reason": "ad5s",
+        "routing_method": "keyword",
+        "index_paths": {
+          "chroma": "D:\\pythonProject\\manual-kb\\_scratch\\run-ad5s\\chroma_captioned_en"
+        },
+        "retrieved_group_ids": [
+          "qa_040",
+          "qa_016",
+          "qa_016"
+        ],
+        "prompt_pack_version": "1",
+        "style_pack_version": "1",
+        "style_family": "F1_no_response",
+        "policy_version": "topens",
+        "model_name": "deepseek-v4-pro",
+        "validation_result": {
+          "step_count": 5,
+          "proceed_ref": false,
+          "check_step_ref": false,
+          "glued_steps": false,
+          "mail_type": "fault",
+          "truncated": false
+        },
+        "context_language_leak": false,
+        "latency_ms": 9850.3
+      },
+      "mail_id": "MAIL-22",
+      "mvp19": "是"
+    }
+  ]
+}

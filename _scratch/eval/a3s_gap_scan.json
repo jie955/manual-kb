@@ -1,0 +1,386 @@
+{
+  "docx": "samples/troubleshooting/A3S-A5S-A8S常见问题排查.docx",
+  "h1_count": 18,
+  "prod_group_count": 35,
+  "extract_group_count": 43,
+  "missing_h1": [],
+  "partial_h1": [
+    "十二、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)"
+  ],
+  "covered_h1": [
+    "一、电源问题 Power Issues",
+    "二、遥控器问题 Remote Control & Signal Problems",
+    "完全不工作 Complete Failure",
+    "四、只朝一个方向 Only Opens/Closes One Direction",
+    "五、随意开关门 Random Opening/Closing",
+    "六、缓停止有问题（缓停止错乱或者没有缓停止）Soft Stop Issues",
+    "七、自动关门不生效 Auto Close Function Doesn't Work",
+    "八、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+    "九、关到位后反弹 Gate Bounces Back After Closing Completely",
+    "不限位 Gate Does Not Stop at Limit Switch",
+    "门机运行慢 Gate Operates Slowly",
+    "十二、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+    "十三、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+    "十四、机臂声音异常 Abnormal Noise From Arm",
+    "十五、离合打不开 Clutch Won't Release",
+    "风会把门吹开（或者外力能把门推开一点） There is Little Play When the Gate is Closed",
+    "十七、保养与润滑 Maintenance and Lubrication",
+    "十八、其他产品知识讲解"
+  ],
+  "sections": [
+    {
+      "h1": "一、电源问题 Power Issues",
+      "h1_num": "一",
+      "h2_headings": [
+        "控制板灯不亮（适配器）No Led On the Control Board",
+        "控制板灯不亮（纯太阳能）",
+        "太阳能不能给电池充电 The Batteries Cannot Be Charged by Solar",
+        "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+        "电池耗电异常 Abnormal Battery Drain"
+      ],
+      "h2_count": 5,
+      "orphan_para_count": 0,
+      "prod_groups": [
+        "qa_001",
+        "qa_002",
+        "qa_003",
+        "qa_004",
+        "qa_005"
+      ],
+      "prod_questions": [
+        "控制板灯不亮（适配器）No Led On the Control Board",
+        "控制板灯不亮（纯太阳能）",
+        "太阳能不能给电池充电 The Batteries Cannot Be Charged by Solar",
+        "接上太阳能板就不工作 The Gate Opener Quits Working Once Solar Panels Connected",
+        "电池耗电异常 Abnormal Battery Drain"
+      ],
+      "status": "✅ 已入库",
+      "in_chroma": false
+    },
+    {
+      "h1": "二、遥控器问题 Remote Control & Signal Problems",
+      "h1_num": "二",
+      "h2_headings": [
+        "学不上遥控器 （学习灯不亮）Cannot Program Remote",
+        "学不上遥控器 （学习灯亮）",
+        "其中一个遥控器无法工作 One (or Some) of Remotes Doesn't Work",
+        "遥控距离不够 Short Remote Range",
+        "多次按遥控器门机才反应 Remote Needs Multiple Presses"
+      ],
+      "h2_count": 5,
+      "orphan_para_count": 0,
+      "prod_groups": [
+        "qa_006",
+        "qa_007",
+        "qa_008",
+        "qa_009",
+        "qa_010"
+      ],
+      "prod_questions": [
+        "学不上遥控器 （学习灯不亮）Cannot Program Remote",
+        "学不上遥控器 （学习灯亮）",
+        "其中一个遥控器无法工作 One (or Some) of Remotes Doesn't Work",
+        "遥控距离不够 Short Remote Range",
+        "多次按遥控器门机才反应 Remote Needs Multiple Presses"
+      ],
+      "status": "✅ 已入库",
+      "in_chroma": true
+    },
+    {
+      "h1": "完全不工作 Complete Failure",
+      "h1_num": "",
+      "h2_headings": [
+        "按遥控器没有反应 No Response When The Remote Is Pressed",
+        "控制板有持续咔哒声 Control Board Clicking Continuously",
+        "按遥控器保险丝烧 Fuse Blows When Pressing Remote",
+        "不工作（只CODE LED微微亮）"
+      ],
+      "h2_count": 4,
+      "orphan_para_count": 0,
+      "prod_groups": [
+        "qa_011",
+        "qa_012",
+        "qa_013",
+        "qa_014"
+      ],
+      "prod_questions": [
+        "按遥控器没有反应 No Response When The Remote Is Pressed",
+        "控制板有持续咔哒声 Control Board Clicking Continuously",
+        "按遥控器保险丝烧 Fuse Blows When Pressing Remote",
+        "不工作（只CODE LED微微亮）"
+      ],
+      "status": "✅ 已入库",
+      "in_chroma": false
+    },
+    {
+      "h1": "四、只朝一个方向 Only Opens/Closes One Direction",
+      "h1_num": "四",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 17,
+      "prod_groups": [
+        "qa_033"
+      ],
+      "prod_questions": [
+        "只朝一个方向 Only Opens/Closes One Direction"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": false
+    },
+    {
+      "h1": "五、随意开关门 Random Opening/Closing",
+      "h1_num": "五",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 10,
+      "prod_groups": [
+        "qa_029"
+      ],
+      "prod_questions": [
+        "随意开关门 Random Opening/Closing"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "六、缓停止有问题（缓停止错乱或者没有缓停止）Soft Stop Issues",
+      "h1_num": "六",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 9,
+      "prod_groups": [
+        "qa_030"
+      ],
+      "prod_questions": [
+        "缓停止有问题 Soft Stop Issues"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "七、自动关门不生效 Auto Close Function Doesn't Work",
+      "h1_num": "七",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 9,
+      "prod_groups": [
+        "qa_031"
+      ],
+      "prod_questions": [
+        "自动关门不生效 Auto Close Function Doesn't Work"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "八、开关门过程中走停或反弹 Gate Stops or Bounces During Operation",
+      "h1_num": "八",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 19,
+      "prod_groups": [
+        "qa_035"
+      ],
+      "prod_questions": [
+        "开关门过程中走停或反弹 Gate Stops or Bounces During Operation"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "九、关到位后反弹 Gate Bounces Back After Closing Completely",
+      "h1_num": "九",
+      "h2_headings": [
+        "拉开门安装 For pull-to-open installation",
+        "推开门安装 For Push-to-Open Installation"
+      ],
+      "h2_count": 2,
+      "orphan_para_count": 0,
+      "prod_groups": [
+        "qa_015",
+        "qa_016"
+      ],
+      "prod_questions": [
+        "门关到位又弹回来·拉开门 Gate Bounce Back · Pull-to-Open · Limit B",
+        "门关到位又弹回来·推开门 Gate Bounce Back · Push-to-Open"
+      ],
+      "status": "✅ 已入库",
+      "in_chroma": true
+    },
+    {
+      "h1": "不限位 Gate Does Not Stop at Limit Switch",
+      "h1_num": "",
+      "h2_headings": [
+        "开门不限位",
+        "拉开门安装 For pull-to-open installation",
+        "推开门安装 For push-to-open installation",
+        "拉开门安装 For pull-to-open installation",
+        "推开门安装 For push-to-open installation"
+      ],
+      "h2_count": 5,
+      "orphan_para_count": 0,
+      "prod_groups": [
+        "qa_017",
+        "qa_018",
+        "qa_019",
+        "qa_020",
+        "qa_021"
+      ],
+      "prod_questions": [
+        "开门不限位/一直走（方向未明·泛化）Gate Open Limit · No Stop · Direction Unspecified",
+        "开门不限位/位置不对·限位A（拉开门·开位）Gate Open Limit · Pull-to-Open · Limit A Open",
+        "开门停不下来/过位·限位B（推开门·开位）Gate Open Limit · Push-to-Open · Limit B Open",
+        "关门不限位/不到位·限位B（拉开门·关门位）Gate Close Limit · Pull-to-Open · Limit B Close",
+        "关门不限位/不到位·限位A外移（推开门·关门位）Gate Close Limit · Push-to-Open · Limit A · Magnet"
+      ],
+      "status": "✅ 已入库",
+      "in_chroma": true
+    },
+    {
+      "h1": "门机运行慢 Gate Operates Slowly",
+      "h1_num": "",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 12,
+      "prod_groups": [
+        "qa_034"
+      ],
+      "prod_questions": [
+        "门机运行慢 Gate Operates Slowly"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "十二、电机电流小导致走停 Motor Current Too Low Causes Stalling (The Gate Stops Immediately It Starts)",
+      "h1_num": "十二",
+      "h2_headings": [
+        "手动反推排查",
+        "拉开门开门不正常加二极管电阻 （推开门关门不正常）",
+        "拉开门关门不正常加二极管电阻（推开门开门不正常）",
+        "电机电流小的原因",
+        "信息补充：万用表测机臂电流",
+        "测工作电流详细步骤",
+        "测机臂空载电流"
+      ],
+      "h2_count": 7,
+      "orphan_para_count": 4,
+      "prod_groups": [
+        "qa_022",
+        "qa_023",
+        "qa_024",
+        "qa_025",
+        "qa_026",
+        "qa_027",
+        "qa_028",
+        "qa_043"
+      ],
+      "prod_questions": [
+        "手动反推排查",
+        "拉开门开门不正常加二极管电阻 （推开门关门不正常）",
+        "拉开门关门不正常加二极管电阻（推开门开门不正常）",
+        "电机电流小的原因",
+        "信息补充：万用表测机臂电流",
+        "测工作电流详细步骤",
+        "测机臂空载电流",
+        "电机电流小走停·并电阻负载 Motor stalls · low current · parallel load resistor"
+      ],
+      "status": "⚠️ 有组+orphan",
+      "in_chroma": false
+    },
+    {
+      "h1": "十三、电机转机臂不伸缩 Motor Runs But Gate Doesn't Move",
+      "h1_num": "十三",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 16,
+      "prod_groups": [
+        "qa_036",
+        "qa_037"
+      ],
+      "prod_questions": [
+        "伸太过缩不回去 Arm Extended Too Far Won't Retract",
+        "电机转但机臂不伸缩 Motor Runs But Arm Won't Move"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "十四、机臂声音异常 Abnormal Noise From Arm",
+      "h1_num": "十四",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 35,
+      "prod_groups": [
+        "qa_039"
+      ],
+      "prod_questions": [
+        "机臂声音异常 Abnormal Noise From Arm"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": false
+    },
+    {
+      "h1": "十五、离合打不开 Clutch Won't Release",
+      "h1_num": "十五",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 22,
+      "prod_groups": [
+        "qa_038"
+      ],
+      "prod_questions": [
+        "离合打不开 Clutch Won't Release"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "风会把门吹开（或者外力能把门推开一点） There is Little Play When the Gate is Closed",
+      "h1_num": "",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 6,
+      "prod_groups": [
+        "qa_032"
+      ],
+      "prod_questions": [
+        "风会把门吹开 There is Little Play When the Gate is Closed"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "十七、保养与润滑 Maintenance and Lubrication",
+      "h1_num": "十七",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 29,
+      "prod_groups": [
+        "qa_040",
+        "qa_041"
+      ],
+      "prod_questions": [
+        "日常保养润滑 Routine Maintenance and Lubrication",
+        "深度润滑与保养参考 Deep Lubrication and Maintenance Guides"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": true
+    },
+    {
+      "h1": "十八、其他产品知识讲解",
+      "h1_num": "十八",
+      "h2_headings": [],
+      "h2_count": 0,
+      "orphan_para_count": 38,
+      "prod_groups": [
+        "qa_042"
+      ],
+      "prod_questions": [
+        "其他产品知识讲解 Product Knowledge"
+      ],
+      "status": "✅ overlay",
+      "in_chroma": false
+    }
+  ]
+}

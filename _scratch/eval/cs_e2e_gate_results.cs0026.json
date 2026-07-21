@@ -1,0 +1,39 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0026",
+      "test_id": "T4",
+      "mail_num": null,
+      "label": "0026-a3a5a8-board-replaced-actuator-no-response",
+      "query": "replaced control board clicking sound remote actuator no response A3 A5 A8",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_001",
+        "qa_033"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "fan_out",
+      "library_hit": true,
+      "top1_group": "qa_010",
+      "top1_hit": false,
+      "top3_groups": [
+        "qa_010",
+        "qa_010",
+        "qa_035"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F1_no_response",
+        "match_reason": "group_hint:qa_010",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F1_no_response.md"
+      },
+      "reply_preview": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this has caused, but do not worry, we will do our best to help you.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please detect the voltage at the +BAT- (11#, 12#) terminals on the control board after pressing the remote, to see if the voltage stays at almost 24V (above 22V). A voltage drop below this level could cause the actuator not to run even though you hear a click.\n\n2. Use a jumper wire to momentarily short the push button terminals on the control board (briefly touch and remove the wire). Repeat the test several times to check i",
+      "reply_full": "Dear Customer,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this has caused, but do not worry, we will do our best to help you.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please detect the voltage at the +BAT- (11#, 12#) terminals on the control board after pressing the remote, to see if the voltage stays at almost 24V (above 22V). A voltage drop below this level could cause the actuator not to run even though you hear a click.\n\n2. Use a jumper wire to momentarily short the push button terminals on the control board (briefly touch and remove the wire). Repeat the test several times to check if the gate opener triggers reliably each time. I know you already tried shorting the limit terminals as per the manual — this test uses the push button terminals instead, so please perform it exactly as described.\n\nIf the gate opener responds correctly when the push button terminals are shorted, the system should be fine, and we can then look for possible signal interference.\nIf the gate opener still does not respond, please proceed to step 3.\n\n3. Disengage the motor’s clutch so the gate can be moved freely by hand. Then press the remote control to see if the arm runs in each direction. Watch and listen carefully. You already confirmed the actuator works when connected directly to a 24V power source, so the motor is good. If the arm can run with the clutch released but not when engaged, the gate likely has excessive mechanical resistance. If the arm still does not run even with the clutch released, the control board may be defective, even though it has been replaced — and we will need to check the power supply and wiring more closely.\n\nPlease let me know the result one by one. Videos showing the problem and pictures of the whole control board wiring are much appreciated for further judgement. You can send them directly as email attachments. If the sending is not successful, please share the photo or video link via Dropbox, iCloud or Google Drive. Thanks for your understanding and cooperation.\n\nAll TOPENS products are backed by a 12-month warranty. While your unit is outside this period, we are still happy to assist. Should replacement parts be necessary, kindly reply with your specific shipping address (including zip code) and a phone number so we can help.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_len": 2685
+    }
+  ]
+}

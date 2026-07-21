@@ -1,0 +1,20 @@
+{
+  "pdf_pages": 2,
+  "empty_indices": [],
+  "printed_map": {},
+  "found_by_search": {},
+  "rows": [
+    {
+      "pdf_index": 0,
+      "line_count": 3,
+      "footer_nums": [],
+      "empty": false
+    },
+    {
+      "pdf_index": 1,
+      "line_count": 3,
+      "footer_nums": [],
+      "empty": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "api_key_present": true,
+  "parsed_via_api": 45,
+  "parsed_via_pilot": 0,
+  "skipped_no_api": 0,
+  "cached": 0,
+  "failed": 3,
+  "pages_total": 48,
+  "correction_flags": [
+    {
+      "printed_page": 12,
+      "chunk_id": "ad5s-manual-p12-step08",
+      "issues": [
+        "missing_structured_rows",
+        "spec_table_without_data"
+      ]
+    },
+    {
+      "printed_page": 12,
+      "chunk_id": "ad5s-manual-p12-step09",
+      "issues": [
+        "missing_structured_rows",
+        "spec_table_without_data"
+      ]
+    }
+  ]
+}

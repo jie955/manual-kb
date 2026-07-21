@@ -1,0 +1,370 @@
+{
+  "port_errs": {
+    "a3s": null,
+    "ad5s": null,
+    "tc148": null
+  },
+  "api": [
+    {
+      "id": "a01",
+      "lib": "ad5s",
+      "query": "控制板灯不亮",
+      "expect_gid": "qa_001",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_001",
+      "snippet": "1 检查接线，测量控制板+BAT-端子（11#、12#）电压是否高于22V\n2 如果电压正常，检查控制板power灯是否正常闪烁（约每秒闪2次），如果没亮，检查更换保险丝（规格∅5×20mm 10A "
+    },
+    {
+      "id": "a03",
+      "lib": "ad5s",
+      "query": "纯太阳能板供电 指示灯不亮",
+      "expect_gid": "qa_002",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_002",
+      "snippet": "1 检查接线，测量控制板+BAT-端子（11#、12#）电压是否22V以上\n2 如果电压正常，检查更换保险丝（规格∅5×20mm 10A 250VAC快断玻璃管；备用保险丝在说明书包装内）\n3 如果电"
+    },
+    {
+      "id": "a05",
+      "lib": "ad5s",
+      "query": "一接太阳能板门机就不转了",
+      "expect_gid": "qa_004",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_004",
+      "snippet": "检查太阳能板（开路测试）\n断开太阳能板与TCS3之间的连接，断开各块太阳能板之间的连接，在无遮挡的正午阳光下，测量每一块太阳能板的开路电压\n正常值：>42VDC\n如果某块板明显低于42VDC → 该太"
+    },
+    {
+      "id": "a06",
+      "lib": "ad5s",
+      "query": "学遥控器 学习灯不亮",
+      "expect_gid": "qa_005",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_005",
+      "snippet": "症状：学习灯不亮（按CODE SW后CODE LED不亮；非学习灯常亮）\n1 检查电源灯亮不亮；测量控制板+BAT-端子（11#、12#）电压是否高于22V，检查保险丝（备用保险丝在说明书包装内），如"
+    },
+    {
+      "id": "a07",
+      "lib": "ad5s",
+      "query": "学遥控器 学习灯一直亮 学不上",
+      "expect_gid": "qa_006",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_006",
+      "snippet": "症状：学习灯亮但学不上（按CODE SW后CODE LED能亮；非学习灯不亮）\n先测量控制板+BAT-端子（11#、12#）电压是否高于22V。\n断开配件，换电池（遥控器使用2粒CR2025）、换一个"
+    },
+    {
+      "id": "a08",
+      "lib": "ad5s",
+      "query": "遥控距离太短 站远点就不行",
+      "expect_gid": "qa_008",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_008",
+      "snippet": "1打开控制箱调整天线位置和方向（M12遥控器开外区参考距离约65英尺/20米）\n2 通过穿线孔尝试把天线拉出来点试试\n3 更换遥控器电池试试（每个遥控器需2粒3V CR2025锂电池）\n4 加ERM1"
+    },
+    {
+      "id": "a09",
+      "lib": "ad5s",
+      "query": "按遥控器完全没反应",
+      "expect_gid": "qa_010",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_010",
+      "snippet": "1 检查输入电压，重点是电池电压和控制器的排查，这里分两种情况，一种纯太阳能供电，一种是适配器+电池给机器供电，根据客人情况选择：\n太阳能：先测BAT端口电压，正常情况应该是22V以上的，如果低，分别"
+    },
+    {
+      "id": "a11",
+      "lib": "ad5s",
+      "query": "一按遥控保险丝就烧",
+      "expect_gid": "qa_012",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_012",
+      "snippet": "1 检查端口接的线与线之间是否有铜丝触碰到，确认保险丝规格正确（∅5×20mm 10A 250VAC快断玻璃管）；\n2 断开控制板端口上的有线配件，机臂线，只保留电源接线，然后按遥控器；\n如果保险丝烧"
+    },
+    {
+      "id": "b03",
+      "lib": "ad5s",
+      "query": "自动关门功能没用 不会自己关",
+      "expect_gid": "qa_033",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_033",
+      "snippet": "1 断开有线配件，按遥控器让门停半路，等一会看看门会不会自动关，如果可以，应该是配件影响导致门无法自动关门，可以一个一个接配件，测试看看是哪个导致\n2 如果断开配件后，自动关门还是没起作用，保持配件断"
+    },
+    {
+      "id": "b10",
+      "lib": "ad5s",
+      "query": "门开关到一半就停住或弹回来",
+      "expect_gid": "qa_040",
+      "ok": true,
+      "bucket": "tier_a",
+      "notes": [],
+      "group_id": "qa_040",
+      "snippet": "症状：开关门中途/一半走停或反弹（§九；非开到位反弹·非关到位反弹·非§十二限位）\n1 排除红外遇阻影响（未使用红外时可将 DIP 开关 #3 拨 OFF 关闭红外功能）\n2 断电调遇阻力与缓停止（F"
+    },
+    {
+      "id": "b01",
+      "lib": "ad5s",
+      "query": "门自己乱开乱关怎么回事",
+      "expect_gid": "qa_031",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_031",
+      "snippet": "1 检查推拉开门逻辑是不是正确\n2 断开所有有线配件，关闭红外功能看看\n3 清除所有遥控密码，重学\n4 还不行换控制板"
+    },
+    {
+      "id": "b02",
+      "lib": "ad5s",
+      "query": "缓停止不对 没有缓停效果",
+      "expect_gid": "qa_032",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_032",
+      "snippet": "1 断电重置，走个完整的开关门循环\n2 检查限位功能，观察是否限位停\n3 检查缓停止功能在机臂不带门的时候是否正常\n4 还不行换控制板\nNote: 门经常因为风等外界因素停下来，不"
+    },
+    {
+      "id": "b04",
+      "lib": "ad5s",
+      "query": "风大能把门吹开一点怎么办",
+      "expect_gid": "qa_034",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_034",
+      "snippet": "1 检查托架是否紧固，门机运行时候是否会晃动，大门铰链最好不要太松\n2观察门被风吹动的时候拉杆会不会伸缩。如果不会，解释大风吹的时候门体晃动是正常的，建议装电子锁\n3 如果会动的话"
+    },
+    {
+      "id": "b05",
+      "lib": "ad5s",
+      "query": "双机臂其中一个臂完全不工作",
+      "expect_gid": "qa_035",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_035",
+      "snippet": "1 交换控制板上的机臂接线端口，如果不工作的机臂可以了 之前正常的机臂不工作了，控制板坏\n2 测电机，如果交换机臂接线后 不工作的机臂还是不工作，机臂红黑线接开关电源的输出测电机\n"
+    },
+    {
+      "id": "b06",
+      "lib": "ad5s",
+      "query": "门开关特别慢 运行速度很慢",
+      "expect_gid": "qa_036",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_036",
+      "snippet": "1 监测电压，看是不是有压降\n2 增大遇阻力，缩小缓停止\n3 打开离合手动推拉顺畅不。顺畅的话，机臂拿下来，合上离合，握住拉耳，看看运行速度怎么样。\n4 测电机，是否可以正常速度往"
+    },
+    {
+      "id": "b07",
+      "lib": "ad5s",
+      "query": "拉开门 开门不限位 限位A怎么调",
+      "expect_gid": "qa_037",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_037",
+      "snippet": "症状：开门不限位/开门过位或开门不停（限位A·开位；非关门限位B）\n拉开门安装 For pull-to-open installation\n检查接线是否接好\n检查开门位置是否安装正"
+    },
+    {
+      "id": "b08",
+      "lib": "ad5s",
+      "query": "机臂伸太过缩不回去 离合打开了",
+      "expect_gid": "qa_038",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_038",
+      "snippet": "博客文章链接：\n1 伸太过缩不回去的情况：\n离合打开，将机臂推到中间位置再合上离合再试，如果已经伸太过离合打开缩不回了，可尝试离合合上，顺时针往里边推边旋转拉杆，如果OK则说明之前"
+    },
+    {
+      "id": "b09",
+      "lib": "ad5s",
+      "query": "电机转但拉杆不动 机臂不伸缩",
+      "expect_gid": "qa_039",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_039",
+      "snippet": "2 拉杆在缩到底或部分伸出去的状态，电机转，机臂不伸缩：\n如果机臂拉杆推到中间位置，合上离合，电机依然只转，机臂不伸缩，说明问题可能在于机臂内部，离合或电机. 可以先检查离合是正确"
+    },
+    {
+      "id": "b11",
+      "lib": "ad5s",
+      "query": "离合钥匙拧不开 门关到位很紧",
+      "expect_gid": "qa_041",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_041",
+      "snippet": "1把机臂拿下来不带门的时候试试：先确定下离合拧不开的时候机臂是在什么状态下，看机臂是不是关门到位很紧的状态，这个时候拧离合钥匙是很难拧开的；如果不带门可以正常打开 需要重新调整开关"
+    },
+    {
+      "id": "b12",
+      "lib": "ad5s",
+      "query": "脱门也打不开离合 伸太过推不进去",
+      "expect_gid": "qa_042",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_042",
+      "snippet": "2 如果不带门也打不开，检查一下是不是伸太过，先手旋转拉杆往里推试试，看能不能拧进去，可以的话限位B往里调一点；如果不能旋进去，拆开看看，是不是里面卡住了。\n3 如果不是伸太过的情"
+    },
+    {
+      "id": "b13",
+      "lib": "ad5s",
+      "query": "按遥控机臂有异响 离合打开还有声音",
+      "expect_gid": "qa_043",
+      "ok": true,
+      "bucket": "ext01b",
+      "notes": [],
+      "group_id": "qa_043",
+      "snippet": "1. 打开离合，按遥控器，看是否还有异响？\n无异响→做步骤2；\n有异响→异响来自电机或离合，做步骤5；\n保持离合打开，手动开关门，看是否还有异响？\n无异响→异响很可能是由于电机负载"
+    },
+    {
+      "id": "LD16",
+      "lib": "ad5s",
+      "query": "开到位后又弹回来 拉开门",
+      "expect_gid": "qa_016",
+      "ok": true,
+      "bucket": "limit",
+      "notes": [],
+      "group_id": "qa_016",
+      "snippet": "开到位后又弹回来·拉开门 Gate Open Bounce Back · Pull-to-Open · Open Position"
+    },
+    {
+      "id": "LD37",
+      "lib": "ad5s",
+      "query": "拉开门 开门不限位 限位A怎么调",
+      "expect_gid": "qa_037",
+      "ok": true,
+      "bucket": "limit",
+      "notes": [],
+      "group_id": "qa_037",
+      "snippet": "开门不限位/过位（拉开门·限位A·开位）Gate Open Limit · Pull-to-Open · Limit A Open"
+    },
+    {
+      "id": "LD20",
+      "lib": "ad5s",
+      "query": "拉开门 关门不限位 限位B怎么调",
+      "expect_gid": "qa_020",
+      "ok": true,
+      "bucket": "limit",
+      "notes": [],
+      "group_id": "qa_020",
+      "snippet": "关门限位不到位·限位B（推/拉开门）Gate Close Limit · Limit Switch B · Push/Pull"
+    },
+    {
+      "id": "LA19",
+      "lib": "a3s",
+      "query": "门关到位又弹回来 拉开门",
+      "expect_gid": "qa_015",
+      "ok": true,
+      "bucket": "limit",
+      "notes": [],
+      "group_id": "qa_015",
+      "snippet": "门关到位又弹回来·拉开门 Gate Bounce Back · Pull-to-Open · Limit B"
+    },
+    {
+      "id": "LA18",
+      "lib": "a3s",
+      "query": "拉开门 开门位置不对 不限位",
+      "expect_gid": "qa_018",
+      "ok": true,
+      "bucket": "limit",
+      "notes": [],
+      "group_id": "qa_018",
+      "snippet": "开门不限位/位置不对·限位A（拉开门·开位）Gate Open Limit · Pull-to-Open · Limit A Open"
+    },
+    {
+      "id": "S-A3S",
+      "lib": "a3s",
+      "query": "太阳能充不进电池怎么办",
+      "expect_gid": "qa_003",
+      "ok": true,
+      "bucket": "sample",
+      "notes": [],
+      "group_id": "qa_003",
+      "snippet": "科普文章链接：\n1 断开太阳能板和太阳能控制器，断开太阳能板间的链接，在阳光直射太阳能板的时候，用万用表测太阳能板的开路电压，如果电压过低，太阳能板坏\n2 有时"
+    },
+    {
+      "id": "S-AD5S",
+      "lib": "ad5s",
+      "query": "太阳能充不进电池怎么办",
+      "expect_gid": "qa_003",
+      "ok": true,
+      "bucket": "sample",
+      "notes": [],
+      "group_id": "qa_003",
+      "snippet": "科普文章链接：\n1 断开太阳能板和太阳能控制器，断开太阳能板间的链接，在阳光直射太阳能板的时候，用万用表测太阳能板的开路电压，如果电压过低，太阳能板坏\n2 有时"
+    },
+    {
+      "id": "S-AD5S2",
+      "lib": "ad5s",
+      "query": "门刚动一下就停 电机电流太小",
+      "expect_gid": "qa_022",
+      "ok": true,
+      "bucket": "sample",
+      "notes": [],
+      "group_id": "qa_022",
+      "snippet": "电机电流小导致的走停一般是电机开始启动一下然后就猛地停住，一般是开门有问题，或者关门有问题，这种一般机臂不带门，手握住拉耳，按遥控器机臂可以正常伸缩；\n门突然启"
+    },
+    {
+      "id": "CRT1",
+      "lib": "tc148",
+      "query": "TC148 没反应 遥控器正常",
+      "expect_gid": "qa_002",
+      "ok": true,
+      "bucket": "tc148_crt",
+      "notes": [],
+      "group_id": "qa_002",
+      "snippet": "tpl=1922"
+    },
+    {
+      "id": "CRT2",
+      "lib": "tc148",
+      "query": "接上TC148墙壁开关 自己开关门",
+      "expect_gid": "qa_001",
+      "ok": true,
+      "bucket": "tc148_crt",
+      "notes": [],
+      "group_id": "qa_001",
+      "snippet": "tpl=1999"
+    }
+  ],
+  "browser": [
+    {
+      "id": "B-P23",
+      "lib": "ad5s",
+      "ok": true,
+      "gid": "qa_023"
+    },
+    {
+      "id": "B-P24",
+      "lib": "ad5s",
+      "ok": true,
+      "gid": "qa_024"
+    },
+    {
+      "id": "B-CRT",
+      "lib": "tc148",
+      "ok": true,
+      "tpl_len": 1922
+    }
+  ]
+}

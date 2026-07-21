@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "name": "run",
+    "model": "_scratch/modelscope/BAAI/bge-m3",
+    "prefix": false,
+    "hybrid_alpha": null,
+    "rerank": false,
+    "top1_acc": 0.8333,
+    "top3_acc": 1.0,
+    "top1_hits": 5,
+    "top3_hits": 6,
+    "total": 6
+  },
+  "details": [
+    {
+      "id": "t01",
+      "query": "接上墙壁开关后门自己乱开",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "t02",
+      "query": "TC148 一接上门机就乱动",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "t03",
+      "query": "墙壁按键干扰 门机随机动作",
+      "expected": "qa_001",
+      "acceptable": [
+        "qa_001"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "t04",
+      "query": "按 TC148 没反应 遥控能用",
+      "expected": "qa_002",
+      "acceptable": [
+        "qa_002"
+      ],
+      "top1_group": "qa_002",
+      "top1_question": "二、按TC148 PUSH BUTTON门机没有反应 （TC148不工作）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "t05",
+      "query": "TC148 防水按钮按了门不动",
+      "expected": "qa_002",
+      "acceptable": [
+        "qa_002"
+      ],
+      "top1_group": "qa_002",
+      "top1_question": "二、按TC148 PUSH BUTTON门机没有反应 （TC148不工作）",
+      "top1_hit": true,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_002",
+        "qa_001"
+      ],
+      "category": "colloquial"
+    },
+    {
+      "id": "t06",
+      "query": "push button 端口短接测试 O/S/C COM",
+      "expected": "qa_002",
+      "acceptable": [
+        "qa_002"
+      ],
+      "top1_group": "qa_001",
+      "top1_question": "接上TC148墙壁开关，自己开关门",
+      "top1_hit": false,
+      "top3_hit": true,
+      "top3_groups": [
+        "qa_001",
+        "qa_002"
+      ],
+      "category": "long_group_child"
+    }
+  ]
+}

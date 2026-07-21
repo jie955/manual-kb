@@ -1,0 +1,758 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "qa_001_c001",
+      "group_id": "qa_001",
+      "parent_id": null,
+      "is_child": false,
+      "is_retrievable": true,
+      "section": null,
+      "question": "接上TC148墙壁开关，自己开关门",
+      "embedding_text": "接上TC148墙壁开关，自己开关门\n注：TC147排查方法相同\n症状：接上TC148后随机开关门/乱动（非遥控正常按TC148无反应·非push button端口瞬时短接O/S/C COM）\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开延长线，只接按钮自带的线试试\n如果问题还在，可能接了TC148有干扰，可以接地试试。\n均不解决的话，按钮可能坏了。（能力强的人，可以测一下按钮开关的是否导通）",
+      "content_zh": "注：TC147排查方法相同\n症状：接上TC148后随机开关门/乱动（非遥控正常按TC148无反应·非push button端口瞬时短接O/S/C COM）\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开延长线，只接按钮自带的线试试\n如果问题还在，可能接了TC148有干扰，可以接地试试。\n均不解决的话，按钮可能坏了。（能力强的人，可以测一下按钮开关的是否导通）",
+      "content_en": "",
+      "answer_zh_translated": null,
+      "translation_status": "not_needed",
+      "images": [
+        {
+          "file": "image_001.png",
+          "caption": "此图展示了将门机控制板上5号COM（公共端）端口连接到地线螺丝的接线方法，以尝试解决TC148按钮的干扰问题。",
+          "caption_status": "cached"
+        }
+      ],
+      "has_image": true,
+      "links": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        }
+      ],
+      "has_links": true,
+      "negotiation_offers": [],
+      "customer_reply_templates": [
+        {
+          "text": "Please help us confirm if the gate opener runs randomly only when the TC148 push button is connected. If so, please do the following tests for further diagnosis.\nIsolate the TC148 Wall Switch\nDisconnect all wired accessories from the control board except the TC148 wall switch to see how it goes.\nIf problem disappears, may I ask if you also connected other wired accessories to the “push button” terminals. If yes, please use shield wires and combining cap to connect them. Below is the link of How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board for your reference.\nIf the problem remains, please go on the following steps.\n2. Check the Wiring Distance and Cable Type\nGenerally, long wire length or poor cable quality may cause signal interference. May I ask what distance between the control board and the TC148 push button and what gauge the wire is. In a normal case, please use the well-shielded 2C*22 AWG (2 x 0.3 mm2) (at least) cable to connect TC148 to the circuit board. Besides, the cable is not recommended to exceed 15 meters. If you use extension cables, please disconnect the extension cable and connect only the original short cables coming with the TC148 switch to see how it works.\n3. Check for Electrical Interference\nIf the problem persists, there might be interference. You can try to connect the “COM” terminal of the control board to the ground. Please do it referring to the following steps.\nDrive an iron nail (or other metal part) in the ground.\nConnect the “COM” terminal on the control board and the nail with an electric wire.\nIf all the tests cannot help, you can replace a TC148 to have a try.\nNote:\nFor advanced users only: Use a multimeter to test the switch for continuity.\nWith the switch not pressed → Should be open circuit (no continuity)\nWith the switch pressed → Should be closed circuit (continuity)\nIf the switch tests as always closed or erratic, it is defective.\nFinal resolution: Replace the TC148 wall switch.",
+          "lang": "en",
+          "content_role": "customer_reply_template"
+        }
+      ],
+      "structure_warnings": [],
+      "troubleshooting_ladder": [],
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "troubleshooting",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "qa_002_c001",
+      "group_id": "qa_002",
+      "parent_id": null,
+      "is_child": false,
+      "is_retrievable": true,
+      "section": null,
+      "question": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test",
+      "embedding_text": "按TC148无反应·push button短接排查 No Response · O/S/C COM Short Test\n症状：遥控可用但按TC148无反应（push button端口瞬时短接 O/S/C COM 排查·非随机开关门/乱动）\n确保是我们的TC148 (sold by TOPENS)\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开\n还有问题，瞬时短接一下push button 端口，门机是不是有反应，排除控制板的影响。",
+      "content_zh": "症状：遥控可用但按TC148无反应（push button端口瞬时短接 O/S/C COM 排查·非随机开关门/乱动）\n确保是我们的TC148 (sold by TOPENS)\n断开除TC148以外的所有配件，看看问题还在不在\n如果不在，push button 端口是不是还接了其他配件， 建议使用屏蔽线和接线帽，以免配件间的干扰导致门机异常\n如果还在，需要问一下按钮离门机的距离，以及线的规格；如果使用了延长线，可断开\n还有问题，瞬时短接一下push button 端口，门机是不是有反应，排除控制板的影响。",
+      "content_en": "",
+      "answer_zh_translated": null,
+      "translation_status": "not_needed",
+      "images": [],
+      "has_image": false,
+      "links": [
+        {
+          "url": "https://topens.com/blogs/blog-posts/how-to-connect-multiple-accessories-to-a-shared-terminal-on-a-topens-gate-opener-control-board",
+          "label": "How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board",
+          "lang": "en",
+          "link_type": "support_page"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1VdDhyHZxmpQE5pG7BYHOJi5GYb7iZHFS/view?usp=sharing",
+          "label": "How to instantaneously short the “O/S/C COM” terminals",
+          "lang": "en",
+          "link_type": "video"
+        }
+      ],
+      "has_links": true,
+      "negotiation_offers": [],
+      "customer_reply_templates": [
+        {
+          "text": "Please help us confirm if the gate opener can work via remote. If so, please do the following tests for further diagnosis.\nPlease check to make sure that the TC148 switch is sold by TOPENS, since the third-party switch may be incompatible.\nCheck the TC148 is wired correctly and securely.\nIf all above are verified, please disconnect all wired accessories from the control board except the TC148 wall switch to see how it goes.\nIf problem disappears, may I ask if you also connected other wired accessories to the “push button” terminals. If yes, please use shield wires and combining cap to connect them. Below is the link of How to Connect Multiple Accessories to a Shared Terminal on a TOPENS Gate Opener Control Board for your reference.\nIf the problem remains, please go on the following steps.\nCheck the Wiring Distance and Cable Type\nGenerally, long wire length or poor cable quality may cause signal interference. May I ask what distance between the control board and the TC148 push button and what the gauge the wire is. In a normal case, please use the well-shielded 2C*22 AWG (2 x 0.3 mm2) (at least) cable to connect TC148 to the circuit board. Besides, the cable is not recommended to exceed 15 meters. If you use extension cables, please disconnect the extension cable and connect only the original short cables coming with the TC148 switch to see how it works.\nIf the problem remains, please further check the push button terminals on the control board as follows.\nPlease immediately short (plug the wire in, then pull it out immediately) the push button terminals (e.g. O/S/C and COM terminals) on the control board with referring to the video in the link below to see whether the opener can be activated as open-stop-close-stop-open by every action of immediately shorting. If so, the control board is fine and you can replace a TC148 to have a try.\nHow to instantaneously short the “O/S/C COM” terminals:",
+          "lang": "en",
+          "content_role": "customer_reply_template"
+        }
+      ],
+      "structure_warnings": [],
+      "troubleshooting_ladder": [],
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "troubleshooting",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1",
+      "group_id": "tc148-manual-p1",
+      "parent_id": null,
+      "is_child": false,
+      "is_retrievable": false,
+      "section": "Waterproof Wall Push Button User Manual",
+      "question": "Waterproof Wall Push Button User Manual",
+      "embedding_text": null,
+      "content_zh": null,
+      "content_en": "TOPENS\nEN TC148\nWaterproof Wall Push Button User Manual",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-feedback",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "Feedback & Review",
+      "question": "Feedback & Review",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:Feedback & Review Title:Feedback & Review Feedback & Review, TOPENS website, email, phone number, customer support, contact information Your comments and suggestions are important to us as they help us provide the best possible service. Should you have any need to contact us, the info",
+      "content_zh": null,
+      "content_en": "Your comments and suggestions are important to us as they help us provide the best possible service. Should you have any need to contact us, the info below will help you get in touch:\nTOPENS Website www.topens.com\nContact Us: E-mail: support@topens.com\nKindly include your purchase channel, order #, gate information, issue description and your contact information. All your concerns will be replied within 24 hours.\nTel: +1 (888) 750 9899 (Toll Free USA & Canada)",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p1-qr_code.png",
+          "caption": "TOPENS Website QR Code",
+          "caption_status": "captioned",
+          "role": "reference_diagram",
+          "image_id": "img1_4"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-installing-notes",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLING THE PUSH BUTTON · Notes",
+      "question": "Notes",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLING THE PUSH BUTTON Notes Title:Notes 2 INSTALLING THE PUSH BUTTON, Notes, installation surface requirements, wiring cable included, mounting hardware not included Notes: Mount the push button on a clean, solid, and flat surface. A 2m 2C x 0.3mm² (22AWG) wiring cable is included. Mounting hardware is NOT included",
+      "content_zh": null,
+      "content_en": "Notes:\nMount the push button on a clean, solid, and flat surface.\nA 2m 2C x 0.3mm² (22AWG) wiring cable is included.\nMounting hardware is NOT included.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-installing-step1",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLING THE PUSH BUTTON · 1",
+      "question": "2 INSTALLING THE PUSH BUTTON",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLING THE PUSH BUTTON 1 Title:2 INSTALLING THE PUSH BUTTON 2 INSTALLING THE PUSH BUTTON, STEP 1, remove back cover, drill mounting holes, wall installation Remove the back cover from the push button. Position it on the wall and drill four mounting holes in accordance with the holes on the back cover.",
+      "content_zh": null,
+      "content_en": "Remove the back cover from the push button. Position it on the wall and drill four mounting holes in accordance with the holes on the back cover.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p1-installation_diagram_1.png",
+          "caption": "Back cover mounting onto wall",
+          "caption_status": "captioned",
+          "role": "primary_step_illustration",
+          "image_id": "img1_2"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-installing-step2",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLING THE PUSH BUTTON · 2",
+      "question": "2 INSTALLING THE PUSH BUTTON",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLING THE PUSH BUTTON 2 Title:2 INSTALLING THE PUSH BUTTON 2 INSTALLING THE PUSH BUTTON, STEP 2, insert plastic anchors, secure back cover, waterproof silicone gaskets, screws Insert four plastic anchors into the drilled holes. Secure the back cover to the wall using screws. Cover the mounting holes with the supplied waterpr",
+      "content_zh": null,
+      "content_en": "Insert four plastic anchors into the drilled holes. Secure the back cover to the wall using screws. Cover the mounting holes with the supplied waterproof silicone gaskets. (Note: Plastic anchors and screws are not included.)",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-installing-step3",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLING THE PUSH BUTTON · 3",
+      "question": "2 INSTALLING THE PUSH BUTTON",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLING THE PUSH BUTTON 3 Title:2 INSTALLING THE PUSH BUTTON 2 INSTALLING THE PUSH BUTTON, STEP 3, connect cable, COM terminal, L1 terminal, wire routing hole Connect the cable to the COM and L1 terminals of the push button. Remove the lid from the wire routing hole at the bottom of the back cover and route",
+      "content_zh": null,
+      "content_en": "Connect the cable to the COM and L1 terminals of the push button. Remove the lid from the wire routing hole at the bottom of the back cover and route the wire through the opening.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-installing-step4",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLING THE PUSH BUTTON · 4",
+      "question": "2 INSTALLING THE PUSH BUTTON",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLING THE PUSH BUTTON 4 Title:2 INSTALLING THE PUSH BUTTON 2 INSTALLING THE PUSH BUTTON, STEP 4, attach push button, secure with screws Attach the push button to the back cover and secure it with the provided screws.",
+      "content_zh": null,
+      "content_en": "Attach the push button to the back cover and secure it with the provided screws.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-product-description",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "Product Description",
+      "question": "Product Description",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:Product Description Title:Product Description Product Description, TC148 waterproof wall push button, gate opener switch, automatic reset feature The waterproof wall push button is a release switch designed to control gate operation (opening and closing). Its automatic reset feature ensures that",
+      "content_zh": null,
+      "content_en": "The waterproof wall push button is a release switch designed to control gate operation (opening and closing). Its automatic reset feature ensures that the button returns to its original state after use, providing consistent and reliable performance.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p1-product_illustration.png",
+          "caption": "Waterproof Wall Push Button",
+          "caption_status": "captioned",
+          "role": "primary_step_illustration",
+          "image_id": "img1_1"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-specifications",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "1 SPECIFICATIONS",
+      "question": "1 SPECIFICATIONS",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:1 SPECIFICATIONS Title:1 SPECIFICATIONS 1 SPECIFICATIONS, TC148 specifications, Output Contact, Switch Type, Max. Contact Current, Max. Contact Voltage, Mount Type, Dimension, Protection Class, Working Humidity",
+      "content_zh": null,
+      "content_en": null,
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p1-wiring",
+      "group_id": "tc148-manual-p1",
+      "parent_id": "tc148-manual-p1",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "3 WIRING THE PUSH BUTTON",
+      "question": "3 WIRING THE PUSH BUTTON",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:3 WIRING THE PUSH BUTTON Title:3 WIRING THE PUSH BUTTON 3 WIRING THE PUSH BUTTON, connect cable, push button terminals, gate opener, wire polarity, extension distance 15m (50 feet) Connect the cable to the push button terminals of the gate opener, disregarding wire polarity. Note: If an extension is required, the distance between",
+      "content_zh": null,
+      "content_en": "Connect the cable to the push button terminals of the gate opener, disregarding wire polarity.\nNote: If an extension is required, the distance between the push button and the control board must not exceed 15m (50 feet).",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p1-wiring_diagram.png",
+          "caption": "Wiring Diagram for Push Button to Gate Opener Control Board",
+          "caption_status": "captioned",
+          "role": "reference_diagram",
+          "image_id": "img1_3"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2",
+      "group_id": "tc148-manual-p2",
+      "parent_id": null,
+      "is_child": false,
+      "is_retrievable": false,
+      "section": "TC148 Wasserdichter Kabelgebundener Wandschalter",
+      "question": "TC148 Wasserdichter Kabelgebundener Wandschalter",
+      "embedding_text": null,
+      "content_zh": "TC148\nWASSERDICHTER KABELGEBUNDENER WANDSCHALTER BEDIENUNGSANLEITUNG",
+      "content_en": "TC148\nWATERPROOF WIRED WALL PUSH BUTTON USER MANUAL",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-1",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "Produktbeschreibung",
+      "question": "Produktbeschreibung",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:Produktbeschreibung Title:Produktbeschreibung 产品描述, 防水有线壁式按钮, 开门器 Der wasserdichte Wandschalter ist ein Freigabeschalter zur Torsteuerung (Öffnen und Schließen). Seine automatische Rücksetzung gewährleistet, dass der The waterproof wall push button is an enabling switch for gate control (open and close). Its automatic reset ensures that the wall push button returns",
+      "content_zh": "Der wasserdichte Wandschalter ist ein Freigabeschalter zur Torsteuerung (Öffnen und Schließen). Seine automatische Rücksetzung gewährleistet, dass der Wandschalter nach der Benutzung in seinen ursprünglichen Zustand zurückkehrt und eine gleichbleibende und zuverlässige Leistung bietet.",
+      "content_en": "The waterproof wall push button is an enabling switch for gate control (open and close). Its automatic reset ensures that the wall push button returns to its original state after use and provides consistent and reliable performance.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p2-product_view.png",
+          "caption": "TC148 Wasserdichter Kabelgebundener Wandschalter",
+          "caption_status": "captioned",
+          "role": "reference_diagram",
+          "image_id": "img-p2-1"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-10",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "Rückmeldung & Rezension",
+      "question": "Rückmeldung & Rezension",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:Rückmeldung & Rezension Title:Rückmeldung & Rezension 反馈, 评论, 联系方式, 官网, 邮件, 电话 Ihre Kommentare und Vorschläge sind wichtig für uns, denn sie helfen uns, den besten Service zu bieten. Wenn Sie Kontakt mit uns aufnehmen möchten, fi Your comments and suggestions are important to us, as they help us provide the best service. If you wish to contact us, please find the following info",
+      "content_zh": "Ihre Kommentare und Vorschläge sind wichtig für uns, denn sie helfen uns, den besten Service zu bieten. Wenn Sie Kontakt mit uns aufnehmen möchten, finden Sie die folgenden Informationen:\nTOPENS Website www.topens.com\nKontaktieren uns:\nE-mail: support@topens.com\nBitte geben Sie Einkaufsquelle, Bestellnummer#, Torinformationen, Problembeschreibung und Ihre Kontaktinformationen an.\nAlle Ihre Fragen werden innerhalb von 24 Stunden beantwortet.\nTel: +1 (888) 750 9899 (Für USA & Kanada Kostenfrei)",
+      "content_en": "Your comments and suggestions are important to us, as they help us provide the best service. If you wish to contact us, please find the following information:\nTOPENS Website www.topens.com\nContact us:\nE-mail: support@topens.com\nPlease provide the purchase source, order number#, gate information, problem description, and your contact information.\nAll your questions will be answered within 24 hours.\nTel: +1 (888) 750 9899 (Toll-Free for USA & Canada)",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p2-feedback_qr_code.png",
+          "caption": "QR Code für TOPENS Website",
+          "caption_status": "captioned",
+          "role": "reference_diagram",
+          "image_id": "img-p2-5"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-2",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "1 SPEZIFIKATIONEN",
+      "question": "1 SPEZIFIKATIONEN",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:1 SPEZIFIKATIONEN Title:1 SPEZIFIKATIONEN 规格, 技术参数, 输出触点, 开关类型, 最大触点电流, 最大触点电压, 安装方式, 尺寸, 防护等级, 工作湿度",
+      "content_zh": null,
+      "content_en": null,
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-3",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLATION DES WANDSCHALTERS · Hinweise",
+      "question": "Hinweise",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLATION DES WANDSCHALTERS Hinweise Title:Hinweise 安装提示, 注意事项, 线材, 安装硬件 Hinweise: ◆ Wandschalter auf eine saubere, feste und ebene Oberfläche installieren. ◆ Ein 2m Kabel (Größe: 2 x 0,3mm²) für den Anschluss ist enthalten Notes: ◆ Install the wall push button on a clean, solid, and flat surface. ◆ A 2m cable (size: 2 x 0.3mm²) for connection is included. ◆ Installation",
+      "content_zh": "Hinweise:\n◆ Wandschalter auf eine saubere, feste und ebene Oberfläche installieren.\n◆ Ein 2m Kabel (Größe: 2 x 0,3mm²) für den Anschluss ist enthalten.\n◆ Installationshardware ist NICHT enthalten.",
+      "content_en": "Notes:\n◆ Install the wall push button on a clean, solid, and flat surface.\n◆ A 2m cable (size: 2 x 0.3mm²) for connection is included.\n◆ Installation hardware is NOT included.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-4",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLATION DES WANDSCHALTERS · 1 Die hintere Abdeckung des Wandschalters entfernen. Den Wandschalter an der Wand anbringen und vier Installationslöcher bohren, die mit den vorhandenen Löchern auf der hinteren Abdeckung übereinstimmen.",
+      "question": "Die hintere Abdeckung des Wandschalters entfernen. Den Wandschalter an der Wand anbringen und vier Installationslöcher bohren, die mit den vorhandenen Löchern auf der hinteren Abdeckung übereinstimmen.",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLATION DES WANDSCHALTERS 1 Die hintere Abdeckung des Wandschalters entfernen. Den Wandschalter an der Wand anbringen und vier Installationslöcher bohren, die mit den vorhandenen Löchern auf der hinteren Abdeckung übereinstimmen. Title:Die hintere Abdeckung des Wandschalters entfernen. Den Wandschalter an der Wand anbringen und vier Installationslöcher bohren, die mit den vorhandenen Löchern auf der hinteren Abdeckung übereinstimmen. 安装步骤1, 后盖拆卸, 钻孔 SCHRITT 1: Die hintere Abdeckung des Wandschalters entfernen. Den Wandschalter an der Wand anbringen und vier Installationslöcher bohren, die mit den STEP 1: Remove the rear cover of the wall push button. Place the wall push button on the wall and drill four installation holes that match the existin",
+      "content_zh": "SCHRITT 1: Die hintere Abdeckung des Wandschalters entfernen. Den Wandschalter an der Wand anbringen und vier Installationslöcher bohren, die mit den vorhandenen Löchern auf der hinteren Abdeckung übereinstimmen.",
+      "content_en": "STEP 1: Remove the rear cover of the wall push button. Place the wall push button on the wall and drill four installation holes that match the existing holes on the rear cover.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p2-installation_step_1.png",
+          "caption": "Schrauben sind nicht enthalten. Montage der hinteren Abdeckung.",
+          "caption_status": "captioned",
+          "role": "primary_step_illustration",
+          "image_id": "img-p2-2"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-5",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLATION DES WANDSCHALTERS · 2 Vier Kunststoffdübel in die gebohrten Löcher einsetzen. Die hintere Abdeckung mit Schrauben an der Wand befestigen. Die Installationslöcher mit mitgelieferten wasserdichten Silikondichtungen abdecken. (Hinweis: Kunststoffdübel und Schrauben sind nicht enthalten.)",
+      "question": "Vier Kunststoffdübel in die gebohrten Löcher einsetzen. Die hintere Abdeckung mit Schrauben an der Wand befestigen. Die Installationslöcher mit mitgelieferten wasserdichten Silikondichtungen abdecken. (Hinweis: Kunststoffdübel und Schrauben sind nicht enthalten.)",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLATION DES WANDSCHALTERS 2 Vier Kunststoffdübel in die gebohrten Löcher einsetzen. Die hintere Abdeckung mit Schrauben an der Wand befestigen. Die Installationslöcher mit mitgelieferten wasserdichten Silikondichtungen abdecken. (Hinweis: Kunststoffdübel und Schrauben sind nicht enthalten.) Title:Vier Kunststoffdübel in die gebohrten Löcher einsetzen. Die hintere Abdeckung mit Schrauben an der Wand befestigen. Die Installationslöcher mit mitgelieferten wasserdichten Silikondichtungen abdecken. (Hinweis: Kunststoffdübel und Schrauben sind nicht enthalten.) 安装步骤2, 塑料膨胀螺栓, 硅胶密封圈, 固定后盖 SCHRITT 2: Vier Kunststoffdübel in die gebohrten Löcher einsetzen. Die hintere Abdeckung mit Schrauben an der Wand befestigen. Die Installationslöcher STEP 2: Insert four plastic anchors into the drilled holes. Fix the rear cover to the wall with screws. Cover the installation holes with the provided",
+      "content_zh": "SCHRITT 2: Vier Kunststoffdübel in die gebohrten Löcher einsetzen. Die hintere Abdeckung mit Schrauben an der Wand befestigen. Die Installationslöcher mit mitgelieferten wasserdichten Silikondichtungen abdecken. (Hinweis: Kunststoffdübel und Schrauben sind nicht enthalten.)",
+      "content_en": "STEP 2: Insert four plastic anchors into the drilled holes. Fix the rear cover to the wall with screws. Cover the installation holes with the provided waterproof silicone seals. (Note: Plastic anchors and screws are not included.)",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p2-installation_step_2.png",
+          "caption": "Montage des Tasters auf der hinteren Abdeckung.",
+          "caption_status": "captioned",
+          "role": "primary_step_illustration",
+          "image_id": "img-p2-3"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-6",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLATION DES WANDSCHALTERS · 3 Das Kabel an die Klemmen COM und L1 des Wandschalters anschließen. Den Deckel an der Unterseite der hinteren Abdeckung entfernen und Kabel durch die Öffnung führen.",
+      "question": "Das Kabel an die Klemmen COM und L1 des Wandschalters anschließen. Den Deckel an der Unterseite der hinteren Abdeckung entfernen und Kabel durch die Öffnung führen.",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLATION DES WANDSCHALTERS 3 Das Kabel an die Klemmen COM und L1 des Wandschalters anschließen. Den Deckel an der Unterseite der hinteren Abdeckung entfernen und Kabel durch die Öffnung führen. Title:Das Kabel an die Klemmen COM und L1 des Wandschalters anschließen. Den Deckel an der Unterseite der hinteren Abdeckung entfernen und Kabel durch die Öffnung führen. 安装步骤3, 接线, COM, L1 SCHRITT 3: Das Kabel an die Klemmen COM und L1 des Wandschalters anschließen. Den Deckel an der Unterseite der hinteren Abdeckung entfernen und Kabel STEP 3: Connect the cable to the COM and L1 terminals of the wall push button. Remove the cover on the underside of the rear cover and route the cable",
+      "content_zh": "SCHRITT 3: Das Kabel an die Klemmen COM und L1 des Wandschalters anschließen. Den Deckel an der Unterseite der hinteren Abdeckung entfernen und Kabel durch die Öffnung führen.",
+      "content_en": "STEP 3: Connect the cable to the COM and L1 terminals of the wall push button. Remove the cover on the underside of the rear cover and route the cable through the opening.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-7",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "2 INSTALLATION DES WANDSCHALTERS · 4 Der Wandschalter an der hinteren Abdeckung anbringen und mit den mitgelieferten Schrauben befestigen.",
+      "question": "Der Wandschalter an der hinteren Abdeckung anbringen und mit den mitgelieferten Schrauben befestigen.",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:2 INSTALLATION DES WANDSCHALTERS 4 Der Wandschalter an der hinteren Abdeckung anbringen und mit den mitgelieferten Schrauben befestigen. Title:Der Wandschalter an der hinteren Abdeckung anbringen und mit den mitgelieferten Schrauben befestigen. 安装步骤4, 固定 SCHRITT 4: Der Wandschalter an der hinteren Abdeckung anbringen und mit den mitgelieferten Schrauben befestigen. STEP 4: Mount the wall push button to the rear cover and secure it with the provided screws.",
+      "content_zh": "SCHRITT 4: Der Wandschalter an der hinteren Abdeckung anbringen und mit den mitgelieferten Schrauben befestigen.",
+      "content_en": "STEP 4: Mount the wall push button to the rear cover and secure it with the provided screws.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-8",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "3 ANSCHLUSS DES WANDSCHALTERS",
+      "question": "3 ANSCHLUSS DES WANDSCHALTERS",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:3 ANSCHLUSS DES WANDSCHALTERS Title:3 ANSCHLUSS DES WANDSCHALTERS 接线说明, 距离限制, 延长线 Das Kabel an die Klemmen für Wandschalter des Torantriebs anschließen, unabhängig von der Polarität. Hinweis: Wenn eine Verlängerung erforderlich ist, Connect the cable to the terminals for the wall push button of the gate opener, regardless of polarity. Note: If an extension is required, the distanc",
+      "content_zh": "Das Kabel an die Klemmen für Wandschalter des Torantriebs anschließen, unabhängig von der Polarität.\nHinweis: Wenn eine Verlängerung erforderlich ist, darf der Abstand zwischen dem Wandschalter und der Steuerplatine nicht mehr als 15m betragen.",
+      "content_en": "Connect the cable to the terminals for the wall push button of the gate opener, regardless of polarity.\nNote: If an extension is required, the distance between the wall push button and the control board must not exceed 15m.",
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [],
+      "has_image": false,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    },
+    {
+      "chunk_id": "tc148-manual-p2-9",
+      "group_id": "tc148-manual-p2",
+      "parent_id": "tc148-manual-p2",
+      "is_child": true,
+      "is_retrievable": true,
+      "section": "3 ANSCHLUSS DES WANDSCHALTERS · Verdrahtungsdiagramm",
+      "question": "Verdrahtungsdiagramm",
+      "embedding_text": "Document:TC148 Waterproof Wall Push Button Installation Manual Chapter:3 ANSCHLUSS DES WANDSCHALTERS Verdrahtungsdiagramm Title:Verdrahtungsdiagramm 接线图, COM, L1, 门机控制器",
+      "content_zh": null,
+      "content_en": null,
+      "answer_zh_translated": null,
+      "translation_status": null,
+      "images": [
+        {
+          "file": "D:/pythonProject/manual-kb/_scratch/vlm_tc148_full/images/p2-wiring_diagram.png",
+          "caption": "Klemmen für Wandschalter Steuerplatine für Tor- und Türantriebe. Anschlüsse COM und L1.",
+          "caption_status": "captioned",
+          "role": "reference_diagram",
+          "image_id": "img-p2-4"
+        }
+      ],
+      "has_image": true,
+      "links": null,
+      "has_links": null,
+      "negotiation_offers": null,
+      "customer_reply_templates": null,
+      "structure_warnings": null,
+      "troubleshooting_ladder": null,
+      "email_examples": null,
+      "lang": "zh",
+      "doc_type": "installation_manual",
+      "models": [
+        "TC148"
+      ]
+    }
+  ]
+}

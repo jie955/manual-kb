@@ -1,0 +1,49 @@
+# Gate pack ids + pointers for TOPENS CS email evals
+gate_scenario_ids:
+  - cs_0023
+  - cs_0024
+  - cs_0025
+  - cs_0026
+  - cs_0027
+  - cs_0013
+  - cs_0008
+  - cs_0022
+  - cs_0001
+
+joyce_22_ids:
+  - cs_0001
+  - cs_0002
+  - cs_0003
+  - cs_0004
+  - cs_0005
+  - cs_0006
+  - cs_0007
+  - cs_0008
+  - cs_0009
+  - cs_0010
+  - cs_0011
+  - cs_0012
+  - cs_0013
+  - cs_0014
+  - cs_0015
+  - cs_0016
+  - cs_0017
+  - cs_0018
+  - cs_0019
+  - cs_0020
+  - cs_0021
+  - cs_0022
+
+# Case map still lives under _scratch/eval until content is fully migrated.
+case_map_relpath: "_scratch/eval/cs_email_query_map.json"
+style_holdout:
+  - cs_0001
+  - cs_0008
+  - cs_0013
+  - cs_0022
+
+gates:
+  R: "English knowledge readiness"
+  K: "Retrieval hit + product routing"
+  G: "Grounding, links/images, no Chinese leak"
+  S: "CS style, signature, tone, no forbidden promises"

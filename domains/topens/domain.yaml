@@ -1,0 +1,6 @@
+# TOPENS domain pack — identity & defaults
+id: topens
+display_name: TOPENS
+brand: TOPENS
+default_locale: en
+default_response_mode: cs_email

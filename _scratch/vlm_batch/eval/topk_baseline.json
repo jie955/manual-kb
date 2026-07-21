@@ -1,0 +1,974 @@
+[
+  {
+    "mode": "vector",
+    "misses": [
+      {
+        "query": "PHOTO 端子接光电传感器",
+        "expected": "a3s-manual-p18-terminal-table",
+        "expected_rank": 2,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p7-sec5",
+            "score": 0.6349
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.6102
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-05",
+            "score": 0.6077
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.5344
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.5327
+          }
+        ]
+      },
+      {
+        "query": "BAT 端子给系统供电",
+        "expected": "a3s-manual-p18-terminal-table",
+        "expected_rank": 3,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.6287
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.6176
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5742
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.5667
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p19-chunk01",
+            "score": 0.5602
+          }
+        ]
+      },
+      {
+        "query": "Push to Open 推开门安装 STEP",
+        "expected": "a3s-manual-p13",
+        "expected_rank": 2,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.6335
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p13-step1",
+            "score": 0.6155
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p8-step2",
+            "score": 0.6123
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p10-step5",
+            "score": 0.6009
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p10-step3",
+            "score": 0.6001
+          }
+        ]
+      },
+      {
+        "query": "电源接线 Connection of Power Supply",
+        "expected": "a3s-manual-p20",
+        "expected_rank": 2,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.5831
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.5752
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.5699
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5626
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p19-chunk02",
+            "score": 0.5593
+          }
+        ]
+      }
+    ],
+    "probes": [
+      {
+        "query": "立柱支架和拉式开门支架怎么装",
+        "expected": "a3s-manual-p9-step1",
+        "top1": "a3s-manual-p9-step1",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.6917,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.6917
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p10-step3",
+            "score": 0.5644
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p10-step5",
+            "score": 0.556
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p11-step6",
+            "score": 0.5476
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p11-step7",
+            "score": 0.5394
+          }
+        ]
+      },
+      {
+        "query": "A16cm B14cm 最大开门角度",
+        "expected": "a3s-manual-p9-step2",
+        "top1": "a3s-manual-p9-step2",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.6883,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p9-step2",
+            "score": 0.6883
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p6-specs",
+            "score": 0.5827
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p13-step2",
+            "score": 0.5513
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.5375
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p2-warning-10",
+            "score": 0.5298
+          }
+        ]
+      },
+      {
+        "query": "PHOTO 端子接光电传感器",
+        "expected": "a3s-manual-p18-terminal-table",
+        "top1": "a3s-manual-p7-sec5",
+        "ok": false,
+        "expected_rank": 2,
+        "top1_score": 0.6349,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p7-sec5",
+            "score": 0.6349
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.6102
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-05",
+            "score": 0.6077
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.5344
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.5327
+          }
+        ]
+      },
+      {
+        "query": "BAT 端子给系统供电",
+        "expected": "a3s-manual-p18-terminal-table",
+        "top1": "a3s-manual-p20-step-powermode1",
+        "ok": false,
+        "expected_rank": 3,
+        "top1_score": 0.6287,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.6287
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.6176
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5742
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.5667
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p19-chunk01",
+            "score": 0.5602
+          }
+        ]
+      },
+      {
+        "query": "安装前重要安全注意事项",
+        "expected": "a3s-manual-p2",
+        "top1": "a3s-manual-p2-warning-03",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.7147,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-03",
+            "score": 0.7147
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p8-note1",
+            "score": 0.6985
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-04",
+            "score": 0.6921
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.691
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p2-warning-01",
+            "score": 0.6754
+          }
+        ]
+      },
+      {
+        "query": "装箱清单里有什么配件",
+        "expected": "a3s-manual-p4",
+        "top1": "a3s-manual-p4-main-packing-list",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.6558,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p4-main-packing-list",
+            "score": 0.6558
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p4-extra-parts",
+            "score": 0.5664
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p4-safety-accessories",
+            "score": 0.5538
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p7-sec3",
+            "score": 0.5496
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.5264
+          }
+        ]
+      },
+      {
+        "query": "门机规格参数额定电压",
+        "expected": "a3s-manual-p6",
+        "top1": "a3s-manual-p6-specs",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.6559,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p6-specs",
+            "score": 0.6559
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p2-warning-10",
+            "score": 0.5628
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.5506
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p4-main-packing-list",
+            "score": 0.5487
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p2-warning-06",
+            "score": 0.5414
+          }
+        ]
+      },
+      {
+        "query": "Push to Open 推开门安装 STEP",
+        "expected": "a3s-manual-p13",
+        "top1": "a3s-manual-p9-step1",
+        "ok": false,
+        "expected_rank": 2,
+        "top1_score": 0.6335,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.6335
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p13-step1",
+            "score": 0.6155
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p8-step2",
+            "score": 0.6123
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p10-step5",
+            "score": 0.6009
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p10-step3",
+            "score": 0.6001
+          }
+        ]
+      },
+      {
+        "query": "控制箱怎么安装 Mount Control Box",
+        "expected": "a3s-manual-p17",
+        "top1": "a3s-manual-p17-step2",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.7042,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p17-step2",
+            "score": 0.7042
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p17-step1",
+            "score": 0.6858
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p19-chunk01",
+            "score": 0.5684
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p4-main-packing-list",
+            "score": 0.5663
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p10-step5",
+            "score": 0.5387
+          }
+        ]
+      },
+      {
+        "query": "电源接线 Connection of Power Supply",
+        "expected": "a3s-manual-p20",
+        "top1": "a3s-manual-p2-warning-02",
+        "ok": false,
+        "expected_rank": 2,
+        "top1_score": 0.5831,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.5831
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.5752
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.5699
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5626
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p19-chunk02",
+            "score": 0.5593
+          }
+        ]
+      }
+    ],
+    "top1_pass": 6
+  },
+  {
+    "mode": "hybrid_0.6",
+    "misses": [
+      {
+        "query": "PHOTO 端子接光电传感器",
+        "expected": "a3s-manual-p18-terminal-table",
+        "expected_rank": 3,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-05",
+            "score": 0.7646
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.6183
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.6058
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.5786
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.4473
+          }
+        ]
+      },
+      {
+        "query": "BAT 端子给系统供电",
+        "expected": "a3s-manual-p18-terminal-table",
+        "expected_rank": 3,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.7705
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.7258
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5678
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.5091
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.4733
+          }
+        ]
+      },
+      {
+        "query": "Push to Open 推开门安装 STEP",
+        "expected": "a3s-manual-p13",
+        "expected_rank": 1,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p13-step1",
+            "score": 0.7693
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.7371
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p8-step2",
+            "score": 0.6977
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p13-step2",
+            "score": 0.6205
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p9-step2",
+            "score": 0.6179
+          }
+        ]
+      },
+      {
+        "query": "电源接线 Connection of Power Supply",
+        "expected": "a3s-manual-p20",
+        "expected_rank": 2,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.7499
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.6193
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.5884
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.5758
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-notes-powermode2",
+            "score": 0.5478
+          }
+        ]
+      }
+    ],
+    "probes": [
+      {
+        "query": "立柱支架和拉式开门支架怎么装",
+        "expected": "a3s-manual-p9-step1",
+        "top1": "a3s-manual-p9-step1",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.815,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.815
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p6-specs",
+            "score": 0.4139
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-07",
+            "score": 0.3656
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-10",
+            "score": 0.3453
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p9-step2",
+            "score": 0.3387
+          }
+        ]
+      },
+      {
+        "query": "A16cm B14cm 最大开门角度",
+        "expected": "a3s-manual-p9-step2",
+        "top1": "a3s-manual-p6-specs",
+        "ok": false,
+        "expected_rank": 2,
+        "top1_score": 0.7496,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p6-specs",
+            "score": 0.7496
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p9-step2",
+            "score": 0.7148
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-05",
+            "score": 0.4126
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-10",
+            "score": 0.4031
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.3841
+          }
+        ]
+      },
+      {
+        "query": "PHOTO 端子接光电传感器",
+        "expected": "a3s-manual-p18-terminal-table",
+        "top1": "a3s-manual-p2-warning-05",
+        "ok": false,
+        "expected_rank": 3,
+        "top1_score": 0.7646,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-05",
+            "score": 0.7646
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.6183
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.6058
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.5786
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.4473
+          }
+        ]
+      },
+      {
+        "query": "BAT 端子给系统供电",
+        "expected": "a3s-manual-p18-terminal-table",
+        "top1": "a3s-manual-p20-step-powermode2",
+        "ok": false,
+        "expected_rank": 3,
+        "top1_score": 0.7705,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.7705
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.7258
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5678
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.5091
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.4733
+          }
+        ]
+      },
+      {
+        "query": "安装前重要安全注意事项",
+        "expected": "a3s-manual-p2",
+        "top1": "a3s-manual-p20-notes-powermode1",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.7068,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.7068
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p2-warning-01",
+            "score": 0.7011
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-04",
+            "score": 0.683
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-03",
+            "score": 0.6597
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.6533
+          }
+        ]
+      },
+      {
+        "query": "装箱清单里有什么配件",
+        "expected": "a3s-manual-p4",
+        "top1": "a3s-manual-p2-warning-06",
+        "ok": false,
+        "expected_rank": null,
+        "top1_score": 0.6906,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-06",
+            "score": 0.6906
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p2-warning-09",
+            "score": 0.6138
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.5467
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.5132
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p6-specs",
+            "score": 0.5023
+          }
+        ]
+      },
+      {
+        "query": "门机规格参数额定电压",
+        "expected": "a3s-manual-p6",
+        "top1": "a3s-manual-p6-specs",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.7935,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p6-specs",
+            "score": 0.7935
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p2-warning-10",
+            "score": 0.4956
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p20-notes-powermode1",
+            "score": 0.4522
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.3766
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.3655
+          }
+        ]
+      },
+      {
+        "query": "Push to Open 推开门安装 STEP",
+        "expected": "a3s-manual-p13",
+        "top1": "a3s-manual-p13-step1",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.7693,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p13-step1",
+            "score": 0.7693
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p9-step1",
+            "score": 0.7371
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p8-step2",
+            "score": 0.6977
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p13-step2",
+            "score": 0.6205
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p9-step2",
+            "score": 0.6179
+          }
+        ]
+      },
+      {
+        "query": "控制箱怎么安装 Mount Control Box",
+        "expected": "a3s-manual-p17",
+        "top1": "a3s-manual-p17-step2",
+        "ok": true,
+        "expected_rank": 1,
+        "top1_score": 0.8225,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p17-step2",
+            "score": 0.8225
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p17-step1",
+            "score": 0.7428
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p2-warning-06",
+            "score": 0.6672
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p2-warning-09",
+            "score": 0.5866
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p18-terminal-table",
+            "score": 0.5265
+          }
+        ]
+      },
+      {
+        "query": "电源接线 Connection of Power Supply",
+        "expected": "a3s-manual-p20",
+        "top1": "a3s-manual-p2-warning-02",
+        "ok": false,
+        "expected_rank": 2,
+        "top1_score": 0.7499,
+        "top5": [
+          {
+            "rank": 1,
+            "chunk_id": "a3s-manual-p2-warning-02",
+            "score": 0.7499
+          },
+          {
+            "rank": 2,
+            "chunk_id": "a3s-manual-p20-step-powermode2",
+            "score": 0.6193
+          },
+          {
+            "rank": 3,
+            "chunk_id": "a3s-manual-p20-step-powermode1",
+            "score": 0.5884
+          },
+          {
+            "rank": 4,
+            "chunk_id": "a3s-manual-p20-warning",
+            "score": 0.5758
+          },
+          {
+            "rank": 5,
+            "chunk_id": "a3s-manual-p20-notes-powermode2",
+            "score": 0.5478
+          }
+        ]
+      }
+    ],
+    "top1_pass": 5
+  }
+]

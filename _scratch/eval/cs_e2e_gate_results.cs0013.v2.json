@@ -1,0 +1,38 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0013",
+      "test_id": null,
+      "mail_num": 13,
+      "label": "0013-a3s-stops-before-fully-open",
+      "query": "A3S gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_033"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F4_limit_travel",
+        "match_reason": "group_hint:qa_022",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F4_limit_travel.md"
+      },
+      "reply_preview": "Dear Edward,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this issue has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please release the clutch and push the gate to the middle position. Then try it again by pressing the remote to see whether the gate can run in both directions. If the problem still persists, please do the following tests.\n2. Disconnect all wired accessories from the control board first, just leave the power source and the arm connected, and disable the photocell fu",
+      "reply_full": "Dear Edward,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for the inconvenience this issue has caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Please release the clutch and push the gate to the middle position. Then try it again by pressing the remote to see whether the gate can run in both directions. If the problem still persists, please do the following tests.\n2. Disconnect all wired accessories from the control board first, just leave the power source and the arm connected, and disable the photocell function by turning off DIP Switch #3. Then press the remote again and see if the gate can open and close properly. If the problem disappears, reconnect each accessory one by one to identify which one causes the issue.\n3. Please check the motor. Connect the red & black wires of the arm to a DC 24V power source directly. The motor should run, and when you exchange the polarity of the wires, the motor should run in the opposite direction. If the motor runs in both directions, the motor itself is good.\n4. Disconnect the BLUE, GREEN & YELLOW wires of the arm from the control board. Use two jumper wires to short the ULT, COM & DLT terminals on the control board where those wires were connected. Then press the remote to see if the arm can extend and retract fully. When you do this test, please press the remote in time to stop the arm in case it extends too much. If the arm moves in both directions during this test, the limit switch in the arm is likely defective.\n\nPlease let me know the result of every step. Videos showing the problem and pictures of the whole control board are appreciated for further judgement. You can directly send the video to my E-mail via attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_len": 2342
+    }
+  ]
+}

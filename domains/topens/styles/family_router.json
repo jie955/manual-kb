@@ -1,0 +1,143 @@
+{
+  "hold_out_gate": ["cs_0001", "cs_0008", "cs_0013", "cs_0022"],
+  "scenario_overrides": {
+    "cs_0001": "F1_no_response",
+    "cs_0002": "F3_power_motor",
+    "cs_0003": "F5_dual_swing",
+    "cs_0012": "F4_limit_travel",
+    "cs_0014": "F4_limit_travel",
+    "cs_0016": "F5_dual_swing",
+    "cs_0018": "F1_no_response",
+    "cs_0020": "F6_auto_close_rebound",
+    "cs_0021": "F5_dual_swing",
+    "cs_0022": "F6_auto_close_rebound"
+  },
+  "default_family": "F1_no_response",
+  "group_hints": {
+    "qa_010": "F1_no_response",
+    "qa_011": "F1_no_response",
+    "qa_001": "F2_tc148_wired",
+    "qa_002": "F2_tc148_wired",
+    "qa_022": "F4_limit_travel",
+    "qa_034": "F4_limit_travel"
+  },
+  "families": {
+    "F1_no_response": {
+      "exemplar": "exemplars/F1_no_response.md",
+      "keywords": [
+        "no response",
+        "does nothing",
+        "won't work",
+        "not working",
+        "no power",
+        "button",
+        "nothing works",
+        "doesn't respond"
+      ]
+    },
+    "F2_tc148_wired": {
+      "exemplar": "exemplars/F2_tc148_wired.md",
+      "keywords": [
+        "tc148",
+        "wired button",
+        "push button",
+        "4# 5#",
+        "extension cable",
+        "erratic"
+      ]
+    },
+    "F3_power_motor": {
+      "exemplar": "exemplars/F3_power_motor.md",
+      "keywords": [
+        "motor",
+        "zero voltage",
+        "red light",
+        "flashing",
+        "et24",
+        "ups01",
+        "fuse",
+        "no power to motor"
+      ]
+    },
+    "F4_limit_travel": {
+      "exemplar": "exemplars/F4_limit_travel.md",
+      "keywords": [
+        "stops before",
+        "halfway",
+        "overswing",
+        "limit switch",
+        "opens too far",
+        "over close",
+        "fully open",
+        "stops halfway"
+      ]
+    },
+    "F5_dual_swing": {
+      "exemplar": "exemplars/F5_dual_swing.md",
+      "keywords": [
+        "dual",
+        "both arms",
+        "slave",
+        "clutch",
+        "leds respond",
+        "two arms",
+        "left arm",
+        "right arm"
+      ]
+    },
+    "F6_auto_close_rebound": {
+      "exemplar": "exemplars/F6_auto_close_rebound.md",
+      "keywords": [
+        "auto close",
+        "reverses",
+        "rebound",
+        "stay closed",
+        "reclose",
+        "won't stay closed"
+      ]
+    },
+    "F7_presales": {
+      "exemplar": "exemplars/F7_presales.md",
+      "keywords": [
+        "recommend",
+        "comparison",
+        "which model",
+        "presales",
+        "solar",
+        "purchase",
+        "how many remotes",
+        "dual swing purchase"
+      ]
+    },
+    "F8_warranty_rma": {
+      "exemplar": "exemplars/F8_warranty_rma.md",
+      "keywords": [
+        "warranty",
+        "replacement",
+        "failed again",
+        "rma",
+        "arm failed"
+      ]
+    },
+    "F9_remote_learn": {
+      "exemplar": "exemplars/F9_remote_learn.md",
+      "keywords": [
+        "remote not recognized",
+        "reprogram",
+        "learn code",
+        "clear codes",
+        "not being recognized"
+      ]
+    },
+    "F10_multi_turn": {
+      "exemplar": "exemplars/F10_multi_turn.md",
+      "keywords": [
+        "follow up",
+        "third party",
+        "already tried",
+        "solved",
+        "third-party"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+# Grounding hints for fault scenarios where retrieval is correct but reply misses Reference keys.
+cs_0002: |
+  MANDATORY: output exactly 6 numbered troubleshooting steps (1. through 6.) in this order.
+  Use exact terminal labels 11#, 12#, 4#, 5#, ULT, COM, and DLT where listed.
+  1. Disconnect all accessories from the control board (leave arm + power); test with remote.
+  2. Measure +BAT terminals 11# and 12# above 22VDC; check adapter/battery if low.
+  3. Erase remote codes; reprogram; instantaneously short push button terminals 4# and 5# (O/S/C COM).
+  4. Motor test: red/black wires to 24V DC both directions.
+  5. Disconnect BLUE/GREEN/YELLOW; short ULT, COM, and DLT terminals; test extend/retract (limit switch test).
+  6. If accessories related: reconnect one by one; ET24 lock UPS01 LOAD current/voltage test.
+
+cs_0012: |
+  Joyce reference anchors (AT12131 limit / overswing):
+  1. Reconfirm open and closed positions (pull-to-open: open by bracket, closed via limit switch B).
+  2. Adjust limit switch B screw position for desired closed stop.
+  3. Adjust FORCE potentiometer and SOFT STOP as needed when gate stops halfway or runs slow.
+  4. Confirm installation mode (pull-to-open vs push-to-open) matches site.
+
+cs_0021: |
+  MANDATORY: output exactly 3 numbered troubleshooting steps (1. through 3.) in this order.
+  Use exact terminal labels 11#, 12#, 4#, and 5#.
+  1. Measure +BAT terminals 11# and 12# above 22VDC.
+  2. Disconnect accessories; disable Photocell; erase/reprogram remotes; instantaneously short 4# and 5# if needed.
+  3. Release clutch; push gate halfway; engage clutch; test both directions.
+  End with shipping address + zip code + phone number request.
+
+cs_0018: |
+  MANDATORY: output exactly 6 numbered troubleshooting steps (1. through 6.) in this order.
+  Use DIP switch #3 OFF (A5/A8 path — not #5). Use 11#, 12#, 4#, 5#, ULT, COM, DLT.
+  1. Wire connections; battery and 11#/12# above 22VDC.
+  2. POWER LED and fuse (Ø5×20mm 250VAC 5A fast blow).
+  3. Disconnect accessories; DIP switch #3 OFF; test remote.
+  4. Erase/reprogram remotes; instant short 4# and 5#.
+  5. Motor 24V DC direct test both directions.
+  6. Disconnect BLUE/GREEN/YELLOW; short ULT, COM, DLT; limit switch test.
+
+cs_0003: |
+  MANDATORY: output exactly 4 numbered troubleshooting steps (1. through 4.) in this order.
+  AD8 dual swing: use DIP switch #5 OFF for photocell (NOT DIP #3). Use 11#, 12#, 4#, 5#.
+  1. Wire check; measure 11# and 12# above 22V; note power LED blinks twice per second in standby.
+  2. Disconnect accessories; DIP switch #5 OFF; press remote.
+  3. Erase/reprogram remotes (HOLD between presses); instantaneously short 4# and 5#.
+  4. Release both arm clutches; push gate to middle; engage clutches; test both directions.
+
+cs_0016: |
+  MANDATORY: output exactly 5 numbered troubleshooting steps (1. through 5.) in this order.
+  PW802 dual swing: use DIP switch #5 OFF (NOT #3). Use 11#, 12#, 4#, 5#.
+  1. Power LED / measure 11# and 12# above 22V; fuse if LED off.
+  2. Disconnect accessories; DIP switch #5 OFF; reconnect one by one if works.
+  3. Erase/reprogram remotes; short 4# and 5#.
+  4. Dual-arm clutch release; gate to middle; test both directions.
+  5. Single-arm swap test to find defective arm. End with shipping address + zip code.
+
+cs_0001: |
+  MANDATORY: output exactly 4 numbered troubleshooting steps (1. through 4.) in this order.
+  AT12131S: use DIP switch #3 OFF (NOT #5). Use 11#, 12#, 4#, 5#, ULT, COM, DLT.
+  1. Wires + 11#/12# voltage + fuse if POWER LED off.
+  2. Disconnect accessories; DIP #3 OFF; erase/reprogram; instant short 4# and 5#.
+  3. Motor 24V DC direct test.
+  4. Limit switch short test ULT/COM/DLT.
+
+cs_0014: |
+  MANDATORY: cover limit switch B adjustment and magnetic ring check.
+  1. Confirm limit switch install/wiring.
+  2. Move limit switch B inward; rotate arm front mount 180°; test close position.
+  3. Magnetic ring inspection if still failing; request photo + shipping address.
+
+cs_0020: |
+  MANDATORY: output exactly 4 numbered troubleshooting steps (1. through 4.) in this order.
+  Customer has pull-to-open dual AT1202 — use limit switch B for close position.
+  1. Reconfirm open position (gate bracket) for pull-to-open; retract rod, secure bracket, test remote.
+  2. Adjust close position via limit switch B; check limit wires; rotate front mount 180° if needed.
+  3. Increase stall force (FORCE potentiometer) to maximum.
+  4. Request video/photos (dropbox/google drive if needed), order number, shipping address with zip code, and phone number.
+
+cs_0022: |
+  MANDATORY: output exactly 4 numbered troubleshooting steps (1. through 4.).
+  Include stall force potentiometer adjustment and limit switch B for pull-to-open gate.
+  1. Clutch release; check rubbing at fully open.
+  2. Stall force (Potentiometer E) to maximum after power off.
+  3. Limit switch B adjustment for pull-to-open retraction issue.
+  4. Single-arm isolation test; request video (dropbox/google drive) and order invoice.

@@ -1,0 +1,7 @@
+# Terminology / format rules (v1 stub — expand as rules leave generate_answer)
+forbidden_promises:
+  - warranty extension
+  - free replacement guarantee
+  - exact ship date
+units: []
+format_rules: []

@@ -1,0 +1,1 @@
+invalid type: string "[问题] 只朝一个方向 Only Opens/Closes One Direction\n1 离合打开，把门推到中间试一试，判断是限位影响还是只朝一个方向转\n2 断开红外、关闭红外功能\n测电机\n4 短接限位\n没问题就是控制板坏\n如果判断是限位问题：\n单臂拉开门，只关不开，近端坏；只开不关，远端坏。", expected a boolean1�

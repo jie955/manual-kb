@@ -1,0 +1,86 @@
+# Keyword + special-case routing (order matters: accessories before host models)
+# `pattern` may be a string or a list of fragments concatenated with no separator.
+fallback: fan_out
+
+keyword_patterns:
+  - product_id: tc148
+    pattern:
+      - '\btc148\b|\bpw502\b|\bpw302\b|retractive\s+switch|o/s/c\s*com|'
+      - 'jumper(?:ed)?\s+(?:out\s+)?(?:#?\s*4|wire).{0,30}#?\s*5|'
+      - '#4\s*(?:and|&)\s*#?\s*5'
+  - product_id: ad5s
+    pattern:
+      - '\bad5s\b|\bad8s?\b|\ba5132\b|\bpw802\b|dual\s+swing|left\s+panel|right\s+panel|'
+      - 'left\s+gate.{0,80}(?:right\s+gate|not\s+opening)|right\s+gate.{0,80}left\s+gate|'
+      - 'pull\s+to\s+open|opens?\s+too\s+far|gets?\s+bind(?:ed)?|open\s+to\s+far|'
+      - 'red\s+light\w*\s+flash|power\s+led\w*\s+flash|'
+      - 'reopened?\s+quarter|'
+      - '(?:\bad5s\b|\bad8s?\b).{0,40}auto\s+close|'
+      - 'auto\s+close.{0,40}(?:\bad5s\b|\bad8s?\b)|'
+      - 'auto\s+close\s+set\s+to\s+max|'
+      - '(?:auto\s+close|additional\s+delay|open.{0,15}close.{0,15}delay).{0,100}revers|'
+      - 'revers.{0,80}(?:auto\s+close|delay\s+cycle|starting\s+to\s+close|open.{0,15}close.{0,15}delay)|'
+      - 'gate\s+starts\s+to\s+close.{0,60}revers'
+  - product_id: a3s
+    pattern:
+      - '\ba3s\b|\ba5s\b|\ba8s\b|\ba8132\b|\ba5131\b|\bet24\b|\bups01\b|'
+      - 'gate arm messed up|arm messed up again|arm replacement|'
+      - 'batteries?.{0,40}(?:ac\s+adapter|a\.?c\.?\s+adapter)|'
+      - '(?:ac\s+adapter|a\.?c\.?\s+adapter).{0,40}batteries?|'
+      - 'not\s+getting\s+anything\s+to\s+work|nothing\s+works|'
+      - "board\\s+has\\s+power.{0,60}arms?\\s+won'?t|"
+      - "arms?\\s+won'?t\\s+open\\s+or\\s+close|"
+      - "motherboard\\s+has\\s+power|won'?t\\s+send\\s+power\\s+to\\s+(?:the\\s+)?arm|"
+      - '\bat12131\b|motor\s+won''?t\s+function|zero\s+power\s+to\s+(?:the\s+)?motor|'
+      - 'lock\s+(?:still\s+)?unlocks|worked\s+(?:for\s+)?four\s+days|'
+      - 'terminals?\s*#?\s*4\s*(?:and|&)\s*#?\s*5|'
+      - 'limit\s+switch\s+b|overswing|into\s+the\s+grass|'
+      - 'stall\s+force|(?<!auto\s)soft\s+stop(?!.{0,40}revers)|11\s*#\s*,?\s*12\s*#|'
+      - 'stops?\s+before\s+(?:opening\s+)?fully|stopping\s+before\s+opening|'
+      - 'gate\s+stops\s+halfway|gate\s+stops\s+opening|not\s+opening\s+all\s+the\s+way'
+
+# Evaluated before keyword fan-out; first match wins.
+special_rules:
+  - product_id: a3s
+    reason: model_a8132
+    pattern: '\ba8132\b'
+  - product_id: a3s
+    reason: model_a5131
+    pattern: '\ba5131\b'
+  - product_id: a3s
+    reason: remote_click_no_move
+    pattern:
+      - 'push.{0,40}remote.{0,60}(?:\d|three|multiple|second|third)|'
+      - 'must push remote|remote.{0,40}(?:3|three)\s+times|'
+      - 'light on the board.{0,40}click|hear it click|'
+      - "clicks?\\s+but.{0,40}(?:doesn'?t|won'?t)\\s+move|"
+      - "intermittent.{0,40}(?:click|remote).{0,40}(?:no\\s+movement|doesn'?t\\s+move)|"
+      - 'remote\s+intermittent\s+click'
+    exclude_patterns:
+      - '\bad5s\b|\bad8s?\b'
+      - '\btc148\b'
+  - product_id: a3s
+    reason: terminals_4_5_not_tc148
+    pattern: 'terminals?\s*#?\s*4\s*(?:and|&)\s*#?\s*5|short\s+push\s+button'
+    exclude_patterns:
+      - '\btc148\b|o/s/c|retractive|jumper'
+  - product_id: ad5s
+    reason: auto_close_reverse
+    pattern:
+      - 'auto\s+close|starting\s+to\s+close.{0,60}revers|revers.{0,60}delay\s+cycle|'
+      - 'closes?\s+on\s+the\s+second\s+try|powered\s+down.{0,40}moving\s+the\s+pot'
+    exclude_patterns:
+      - '\btc148\b|retractive|jumper|erratically|o/s/c'
+      - '\ba3s\b|\ba5s\b|\ba8s\b|\bat12131\b'
+  - product_id: a3s
+    reason: stops_before_opening_fully
+    pattern: 'keeps?\s+stopping\s+before\s+opening\s+fully|stops?\s+before\s+opening\s+fully'
+    exclude_patterns:
+      - '\bad5s\b|\bad8s?\b'
+  - product_id: a3s
+    reason: stops_opening_with_voltage
+    pattern: 'gate stops opening|stops before opening|not opening all the way'
+    require_patterns:
+      - '11\s*#|12\s*#|22\s*v|voltage|terminals?'
+    exclude_patterns:
+      - '\bad5s\b|\bad8s?\b'

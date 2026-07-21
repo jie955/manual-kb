@@ -1,0 +1,17 @@
+[
+  {
+    "library": "a3s",
+    "retrievable_chunks": 121,
+    "chroma_dir": "_scratch/run-007/chroma_captioned_en"
+  },
+  {
+    "library": "ad5s",
+    "retrievable_chunks": 100,
+    "chroma_dir": "_scratch/run-ad5s/chroma_captioned_en"
+  },
+  {
+    "library": "tc148",
+    "retrievable_chunks": 2,
+    "chroma_dir": "_scratch/run-tc148/chroma_captioned_en"
+  }
+]

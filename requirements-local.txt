@@ -1,0 +1,11 @@
+# 本地化向量入库（实验流水线 · 可选）
+# PDF 渲页 / 文本层探测（v2 manuals、_scratch/probe_pdf_text_layer.py）
+pymupdf>=1.24.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+rank_bm25>=0.2.2
+modelscope>=1.11.0
+
+# RAG 演示服务（qa_server.py）
+fastapi>=0.115.0
+uvicorn>=0.32.0

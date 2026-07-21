@@ -1,0 +1,327 @@
+[
+  {
+    "chunk_id": "at6132s-manual-p3",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": "本页包含重要的安全信息和保修注意事项。",
+    "content_en": "This page contains important safety information and notes for warranty.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": null,
+    "is_retrievable": false,
+    "embedding_text": null,
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-safety-1",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": "整个摆动路径。定期检查您的立柱，根据需要调整支架或拧紧硬件。在进行任何维护之前，请关闭开门器的电源。",
+    "content_en": "its entire swing path. Periodically check your posts, adjusting brackets or tightening hardware as needed. Turn off the power to the gate opener before performing any maintenance.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Important Safety Information: Periodic check, maintenance power off",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-safety-2",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "OBSTRUCTION PROTECTION TESTING"
+    },
+    "content_zh": "障碍物保护测试：每月测试开门器。当门与刚性物体接触或当物体激活非接触式传感器时，门必须反向或停止。调整力量或限位行程后，重新测试开门器。未能正确调整和重新测试开门器可能会增加受伤或死亡的风险。",
+    "content_en": "OBSTRUCTION PROTECTION TESTING: Test the gate opener monthly. The gate must reverse or stop on contact with a rigid object or when an object activates the non-contact sensors. After adjusting the force or limit travel, retest the gate opener. Failure to adjust and retest the gate opener properly can increase the risk of injury or death.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Important Safety Information: OBSTRUCTION PROTECTION TESTING, 障碍物保护测试",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-safety-3",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "POWER DISCONNECTION AND MANUAL OPENING"
+    },
+    "content_zh": "电源断开和手动开启：了解如何断开电源并手动打开门。只有当门不移动且开门器系统关闭时，才能将开门器与门断开。",
+    "content_en": "POWER DISCONNECTION AND MANUAL OPENING: Understand how to disconnect the power and manually open the gate. Disconnect the gate opener from the gate only when the gate is not in motion and the gate opener system is turned off.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Important Safety Information: POWER DISCONNECTION AND MANUAL OPENING, 电源断开, 手动开启",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-safety-4",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Important Safety Information",
+      "step_number": null,
+      "step_title": "RECOGNIZE POTENTIAL RISKS IN AUTOMATED GATE SYSTEMS"
+    },
+    "content_zh": "识别自动化门系统中的潜在风险：妥善保管安装手册。确保所有使用或靠近门和开门器的人都了解自动化门系统的危险。如果需要更换手册，可以从TOPENS网站（www.topens.com）下载副本。",
+    "content_en": "RECOGNIZE POTENTIAL RISKS IN AUTOMATED GATE SYSTEMS: Save the installation manual. Make sure everyone who is using or will be around the gate and gate opener are aware of the dangers of automated gate systems. If a replacement manual is needed, you can download a copy from the TOPENS website (www.topens.com)",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Important Safety Information: RECOGNIZE POTENTIAL RISKS IN AUTOMATED GATE SYSTEMS, 潜在风险, 自动化门系统",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-1",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "WARRANTY LIMITED TO TARGET MARKET"
+    },
+    "content_zh": "保修范围限于目标市场：保修范围限于目标市场（美国本土、加拿大、英国和德国）。在这些区域之外使用产品的客户将承担保修更换过程中的任何额外费用。",
+    "content_en": "WARRANTY LIMITED TO TARGET MARKET: The warranty is limited to the target market (Contiguous United States, Canada, UK, and Germany). Customers using the product outside these regions will be responsible for any additional expenses during the warranty replacement process.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: WARRANTY LIMITED TO TARGET MARKET, 保修范围, 目标市场",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-2",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "GATE OPENER ABUSE"
+    },
+    "content_zh": "开门器滥用：TOPENS 不承担因滥用造成的损坏，例如试图在超出其指定容量的情况下操作开门器或将其用于非预期目的。",
+    "content_en": "GATE OPENER ABUSE: TOPENS does not cover damage resulting from abuse, such as attempting to operate the gate opener beyond its specified capacity or using it for unintended purposes.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: GATE OPENER ABUSE, 开门器滥用",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-3",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "GATE OPENER MISUSE"
+    },
+    "content_zh": "开门器误用：TOPENS 不承担因误用造成的损坏，包括但不限于使用不兼容电源操作开门器或在 TOPENS 不推荐的环境中使用。",
+    "content_en": "GATE OPENER MISUSE: TOPENS does not cover damage resulting from misuse, including but not limited to operating the gate opener with incompatible power sources or using it in environments not recommended by TOPENS.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: GATE OPENER MISUSE, 开门器误用",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-4",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "ALTERATIONS OR MODIFICATIONS"
+    },
+    "content_zh": "改动或修改：未经事先咨询 TOPENS 对开门器进行的改动或修改也将使保修失效。",
+    "content_en": "ALTERATIONS OR MODIFICATIONS: Alterations or modifications made to the gate opener without prior consultation with TOPENS will also invalidate warranty coverage.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: ALTERATIONS OR MODIFICATIONS, 改动, 修改, 保修失效",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-5",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "NON-COMPLIANCE WITH INSTRUCTIONS"
+    },
+    "content_zh": "不遵守说明：未能遵循安装说明，包括但不限于不当安装、维护将导致保修失效。",
+    "content_en": "NON-COMPLIANCE WITH INSTRUCTIONS: Failure to follow the installation instructions, including but not limited to improper installation, maintenance will void the warranty.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: NON-COMPLIANCE WITH INSTRUCTIONS, 不遵守说明, 保修失效",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-6",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "THIRD PARTY ACCESSORIES"
+    },
+    "content_zh": "第三方配件：TOPENS 不承担由第三方配件造成的损坏，除非是 TOPENS 客户支持明确推荐的配件。使用兼容配件以确保兼容性并防止开门器损坏非常重要。",
+    "content_en": "THIRD PARTY ACCESSORIES: TOPENS does not cover damage caused by third party accessories, except those specifically recommended by TOPENS Customer Support. It is important to use only compatible accessories to ensure compatibility and prevent damage to the gate opener.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: THIRD PARTY ACCESSORIES, 第三方配件",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-7",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "CONTACT TOPENS SUPPORT"
+    },
+    "content_zh": "联系 TOPENS 支持：请确保开门器按照安装手册中概述的指南进行安装、操作和维护，以避免保修失效。如果您对正确使用或兼容配件有任何疑问，请联系 TOPENS 客户支持以获取指导。",
+    "content_en": "CONTACT TOPENS SUPPORT: Please ensure that the gate opener is installed, operated, and maintained in accordance with the guidelines outlined in the installation manual to avoid voiding the warranty. If you have any questions regarding proper usage or need assistance with compatible accessories, please contact TOPENS Customer Support for guidance.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: CONTACT TOPENS SUPPORT, 联系 TOPENS 支持",
+    "page_key": "printed:3"
+  },
+  {
+    "chunk_id": "at6132s-manual-p3-warranty-8",
+    "doc_type": "installation_manual",
+    "source_pdf": "AT6132S,AT12132S说明书.pdf",
+    "page_range": [
+      3,
+      3
+    ],
+    "section": {
+      "chapter_title": "Note For Warranty",
+      "step_number": null,
+      "step_title": "DETAILED WARRANTY POLICY"
+    },
+    "content_zh": "详细保修政策：如果您对 TOPENS 保修涵盖的内容有任何疑问，请参阅 www.topens.com/pages/topens-limited-warranty 处的政策。",
+    "content_en": "DETAILED WARRANTY POLICY: If you have any questions regarding what is covered by the TOPENS warranty, refer to the policy at www.topens.com/pages/topens-limited-warranty.",
+    "images": [],
+    "models": [
+      "AT6132S",
+      "AT12132S"
+    ],
+    "parent_id": "at6132s-manual-p3",
+    "is_retrievable": true,
+    "embedding_text": "Note For Warranty: DETAILED WARRANTY POLICY, 详细保修政策, www.topens.com",
+    "page_key": "printed:3"
+  }
+]

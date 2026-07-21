@@ -1,0 +1,31 @@
+# Product registry + static catalog links (Wave 3 · B-5)
+products:
+  - id: a3s
+    label: "A3S / A5S / A8S"
+    doc_title: "A3S-A5S-A8S Troubleshooting"
+    aliases: ["a5s", "a8s", "a8132", "a5131"]
+    display_order: 0
+  - id: ad5s
+    label: "AD5S / AD8S"
+    doc_title: "AD5S-AD8S Troubleshooting"
+    aliases: ["ad8s", "a5132", "pw802"]
+    display_order: 1
+  - id: tc148
+    label: "TC148"
+    doc_title: "TC148 Troubleshooting"
+    aliases: ["pw502", "pw302"]
+    display_order: 2
+
+catalog_links:
+  - family: a3s
+    label: "A3S / A5S / A8S Gate Openers"
+    url: "https://www.topens.com/collections/swing-gate-openers"
+    kind: catalog
+  - family: ad5s
+    label: "AD5S / AD8S Dual Swing Openers"
+    url: "https://www.topens.com/collections/dual-swing-gate-openers"
+    kind: catalog
+  - family: all
+    label: "TOPENS Warranty Policy"
+    url: "https://topens.com/pages/warranty-policy"
+    kind: policy

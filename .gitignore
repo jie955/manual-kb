@@ -1,0 +1,38 @@
+.venv/
+__pycache__/
+*.pyc
+.translate_cache.json
+.caption_cache.json
+.vlm_cache.json
+.env
+dist/
+
+# Embedding 模型权重（本地 ModelScope 下载）
+_scratch/modelscope/
+
+# 客户原始资料（本地放置，默认不入库）
+samples/**/*
+!samples/README.md
+
+# 排期 / 交付 / 内部台账（本地保留，不入库）
+docs/排期.md
+docs/finchat-merge.md
+DELIVERY_README.md
+PACKAGING.md
+诊断报告-*.md
+
+# 甲方验收 / 反馈 / MVP 进度稿（本地保留，不入库）
+_scratch/eval/*client*
+_scratch/eval/cs_client_requirement_standard.md
+_scratch/eval/cs_client_feedback_pack.md
+_scratch/eval/client_mvp_two_series_progress.md
+
+# 可再生的实验 run（保留 run-006/007 黄金样本）
+_scratch/run-001/
+_scratch/run-006/caption-run*/
+_scratch/run-006/_caption*/
+_scratch/run-006/chroma_db/
+_scratch/run-006/eval/chroma*/
+_scratch/run-006/eval/[BCD]*.json
+_scratch/run-007/chunks_captioned.json
+_scratch/probe_caption.py

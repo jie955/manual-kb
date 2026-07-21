@@ -1,0 +1,36 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0024",
+      "test_id": "T2",
+      "mail_num": null,
+      "label": "0024-minnesota-solar-at6132s-vs-ad5s-presales",
+      "query": "AT6132S vs AD5S solar dual swing Minnesota which is best under 100lb gates",
+      "expected_library": null,
+      "expected_groups": [],
+      "matched_library": "ad5s",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_037",
+      "top1_hit": null,
+      "top3_groups": [
+        "qa_037",
+        "qa_015",
+        "qa_027"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F7_presales",
+        "match_reason": "scenario:presales",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F7_presales.md"
+      },
+      "reply_preview": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI completely understand your concern about your dog's safety—we'll help you find the right setup to keep your gate secure and convenient. All TOPENS products are backed by a 12-month warranty, and we provide lifetime technical support via email.\n\nBased on your description—dual swing gates under 100 lb each with wheels, solar-powered in Minnesota with an auto-close feature and a weather-safe keypad—here are my thoughts:\n\nOur Recommendation: The TOPENS AD5S Solar Dual Swing Gate Opener would be the better fit. It is robust enough for your gate weight, and the kit is designed for solar operation, which aligns with your off-grid plan.\n\nHere are answers t",
+      "reply_full": "Dear Customer,\n\nThank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI completely understand your concern about your dog's safety—we'll help you find the right setup to keep your gate secure and convenient. All TOPENS products are backed by a 12-month warranty, and we provide lifetime technical support via email.\n\nBased on your description—dual swing gates under 100 lb each with wheels, solar-powered in Minnesota with an auto-close feature and a weather-safe keypad—here are my thoughts:\n\nOur Recommendation: The TOPENS AD5S Solar Dual Swing Gate Opener would be the better fit. It is robust enough for your gate weight, and the kit is designed for solar operation, which aligns with your off-grid plan.\n\nHere are answers to your questions:\n1. The AD5S is generally recommended for lighter-duty gates like yours, and it includes the solar panel and batteries you need. The AT6132S can also work, but the AD5S is a well-matched solar package.\n2. Yes, the gate can close automatically after someone drives through. You can enable this by turning on DIP switch #3 on the control board for the auto-close function.\n3. The compatible waterproof wired keypad you should order is the TOPENS K02BK.\n4. Your setup sounds suitable. Just ensure the bracket dimensions (A and B measurements in the manual) are within the required range for installation. The wheels should not interfere if the gate moves freely.\n5. The main control board powers both arms. While a single battery box sits on one side, a long cable runs from the control board to the second arm on the other side of the driveway, so both arms receive power and signal.\n6. Yes, you can leave the wheels on the gate as long as the gate swings freely and the arms aren't obstructed.\n7. It's very easy. Each arm has a manual release clutch. In an emergency or power outage, simply turn the clutch key to disengage the arm and push the gate open by hand.\n8. You can purchase either way—directly from our store or on Amazon. Ordering directly from us ensures you are registered for warranty support immediately. If you do order on Amazon, just send us the order details and we'll help you register the warranty.\n\nFor solar sizing in Minnesota with a keypad (a continuously power-consuming accessory), the stock solar panel may be sufficient with good sun, but if you experience less than 6 hours of full daily sunlight or use the gate more than 10 cycles per day, you may eventually want to increase battery capacity (to 12Ah or 17Ah) and use a 30W or larger solar panel.\n\nTo give you more specific installation advice, could you please send us a few photos of your gate and pillars? This will help confirm the bracket positions.\n\nHope this can help you. Please share your order information when you purchase, so I can help you register the warranty. Feel free to contact us if you have any questions or concerns during installation or use.\n\nThank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nJoyce\nTOPENS Customer Service Team",
+      "reply_len": 3170
+    }
+  ]
+}

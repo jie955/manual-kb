@@ -1,0 +1,554 @@
+[
+  {
+    "chunk_id": "ad5s-manual-p6",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      6,
+      6
+    ],
+    "section": {},
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": null,
+    "is_retrievable": false,
+    "embedding_text": null,
+    "page_key": "printed:6"
+  },
+  {
+    "chunk_id": "ad5s-manual-p6-specs",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      6,
+      6
+    ],
+    "section": {
+      "chapter_title": "Specifications",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": null,
+    "content_en": "Specifications\nMax Gate Weight and Gate Length Per Arm\nNOTE: Ball bearing hinges should be used on all gates weighing over 140kg (300lbs) per leaf.",
+    "images": [
+      {
+        "image_id": "ad5s-manual-p6-img1",
+        "file": "images/p6-max-gate-weight-length-graph.png",
+        "caption_en": "Max Gate Weight and Gate Length Per Arm. NOTE: Ball bearing hinges should be used on all gates weighing over 140kg (300lbs) per leaf.",
+        "role": "reference_diagram"
+      },
+      {
+        "image_id": "ad5s-manual-p6-img2",
+        "file": "images/p6-gate-opener-arm.png",
+        "caption_en": "Gate Opener Arm. 855mm (33.7\") - Retracted. 1230mm (48.4\") - Fully Extended.",
+        "role": "reference_diagram"
+      },
+      {
+        "image_id": "ad5s-manual-p6-img3",
+        "file": "images/p6-control-box.png",
+        "caption_en": "Control Box. 160mm (6.3\") x 70mm (2.8\") x 160mm (6.3\")",
+        "role": "reference_diagram"
+      },
+      {
+        "image_id": "ad5s-manual-p6-img4",
+        "file": "images/p6-gate-bracket.png",
+        "caption_en": "Gate Bracket. Dimensions shown: 70mm (2.8\") length, 40mm (1.6\") width, 60mm (2.4\") height.",
+        "role": "reference_diagram"
+      },
+      {
+        "image_id": "ad5s-manual-p6-img5",
+        "file": "images/p6-post-bracket.png",
+        "caption_en": "Post Bracket. Dimensions shown: 85mm (3.3\") base, 110mm (4.3\") height, 60mm (2.4\") arm length.",
+        "role": "reference_diagram"
+      },
+      {
+        "image_id": "ad5s-manual-p6-img6",
+        "file": "images/p6-pull-to-open-bracket.png",
+        "caption_en": "Pull-to-Open Bracket. Overall length: 167.5mm (6.6\")",
+        "role": "reference_diagram"
+      },
+      {
+        "image_id": "ad5s-manual-p6-img7",
+        "file": "images/p6-push-to-open-bracket.png",
+        "caption_en": "Push-to-Open Bracket. Overall length: 267.5mm (10.5\")",
+        "role": "reference_diagram"
+      }
+    ],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p6",
+    "is_retrievable": true,
+    "embedding_text": "AD5S AD8S Specifications, Power Input, Motor Voltage, Rated Current, Motor Power, Gate Opening Closing Time, Gate Opening Closing Speed, Max Travel Range, Working Temperature, Protection Class, Gate Weight Length, Gate Opener Arm dimensions, Control Box dimensions, Gate Bracket dimensions, Post Bracket dimensions, Pull-to-Open Bracket dimensions, Push-to-Open Bracket dimensions, 140kg, 300lbs, ball bearing hinges.",
+    "table_data": {
+      "headers": [
+        "Property",
+        "AD5S",
+        "AD8S"
+      ],
+      "rows": [
+        [
+          "Power Input",
+          "Adapter Input: 100-240V ~ 50/60Hz",
+          "Adapter Input: 100-240V ~ 50/60Hz"
+        ],
+        [
+          "Motor Voltage",
+          "24VDC",
+          "24VDC"
+        ],
+        [
+          "Rated Current of the Motor",
+          "2A",
+          "3A"
+        ],
+        [
+          "Motor Power",
+          "50W",
+          "80W"
+        ],
+        [
+          "Gate Opening / Closing Time",
+          "15 seconds (ideal condition)",
+          "15 seconds (ideal condition)"
+        ],
+        [
+          "Gate Opening / Closing Speed",
+          "16mm/s (0.6 in/s)",
+          "16mm/s (0.6 in/s)"
+        ],
+        [
+          "Max Travel Range",
+          "385mm (15.2 in)",
+          "385mm (15.2 in)"
+        ],
+        [
+          "Working Temperature",
+          "-20°C ~ +50°C (0°F to 120°F)",
+          "-20°C ~ +50°C (0°F to 120°F)"
+        ],
+        [
+          "Protection Class",
+          "IP44 Waterproof",
+          "IP44 Waterproof"
+        ]
+      ]
+    },
+    "page_key": "printed:6"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories"
+    },
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": null,
+    "is_retrievable": false,
+    "embedding_text": null,
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29-chunk01",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories"
+    },
+    "content_zh": "注意\n本节仅涵盖控制板的编程和接线。有关其他操作，请参阅相应的附件用户手册。\n在以下情况下，强烈建议安装光电传感器以确保安全：如果您的物业有儿童或宠物，开门机自动关闭功能设置为开启，开门机失速力设置为最大，安装了车辆出口传感器，或使用了其他门禁控制设备。",
+    "content_en": "NOTE\nThis section covers only the programming and wire connections with the control board. For additional operations, please refer to the corresponding accessory user manual.\nIt is highly recommended to install a photocell sensor in the following situations for safety: IF you have children or pets at your property, the gate opener auto close function is set to ON, the gate opener stall force is set to the maximum, a vehicle exit sensor is installed, or other gate control devices are used.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p29",
+    "is_retrievable": true,
+    "embedding_text": "Connection of Accessories NOTE",
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29-chunk02",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories",
+      "step_title": "TC188 Universal Keypad"
+    },
+    "content_zh": "使用用户定义的密码操作门。您可以根据需要无线或有线连接此键盘到开门机。",
+    "content_en": "Operate the gate using a user-defined password. You can use this keypad wirelessly or wire it to the gate opener according to your needs.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p29",
+    "is_retrievable": true,
+    "embedding_text": "Connection of Accessories TC188 Universal Keypad",
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29-chunk03",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories",
+      "step_number": 1,
+      "step_title": "Program New Master Code"
+    },
+    "content_zh": "出厂默认主码为9999，所有密码都应为4位数字。\nSET 4位旧主码 SET 01 SET 4位新主码 SET 4位新主码 SET",
+    "content_en": "Factory default master code is 9999, all codes should be 4 digits in length.\nSET 4 digits Old Master Code SET 01 SET 4 digits New Master Code SET 4 digits New Master Code SET",
+    "images": [
+      {
+        "image_id": "img-p29-01",
+        "file": "images/p29-keypad-programming.png",
+        "caption": "TC188 Universal Keypad and Control Board Programming Area",
+        "role": "primary_step_illustration"
+      }
+    ],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p29",
+    "is_retrievable": true,
+    "embedding_text": "Connection of Accessories Wireless Mode Programming and Operation Step 1 Program New Master Code TC188 Universal Keypad",
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29-chunk04",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories",
+      "step_number": 2,
+      "step_title": "Add New Permanent Entry Code"
+    },
+    "content_zh": "SET 主码 SET 02 SET 进入码 SET 进入码 SET",
+    "content_en": "SET Master Code SET 02 SET Entry Code SET Entry Code SET",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p29",
+    "is_retrievable": true,
+    "embedding_text": "Connection of Accessories Wireless Mode Programming and Operation Step 2 Add New Permanent Entry Code TC188 Universal Keypad",
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29-chunk05",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories",
+      "step_number": 3,
+      "step_title": "Program with the Gate Opener"
+    },
+    "content_zh": "输入键盘的进入码。\n按下并释放控制板上的 CODE SW 按钮。CODE LED 将亮起，表示开门机现在处于编程模式。\n按一次按钮 A（或 B），键盘 LED 背光将快速闪烁。在背光从快速闪烁变为缓慢闪烁后，再次按下。\nCODE LED 将闪烁 3 秒钟然后熄灭，表示编程成功。",
+    "content_en": "Input the entry code of the keypad.\nPress and release the CODE SW button on the control board. The CODE LED will turn on, indicating that the gate opener is now in programming mode.\nPress button A (or B) once, and the keypad LED backlight will flash quickly. Press it again after the backlight changes from a rapid flash to a slow flash.\nThe CODE LED will flash for 3 seconds and then turn off, indicating successful programming.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p29",
+    "is_retrievable": true,
+    "embedding_text": "Connection of Accessories Wireless Mode Programming and Operation Step 3 Program with the Gate Opener TC188 Universal Keypad",
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p29-chunk06",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      29,
+      29
+    ],
+    "section": {
+      "chapter_title": "Connection of Accessories",
+      "step_number": 4,
+      "step_title": "Operate the Gate Opener"
+    },
+    "content_zh": "输入进入码，然后按下已编程的按钮 A（或 B）来操作开门机。在按下按钮 A（或 B）后的 3 秒内，无需重新输入代码即可再次按下该按钮来操作开门机。",
+    "content_en": "Input the entry code and then press the programmed button A (or B) to operate the gate. Within 3 seconds of pressing button A (or B), you can press the button again without re-entering the code to operate the gate.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p29",
+    "is_retrievable": true,
+    "embedding_text": "Connection of Accessories Wireless Mode Programming and Operation Step 4 Operate the Gate Opener TC188 Universal Keypad",
+    "page_key": "printed:29"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": null,
+      "step_title": null
+    },
+    "content_zh": null,
+    "content_en": null,
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": null,
+    "is_retrievable": false,
+    "embedding_text": null,
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-standby-low-battery",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": null,
+      "step_title": "Standby - Low Battery Scenario"
+    },
+    "content_zh": "待机状态：\n1. LED状态：\nCODE LED：熄灭\nPOWER LED：闪烁（每2秒闪烁1次）\nFULL LED：熄灭\n可能解决方案：\n给电池充电：电池电压低。请等待电池充满电。",
+    "content_en": "Standby\n1. STATUS OF THE LEDS\nCODE LED: OFF\nPOWER LED: Flash (1 Blink every 2 second)\nFULL LED: OFF\nPOSSIBLE SOLUTION\nCharge the Battery: The battery voltage is low. Please wait until the battery is fully charged.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting Standby. LED Status: CODE LED OFF, POWER LED Flash (1 Blink every 2 second), FULL LED OFF. Possible Solution: Charge the Battery. Battery voltage low.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-status",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": null,
+      "step_title": "No LED Activity Scenario Status"
+    },
+    "content_zh": "2. LED状态：\nCODE LED：熄灭\nPOWER LED：熄灭\nFULL LED：熄灭",
+    "content_en": "2. STATUS OF THE LEDS\nCODE LED: OFF\nPOWER LED: OFF\nFULL LED: OFF",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. LED Status: CODE LED OFF, POWER LED OFF, FULL LED OFF.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-step1",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": 1,
+      "step_title": "Check Connection"
+    },
+    "content_zh": "步骤 1 检查连接：确保电池与控制箱以及TCS3太阳能充电控制器之间的连接正确且牢固。",
+    "content_en": "Step 1 Check Connection: Ensure that the connection between the batteries and the control box and the TCS3 solar charge controller are correct and secure.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. Step 1 Check Connection: batteries, control box, TCS3 solar charge controller.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-step2",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": 2,
+      "step_title": "Verify Power Supply"
+    },
+    "content_zh": "步骤 2 验证电源：确认TS24-U适配器已插入交流主插座，或电池（两节12V电池串联）已正确连接到TCS3太阳能充电控制器。",
+    "content_en": "Step 2 Verify Power Supply: Confirm that the TS24-U adapter is plugged into an AC main socket or that the batteries (two 12V batteries connected in series) are properly connected to the TCS3 solar charge controller.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. Step 2 Verify Power Supply: TS24-U adapter, AC main socket, 12V batteries, TCS3 solar charge controller.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-step3",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": 3,
+      "step_title": "Check Battery Voltage"
+    },
+    "content_zh": "步骤 3 检查电池电压：如果仅使用电池为开门机供电，请确保其未过度放电。正常运行时电压应高于22V。让电池充电直到达到22VDC以上。",
+    "content_en": "Step 3 Check Battery Voltage: If only battery is used to power the gate opener, ensure it is not over-discharged. The voltage should be above 22V for normal operation. Allow the battery to charge until it reaches above 22VDC.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. Step 3 Check Battery Voltage: above 22V, over-discharged.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-step4",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": 4,
+      "step_title": "Inspect TCS3 Solar Charge Controller Output"
+    },
+    "content_zh": "步骤 4 检查TCS3太阳能充电控制器输出：测量TCS3太阳能充电控制器的输出电压。如果在电池电压高于22VDC时输出低于21VDC，则太阳能充电控制器可能存在故障。",
+    "content_en": "Step 4 Inspect TCS3 Solar Charge Controller Output: Measure the output voltage of the TCS3 solar charge controller. If it is below 21VDC while the battery voltage is above 22VDC, the solar charge controller may be defective.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. Step 4 Inspect TCS3 Solar Charge Controller Output: measure voltage, below 21VDC, defective.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-step5",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": 5,
+      "step_title": "Examine Control Board Fuse"
+    },
+    "content_zh": "步骤 5 检查控制板保险丝：检查控制板中的保险丝，如果烧断，请用开门机随附的备用保险丝更换。保险丝型号为Ø5*20mm 10A 250VAC快熔玻璃保险丝。",
+    "content_en": "Step 5 Examine Control Board Fuse: Check the fuse in the control board and replace it with the backup fuse that comes with the gate opener if it burns out. The fuse type is Ø5*20mm 10A 250VAC fast blow glass fuse.",
+    "images": [
+      {
+        "image_id": "ad5s-manual-p46-img1-fuse-location",
+        "file": "images/p46-fuse-location.png",
+        "caption": "Control board fuse location and type",
+        "role": "primary_step_illustration"
+      }
+    ],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. Step 5 Examine Control Board Fuse: replace fuse, Ø5*20mm 10A 250VAC fast blow glass fuse.",
+    "page_key": "printed:46"
+  },
+  {
+    "chunk_id": "ad5s-manual-p46-trouble-no-led-activity-step6",
+    "doc_type": "installation_manual",
+    "source_pdf": "AD5S,AD8S说明书.pdf",
+    "page_range": [
+      46,
+      46
+    ],
+    "section": {
+      "chapter_title": "Gate Opener Status Trouble Shooting",
+      "step_number": 6,
+      "step_title": "Check Control Board"
+    },
+    "content_zh": "步骤 6 检查控制板：检查控制板并在需要时进行更换。",
+    "content_en": "Step 6 Check Control Board: Inspect the control board and replace it if needed.",
+    "images": [],
+    "models": [
+      "AD5S",
+      "AD8S"
+    ],
+    "parent_id": "ad5s-manual-p46",
+    "is_retrievable": true,
+    "embedding_text": "Gate Opener Status Trouble Shooting. No LED Activity Scenario. Step 6 Check Control Board: inspect, replace.",
+    "page_key": "printed:46"
+  }
+]

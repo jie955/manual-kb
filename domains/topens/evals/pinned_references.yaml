@@ -1,0 +1,66 @@
+# Authoritative Joyce ladder injected as Reference 0 (eval stability for known fail cases).
+cs_0002: |
+  English troubleshooting steps (A8132 / ET24 · zero power to motor):
+  1. Disconnect all accessories from the control board (leave arm and power source); press the remote to test.
+  2. Measure +BAT terminals 11# and 12# above 22VDC; check adapter 36VDC and battery voltage if low.
+  3. Erase all remote codes; reprogram remotes. If it fails, instantaneously short push button terminals 4# and 5# (O/S/C COM).
+  4. Check the motor: connect red and black arm wires to 24V DC direct; swap polarity; motor should run both directions.
+  5. Reconnect arm wires to the board. Disconnect BLUE, GREEN, and YELLOW arm wires; short ULT, COM, and DLT terminals; press remote to test extend/retract (limit switch test).
+  6. If normal after step 1, reconnect accessories one by one. If ET24 lock related, test ET24 working current and UPS01 LOAD voltage drop (≤3A typical).
+
+cs_0021: |
+  English troubleshooting steps (A8132 dual swing · board click but arms no output):
+  1. Measure +BAT terminals 11# and 12# on the control board above 22VDC.
+  2. Disconnect all accessories (except power supply and arms); disable Photocell per manual; erase remote codes and reprogram. If it fails, instantaneously short push button terminals 4# and 5# (plug wire in then pull out instantly).
+  3. Release the clutch, push the gate halfway, engage the clutch, and press the remote to test both directions.
+
+cs_0018: |
+  English troubleshooting steps (A5/A8 · batteries + AC · nothing works):
+  1. Verify wire connections; ensure battery voltage above 22VDC; measure +BAT terminals 11# and 12# above 22VDC.
+  2. Check POWER LED on control board; inspect/replace Ø5×20mm 250VAC 5A fast-blow fuse if LED off or flashing every second.
+  3. Disconnect all accessories; disable photocell by setting DIP switch #3 OFF; press remote to test.
+  4. Erase all remote codes; reprogram one by one. If no response, listen for clicking; instantaneously short push button terminals 4# and 5#.
+  5. Motor test: connect red and black arm wires to 24V DC direct; swap polarity; motor should run both directions.
+  6. Reconnect arm wires. Disconnect BLUE, GREEN, and YELLOW; short ULT, COM, and DLT terminals; press remote to test extend/retract (limit switch test).
+
+cs_0003: |
+  English troubleshooting steps (AD8 dual swing · LEDs respond but gates won't move):
+  1. Check all wire connections; measure +BAT terminals 11# and 12# above 22V. If normal, check whether power LED blinks twice per second in standby.
+  2. Disconnect all accessories (leave power source and arms); disable photocell by turning DIP switch #5 OFF (AD8 uses DIP #5, not #3); press remote to test.
+  3. Erase all remote codes; reprogram with HOLD ON FOR A MOMENT between presses. If no response, listen for clicking; instantaneously short push button terminals 4# and 5#.
+  4. Release clutches on both arms; push gate to middle position; engage clutches; press remote to test both directions.
+
+cs_0016: |
+  English troubleshooting steps (PW802 dual swing · red Power LED flashing):
+  1. Confirm flashing red Power LED means board is powered on; measure +BAT terminals 11# and 12# above 22V. If voltage low, test with 24V battery direct; if voltage normal but LED off, check/replace Ø5×20mm 250VAC 5A fuse.
+  2. Disconnect all wired accessories (leave power and arms); disable photocell by turning DIP switch #5 OFF; press remote. If works, reconnect accessories one by one.
+  3. Erase remote codes (CODE SW procedure); reprogram; listen for click; short push button terminals 4# and 5#.
+  4. Release clutches on both arms; push gate to middle; engage clutches; test both directions.
+  5. Disconnect one arm at a time to see which arm is defective.
+
+cs_0001: |
+  English troubleshooting steps (AT12131S · no response to button/keypad):
+  1. Check wire connections; measure +BAT terminals 11# and 12# above 22V; check POWER LED; replace fuse from manual pack if LED off.
+  2. Disconnect all accessories (leave power and arm); disable photocell by turning DIP switch #3 OFF; erase remote codes and reprogram; instantaneously short push button terminals 4# and 5#.
+  3. Motor test: connect red and black arm wires to 24V DC both directions.
+  4. Disconnect BLUE, GREEN, and YELLOW; short ULT, COM, and DLT terminals; test extend/retract (limit switch test).
+
+cs_0014: |
+  English troubleshooting steps (AT602 · over-closing · limit wire ineffective):
+  1. Confirm the new limit switch is properly installed and wired.
+  2. Move limit switch B slightly inward; hold the front mount of the gate arm, rotate it 180 degrees; press remote to check closed stop.
+  3. If problem remains, internal magnetic ring of the arm may be cracked; disassemble arm and check; send clear photo; provide shipping address with zip code.
+
+cs_0020: |
+  English troubleshooting steps (AT1202 dual swing · won't stay closed · pull-to-open):
+  1. Reconfirm open position for pull-to-open: open position is set by the gate bracket; fully retract moving rod, position gate, secure bracket, and test with remote.
+  2. Adjust close position via limit switch B (slide inward/outward); check limit wire connections; rotate front mount 180 degrees if needed; tighten screw when correct.
+  3. Increase stall force on the control board to maximum (FORCE potentiometer).
+  4. Request video and photos showing arms when gates are fully open and fully closed; provide order number, shipping address with zip code, and phone number.
+
+cs_0022: |
+  English troubleshooting steps (A5132 dual swing · opens then re-closes · pull-to-open):
+  1. Release clutches; manually swing gate; check for stiffness or rubbing at fully open position.
+  2. Power off; turn Potentiometer E (stall force) clockwise to maximum; power on and run full cycle.
+  3. For pull-to-open: if arm retracts before gate fully open, slide limit switch B slightly inward OR adjust gate bracket; test again.
+  4. Disconnect both arms; test left arm only, then right arm only, to isolate defective side. Request order invoice and video via dropbox/google drive if needed.

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "source_run": "run-tc148",
+  "doc": "TC148 常见问题排查.docx · 2 问答组 · 首版 100% 组覆盖",
+  "queries": [
+    {
+      "id": "t01",
+      "query": "接上墙壁开关后门自己乱开",
+      "expected_group_id": "qa_001",
+      "category": "colloquial",
+      "note": "对应：接上TC148随机开关门"
+    },
+    {
+      "id": "t02",
+      "query": "TC148 一接上门机就乱动",
+      "expected_group_id": "qa_001",
+      "category": "colloquial"
+    },
+    {
+      "id": "t03",
+      "query": "墙壁按键干扰 门机随机动作",
+      "expected_group_id": "qa_001",
+      "category": "title_paraphrase"
+    },
+    {
+      "id": "t04",
+      "query": "按 TC148 没反应 遥控能用",
+      "expected_group_id": "qa_002",
+      "category": "colloquial",
+      "note": "对应：PUSH BUTTON 门机没有反应"
+    },
+    {
+      "id": "t05",
+      "query": "TC148 防水按钮按了门不动",
+      "expected_group_id": "qa_002",
+      "category": "colloquial"
+    },
+    {
+      "id": "t06",
+      "query": "push button 端口短接测试 O/S/C COM",
+      "expected_group_id": "qa_002",
+      "category": "long_group_child",
+      "note": "步骤级 query，测 child 召回"
+    }
+  ]
+}

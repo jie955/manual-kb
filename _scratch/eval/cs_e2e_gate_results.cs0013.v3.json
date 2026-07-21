@@ -1,0 +1,38 @@
+{
+  "generated": "2026-07-08",
+  "model": "_scratch/modelscope/BAAI/bge-m3",
+  "generate": true,
+  "results": [
+    {
+      "scenario_id": "cs_0013",
+      "test_id": null,
+      "mail_num": 13,
+      "label": "0013-a3s-stops-before-fully-open",
+      "query": "A3S gate opener keeps stopping before opening fully",
+      "expected_library": "a3s",
+      "expected_groups": [
+        "qa_022"
+      ],
+      "matched_library": "a3s",
+      "routing_method": "keyword",
+      "library_hit": true,
+      "top1_group": "qa_022",
+      "top1_hit": true,
+      "top3_groups": [
+        "qa_022",
+        "qa_020",
+        "qa_020"
+      ],
+      "context_zh_leak": false,
+      "truncated": false,
+      "style": {
+        "family_id": "F4_limit_travel",
+        "match_reason": "group_hint:qa_022",
+        "exemplar": "samples\\customer-service-emails\\style\\exemplars\\F4_limit_travel.md"
+      },
+      "reply_preview": "Dear Edward,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Push against the gate in the opposite direction of the gate moving while it is opening/closing. Continuously add some load to the gate and see if the gate can open/close all the way properly. If it works, then the working current through the arm is so small that the opener could only extend and retract a few inches.\n2. If step 1 worked, please double check the gate's ",
+      "reply_full": "Dear Edward,\n\nThank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today.\n\nI apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty.\n\nChecked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help.\n\n1. Push against the gate in the opposite direction of the gate moving while it is opening/closing. Continuously add some load to the gate and see if the gate can open/close all the way properly. If it works, then the working current through the arm is so small that the opener could only extend and retract a few inches.\n2. If step 1 worked, please double check the gate's hinges and brackets for tightness, and inspect all connection points for significant wear or broken bolts.\n3. If the problem persists, adding some load to the gate motor by connecting a resistor to the BLACK & RED wires of the arm in parallel to solve the problem. Regretfully, we do not have this resistor for sale in our store. Sorry for the inconvenience. Below is the link to the resistor that will work: https://www.amazon.com/dp/B08HYZV3DW\n\nPlease let me know the result of every step. A video showing the problem and pictures of the whole control board are appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If the sending is not successful, please share the photo or video link through dropbox, icloud or google drive. Thanks for your understanding and cooperation.\n\nThank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help.\n\nBest regards,\nLori\nTOPENS Customer Service Team",
+      "reply_len": 1822
+    }
+  ]
+}

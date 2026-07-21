@@ -1,0 +1,8 @@
+# Style pack manifest (TOPENS CS email)
+version: "1"
+family_router: family_router.json
+principles: principles_en.md
+scenario_map_relpath: "_scratch/eval/cs_email_query_map.json"
+presales_types:
+  - presales
+warranty_scenario_substring: "0025"

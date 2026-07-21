@@ -1,0 +1,796 @@
+{
+  "pattern_counts": {
+    "opening_thank": 16,
+    "pleasure": 16,
+    "empathy_std": 12,
+    "engineer_std": 8,
+    "engineer_alt": 9,
+    "result_one_by_one": 4,
+    "result_each": 10,
+    "closing_valued": 16,
+    "warranty_12": 7,
+    "looking_forward": 7,
+    "closing_once": 6,
+    "presales_hope": 3,
+    "opening_attention": 1,
+    "pleasure_heidi": 2,
+    "warranty_products": 1,
+    "ack_prior": 1,
+    "multi_welcome": 1,
+    "opening_glad": 2,
+    "opening_purchase": 1,
+    "empathy_alt": 1
+  },
+  "patterns": {
+    "opening_thank": [
+      {
+        "cs_id": "cs_0001",
+        "text": "Thank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "Thank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "Thank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0004",
+        "text": "Thank you for contacting TOPENS. This is Zack from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0006",
+        "text": "Thank you for contacting TOPENS. This is Zack from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0007",
+        "text": "Thank you for contacting TOPENS. This is Bella from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "Thank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0011",
+        "text": "Thank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "Thank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "Thank you for contacting TOPENS. This is Joyce from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0014",
+        "text": "Thank you for contacting TOPENS. This is Evelyn from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "Thank you for contacting TOPENS. This is Evelyn from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "Thank you for contacting TOPENS. This is Zoey from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "Thank you for contacting TOPENS. This is Bella from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0020",
+        "text": "Thank you for contacting TOPENS. This is Zoey from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "Thank you for contacting TOPENS. This is Lori from TOPENS Customer Service Team. It will be a pleasure to assist you today."
+      }
+    ],
+    "pleasure": [
+      {
+        "cs_id": "cs_0001",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0004",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0006",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0007",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0011",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0014",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0020",
+        "text": "It will be a pleasure to assist you today."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "It will be a pleasure to assist you today."
+      }
+    ],
+    "empathy_std": [
+      {
+        "cs_id": "cs_0001",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0014",
+        "text": "I apologize for any inconvenience this may have caused. Please do not worry, we will provide corresponding help until your problem is solved."
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "I apologize for any inconvenience this may have caused. Our phone support hours are Mon-Fri 9:00AM-5:30PM (UTC+08:00) with a lunch break from 11:30AM to 1:00PM. Due to the time difference, a direct call may disturb your "
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0020",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "I apologize for any inconvenience this may have caused, but do not worry, we will do our best to help you. All TOPENS products are backed by a 12-month warranty."
+      }
+    ],
+    "engineer_std": [
+      {
+        "cs_id": "cs_0001",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "Checked with our engineer, please help us do some tests to find out the problem, so that we can provide corresponding help."
+      }
+    ],
+    "engineer_alt": [
+      {
+        "cs_id": "cs_0001",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0010",
+        "text": "Please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "please help us do some tests to find out the problem, so that we can provide corresponding help."
+      }
+    ],
+    "result_one_by_one": [
+      {
+        "cs_id": "cs_0001",
+        "text": "Please let me know the result one by one."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "Please let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If"
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "Please let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If"
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "Please let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If"
+      }
+    ],
+    "result_each": [
+      {
+        "cs_id": "cs_0001",
+        "text": "Please let me know the result one by one."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "Please let me know the result of one by one. And also, please share us some videos showing the led statuses on the UPS01 power supply as well as the control board for further judgement."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "Please let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If"
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "Please let me know the result of every step. If the problem persists, videos showing the problem and pictures of the whole control board are appreciated for further judgement. Please directly send the video to my E-mail "
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "Please let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If"
+      },
+      {
+        "cs_id": "cs_0017",
+        "text": "Kindly let me know the result of each step. Thank you so much for your cooperation."
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "Kindly tell me the result of each step. Could you send us some photos showing the wire connection and lights on the control board for further assistance?"
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "Please let me know the result one by one. Videos showing the problem and pictures of the whole control board are much appreciated for further judgement. You can directly send the video to my E-mail via the attachment. If"
+      },
+      {
+        "cs_id": "cs_0020",
+        "text": "Kindly tell me the result one by one. If the problem still exists, kindly send us a video showing the problem and some photos showing the arms status when the gates are fully opened and fully closed for further assistanc"
+      },
+      {
+        "cs_id": "cs_0022",
+        "text": "Kindly let me know the result of each step so I can provide further support. Thank you very much for your cooperation.😊"
+      }
+    ],
+    "closing_valued": [
+      {
+        "cs_id": "cs_0001",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0005",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0007",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0009",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0010",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0011",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0017",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0022",
+        "text": "Thank you again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      }
+    ],
+    "warranty_12": [
+      {
+        "cs_id": "cs_0002",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0012",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "All TOPENS products are backed by a 12-month warranty."
+      }
+    ],
+    "looking_forward": [
+      {
+        "cs_id": "cs_0002",
+        "text": "Looking forward to hearing from you soon."
+      },
+      {
+        "cs_id": "cs_0005",
+        "text": "looking forward to your reply."
+      },
+      {
+        "cs_id": "cs_0007",
+        "text": "Looking forward to your reply."
+      },
+      {
+        "cs_id": "cs_0009",
+        "text": "Looking forward to hearing from you soon."
+      },
+      {
+        "cs_id": "cs_0019",
+        "text": "Looking forward to your reply."
+      },
+      {
+        "cs_id": "cs_0020",
+        "text": "Looking forward to hearing from you."
+      },
+      {
+        "cs_id": "cs_0022",
+        "text": "looking forward to your reply."
+      }
+    ],
+    "closing_once": [
+      {
+        "cs_id": "cs_0004",
+        "text": "Thank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0006",
+        "text": "Thank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0014",
+        "text": "Thank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0015",
+        "text": "Thank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "Thank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      },
+      {
+        "cs_id": "cs_0020",
+        "text": "Thank you once again for being a valued customer! Your complete satisfaction is what we strive for. We at TOPENS are always standing by and ready to help."
+      }
+    ],
+    "presales_hope": [
+      {
+        "cs_id": "cs_0004",
+        "text": "Hope this can help you. Please share me the order information when you purchase the TOPENS gate opener, so that I can help you register the warranty. Feel free to contact us if you have any questions or concerns during t"
+      },
+      {
+        "cs_id": "cs_0006",
+        "text": "Hope this can help you. Please share me the order information when you purchase the TOPENS gate opener, so that I can help you register the warranty. Feel free to contact us if you have any questions or concerns during t"
+      },
+      {
+        "cs_id": "cs_0011",
+        "text": "Hope this can help you. Please share me the order information when you purchase the TOPENS gate opener, so that I can help you register the warranty. Feel free to contact us if you have any questions or concerns during t"
+      }
+    ],
+    "opening_attention": [
+      {
+        "cs_id": "cs_0005",
+        "text": "Thank you for your attention. This is Heidi from the Customer Service Team. It's my pleasure to personally assist you today!😊"
+      }
+    ],
+    "pleasure_heidi": [
+      {
+        "cs_id": "cs_0005",
+        "text": "It's my pleasure to personally assist you today!😊"
+      },
+      {
+        "cs_id": "cs_0022",
+        "text": "it's my pleasure to personally assist you today!😊"
+      }
+    ],
+    "warranty_products": [
+      {
+        "cs_id": "cs_0005",
+        "text": "all of our products come with a 12-month warranty. More importantly, we provide lifetime technical support via email. Our team is always here to help you troubleshoot. You can review our detailed warranty terms here: [ht"
+      }
+    ],
+    "ack_prior": [
+      {
+        "cs_id": "cs_0008",
+        "text": "I know you've already done this step. Could you please try this procedure again?)"
+      }
+    ],
+    "multi_welcome": [
+      {
+        "cs_id": "cs_0009",
+        "text": "You are always welcome to contact us."
+      }
+    ],
+    "opening_glad": [
+      {
+        "cs_id": "cs_0010",
+        "text": "We are glad to hear from you."
+      },
+      {
+        "cs_id": "cs_0017",
+        "text": "It's great to hear from you again and thank you for sharing the video! I'm so sorry to hear about the issue you've experienced with the gate opener. This is Heidi from the TOPENS Customer Service Team. I'm taking over fr"
+      }
+    ],
+    "opening_purchase": [
+      {
+        "cs_id": "cs_0022",
+        "text": "Thank you for purchasing TOPENS product. This is Heidi from the Customer Service Team. I'm sorry for any frustration you've experienced, and it's my pleasure to personally assist you today!😊"
+      }
+    ],
+    "empathy_alt": [
+      {
+        "cs_id": "cs_0022",
+        "text": "I'm sorry for any frustration you've experienced, and it's my pleasure to personally assist you today!😊"
+      }
+    ]
+  },
+  "terminology": {
+    "\\+BAT-\\s*terminals?\\s*\\([^)]+\\)": [
+      {
+        "cs_id": "cs_0001",
+        "text": "+BAT- terminals (11# and 12#)"
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "+BAT- terminals (11# and 12#)"
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "+BAT- terminals (11# and 12#)"
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "+BAT- terminals (#11 & #12)"
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "+BAT- terminals (11#, 12#)"
+      }
+    ],
+    "push button terminals?\\s*\\([^)]+\\)": [
+      {
+        "cs_id": "cs_0001",
+        "text": "push button terminals (4# and 5#)"
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "push button terminals (4# and 5#)"
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "push button terminals (4#, 5#)"
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "push button terminals (4# and 5#)"
+      },
+      {
+        "cs_id": "cs_0010",
+        "text": "push button terminals (4# and 5#)"
+      },
+      {
+        "cs_id": "cs_0017",
+        "text": "push button terminals (4#, 5#)"
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "push button terminals (#4 & #5)"
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "push button terminals (4# and 5#)"
+      }
+    ],
+    "[Dd][Ii][Pp] switch\\s*#\\d+": [
+      {
+        "cs_id": "cs_0001",
+        "text": "dip switch #3"
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "DIP switch #5"
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "DIP switch #5"
+      },
+      {
+        "cs_id": "cs_0017",
+        "text": "DIP switch #3"
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "DIP switch #3"
+      }
+    ],
+    "immediately short": [
+      {
+        "cs_id": "cs_0001",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0009",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0010",
+        "text": "immediately short"
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "immediately short"
+      }
+    ],
+    "ULT, COM & DLT": [
+      {
+        "cs_id": "cs_0001",
+        "text": "ULT, COM & DLT"
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "ULT, COM & DLT"
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "ULT, COM & DLT"
+      }
+    ],
+    "referring to the attached video": [
+      {
+        "cs_id": "cs_0001",
+        "text": "referring to the attached video"
+      },
+      {
+        "cs_id": "cs_0002",
+        "text": "referring to the attached video"
+      },
+      {
+        "cs_id": "cs_0003",
+        "text": "referring to the attached video"
+      },
+      {
+        "cs_id": "cs_0008",
+        "text": "referring to the attached video"
+      },
+      {
+        "cs_id": "cs_0010",
+        "text": "referring to the attached video"
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "referring to the attached video"
+      }
+    ],
+    "backup fuse packed within the user manual pack": [
+      {
+        "cs_id": "cs_0001",
+        "text": "backup fuse packed within the user manual pack"
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "backup fuse packed within the user manual pack"
+      },
+      {
+        "cs_id": "cs_0017",
+        "text": "backup fuse packed within the user manual pack"
+      }
+    ],
+    "release (?:the )?clutch": [
+      {
+        "cs_id": "cs_0003",
+        "text": "release the clutch"
+      },
+      {
+        "cs_id": "cs_0016",
+        "text": "release the clutch"
+      },
+      {
+        "cs_id": "cs_0021",
+        "text": "Release the clutch"
+      }
+    ],
+    "erase all (?:the )?remote codes": [
+      {
+        "cs_id": "cs_0003",
+        "text": "erase all the remote codes"
+      }
+    ],
+    "O/S/C and COM": [
+      {
+        "cs_id": "cs_0009",
+        "text": "O/S/C and COM"
+      }
+    ],
+    "FORCE potentiometer": [
+      {
+        "cs_id": "cs_0012",
+        "text": "FORCE potentiometer"
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "FORCE potentiometer"
+      },
+      {
+        "cs_id": "cs_0015",
+        "text": "FORCE potentiometer"
+      }
+    ],
+    "SOFT STOP potentiometer": [
+      {
+        "cs_id": "cs_0012",
+        "text": "SOFT STOP potentiometer"
+      },
+      {
+        "cs_id": "cs_0013",
+        "text": "SOFT STOP potentiometer"
+      }
+    ],
+    "instant(?:aneously)? short": [
+      {
+        "cs_id": "cs_0017",
+        "text": "instantaneously short"
+      },
+      {
+        "cs_id": "cs_0018",
+        "text": "instantaneously short"
+      }
+    ],
+    "DLMT&COM&ULMT": [
+      {
+        "cs_id": "cs_0017",
+        "text": "DLMT&COM&ULMT"
+      }
+    ]
+  }
+}
